@@ -386,6 +386,7 @@ class MusicService : MediaBrowserServiceCompat(),
         unregisterOnSharedPreferenceChangedListener(this)
         wakeLock?.release()
         sendBroadcast(Intent("$RETRO_MUSIC_PACKAGE_NAME.RETRO_MUSIC_SERVICE_DESTROYED"))
+        super.onDestroy()
     }
 
     private fun acquireWakeLock() {
