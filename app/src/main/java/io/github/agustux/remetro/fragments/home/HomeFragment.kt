@@ -39,8 +39,8 @@ import io.github.agustux.remetro.extensions.dip
 import io.github.agustux.remetro.extensions.elevatedAccentColor
 import io.github.agustux.remetro.fragments.ReloadType
 import io.github.agustux.remetro.fragments.base.AbsMainActivityFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.interfaces.IScrollHelper
 import io.github.agustux.remetro.model.Song
@@ -230,7 +230,7 @@ class HomeFragment :
                 }
             }
             Glide.with(this)
-                .load(RetroGlideExtension.getSongModel(songs[index]))
+                .load(ReMetroGlideExtension.getSongModel(songs[index]))
                 .songCoverOptions(songs[index])
                 .into(imageView)
         }

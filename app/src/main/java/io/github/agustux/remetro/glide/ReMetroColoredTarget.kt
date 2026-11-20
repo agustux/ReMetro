@@ -23,7 +23,7 @@ import io.github.agustux.remetro.glide.palette.BitmapPaletteWrapper
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
 import com.bumptech.glide.request.transition.Transition
 
-abstract class RetroMusicColoredTarget(view: ImageView) : BitmapPaletteTarget(view) {
+abstract class ReMetroColoredTarget(view: ImageView) : BitmapPaletteTarget(view) {
 
     protected val defaultFooterColor: Int
         get() = getView().context.colorControlNormal()

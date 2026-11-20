@@ -18,7 +18,7 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.TransitionManager
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import io.github.agustux.remetro.util.logD
 import com.google.android.material.transition.MaterialFade
 
@@ -29,7 +29,7 @@ abstract class AbsRecyclerViewCustomGridSizeFragment<A : RecyclerView.Adapter<*>
     private var sortOrder: String? = null
     private var currentLayoutRes: Int = 0
     private val isLandscape: Boolean
-        get() = RetroUtil.isLandscape
+        get() = ReMetroUtil.isLandscape
 
     val maxGridSize: Int
         get() = if (isLandscape) {

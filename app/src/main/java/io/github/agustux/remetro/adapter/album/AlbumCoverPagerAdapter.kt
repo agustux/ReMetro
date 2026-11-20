@@ -29,10 +29,10 @@ import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.fragments.AlbumCoverStyle
 import io.github.agustux.remetro.fragments.NowPlayingScreen.*
 import io.github.agustux.remetro.fragments.base.goToLyrics
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.misc.CustomFragmentStatePagerAdapter
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.MusicUtil
@@ -181,9 +181,9 @@ class AlbumCoverPagerAdapter(
                 .asBitmapPalette()
                 .songCoverOptions(song)
                 //.checkIgnoreMediaStore()
-                .load(RetroGlideExtension.getSongModel(song))
+                .load(ReMetroGlideExtension.getSongModel(song))
                 .dontAnimate()
-                .into(object : RetroMusicColoredTarget(albumCover) {
+                .into(object : ReMetroColoredTarget(albumCover) {
                     override fun onColorReady(colors: MediaNotificationProcessor) {
                         setColor(colors)
                     }

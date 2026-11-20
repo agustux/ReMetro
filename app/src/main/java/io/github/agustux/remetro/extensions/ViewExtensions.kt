@@ -36,7 +36,7 @@ import androidx.core.view.*
 import io.github.agustux.remetro.appthemehelper.ThemeStore
 import io.github.agustux.remetro.appthemehelper.util.TintHelper
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.card.MaterialCardView
@@ -227,7 +227,7 @@ fun View.focusAndShowKeyboard() {
  */
 fun View.drawAboveSystemBars(onlyPortrait: Boolean = true) {
     if (PreferenceUtil.isFullScreenMode) return
-    if (onlyPortrait && RetroUtil.isLandscape) return
+    if (onlyPortrait && ReMetroUtil.isLandscape) return
     applyInsetter {
         type(navigationBars = true) {
             margin()

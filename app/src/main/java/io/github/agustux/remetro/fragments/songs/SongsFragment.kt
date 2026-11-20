@@ -27,7 +27,7 @@ import io.github.agustux.remetro.fragments.base.AbsRecyclerViewCustomGridSizeFra
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.SortOrder.SongSortOrder
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 
 class SongsFragment : AbsRecyclerViewCustomGridSizeFragment<SongAdapter, GridLayoutManager>() {
 
@@ -138,7 +138,7 @@ class SongsFragment : AbsRecyclerViewCustomGridSizeFragment<SongAdapter, GridLay
     override fun onCreateMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateMenu(menu, inflater)
         val gridSizeItem: MenuItem = menu.findItem(R.id.action_grid_size)
-        if (RetroUtil.isLandscape) {
+        if (ReMetroUtil.isLandscape) {
             gridSizeItem.setTitle(R.string.action_grid_size_land)
         }
         setUpGridSizeMenu(gridSizeItem.subMenu!!)

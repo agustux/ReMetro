@@ -31,7 +31,7 @@ import com.bumptech.glide.request.transition.Transition
 import com.bumptech.glide.signature.MediaStoreSignature
 
 
-object RetroGlideExtension {
+object ReMetroGlideExtension {
 
     private val DEFAULT_ARTIST_IMAGE
         get() = R.drawable.default_artist_art

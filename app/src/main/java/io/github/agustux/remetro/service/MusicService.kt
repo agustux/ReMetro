@@ -79,8 +79,8 @@ import io.github.agustux.remetro.extensions.showToast
 import io.github.agustux.remetro.extensions.toMediaSessionQueue
 import io.github.agustux.remetro.extensions.uri
 import io.github.agustux.remetro.glide.BlurTransformation
-import io.github.agustux.remetro.glide.RetroGlideExtension.getSongModel
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.getSongModel
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.ShuffleHelper.makeShuffleList
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.model.Song.Companion.emptySong
@@ -353,7 +353,7 @@ class MusicService : MediaBrowserServiceCompat(),
         }
         registerOnSharedPreferenceChangedListener(this)
         restoreState()
-        sendBroadcast(Intent("$RETRO_MUSIC_PACKAGE_NAME.RETRO_MUSIC_SERVICE_CREATED"))
+        sendBroadcast(Intent("$REMETRO_PACKAGE_NAME.REMETRO_SERVICE_CREATED"))
         registerHeadsetEvents()
         registerBluetoothConnected()
         mPackageValidator = PackageValidator(this, R.xml.allowed_media_browser_callers)
@@ -385,7 +385,7 @@ class MusicService : MediaBrowserServiceCompat(),
         contentResolver.unregisterContentObserver(mediaStoreObserver)
         unregisterOnSharedPreferenceChangedListener(this)
         wakeLock?.release()
-        sendBroadcast(Intent("$RETRO_MUSIC_PACKAGE_NAME.RETRO_MUSIC_SERVICE_DESTROYED"))
+        sendBroadcast(Intent("$REMETRO_PACKAGE_NAME.REMETRO_SERVICE_DESTROYED"))
         super.onDestroy()
     }
 
@@ -1023,7 +1023,7 @@ class MusicService : MediaBrowserServiceCompat(),
 
     // to let other apps know whats playing. i.e. last.fm (scrobbling) or musixmatch
     fun sendPublicIntent(what: String) {
-        val intent = Intent(what.replace(RETRO_MUSIC_PACKAGE_NAME, MUSIC_PACKAGE_NAME))
+        val intent = Intent(what.replace(REMETRO_PACKAGE_NAME, MUSIC_PACKAGE_NAME))
         val song = currentSong
         intent.putExtra("id", song.id)
         intent.putExtra("artist", song.artistName)
@@ -1032,7 +1032,7 @@ class MusicService : MediaBrowserServiceCompat(),
         intent.putExtra("duration", song.duration)
         intent.putExtra("position", songProgressMillis.toLong())
         intent.putExtra("playing", isPlaying)
-        intent.putExtra("scrobbling_source", RETRO_MUSIC_PACKAGE_NAME)
+        intent.putExtra("scrobbling_source", REMETRO_PACKAGE_NAME)
         @Suppress("Deprecation")
         sendStickyBroadcast(intent)
     }
@@ -1089,7 +1089,7 @@ class MusicService : MediaBrowserServiceCompat(),
         // We must send the album art in METADATA_KEY_ALBUM_ART key on A13+ or
         // else album art is blurry in notification
         if (isAlbumArtOnLockScreen || VersionUtils.hasT()) {
-            // val screenSize: Point = RetroUtil.getScreenSize(this)
+            // val screenSize: Point = ReMetroUtil.getScreenSize(this)
             val request = Glide.with(this)
                 .asBitmap()
                 .songCoverOptions(song)
@@ -1443,35 +1443,35 @@ class MusicService : MediaBrowserServiceCompat(),
 
     companion object {
         val TAG: String = MusicService::class.java.simpleName
-        const val RETRO_MUSIC_PACKAGE_NAME = BuildConfig.APPLICATION_ID
+        const val REMETRO_PACKAGE_NAME = BuildConfig.APPLICATION_ID
         const val MUSIC_PACKAGE_NAME = "com.android.music"
-        const val ACTION_TOGGLE_PAUSE = "$RETRO_MUSIC_PACKAGE_NAME.togglepause"
-        const val ACTION_PLAY = "$RETRO_MUSIC_PACKAGE_NAME.play"
-        const val ACTION_PLAY_PLAYLIST = "$RETRO_MUSIC_PACKAGE_NAME.play.playlist"
-        const val ACTION_PAUSE = "$RETRO_MUSIC_PACKAGE_NAME.pause"
-        const val ACTION_STOP = "$RETRO_MUSIC_PACKAGE_NAME.stop"
-        const val ACTION_SKIP = "$RETRO_MUSIC_PACKAGE_NAME.skip"
-        const val ACTION_REWIND = "$RETRO_MUSIC_PACKAGE_NAME.rewind"
-        const val ACTION_QUIT = "$RETRO_MUSIC_PACKAGE_NAME.quitservice"
-        const val ACTION_PENDING_QUIT = "$RETRO_MUSIC_PACKAGE_NAME.pendingquitservice"
-        const val INTENT_EXTRA_PLAYLIST = RETRO_MUSIC_PACKAGE_NAME + "intentextra.playlist"
+        const val ACTION_TOGGLE_PAUSE = "$REMETRO_PACKAGE_NAME.togglepause"
+        const val ACTION_PLAY = "$REMETRO_PACKAGE_NAME.play"
+        const val ACTION_PLAY_PLAYLIST = "$REMETRO_PACKAGE_NAME.play.playlist"
+        const val ACTION_PAUSE = "$REMETRO_PACKAGE_NAME.pause"
+        const val ACTION_STOP = "$REMETRO_PACKAGE_NAME.stop"
+        const val ACTION_SKIP = "$REMETRO_PACKAGE_NAME.skip"
+        const val ACTION_REWIND = "$REMETRO_PACKAGE_NAME.rewind"
+        const val ACTION_QUIT = "$REMETRO_PACKAGE_NAME.quitservice"
+        const val ACTION_PENDING_QUIT = "$REMETRO_PACKAGE_NAME.pendingquitservice"
+        const val INTENT_EXTRA_PLAYLIST = REMETRO_PACKAGE_NAME + "intentextra.playlist"
         const val INTENT_EXTRA_SHUFFLE_MODE =
-            "$RETRO_MUSIC_PACKAGE_NAME.intentextra.shufflemode"
-        const val APP_WIDGET_UPDATE = "$RETRO_MUSIC_PACKAGE_NAME.appwidgetupdate"
-        const val EXTRA_APP_WIDGET_NAME = RETRO_MUSIC_PACKAGE_NAME + "app_widget_name"
+            "$REMETRO_PACKAGE_NAME.intentextra.shufflemode"
+        const val APP_WIDGET_UPDATE = "$REMETRO_PACKAGE_NAME.appwidgetupdate"
+        const val EXTRA_APP_WIDGET_NAME = REMETRO_PACKAGE_NAME + "app_widget_name"
 
         // Do not change these three strings as it will break support with other apps (e.g. last.fm
         // scrobbling)
-        const val META_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.metachanged"
-        const val QUEUE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.queuechanged"
-        const val PLAY_STATE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.playstatechanged"
-        const val FAVORITE_STATE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.favoritestatechanged"
-        const val REPEAT_MODE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.repeatmodechanged"
-        const val SHUFFLE_MODE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.shufflemodechanged"
-        const val MEDIA_STORE_CHANGED = "$RETRO_MUSIC_PACKAGE_NAME.mediastorechanged"
-        const val CYCLE_REPEAT = "$RETRO_MUSIC_PACKAGE_NAME.cyclerepeat"
-        const val TOGGLE_SHUFFLE = "$RETRO_MUSIC_PACKAGE_NAME.toggleshuffle"
-        const val TOGGLE_FAVORITE = "$RETRO_MUSIC_PACKAGE_NAME.togglefavorite"
+        const val META_CHANGED = "$REMETRO_PACKAGE_NAME.metachanged"
+        const val QUEUE_CHANGED = "$REMETRO_PACKAGE_NAME.queuechanged"
+        const val PLAY_STATE_CHANGED = "$REMETRO_PACKAGE_NAME.playstatechanged"
+        const val FAVORITE_STATE_CHANGED = "$REMETRO_PACKAGE_NAME.favoritestatechanged"
+        const val REPEAT_MODE_CHANGED = "$REMETRO_PACKAGE_NAME.repeatmodechanged"
+        const val SHUFFLE_MODE_CHANGED = "$REMETRO_PACKAGE_NAME.shufflemodechanged"
+        const val MEDIA_STORE_CHANGED = "$REMETRO_PACKAGE_NAME.mediastorechanged"
+        const val CYCLE_REPEAT = "$REMETRO_PACKAGE_NAME.cyclerepeat"
+        const val TOGGLE_SHUFFLE = "$REMETRO_PACKAGE_NAME.toggleshuffle"
+        const val TOGGLE_FAVORITE = "$REMETRO_PACKAGE_NAME.togglefavorite"
         const val SAVED_POSITION = "POSITION"
         const val SAVED_POSITION_IN_TRACK = "POSITION_IN_TRACK"
         const val SAVED_SHUFFLE_MODE = "SHUFFLE_MODE"

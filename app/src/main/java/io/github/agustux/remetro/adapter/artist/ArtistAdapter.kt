@@ -27,10 +27,10 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.adapter.base.AbsMultiSelectAdapter
 import io.github.agustux.remetro.adapter.base.MediaEntryViewHolder
 import io.github.agustux.remetro.extensions.hide
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.artistImageOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.artistImageOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.helper.menu.SongsMenuHelper
 import io.github.agustux.remetro.interfaces.IAlbumArtistClickListener
 import io.github.agustux.remetro.interfaces.IArtistClickListener
@@ -114,9 +114,9 @@ class ArtistAdapter(
         Glide.with(activity)
             .asBitmapPalette()
             .artistImageOptions(artist)
-            .load(RetroGlideExtension.getArtistModel(artist))
-            .transition(RetroGlideExtension.getDefaultTransition())
-            .into(object : RetroMusicColoredTarget(holder.image!!) {
+            .load(ReMetroGlideExtension.getArtistModel(artist))
+            .transition(ReMetroGlideExtension.getDefaultTransition())
+            .into(object : ReMetroColoredTarget(holder.image!!) {
                 override fun onColorReady(colors: MediaNotificationProcessor) {
                     setColors(colors, holder)
                 }

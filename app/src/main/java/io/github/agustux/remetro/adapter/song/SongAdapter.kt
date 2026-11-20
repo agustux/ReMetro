@@ -33,10 +33,10 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.adapter.base.AbsMultiSelectAdapter
 import io.github.agustux.remetro.adapter.base.MediaEntryViewHolder
 import io.github.agustux.remetro.extensions.accentColor
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.SortOrder
 import io.github.agustux.remetro.helper.menu.SongMenuHelper
@@ -45,7 +45,7 @@ import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.ArtistSeparator
 import io.github.agustux.remetro.util.MusicUtil
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
 import com.bumptech.glide.Glide
 import me.zhanghai.android.fastscroll.PopupTextProvider
@@ -128,7 +128,7 @@ open class SongAdapter(
             holder.text?.setTypeface(null, Typeface.NORMAL)
         }
         loadAlbumCover(song, holder)
-        val landscape = RetroUtil.isLandscape
+        val landscape = ReMetroUtil.isLandscape
         if ((PreferenceUtil.songGridSize > 2 && !landscape) || (PreferenceUtil.songGridSizeLand > 5 && landscape)) {
             holder.menu?.isVisible = false
         }
@@ -151,8 +151,8 @@ open class SongAdapter(
         Glide.with(activity)
             .asBitmapPalette()
             .songCoverOptions(song)
-            .load(RetroGlideExtension.getSongModel(song))
-            .into(object : RetroMusicColoredTarget(holder.image!!) {
+            .load(ReMetroGlideExtension.getSongModel(song))
+            .into(object : ReMetroColoredTarget(holder.image!!) {
                 override fun onColorReady(colors: MediaNotificationProcessor) {
                     setColors(colors, holder)
                 }

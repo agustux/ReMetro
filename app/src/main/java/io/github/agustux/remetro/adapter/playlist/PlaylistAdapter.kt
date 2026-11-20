@@ -33,7 +33,7 @@ import io.github.agustux.remetro.db.PlaylistEntity
 import io.github.agustux.remetro.db.PlaylistWithSongs
 import io.github.agustux.remetro.db.toSongs
 import io.github.agustux.remetro.extensions.dipToPix
-import io.github.agustux.remetro.glide.RetroGlideExtension.playlistOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.playlistOptions
 import io.github.agustux.remetro.glide.playlistPreview.PlaylistPreview
 import io.github.agustux.remetro.helper.SortOrder.PlaylistSortOrder
 import io.github.agustux.remetro.helper.menu.PlaylistMenuHelper

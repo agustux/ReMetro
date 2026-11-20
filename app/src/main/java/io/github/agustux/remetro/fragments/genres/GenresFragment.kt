@@ -30,7 +30,7 @@ import io.github.agustux.remetro.fragments.ReloadType
 import io.github.agustux.remetro.fragments.base.AbsRecyclerViewFragment
 import io.github.agustux.remetro.interfaces.IGenreClickListener
 import io.github.agustux.remetro.model.Genre
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.google.android.material.transition.MaterialSharedAxis
 
 class
@@ -47,7 +47,7 @@ GenresFragment : AbsRecyclerViewFragment<GenreAdapter, LinearLayoutManager>(),
     }
 
     override fun createLayoutManager(): LinearLayoutManager {
-        return if (RetroUtil.isLandscape) {
+        return if (ReMetroUtil.isLandscape) {
             GridLayoutManager(activity, 4)
         } else {
             GridLayoutManager(activity, 2)

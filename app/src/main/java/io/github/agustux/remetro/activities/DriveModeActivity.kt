@@ -27,8 +27,8 @@ import io.github.agustux.remetro.db.toSongEntity
 import io.github.agustux.remetro.extensions.accentColor
 import io.github.agustux.remetro.extensions.drawAboveSystemBars
 import io.github.agustux.remetro.glide.BlurTransformation
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.MusicProgressViewUpdateHelper
 import io.github.agustux.remetro.helper.MusicProgressViewUpdateHelper.Callback
@@ -242,7 +242,7 @@ class DriveModeActivity : AbsMusicServiceActivity(), Callback {
         binding.songText.text = song.artistName
 
         Glide.with(this)
-            .load(RetroGlideExtension.getSongModel(song))
+            .load(ReMetroGlideExtension.getSongModel(song))
             .songCoverOptions(song)
             .transform(BlurTransformation.Builder(this).build())
             .into(binding.image)

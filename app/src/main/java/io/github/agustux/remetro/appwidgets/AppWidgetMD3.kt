@@ -29,9 +29,9 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.appwidgets.base.BaseAppWidget
 import io.github.agustux.remetro.extensions.getTintedDrawable
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.glide.palette.BitmapPaletteWrapper
 import io.github.agustux.remetro.service.MusicService
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_REWIND
@@ -148,7 +148,7 @@ class AppWidgetMD3 : BaseAppWidget() {
             target = Glide.with(service)
                 .asBitmapPalette()
                 .songCoverOptions(song)
-                .load(RetroGlideExtension.getSongModel(song))
+                .load(ReMetroGlideExtension.getSongModel(song))
                 .centerCrop()
                 .into(object : CustomTarget<BitmapPaletteWrapper>(imageSize, imageSize) {
                     override fun onResourceReady(

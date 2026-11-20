@@ -31,14 +31,14 @@ import io.github.agustux.remetro.extensions.show
 import io.github.agustux.remetro.extensions.textColorPrimary
 import io.github.agustux.remetro.extensions.textColorSecondary
 import io.github.agustux.remetro.fragments.base.AbsMusicServiceFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.MusicProgressViewUpdateHelper
 import io.github.agustux.remetro.helper.PlayPauseButtonOnClickHandler
 import io.github.agustux.remetro.util.ArtistSeparator
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.bumptech.glide.Glide
 import kotlin.math.abs
 
@@ -70,7 +70,7 @@ open class MiniPlayerFragment : AbsMusicServiceFragment(R.layout.fragment_mini_p
     }
 
     fun setUpButtons() {
-        if (RetroUtil.isTablet) {
+        if (ReMetroUtil.isTablet) {
             binding.actionNext.show()
             binding.actionPrevious.show()
         } else {
@@ -112,8 +112,8 @@ open class MiniPlayerFragment : AbsMusicServiceFragment(R.layout.fragment_mini_p
     private fun updateSongCover() {
         val song = MusicPlayerRemote.currentSong
         Glide.with(requireContext())
-            .load(RetroGlideExtension.getSongModel(song))
-            .transition(RetroGlideExtension.getDefaultTransition())
+            .load(ReMetroGlideExtension.getSongModel(song))
+            .transition(ReMetroGlideExtension.getDefaultTransition())
             .songCoverOptions(song)
             .into(binding.image)
     }

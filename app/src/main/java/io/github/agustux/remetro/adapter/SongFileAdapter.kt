@@ -26,7 +26,7 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.adapter.base.AbsMultiSelectAdapter
 import io.github.agustux.remetro.adapter.base.MediaEntryViewHolder
 import io.github.agustux.remetro.extensions.getTintedDrawable
-import io.github.agustux.remetro.glide.RetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
 import io.github.agustux.remetro.glide.audiocover.AudioFileCover
 import io.github.agustux.remetro.interfaces.ICallbacks
 import io.github.agustux.remetro.util.MusicUtil
@@ -114,7 +114,7 @@ class SongFileAdapter(
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
                 .error(error)
                 .placeholder(error)
-                .transition(RetroGlideExtension.getDefaultTransition())
+                .transition(ReMetroGlideExtension.getDefaultTransition())
                 .signature(MediaStoreSignature("", file.lastModified(), 0))
                 .into(holder.image!!)
         }

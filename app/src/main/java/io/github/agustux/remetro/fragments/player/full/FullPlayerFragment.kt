@@ -30,8 +30,8 @@ import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
 import io.github.agustux.remetro.fragments.base.goToArtist
 import io.github.agustux.remetro.fragments.player.CoverLyricsFragment
 import io.github.agustux.remetro.fragments.player.PlayerAlbumCoverFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.artistImageOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.artistImageOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
@@ -133,7 +133,7 @@ class FullPlayerFragment : AbsPlayerFragment(R.layout.fragment_full) {
             .observe(viewLifecycleOwner) { artist ->
                 if (artist.id != -1L) {
                     Glide.with(requireActivity())
-                        .load(RetroGlideExtension.getArtistModel(artist))
+                        .load(ReMetroGlideExtension.getArtistModel(artist))
                         .artistImageOptions(artist)
                         .into(binding.artistImage)
                 }

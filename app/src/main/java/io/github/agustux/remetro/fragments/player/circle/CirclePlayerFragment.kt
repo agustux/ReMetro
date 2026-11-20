@@ -38,8 +38,8 @@ import io.github.agustux.remetro.fragments.MusicSeekSkipTouchListener
 import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
 import io.github.agustux.remetro.fragments.base.goToAlbum
 import io.github.agustux.remetro.fragments.base.goToArtist
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.simpleSongCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.simpleSongCoverOptions
 import io.github.agustux.remetro.glide.crossfadeListener
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.MusicProgressViewUpdateHelper
@@ -240,7 +240,7 @@ class CirclePlayerFragment : AbsPlayerFragment(R.layout.fragment_circle_player),
             binding.songInfo.hide()
         }
         Glide.with(this)
-            .load(RetroGlideExtension.getSongModel(MusicPlayerRemote.currentSong))
+            .load(ReMetroGlideExtension.getSongModel(MusicPlayerRemote.currentSong))
             .simpleSongCoverOptions(MusicPlayerRemote.currentSong)
             .thumbnail(lastRequest)
             .error(Glide.with(this).load(R.drawable.default_audio_art).fitCenter())

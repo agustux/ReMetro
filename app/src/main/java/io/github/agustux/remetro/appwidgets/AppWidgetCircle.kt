@@ -28,15 +28,15 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.appwidgets.base.BaseAppWidget
 import io.github.agustux.remetro.extensions.getTintedDrawable
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.glide.palette.BitmapPaletteWrapper
 import io.github.agustux.remetro.service.MusicService
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_TOGGLE_PAUSE
 import io.github.agustux.remetro.service.MusicService.Companion.TOGGLE_FAVORITE
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.CustomTarget
@@ -101,7 +101,7 @@ class AppWidgetCircle : BaseAppWidget() {
             linkButtons(service, appWidgetView)
 
             if (imageSize == 0) {
-                val p = RetroUtil.getScreenSize(service)
+                val p = ReMetroUtil.getScreenSize(service)
                 imageSize = p.x.coerceAtMost(p.y)
             }
 
@@ -113,7 +113,7 @@ class AppWidgetCircle : BaseAppWidget() {
                 target = Glide.with(service)
                     .asBitmapPalette()
                     .songCoverOptions(song)
-                    .load(RetroGlideExtension.getSongModel(song))
+                    .load(ReMetroGlideExtension.getSongModel(song))
                     .apply(RequestOptions.circleCropTransform())
                     .into(object : CustomTarget<BitmapPaletteWrapper>(imageSize, imageSize) {
                         override fun onResourceReady(

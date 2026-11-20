@@ -40,7 +40,7 @@ import io.github.agustux.remetro.interfaces.IAlbumClickListener
 import io.github.agustux.remetro.interfaces.IArtistClickListener
 import io.github.agustux.remetro.model.Album
 import io.github.agustux.remetro.model.Artist
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.transition.MaterialSharedAxis
@@ -213,10 +213,10 @@ class DetailListFragment : AbsMainActivityFragment(R.layout.fragment_playlist_de
         GridLayoutManager(requireContext(), gridCount(), GridLayoutManager.VERTICAL, false)
 
     private fun gridCount(): Int {
-        if (RetroUtil.isTablet) {
-            return if (RetroUtil.isLandscape) 6 else 4
+        if (ReMetroUtil.isTablet) {
+            return if (ReMetroUtil.isLandscape) 6 else 4
         }
-        return if (RetroUtil.isLandscape) 4 else 2
+        return if (ReMetroUtil.isLandscape) 4 else 2
     }
 
 

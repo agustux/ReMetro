@@ -23,7 +23,7 @@ import io.github.agustux.remetro.extensions.accentOutlineColor
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.google.android.material.button.MaterialButton
 
 class ShuffleButtonSongAdapter(
@@ -58,7 +58,7 @@ class ShuffleButtonSongAdapter(
             }
         } else {
             super.onBindViewHolder(holder, position - 1)
-            val landscape = RetroUtil.isLandscape
+            val landscape = ReMetroUtil.isLandscape
             if ((PreferenceUtil.songGridSize > 2 && !landscape) || (PreferenceUtil.songGridSizeLand > 5 && landscape)) {
                 holder.menu?.isVisible = false
             }

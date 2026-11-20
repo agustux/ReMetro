@@ -11,14 +11,14 @@ import io.github.agustux.remetro.util.theme.ThemeMode.*
 @StyleRes
 fun Context.getThemeResValue(): Int =
     if (PreferenceUtil.materialYou) {
-        if (generalThemeValue == BLACK) R.style.Theme_RetroMusic_MD3_Black
-        else R.style.Theme_RetroMusic_MD3
+        if (generalThemeValue == BLACK) R.style.Theme_ReMetro_MD3_Black
+        else R.style.Theme_ReMetro_MD3
     } else {
         when (generalThemeValue) {
-            LIGHT -> R.style.Theme_RetroMusic_Light
-            DARK -> R.style.Theme_RetroMusic_Base
-            BLACK -> R.style.Theme_RetroMusic_Black
-            AUTO -> R.style.Theme_RetroMusic_FollowSystem
+            LIGHT -> R.style.Theme_ReMetro_Light
+            DARK -> R.style.Theme_ReMetro_Base
+            BLACK -> R.style.Theme_ReMetro_Black
+            AUTO -> R.style.Theme_ReMetro_FollowSystem
         }
     }
 

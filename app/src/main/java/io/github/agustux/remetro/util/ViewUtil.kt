@@ -28,7 +28,7 @@ import io.github.agustux.remetro.appthemehelper.util.MaterialValueHelper
 
 object ViewUtil {
 
-    const val RETRO_MUSIC_ANIM_TIME = 1000
+    const val REMETRO_ANIM_TIME = 1000
 
     fun setProgressDrawable(progressSlider: SeekBar, newColor: Int, thumbTint: Boolean = false) {
         if (thumbTint) {

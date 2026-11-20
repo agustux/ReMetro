@@ -24,7 +24,7 @@ import io.github.agustux.remetro.extensions.elevatedAccentColor
 import io.github.agustux.remetro.extensions.surfaceColor
 import io.github.agustux.remetro.fragments.base.AbsMainActivityFragment
 import io.github.agustux.remetro.fragments.search.clearText
-import io.github.agustux.remetro.glide.RetroGlideExtension.playlistOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.playlistOptions
 import io.github.agustux.remetro.glide.playlistPreview.PlaylistPreview
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.menu.PlaylistMenuHelper

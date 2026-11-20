@@ -34,10 +34,10 @@ import io.github.agustux.remetro.activities.base.AbsThemeActivity
 import io.github.agustux.remetro.databinding.ActivityShareInstagramBinding
 import io.github.agustux.remetro.extensions.accentColor
 import io.github.agustux.remetro.extensions.setStatusBarColor
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.Share
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
@@ -77,8 +77,8 @@ class ShareInstagramStory : AbsThemeActivity() {
             Glide.with(this)
                 .asBitmapPalette()
                 .songCoverOptions(songFinal)
-                .load(RetroGlideExtension.getSongModel(songFinal))
-                .into(object : RetroMusicColoredTarget(binding.image) {
+                .load(ReMetroGlideExtension.getSongModel(songFinal))
+                .into(object : ReMetroColoredTarget(binding.image) {
                     override fun onColorReady(colors: MediaNotificationProcessor) {
                         setColors(colors.backgroundColor)
                     }

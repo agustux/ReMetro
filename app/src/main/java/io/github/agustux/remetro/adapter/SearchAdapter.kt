@@ -29,10 +29,10 @@ import io.github.agustux.remetro.appthemehelper.ThemeStore
 import io.github.agustux.remetro.*
 import io.github.agustux.remetro.adapter.base.MediaEntryViewHolder
 import io.github.agustux.remetro.db.PlaylistWithSongs
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.albumCoverOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.artistImageOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.albumCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.artistImageOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.menu.SongMenuHelper
 import io.github.agustux.remetro.model.Album
@@ -95,7 +95,7 @@ class SearchAdapter(
                 holder.title?.text = album.title
                 holder.text?.text = album.artistName
                 Glide.with(activity).asDrawable().albumCoverOptions(album.safeGetFirstSong())
-                    .load(RetroGlideExtension.getSongModel(album.safeGetFirstSong()))
+                    .load(ReMetroGlideExtension.getSongModel(album.safeGetFirstSong()))
                     .into(holder.image!!)
             }
 
@@ -105,7 +105,7 @@ class SearchAdapter(
                 holder.title?.text = artist.name
                 holder.text?.text = MusicUtil.getArtistInfoString(activity, artist)
                 Glide.with(activity).asDrawable().artistImageOptions(artist).load(
-                    RetroGlideExtension.getArtistModel(artist)
+                    ReMetroGlideExtension.getArtistModel(artist)
                 ).into(holder.image!!)
             }
 
@@ -115,7 +115,7 @@ class SearchAdapter(
                 holder.title?.text = song.title
                 holder.text?.text = song.albumName
                 Glide.with(activity).asDrawable().songCoverOptions(song)
-                    .load(RetroGlideExtension.getSongModel(song)).into(holder.image!!)
+                    .load(ReMetroGlideExtension.getSongModel(song)).into(holder.image!!)
             }
 
             GENRE -> {
@@ -143,7 +143,7 @@ class SearchAdapter(
                 holder.title?.text = artist.name
                 holder.text?.text = MusicUtil.getArtistInfoString(activity, artist)
                 Glide.with(activity).asDrawable().artistImageOptions(artist).load(
-                    RetroGlideExtension.getArtistModel(artist)
+                    ReMetroGlideExtension.getArtistModel(artist)
                 ).into(holder.image!!)
             }
 

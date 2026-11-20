@@ -31,8 +31,8 @@ import androidx.media.app.NotificationCompat.MediaStyle
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.activities.MainActivity
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.service.MusicService
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_QUIT
@@ -128,7 +128,7 @@ class PlayingNotification(
         currentTarget = Glide.with(context)
             .asBitmap()
             .songCoverOptions(song)
-            .load(RetroGlideExtension.getSongModel(song))
+            .load(ReMetroGlideExtension.getSongModel(song))
             //.checkIgnoreMediaStore()
             .centerCrop()
             .into(object : CustomTarget<Bitmap>(

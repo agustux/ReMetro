@@ -31,14 +31,14 @@ import io.github.agustux.remetro.appthemehelper.util.MaterialValueHelper
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.databinding.ActivityAlbumTagEditorBinding
 import io.github.agustux.remetro.extensions.*
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
 import io.github.agustux.remetro.glide.palette.BitmapPaletteWrapper
 import io.github.agustux.remetro.model.ArtworkInfo
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.ImageUtil
 import io.github.agustux.remetro.util.MusicUtil
-import io.github.agustux.remetro.util.RetroColorUtil.generatePalette
-import io.github.agustux.remetro.util.RetroColorUtil.getColor
+import io.github.agustux.remetro.util.ReMetroColorUtil.generatePalette
+import io.github.agustux.remetro.util.ReMetroColorUtil.getColor
 import io.github.agustux.remetro.util.logD
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy

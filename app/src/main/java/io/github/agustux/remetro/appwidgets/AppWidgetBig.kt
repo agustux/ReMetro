@@ -29,13 +29,13 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.appwidgets.base.BaseAppWidget
 import io.github.agustux.remetro.extensions.getTintedDrawable
-import io.github.agustux.remetro.glide.RetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
 import io.github.agustux.remetro.service.MusicService
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_REWIND
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_SKIP
 import io.github.agustux.remetro.service.MusicService.Companion.ACTION_TOGGLE_PAUSE
 import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.target.Target
@@ -144,7 +144,7 @@ class AppWidgetBig : BaseAppWidget() {
         linkButtons(service, appWidgetView)
 
         // Load the album cover async and push the update on completion
-        val p = RetroUtil.getScreenSize(service)
+        val p = ReMetroUtil.getScreenSize(service)
         val widgetImageSize = p.x.coerceAtMost(p.y)
         val appContext = service.applicationContext
         service.runOnUiThread {
@@ -154,7 +154,7 @@ class AppWidgetBig : BaseAppWidget() {
             target = Glide.with(appContext)
                 .asBitmap()
                 //.checkIgnoreMediaStore()
-                .load(RetroGlideExtension.getSongModel(song))
+                .load(ReMetroGlideExtension.getSongModel(song))
                 .into(object : CustomTarget<Bitmap>(widgetImageSize, widgetImageSize) {
                     override fun onResourceReady(
                         resource: Bitmap,

@@ -23,10 +23,10 @@ import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.databinding.ItemGenreBinding
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.interfaces.IGenreClickListener
 import io.github.agustux.remetro.model.Genre
 import io.github.agustux.remetro.util.MusicUtil
@@ -73,8 +73,8 @@ class GenreAdapter(
         Glide.with(activity)
             .asBitmapPalette()
             .songCoverOptions(genreSong)
-            .load(RetroGlideExtension.getSongModel(genreSong))
-            .into(object : RetroMusicColoredTarget(holder.binding.image) {
+            .load(ReMetroGlideExtension.getSongModel(genreSong))
+            .into(object : ReMetroColoredTarget(holder.binding.image) {
                 override fun onColorReady(colors: MediaNotificationProcessor) {
                     setColors(holder, colors)
                 }

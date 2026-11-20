@@ -31,10 +31,10 @@ import io.github.agustux.remetro.extensions.hideStatusBar
 import io.github.agustux.remetro.extensions.setTaskDescriptionColorAuto
 import io.github.agustux.remetro.extensions.whichFragment
 import io.github.agustux.remetro.fragments.player.lockscreen.LockScreenControlsFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.util.PreferenceUtil
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
@@ -140,9 +140,9 @@ class LockScreenActivity : AbsMusicServiceActivity() {
         Glide.with(this)
             .asBitmapPalette()
             .songCoverOptions(song)
-            .load(RetroGlideExtension.getSongModel(song))
+            .load(ReMetroGlideExtension.getSongModel(song))
             .dontAnimate()
-            .into(object : RetroMusicColoredTarget(binding.image) {
+            .into(object : ReMetroColoredTarget(binding.image) {
                 override fun onColorReady(colors: MediaNotificationProcessor) {
                     fragment?.setColor(colors)
                 }

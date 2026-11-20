@@ -23,7 +23,7 @@ import androidx.recyclerview.widget.RecyclerView
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.extensions.openUrl
 import io.github.agustux.remetro.model.Contributor
-import io.github.agustux.remetro.views.RetroShapeableImageView
+import io.github.agustux.remetro.views.ReMetroShapeableImageView
 import com.bumptech.glide.Glide
 
 class ContributorAdapter(
@@ -81,7 +81,7 @@ class ContributorAdapter(
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val title: TextView = itemView.findViewById(R.id.title)
         val text: TextView = itemView.findViewById(R.id.text)
-        val image: RetroShapeableImageView = itemView.findViewById(R.id.icon)
+        val image: ReMetroShapeableImageView = itemView.findViewById(R.id.icon)
 
         internal fun bindData(contributor: Contributor) {
             title.text = contributor.name

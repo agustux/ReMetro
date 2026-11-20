@@ -3,7 +3,7 @@ package io.github.agustux.remetro
 import androidx.room.Room
 import io.github.agustux.remetro.auto.AutoMusicProvider
 import io.github.agustux.remetro.db.MIGRATION_23_24
-import io.github.agustux.remetro.db.RetroDatabase
+import io.github.agustux.remetro.db.ReMetroDatabase
 import io.github.agustux.remetro.fragments.LibraryViewModel
 import io.github.agustux.remetro.fragments.albums.AlbumDetailsViewModel
 import io.github.agustux.remetro.fragments.artists.ArtistDetailsViewModel
@@ -19,21 +19,21 @@ import org.koin.dsl.module
 private val roomModule = module {
 
     single {
-        Room.databaseBuilder(androidContext(), RetroDatabase::class.java, "playlist.db")
+        Room.databaseBuilder(androidContext(), ReMetroDatabase::class.java, "playlist.db")
             .addMigrations(MIGRATION_23_24)
             .build()
     }
 
     factory {
-        get<RetroDatabase>().playlistDao()
+        get<ReMetroDatabase>().playlistDao()
     }
 
     factory {
-        get<RetroDatabase>().playCountDao()
+        get<ReMetroDatabase>().playCountDao()
     }
 
     factory {
-        get<RetroDatabase>().historyDao()
+        get<ReMetroDatabase>().historyDao()
     }
 
     single {

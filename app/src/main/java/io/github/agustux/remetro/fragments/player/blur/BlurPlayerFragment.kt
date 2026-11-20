@@ -31,8 +31,8 @@ import io.github.agustux.remetro.extensions.whichFragment
 import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
 import io.github.agustux.remetro.fragments.player.PlayerAlbumCoverFragment
 import io.github.agustux.remetro.glide.BlurTransformation
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.simpleSongCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.simpleSongCoverOptions
 import io.github.agustux.remetro.glide.crossfadeListener
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.model.Song
@@ -116,7 +116,7 @@ class BlurPlayerFragment : AbsPlayerFragment(R.layout.fragment_blur),
     private fun updateBlur() {
         // https://github.com/bumptech/glide/issues/527#issuecomment-148840717
         Glide.with(this)
-            .load(RetroGlideExtension.getSongModel(MusicPlayerRemote.currentSong))
+            .load(ReMetroGlideExtension.getSongModel(MusicPlayerRemote.currentSong))
             .simpleSongCoverOptions(MusicPlayerRemote.currentSong)
             .transform(
                 BlurTransformation.Builder(requireContext()).blurRadius(blurAmount.toFloat())

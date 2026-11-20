@@ -22,7 +22,7 @@ import io.github.agustux.remetro.util.PreferenceUtil.playbackPitch
 import io.github.agustux.remetro.util.PreferenceUtil.playbackSpeed
 import io.github.agustux.remetro.util.logE
 
-class RetroExoPlayer(context: Context) : AudioManagerPlayback(context), Player.Listener {
+class ReMetroExoPlayer(context: Context) : AudioManagerPlayback(context), Player.Listener {
     // Fix provided by : Zak (github: @arrhenius975, mail: zakariatalukdar123@gmail.com)
     // Definition and fix: Fix USB-C/Bluetooth audio routing by setting attributes at init
     private val audioAttributes = AudioAttributes.Builder()
@@ -248,6 +248,6 @@ class RetroExoPlayer(context: Context) : AudioManagerPlayback(context), Player.L
     }
 
     companion object {
-        val TAG: String = RetroExoPlayer::class.java.simpleName
+        val TAG: String = ReMetroExoPlayer::class.java.simpleName
     }
 }

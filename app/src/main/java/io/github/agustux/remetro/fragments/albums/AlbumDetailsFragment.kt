@@ -44,10 +44,10 @@ import io.github.agustux.remetro.dialogs.AddToPlaylistDialog
 import io.github.agustux.remetro.dialogs.DeleteSongsDialog
 import io.github.agustux.remetro.extensions.*
 import io.github.agustux.remetro.fragments.base.AbsMainActivityFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.albumCoverOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.artistImageOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.albumCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.artistImageOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
 import io.github.agustux.remetro.glide.SingleColorTarget
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.SortOrder.AlbumSongSortOrder.Companion.SONG_A_Z
@@ -241,7 +241,7 @@ class AlbumDetailsFragment : AbsMainActivityFragment(R.layout.fragment_album_det
         }
         Glide.with(requireContext())
             .load(
-                RetroGlideExtension.getArtistModel(artist)
+                ReMetroGlideExtension.getArtistModel(artist)
             )
             .artistImageOptions(artist)
             .dontAnimate()
@@ -254,7 +254,7 @@ class AlbumDetailsFragment : AbsMainActivityFragment(R.layout.fragment_album_det
             .asBitmapPalette()
             .albumCoverOptions(album.safeGetFirstSong())
             //.checkIgnoreMediaStore()
-            .load(RetroGlideExtension.getSongModel(album.safeGetFirstSong()))
+            .load(ReMetroGlideExtension.getSongModel(album.safeGetFirstSong()))
             .into(object : SingleColorTarget(binding.image) {
                 override fun onColorReady(color: Int) {
                     setColors(color)

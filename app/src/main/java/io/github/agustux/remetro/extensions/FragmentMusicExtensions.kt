@@ -3,7 +3,7 @@ package io.github.agustux.remetro.extensions
 import android.webkit.MimeTypeMap
 import androidx.core.net.toUri
 import io.github.agustux.remetro.model.Song
-import io.github.agustux.remetro.util.RetroUtil
+import io.github.agustux.remetro.util.ReMetroUtil
 import org.jaudiotagger.audio.AudioFileIO
 import java.io.File
 import java.net.URLEncoder
@@ -20,7 +20,7 @@ fun getSongInfo(song: Song): String {
                 string.append(audioHeader.bitsPerSample).append("-bit").append(" • ")
             }
             string.append(audioHeader.bitRate).append(" kb/s").append(" • ")
-            string.append(RetroUtil.frequencyCount(audioHeader.sampleRate.toInt()))
+            string.append(ReMetroUtil.frequencyCount(audioHeader.sampleRate.toInt()))
                 .append(" kHz")
             string.toString()
         } catch (er: Exception) {

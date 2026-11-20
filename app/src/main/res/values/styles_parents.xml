@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.RetroMusic.Base.Adaptive" parent="Theme.Catppuccin.DayNight">
+    <style name="Theme.ReMetro.Base.Adaptive" parent="Theme.Catppuccin.DayNight">
         <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Light</item>
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
@@ -16,7 +16,7 @@
         <item name="android:windowActionModeOverlay">false</item>
     </style>
 
-    <style name="Theme.RetroMusic.Base" parent="Theme.Catppuccin.Dark">
+    <style name="Theme.ReMetro.Base" parent="Theme.Catppuccin.Dark">
         <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Dark</item>
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
@@ -32,7 +32,7 @@
         <item name="windowActionModeOverlay">true</item>
     </style>
 
-    <style name="Theme.RetroMusic.Base.Black" parent="Theme.Catppuccin.Black">
+    <style name="Theme.ReMetro.Base.Black" parent="Theme.Catppuccin.Black">
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
         <item name="materialAlertDialogTheme">@style/MaterialAlertDialogTheme</item>
@@ -47,7 +47,7 @@
         <item name="windowActionModeOverlay">true</item>
     </style>
 
-    <style name="Theme.RetroMusic.Base.Light" parent="Theme.Catppuccin.Light">
+    <style name="Theme.ReMetro.Base.Light" parent="Theme.Catppuccin.Light">
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
         <item name="toolbarPopupTheme">@style/ThemeOverlay.Material3.Light</item>

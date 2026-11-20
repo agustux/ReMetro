@@ -17,10 +17,10 @@ package io.github.agustux.remetro.adapter.album
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.albumCoverOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
-import io.github.agustux.remetro.glide.RetroMusicColoredTarget
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.albumCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroColoredTarget
 import io.github.agustux.remetro.helper.HorizontalAdapterHelper
 import io.github.agustux.remetro.interfaces.IAlbumClickListener
 import io.github.agustux.remetro.model.Album
@@ -52,8 +52,8 @@ class HorizontalAlbumAdapter(
         Glide.with(activity)
             .asBitmapPalette()
             .albumCoverOptions(album.safeGetFirstSong())
-            .load(RetroGlideExtension.getSongModel(album.safeGetFirstSong()))
-            .into(object : RetroMusicColoredTarget(holder.image!!) {
+            .load(ReMetroGlideExtension.getSongModel(album.safeGetFirstSong()))
+            .into(object : ReMetroColoredTarget(holder.image!!) {
                 override fun onColorReady(colors: MediaNotificationProcessor) {
                     setColors(colors, holder)
                 }

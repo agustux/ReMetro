@@ -19,8 +19,8 @@ import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.FragmentActivity
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.songCoverOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.MusicPlayerRemote.isPlaying
 import io.github.agustux.remetro.helper.MusicPlayerRemote.playNextSong
@@ -78,7 +78,7 @@ class PlayingQueueAdapter(
             return
         }
         Glide.with(activity)
-            .load(RetroGlideExtension.getSongModel(song))
+            .load(ReMetroGlideExtension.getSongModel(song))
             .songCoverOptions(song)
             .into(holder.image!!)
     }

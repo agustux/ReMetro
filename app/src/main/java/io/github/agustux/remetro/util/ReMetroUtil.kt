@@ -19,7 +19,7 @@ import android.graphics.Point
 import io.github.agustux.remetro.App.Companion.getContext
 import java.util.*
 
-object RetroUtil {
+object ReMetroUtil {
     fun frequencyCount(frequency: Int): Float {
         return (frequency / 1000.0).toFloat()
     }

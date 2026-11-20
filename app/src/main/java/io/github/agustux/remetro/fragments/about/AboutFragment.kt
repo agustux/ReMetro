@@ -50,9 +50,9 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
     }
 
     private fun setUpView() {
-        binding.aboutContent.cardRetroInfo.appGithub.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.faqLink.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.bugReportLink.setOnClickListener(this)
+        binding.aboutContent.cardRemetroInfo.appGithub.setOnClickListener(this)
+        binding.aboutContent.cardRemetroInfo.faqLink.setOnClickListener(this)
+        binding.aboutContent.cardRemetroInfo.bugReportLink.setOnClickListener(this)
 
         binding.aboutContent.cardOther.changelog.setOnClickListener(this)
         binding.aboutContent.cardOther.openSource.setOnClickListener(this)

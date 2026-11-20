@@ -25,9 +25,9 @@ import io.github.agustux.remetro.databinding.FragmentArtistDetailsBinding
 import io.github.agustux.remetro.dialogs.AddToPlaylistDialog
 import io.github.agustux.remetro.extensions.*
 import io.github.agustux.remetro.fragments.base.AbsMainActivityFragment
-import io.github.agustux.remetro.glide.RetroGlideExtension
-import io.github.agustux.remetro.glide.RetroGlideExtension.artistImageOptions
-import io.github.agustux.remetro.glide.RetroGlideExtension.asBitmapPalette
+import io.github.agustux.remetro.glide.ReMetroGlideExtension
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.artistImageOptions
+import io.github.agustux.remetro.glide.ReMetroGlideExtension.asBitmapPalette
 import io.github.agustux.remetro.glide.SingleColorTarget
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.helper.SortOrder
@@ -141,7 +141,7 @@ abstract class AbsArtistDetailsFragment : AbsMainActivityFragment(R.layout.fragm
 
     private fun loadArtistImage(artist: Artist) {
         Glide.with(requireContext()).asBitmapPalette().artistImageOptions(artist)
-            .load(RetroGlideExtension.getArtistModel(artist)).dontAnimate()
+            .load(ReMetroGlideExtension.getArtistModel(artist)).dontAnimate()
             .into(object : SingleColorTarget(binding.image) {
                 override fun onColorReady(color: Int) {
                     setColors(color)
