@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_settings_summary">Team, social links</string>
+    <string name="about_settings_summary">Credits, links and licenses</string>
 
     <string name="accent_color">Accent color</string>
     <string name="accent_color_desc">The theme accent color, defaults to purple</string>
@@ -214,7 +214,7 @@
 
     <string name="image">Image</string>
     <string name="image_gradient">Gradient image</string>
-    <string name="image_settings_summary">Change artist image download settings</string>
+    <string name="image_settings_summary">Album and artist artwork settings</string>
 
 
     <string name="keyboard">Keyboard</string>
