@@ -28,7 +28,6 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.transition.Fade
-import code.name.monkey.appthemehelper.common.ATHToolbarActivity
 import code.name.monkey.appthemehelper.util.ToolbarContentTintHelper
 import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.R
@@ -36,7 +35,6 @@ import code.name.monkey.retromusic.activities.tageditor.TagWriter
 import code.name.monkey.retromusic.databinding.FragmentLyricsBinding
 import code.name.monkey.retromusic.extensions.accentColor
 import code.name.monkey.retromusic.extensions.materialDialog
-import code.name.monkey.retromusic.extensions.openUrl
 import code.name.monkey.retromusic.extensions.uri
 import code.name.monkey.retromusic.fragments.base.AbsMainActivityFragment
 import code.name.monkey.retromusic.helper.MusicPlayerRemote
@@ -71,15 +69,6 @@ class LyricsFragment : AbsMainActivityFragment(R.layout.fragment_lyrics),
     private lateinit var syncedFileUri: Uri
 
     private var lyricsType: LyricsType = LyricsType.NORMAL_LYRICS
-
-    private val googleSearchLrcUrl: String
-        get() {
-            var baseUrl = "http://www.google.com/search?"
-            var query = song.title + "+" + song.artistName
-            query = "q=" + query.replace(" ", "+") + " lyrics"
-            baseUrl += query
-            return baseUrl
-        }
 
     private lateinit var updateHelper: MusicProgressViewUpdateHelper
 
@@ -178,22 +167,9 @@ class LyricsFragment : AbsMainActivityFragment(R.layout.fragment_lyrics),
         requireActivity().window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
     }
 
-    override fun onCreateMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu_lyrics, menu)
-        ToolbarContentTintHelper.handleOnCreateOptionsMenu(
-            requireContext(),
-            binding.toolbar,
-            menu,
-            ATHToolbarActivity.getToolbarBackgroundColor(binding.toolbar)
-        )
-    }
+    override fun onCreateMenu(menu: Menu, inflater: MenuInflater) {}
 
-    override fun onMenuItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.action_search) {
-            openUrl(googleSearchLrcUrl)
-        }
-        return false
-    }
+    override fun onMenuItemSelected(item: MenuItem): Boolean = false
 
     @SuppressLint("CheckResult")
     private fun editNormalLyrics(lyrics: String? = null) {

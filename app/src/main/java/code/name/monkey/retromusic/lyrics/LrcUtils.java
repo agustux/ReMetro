@@ -18,14 +18,11 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -135,33 +132,6 @@ class LrcUtils {
 
     Collections.sort(entryList);
     return entryList;
-  }
-
-  /** 获取网络文本，需要在工作线程中执行 */
-  static String getContentFromNetwork(String url, String charset) {
-    String lrcText = null;
-    try {
-      URL _url = new URL(url);
-      HttpURLConnection conn = (HttpURLConnection) _url.openConnection();
-      conn.setRequestMethod("GET");
-      conn.setConnectTimeout(10000);
-      conn.setReadTimeout(10000);
-      if (conn.getResponseCode() == 200) {
-        InputStream is = conn.getInputStream();
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        byte[] buffer = new byte[1024];
-        int len;
-        while ((len = is.read(buffer)) != -1) {
-          bos.write(buffer, 0, len);
-        }
-        is.close();
-        bos.close();
-        lrcText = bos.toString(charset);
-      }
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
-    return lrcText;
   }
 
   /** 解析一行歌词 */

@@ -3,12 +3,10 @@ package code.name.monkey.retromusic.network
 import android.content.Context
 import code.name.monkey.retromusic.App
 import code.name.monkey.retromusic.BuildConfig
-import code.name.monkey.retromusic.network.conversion.LyricsConverterFactory
 import okhttp3.Cache
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import retrofit2.Retrofit
 import java.io.File
 import java.util.concurrent.TimeUnit
 
@@ -54,10 +52,3 @@ fun provideOkHttp(context: Context, cache: Cache): OkHttpClient {
         .build()
 }
 
-fun provideLyrics(retrofit: Retrofit): LyricsRestService {
-    val newBuilder = retrofit.newBuilder()
-        .baseUrl("https://makeitpersonal.co")
-        .addConverterFactory(LyricsConverterFactory())
-        .build()
-    return newBuilder.create(LyricsRestService::class.java)
-}
