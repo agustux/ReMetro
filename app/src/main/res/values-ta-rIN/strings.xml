@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">எங்களை பற்றி %s</string>
     <string name="about_settings_summary">குழு, சமூக வலைத்தளங்களில்</string>
     <string name="accent_color">பொத்தான் நிறம்</string>
     <string name="accent_color_desc">பொத்தான்_நிறம்_பற்றி</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">அமைப்புக்கள் மற்றும் பாடல் கோப்புகளைச் சேமி</string>
     <string name="backup_restore_title"><![CDATA[மீட்டெடு & பேக்கப்]]></string>
     <string name="backup_title">பேக்கப்</string>
-    <string name="biography">வாழ்க்கை வரலாறு</string>
     <string name="black_theme_name">இருட்டு மட்டும்</string>
     <string name="blacklist">தேவையானவை</string>
     <string name="bluetooth_summary">இந்தச் செயலிக்குப் பக்கத்தில் உல்ல புலுடூத் சாதனங்களைக் கண்டறிய அனுமதி வேண்டும்</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">நூலக வகைகள்</string>
     <string name="licenses">உரிமங்கள்</string>
     <string name="light_theme_name">முழுமையான வெள்ளை</string>
-    <string name="listeners_label">கேட்பவர்கள்</string>
     <string name="lyrics">பாடல் வரிகள்</string>
     <string name="made_with_love">அன்புடன் இந்தியாவில் உருவாக்கப்பட்டது</string>
     <string name="material">பொருள்</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">Saved playlist to %s.</string>
     <string name="scan_media">Scan media</string>
     <string name="scanned_files">Scanned %1$d of %2$d files.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Select all</string>
     <string name="selected">Selected</string>
     <string name="set">Set</string>

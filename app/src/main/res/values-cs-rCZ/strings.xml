@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">O %s</string>
     <string name="about_settings_summary">Tým, odkazy na sociální sítě</string>
     <string name="accent_color">Barva zvýraznění</string>
     <string name="accent_color_desc">Barva motivu zvýraznění, výchozí je fialová</string>
@@ -89,7 +88,6 @@
     <string name="backup_restore_settings_summary">Zálohovat a obnovit nastavení, seznamy skladeb</string>
     <string name="backup_restore_title"><![CDATA[Záloha a obnova]]></string>
     <string name="backup_title">Zálohy</string>
-    <string name="biography">Bio</string>
     <string name="black_theme_name">Jen černá</string>
     <string name="blacklist">Černá listina</string>
     <string name="bluetooth_summary">Aplikace potřebuje oprávnění zařízení v okolí pro kontrolu bluetooth zařízení</string>
@@ -214,7 +212,6 @@
     <string name="library_categories">Kategorie knihovny</string>
     <string name="licenses">Licence</string>
     <string name="light_theme_name">Velmi bílá</string>
-    <string name="listeners_label">Posluchači</string>
     <string name="lyrics">Texty</string>
     <string name="made_with_love">Vyrobeno s ❤️ v Indii</string>
     <string name="material">Material</string>
@@ -422,7 +419,6 @@
     <string name="saved_playlist_to">Seznam skladeb uložený do %s.</string>
     <string name="scan_media">Skenovat média</string>
     <string name="scanned_files">Naskenované %1$d z %2$d souborů.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Vybrat vše</string>
     <string name="selected">Selected</string>
     <string name="set">Set</string>

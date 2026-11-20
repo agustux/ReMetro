@@ -67,7 +67,6 @@
     <string name="audio_focus_denied">ఆడియో ఫోకస్ తిరస్కరించబడింది.</string>
     <string name="audio_settings_summary">ధ్వని సెట్టింగులను మార్చండి మరియు ఈక్వలైజర్ నియంత్రణలను సర్దుబాటు చేయండి</string>
     <string name="auto">దానంతట అదే</string>
-    <string name="biography">బయోగ్రఫీ</string>
     <string name="black_theme_name">జస్ట్ బ్లాక్</string>
     <string name="blacklist">బ్లాక్లిస్ట్</string>
     <string name="blur">బ్లర్</string>
@@ -163,7 +162,6 @@
     <string name="library_categories">లైబ్రరీ వర్గాలు</string>
     <string name="licenses">లైసెన్సుల</string>
     <string name="light_theme_name">Clearly White</string>
-    <string name="listeners_label">శ్రోతలు</string>
     <string name="lyrics">సాహిత్యం</string>
     <string name="made_with_love">భారతదేశంలో &#128420; తో తయారు చేయబడింది</string>
     <string name="material">మెటీరియల్</string>
@@ -315,7 +313,6 @@
     <string name="saved_playlist_to">Saved playlist to %s.</string>
     <string name="scan_media">మీడియాను స్కాన్ చేయండి</string>
     <string name="scanned_files">%2$d ఫైళ్ళలో %1$d స్కాన్ చేయబడింది.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">అన్ని ఎంచుకోండి</string>
     <string name="selected">ఎంచుకున్న</string>
     <string name="set">సెట్</string>

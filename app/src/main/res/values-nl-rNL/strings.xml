@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Over %s</string>
     <string name="about_settings_summary">Team, sociale linkjes</string>
     <string name="accent_color">Accent kleur</string>
     <string name="accent_color_desc">De accent kleur, standaard naar groen</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">Back-up en herstel je instellingen, afspeellijsten</string>
     <string name="backup_restore_title"><![CDATA[Back-up & Herstel]]></string>
     <string name="backup_title">Back-ups</string>
-    <string name="biography">Biografie</string>
     <string name="black_theme_name">Gewoon zwart</string>
     <string name="blacklist">Zwarte lijst</string>
     <string name="bluetooth_summary">De app heeft nabije toestel toestemming nodig om te checken voor bluetooth toestellen</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">Bibliotheek categorieën</string>
     <string name="licenses">Licenties</string>
     <string name="light_theme_name">Clearly wit</string>
-    <string name="listeners_label">Luisteraars</string>
     <string name="lyrics">Tekst/Lyrics</string>
     <string name="made_with_love">Gemaakt met ❤️ in India</string>
     <string name="material">Materiaal</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">Afspeellijst opgeslagen in %s.</string>
     <string name="scan_media">Media scannen</string>
     <string name="scanned_files">%1$d van de %2$d bestanden gescant</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Alles selecteren</string>
     <string name="selected">Geselecteerd</string>
     <string name="set">Set</string>

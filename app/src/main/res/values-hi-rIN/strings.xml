@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">%s के बारे में</string>
     <string name="about_settings_summary">टीम, सामाजिक लिंक</string>
     <string name="accent_color">एक्सेंट रंग</string>
     <string name="accent_color_desc">थीम एक्सेंट रंग, डिफॉल्ट रूप से बैंगनी है</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">अपनी सेटिंग्स को पुनरुद्धार करें।,प्लेलिस्ट</string>
     <string name="backup_restore_title"><![CDATA[अपनी सेटिंग्स को पुनरुद्धार करें।]]></string>
     <string name="backup_title">प्रतिकृति</string>
-    <string name="biography">जीवनी</string>
     <string name="black_theme_name">सिर्फ काला</string>
     <string name="blacklist">ब्लैकलिस्ट</string>
     <string name="bluetooth_summary">ऐप को नजदीकी उपकरणों की जाँच के लिए ब्लूटूथ उपकरणों की अनुमति चाहिए।</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">पुस्तकालय श्रेणियाँ</string>
     <string name="licenses">लाइसेंस</string>
     <string name="light_theme_name">सफ़ेद</string>
-    <string name="listeners_label">श्रोताओं</string>
     <string name="lyrics">बोल</string>
     <string name="made_with_love">भारत में ❤️ के साथ बनाया गया</string>
     <string name="material">मटेरियल</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">प्लेलिस्ट को %s में सहेजा गया</string>
     <string name="scan_media">मीडिया को स्कैन करें</string>
     <string name="scanned_files">%2$d फ़ाइलों में से %1$d को स्कैन किया गया।</string>
-    <string name="scrobbles_label">स्क्रॉबल</string>
     <string name="select_all">सभी चुनें</string>
     <string name="selected">चयनित</string>
     <string name="set">सेट</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Info su %s</string>
     <string name="about_settings_summary">Team e pagine social</string>
     <string name="accent_color">Colore in rilievo</string>
     <string name="accent_color_desc">Il colore in rilievo del tema, il predefinito è viola</string>
@@ -86,7 +85,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="backup_restore_settings_summary">Backup e ripristino impostazioni e playlist</string>
     <string name="backup_restore_title"><![CDATA[Backup e ripristino]]></string>
     <string name="backup_title">Backup</string>
-    <string name="biography">Biografia</string>
     <string name="black_theme_name">Solo nero</string>
     <string name="blacklist">Blacklist</string>
     <string name="bluetooth_summary">L\'app richiede l\'autorizzazione dei dispositivi nelle vicinanze per verificare la presenza di dispositivi Bluetooth</string>
@@ -211,7 +209,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="library_categories">Categorie della raccolta</string>
     <string name="licenses">Licenze</string>
     <string name="light_theme_name">Chiaro</string>
-    <string name="listeners_label">Ascoltatori</string>
     <string name="lyrics">Testi</string>
     <string name="made_with_love">Creato con ❤ in India</string>
     <string name="material">Material</string>
@@ -419,7 +416,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="saved_playlist_to">Playlist salvata in %s.</string>
     <string name="scan_media">Scansiona media</string>
     <string name="scanned_files">Scansionati %1$d di %2$d file.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Seleziona tutto</string>
     <string name="selected">Selezionato</string>
     <string name="set">Imposta</string>

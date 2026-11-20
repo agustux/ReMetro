@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Tentang %s</string>
     <string name="about_settings_summary">Tim, tautan sosial</string>
     <string name="accent_color">Warna aksen</string>
     <string name="accent_color_desc">Warna aksen tema, default ke ungu</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">Cadangkan dan pulihkan pengaturan, daftar putar Anda</string>
     <string name="backup_restore_title"><![CDATA[Cadangkan & Pulihkan]]></string>
     <string name="backup_title">Cadangkan</string>
-    <string name="biography">Biografi</string>
     <string name="black_theme_name">Hitam Pekat</string>
     <string name="blacklist">Daftar hitam</string>
     <string name="bluetooth_summary">Aplikasi butuh izin ke perangkat terdekat untuk memeriksa perangkat bluetooth</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">Kategori perpustakaan</string>
     <string name="licenses">Lisensi</string>
     <string name="light_theme_name">Putih Terang</string>
-    <string name="listeners_label">Pendengar</string>
     <string name="lyrics">Lirik</string>
     <string name="made_with_love">Dibuat dengan ❤️ di India</string>
     <string name="material">Material</string>
@@ -416,7 +413,6 @@
     <string name="saved_playlist_to">Daftar putar tersimpan ke %s.</string>
     <string name="scan_media">Pindai media</string>
     <string name="scanned_files">%1$d dari %2$d berkas terpindai.</string>
-    <string name="scrobbles_label">Scrobble</string>
     <string name="select_all">Pilih semua</string>
     <string name="selected">Terpilih</string>
     <string name="set">Setel</string>

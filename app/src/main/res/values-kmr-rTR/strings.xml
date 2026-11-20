@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Derbarê %s</string>
     <string name="about_settings_summary">Kom, girêdanên civakî</string>
     <string name="accent_color">Rengê devokê</string>
     <string name="accent_color_desc">Rengê devokê ya rûkarê, bi rengê binefşî berdest dibe</string>
@@ -86,7 +85,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="backup_restore_settings_summary">Sazkariyên xwe, rêzokên lêdanê hilîne û vegerîne</string>
     <string name="backup_restore_title"><![CDATA[Hilanîn & Vegerandin]]></string>
     <string name="backup_title">Hilanîn</string>
-    <string name="biography">Jînborî</string>
     <string name="black_theme_name">Tenê reş</string>
     <string name="blacklist">Rêzoka reş</string>
     <string name="bluetooth_summary">Sepanê mafê gihîştinê ji bo amûrên bluetooth nêzîk daxwaz dike</string>
@@ -211,7 +209,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="library_categories">Beşên pirtûkxaneyê</string>
     <string name="licenses">Lîsans</string>
     <string name="light_theme_name">Ron</string>
-    <string name="listeners_label">Guhdarvan</string>
     <string name="lyrics">Peyvên stranê</string>
     <string name="made_with_love">Li Hindistanê bi ❤️ hatiye çêkirin</string>
     <string name="material">Material</string>
@@ -420,7 +417,6 @@ têne guhertin</string>
     <string name="saved_playlist_to">Rêzoka lêdanê li %s hate tomarkirin.</string>
     <string name="scan_media">Medya venêre</string>
     <string name="scanned_files">%1$d ji %2$d pel hate guhertin.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Hemûyan hilbijêre</string>
     <string name="selected">Hilbijartî</string>
     <string name="set">Saz bike</string>

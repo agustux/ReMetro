@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">About %s</string>
     <string name="about_settings_summary">Team, social links</string>
     <string name="accent_color">Azentu kolorea</string>
     <string name="accent_color_desc">Gaiaren azentu kolorea. Lehenetsia: teal</string>
@@ -76,7 +75,6 @@
     <string name="audio_focus_denied">Audio fokatzea ukatua</string>
     <string name="audio_settings_summary">Aldatu soinu ezarpenak eta doitu nahasgailuaren kontrolak</string>
     <string name="auto">Automatikoa</string>
-    <string name="biography">Biografia</string>
     <string name="black_theme_name">Beltza bakarrik</string>
     <string name="blacklist">Zerrenda beltza</string>
     <string name="blur">Lausotzea</string>
@@ -172,7 +170,6 @@
     <string name="library_categories">Library categories</string>
     <string name="licenses">Lizentziak</string>
     <string name="light_theme_name">Zuria jakina</string>
-    <string name="listeners_label">Listeners</string>
     <string name="lyrics">Letrak</string>
     <string name="made_with_love">❤️-z Indian egina</string>
     <string name="material">Материален</string>
@@ -324,7 +321,6 @@
     <string name="saved_playlist_to">Erreprodukzio zerrenda %s-n gorde da</string>
     <string name="scan_media">Eskaneatu media</string>
     <string name="scanned_files">%2$d-tik %1$d fitxategi eskaneatu dira</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Hautatu guztiak</string>
     <string name="selected">Hautatua</string>
     <string name="set">Set</string>

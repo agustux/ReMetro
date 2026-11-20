@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">เกี่ยวกับ %s</string>
     <string name="about_settings_summary">ทีมงาน, โซเชียลลิงค์</string>
     <string name="accent_color">สีที่ใช้เน้น</string>
     <string name="accent_color_desc">ธีมของสีที่ใช้เน้น, ค่าเริ่มต้น คือ สีม่วง</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">Backup and restore your settings, playlists</string>
     <string name="backup_restore_title"><![CDATA[สำรอง / การคืนค่า]]></string>
     <string name="backup_title">การสำรองข้อมูล</string>
-    <string name="biography">ประวัติ</string>
     <string name="black_theme_name">Just Black</string>
     <string name="blacklist">แบล็คลิสต์</string>
     <string name="bluetooth_summary">The app needs nearby devices permission to check for bluetooth devices</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">หมวดหมู่คลังเพลง</string>
     <string name="licenses">Licenses</string>
     <string name="light_theme_name">Clearly White</string>
-    <string name="listeners_label">ผู้ฟัง</string>
     <string name="lyrics">เนื้อเพลง</string>
     <string name="made_with_love">ทำจาก ❤️ ในอินเดีย</string>
     <string name="material">Material</string>
@@ -416,7 +413,6 @@
     <string name="saved_playlist_to">บันทึกเพลย์ลิสต์ไปที่ %s</string>
     <string name="scan_media">สแกนมีเดียไฟล์</string>
     <string name="scanned_files">สแกนทั้งหมด %1$d จาก %2$d ไฟล์</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="selected">ที่เลือก</string>
     <string name="set">กำหนดค่า</string>

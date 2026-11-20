@@ -22,12 +22,6 @@ import code.name.monkey.retromusic.db.*
 import code.name.monkey.retromusic.fragments.search.Filter
 import code.name.monkey.retromusic.model.*
 import code.name.monkey.retromusic.model.smartplaylist.NotPlayedPlaylist
-import code.name.monkey.retromusic.network.LastFMService
-import code.name.monkey.retromusic.network.Result
-import code.name.monkey.retromusic.network.Result.Error
-import code.name.monkey.retromusic.network.Result.Success
-import code.name.monkey.retromusic.network.model.LastFmAlbum
-import code.name.monkey.retromusic.network.model.LastFmArtist
 import code.name.monkey.retromusic.util.PreferenceUtil
 import code.name.monkey.retromusic.util.logE
 
@@ -48,8 +42,6 @@ interface Repository {
     suspend fun search(query: String?, filter: Filter): MutableList<Any>
     suspend fun getPlaylistSongs(playlist: Playlist): List<Song>
     suspend fun getGenre(genreId: Long): List<Song>
-    suspend fun artistInfo(name: String, lang: String?, cache: String?): Result<LastFmArtist>
-    suspend fun albumInfo(artist: String, album: String): Result<LastFmAlbum>
     suspend fun artistById(artistId: Long): Artist
     suspend fun albumArtistByName(name: String): Artist
     suspend fun recentArtists(): List<Artist>
@@ -102,7 +94,6 @@ interface Repository {
 
 class RealRepository(
     private val context: Context,
-    private val lastFMService: LastFMService,
     private val songRepository: SongRepository,
     private val albumRepository: AlbumRepository,
     private val artistRepository: ArtistRepository,
@@ -176,32 +167,6 @@ class RealRepository(
         }
 
     override suspend fun getGenre(genreId: Long): List<Song> = genreRepository.songs(genreId)
-
-    override suspend fun artistInfo(
-        name: String,
-        lang: String?,
-        cache: String?,
-    ): Result<LastFmArtist> {
-        return try {
-            Success(lastFMService.artistInfo(name, lang, cache))
-        } catch (e: Exception) {
-            logE(e)
-            Error(e)
-        }
-    }
-
-    override suspend fun albumInfo(
-        artist: String,
-        album: String,
-    ): Result<LastFmAlbum> {
-        return try {
-            val lastFmAlbum = lastFMService.albumInfo(artist, album)
-            Success(lastFmAlbum)
-        } catch (e: Exception) {
-            logE(e)
-            Error(e)
-        }
-    }
 
     override suspend fun homeSections(): List<Home> {
         val homeSections = mutableListOf<Home>()

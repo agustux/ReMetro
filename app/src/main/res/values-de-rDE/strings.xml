@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Über %s</string>
     <string name="about_settings_summary">Team, soziale Netzwerke</string>
     <string name="accent_color">Akzentfarbe</string>
     <string name="accent_color_desc">Akzentfarbe des Farbthemas, Standard ist Lila</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">Einstellungen, Playlists sichern und wiederherstellen</string>
     <string name="backup_restore_title"><![CDATA[Sichern & Wiederherstellen]]></string>
     <string name="backup_title">Sicherungen</string>
-    <string name="biography">Biografie</string>
     <string name="black_theme_name">AMOLED-Modus</string>
     <string name="blacklist">Ausschlussliste</string>
     <string name="bluetooth_summary">Die App benötigt die Berechtigung für Geräte in der Nähe, um in der Umgebung nach Bluetooth-Geräten zu suchen</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">Bibliothekkategorien</string>
     <string name="licenses">Lizenzen</string>
     <string name="light_theme_name">Deutlich weiß</string>
-    <string name="listeners_label">Zuhörer</string>
     <string name="lyrics">Liedtext</string>
     <string name="made_with_love">Mit ❤ in Indien gemacht</string>
     <string name="material">Material</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">Playlist unter %s gespeichert.</string>
     <string name="scan_media">Medien scannen</string>
     <string name="scanned_files">%1$d von %2$d Dateien gescannt.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Alle auswählen</string>
     <string name="selected">Ausgewählt</string>
     <string name="set">Festgelegt</string>

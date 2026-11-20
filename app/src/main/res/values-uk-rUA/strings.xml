@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Про альбом %s</string>
     <string name="about_settings_summary">Команда, посилання на соц. мережі</string>
     <string name="accent_color">Акцентний колір</string>
     <string name="accent_color_desc">Акцентний колір, типово — фіолетовий</string>
@@ -89,7 +88,6 @@
     <string name="backup_restore_settings_summary">Резервне копіювання та відновлення налаштувань, плейлистів</string>
     <string name="backup_restore_title"><![CDATA[Резервне копіювання та відновлення]]></string>
     <string name="backup_title">Резервні копії</string>
-    <string name="biography">Життєпис</string>
     <string name="black_theme_name">Чорний</string>
     <string name="blacklist">Чорний список</string>
     <string name="bluetooth_summary">Застосунку потрібен дозвіл на пристрої поблизу, щоб перевірити наявність пристроїв Bluetooth</string>
@@ -214,7 +212,6 @@
     <string name="library_categories">Категорії бібліотеки</string>
     <string name="licenses">Ліцензії</string>
     <string name="light_theme_name">Яскраво-білий</string>
-    <string name="listeners_label">Слухачі</string>
     <string name="lyrics">Текст</string>
     <string name="made_with_love">Зроблено з ❤ в Індії</string>
     <string name="material">Матеріал</string>
@@ -422,7 +419,6 @@
     <string name="saved_playlist_to">Збережено список відтворення в %s.</string>
     <string name="scan_media">Сканувати медіа</string>
     <string name="scanned_files">Проскановано %1$d з %2$d файлів.</string>
-    <string name="scrobbles_label">Персоналізація</string>
     <string name="select_all">Виділити все</string>
     <string name="selected">Обрано</string>
     <string name="set">Встановити</string>

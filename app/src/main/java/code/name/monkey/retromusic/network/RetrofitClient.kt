@@ -4,13 +4,11 @@ import android.content.Context
 import code.name.monkey.retromusic.App
 import code.name.monkey.retromusic.BuildConfig
 import code.name.monkey.retromusic.network.conversion.LyricsConverterFactory
-import com.google.gson.GsonBuilder
 import okhttp3.Cache
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import java.io.File
 import java.util.concurrent.TimeUnit
 
@@ -54,22 +52,6 @@ fun provideOkHttp(context: Context, cache: Cache): OkHttpClient {
         .readTimeout(1, TimeUnit.SECONDS)
         .cache(cache)
         .build()
-}
-
-fun provideLastFmRetrofit(client: OkHttpClient): Retrofit {
-    @Suppress("DEPRECATION")
-    val gson = GsonBuilder()
-        .setLenient()
-        .create()
-    return Retrofit.Builder()
-        .baseUrl("https://ws.audioscrobbler.com/2.0/")
-        .addConverterFactory(GsonConverterFactory.create(gson))
-        .callFactory { request -> client.newCall(request) }
-        .build()
-}
-
-fun provideLastFmRest(retrofit: Retrofit): LastFMService {
-    return retrofit.create(LastFMService::class.java)
 }
 
 fun provideDeezerRest(retrofit: Retrofit): DeezerService {

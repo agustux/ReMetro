@@ -67,7 +67,6 @@
     <string name="audio_focus_denied">無法找到音頻焦點。</string>
     <string name="audio_settings_summary">更改音頻設定及調整等化器</string>
     <string name="auto">自動</string>
-    <string name="biography">演出者資料</string>
     <string name="black_theme_name">純黑</string>
     <string name="blacklist">黑名單</string>
     <string name="blur">模糊</string>
@@ -163,7 +162,6 @@
     <string name="library_categories">類別庫</string>
     <string name="licenses">許可證</string>
     <string name="light_theme_name">淺白色</string>
-    <string name="listeners_label">聽眾</string>
     <string name="lyrics">歌詞</string>
     <string name="made_with_love">在印度用❤️做</string>
     <string name="material">物質</string>
@@ -312,7 +310,6 @@
     <string name="saved_playlist_to">已儲存播放清單到%s。</string>
     <string name="scan_media">掃描媒體</string>
     <string name="scanned_files">成功掃描 %2$d 項目 中的 %1$d 項目。</string>
-    <string name="scrobbles_label">塗鴉</string>
     <string name="select_all">選擇全部</string>
     <string name="selected">已選</string>
     <string name="set">設定</string>

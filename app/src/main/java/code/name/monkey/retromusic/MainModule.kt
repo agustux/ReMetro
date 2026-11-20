@@ -11,8 +11,6 @@ import code.name.monkey.retromusic.fragments.genres.GenreDetailsViewModel
 import code.name.monkey.retromusic.fragments.playlists.PlaylistDetailsViewModel
 import code.name.monkey.retromusic.model.Genre
 import code.name.monkey.retromusic.network.provideDefaultCache
-import code.name.monkey.retromusic.network.provideLastFmRest
-import code.name.monkey.retromusic.network.provideLastFmRetrofit
 import code.name.monkey.retromusic.network.provideOkHttp
 import code.name.monkey.retromusic.repository.*
 import org.koin.android.ext.koin.androidContext
@@ -27,12 +25,6 @@ val networkModule = module {
     }
     factory {
         provideOkHttp(get(), get())
-    }
-    single {
-        provideLastFmRetrofit(get())
-    }
-    single {
-        provideLastFmRest(get())
     }
 }
 
@@ -81,7 +73,6 @@ private val mainModule = module {
 private val dataModule = module {
     single {
         RealRepository(
-            get(),
             get(),
             get(),
             get(),

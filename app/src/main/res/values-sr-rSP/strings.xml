@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">О %s</string>
     <string name="about_settings_summary">Тим и платформе</string>
     <string name="accent_color">Boja detalja</string>
     <string name="accent_color_desc">Boja plejera, uobičajena je zelena</string>
@@ -87,7 +86,6 @@
     <string name="backup_restore_settings_summary">Backup and restore your settings, playlists</string>
     <string name="backup_restore_title"><![CDATA[Направи резерву и обнови песму]]></string>
     <string name="backup_title">Резервне копије</string>
-    <string name="biography">Biografija</string>
     <string name="black_theme_name">Perfektno crna</string>
     <string name="blacklist">Ne trazi muziku u...</string>
     <string name="bluetooth_summary">The app needs nearby devices permission to check for bluetooth devices</string>
@@ -212,7 +210,6 @@
     <string name="library_categories">Library categories</string>
     <string name="licenses">Licence</string>
     <string name="light_theme_name">Perfektno bela</string>
-    <string name="listeners_label">Слушаоци</string>
     <string name="lyrics">Tekst pesme</string>
     <string name="made_with_love">Направљено с љубављу из Индије</string>
     <string name="material">Материјал</string>
@@ -420,7 +417,6 @@
     <string name="saved_playlist_to">Plej lista sacuvana u %s.</string>
     <string name="scan_media">Scan media</string>
     <string name="scanned_files">Skenirano %1$d od %2$d fajlova</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Select all</string>
     <string name="selected">Selected</string>
     <string name="set">Set</string>

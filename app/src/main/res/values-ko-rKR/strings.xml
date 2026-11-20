@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">%s에 관하여</string>
     <string name="about_settings_summary">Team, social links</string>
     <string name="accent_color">강조 색상</string>
     <string name="accent_color_desc">강조 색상을 지정합니다. 기본값은 녹색입니다.</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">Backup and restore your settings, playlists</string>
     <string name="backup_restore_title"><![CDATA[Backup & Restore]]></string>
     <string name="backup_title">Backups</string>
-    <string name="biography">바이오그래피</string>
     <string name="black_theme_name">저스트 블랙</string>
     <string name="blacklist">블랙리스트</string>
     <string name="bluetooth_summary">The app needs nearby devices permission to check for bluetooth devices</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">Library categories</string>
     <string name="licenses">라이선스</string>
     <string name="light_theme_name">클리어리 화이트</string>
-    <string name="listeners_label">Listeners</string>
     <string name="lyrics">가사</string>
     <string name="made_with_love">Made with ❤️ in India</string>
     <string name="material">Material</string>
@@ -416,7 +413,6 @@
     <string name="saved_playlist_to">재생목록을 %s 위치에 파일로 저장했습니다.</string>
     <string name="scan_media">Scan media</string>
     <string name="scanned_files">%2$d개 파일 중 %1$d개 파일을 스캔했습니다.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Select all</string>
     <string name="selected">Selected</string>
     <string name="set">Set</string>

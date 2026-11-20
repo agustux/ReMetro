@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">關於 %s</string>
     <string name="about_settings_summary">團隊和社群連結</string>
     <string name="accent_color">強調色</string>
     <string name="accent_color_desc">主題色，預設為紫色</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">備份和復原您的各項設定、播放清單</string>
     <string name="backup_restore_title"><![CDATA[備份和復原]]></string>
     <string name="backup_title">備份</string>
-    <string name="biography">簡介</string>
     <string name="black_theme_name">純黑色</string>
     <string name="blacklist">黑名單</string>
     <string name="bluetooth_summary">應用程式必須取得鄰近裝置權限以檢查藍芽裝置</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">音樂庫類別</string>
     <string name="licenses">原始碼授權</string>
     <string name="light_theme_name">淺色</string>
-    <string name="listeners_label">全球聽眾</string>
     <string name="lyrics">歌詞</string>
     <string name="made_with_love">來自印度，用❤️製造</string>
     <string name="material">材質風</string>
@@ -416,7 +413,6 @@
     <string name="saved_playlist_to">已儲存播放清單至 %s。</string>
     <string name="scan_media">掃描媒體</string>
     <string name="scanned_files">已掃描 %1$d 個檔案，共 %2$d 個。</string>
-    <string name="scrobbles_label">音樂記錄</string>
     <string name="select_all">選取全部</string>
     <string name="selected">僅顯示已選取的標籤</string>
     <string name="set">設定</string>

@@ -17,25 +17,9 @@ import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Point
 import code.name.monkey.retromusic.App.Companion.getContext
-import java.net.InetAddress
-import java.net.NetworkInterface
-import java.text.DecimalFormat
 import java.util.*
-import android.util.Log
 
 object RetroUtil {
-    fun formatValue(numValue: Float): String {
-        var value = numValue
-        val arr = arrayOf("", "K", "M", "B", "T", "P", "E")
-        var index = 0
-        while (value / 1000 >= 1) {
-            value /= 1000
-            index++
-        }
-        val decimalFormat = DecimalFormat("#.##")
-        return String.format("%s %s", decimalFormat.format(value.toDouble()), arr[index])
-    }
-
     fun frequencyCount(frequency: Int): Float {
         return (frequency / 1000.0).toFloat()
     }

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Sobre %s</string>
     <string name="about_settings_summary">Equipe, links sociais</string>
     <string name="accent_color">Cor de destaque</string>
     <string name="accent_color_desc">A cor de destaque do tema, o padrão é roxo</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">Fazer backup e restauração das suas configurações, playlists, etc.</string>
     <string name="backup_restore_title"><![CDATA[Backup e Restauração]]></string>
     <string name="backup_title">Backups</string>
-    <string name="biography">Biografia</string>
     <string name="black_theme_name">Totalmente preto</string>
     <string name="blacklist">Lista negra</string>
     <string name="bluetooth_summary">O aplicativo precisa de permissão de dispositivos próximos para verificar por dispositivo “bluetooth”</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">Categorias da biblioteca</string>
     <string name="licenses">Licenças</string>
     <string name="light_theme_name">Claramente Branco</string>
-    <string name="listeners_label">Ouvintes</string>
     <string name="lyrics">Letras</string>
     <string name="made_with_love">Feito com ❤️ na Índia</string>
     <string name="material">Material</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">Playlist salva como %s.</string>
     <string name="scan_media">Escanear mídia</string>
     <string name="scanned_files">Escaneados %1$d de %2$d arquivos.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Selecionar tudo</string>
     <string name="selected">Selecionado</string>
     <string name="set">Definir</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">关于 %s</string>
     <string name="about_settings_summary">团队，社交链接</string>
     <string name="accent_color">强调色</string>
     <string name="accent_color_desc">主题强调色，默认为紫色</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">备份、恢复您的设置和播放列表</string>
     <string name="backup_restore_title"><![CDATA[备份与还原]]></string>
     <string name="backup_title">备份</string>
-    <string name="biography">简介</string>
     <string name="black_theme_name">纯黑</string>
     <string name="blacklist">黑名单</string>
     <string name="bluetooth_summary">此应用需打开查找附近设备权限以寻找蓝牙设备</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">媒体库分类</string>
     <string name="licenses">许可</string>
     <string name="light_theme_name">浅色</string>
-    <string name="listeners_label">听众</string>
     <string name="lyrics">歌词</string>
     <string name="made_with_love">用❤️创造，印度出品</string>
     <string name="material">质感</string>
@@ -417,7 +414,6 @@
     <string name="saved_playlist_to">保存播放列表到 %s。</string>
     <string name="scan_media">扫描媒体</string>
     <string name="scanned_files">已扫描 %1$d 个，共计 %2$d 个文件。</string>
-    <string name="scrobbles_label">音乐记录</string>
     <string name="select_all">全选</string>
     <string name="selected">仅选中</string>
     <string name="set">设置</string>

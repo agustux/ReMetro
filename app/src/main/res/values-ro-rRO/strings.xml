@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Despre %s</string>
     <string name="about_settings_summary">Echipă și legături sociale</string>
     <string name="accent_color">Culoare ton</string>
     <string name="accent_color_desc">Culoarea de accent, implicit, se face verde.</string>
@@ -87,7 +86,6 @@
     <string name="backup_restore_settings_summary">Salvează și restaurează setările, listele de redare</string>
     <string name="backup_restore_title"><![CDATA[Copie de rezervă și restaurare]]></string>
     <string name="backup_title">Copii de rezervă</string>
-    <string name="biography">Biografie</string>
     <string name="black_theme_name">Negru</string>
     <string name="blacklist">Lista neagră</string>
     <string name="bluetooth_summary">Aplicația are nevoie de permisiunea dispozitive din apropiere pentru a verifica dacă există dispozitive bluetooth</string>
@@ -212,7 +210,6 @@
     <string name="library_categories">Categorii bibliotecă</string>
     <string name="licenses">Licențe</string>
     <string name="light_theme_name">Alb</string>
-    <string name="listeners_label">Ascultători</string>
     <string name="lyrics">Versuri</string>
     <string name="made_with_love">Creat cu ❤️ în India</string>
     <string name="material">Material</string>
@@ -420,7 +417,6 @@
     <string name="saved_playlist_to">Salvaţi lista de redare în %s.</string>
     <string name="scan_media">Scanare media</string>
     <string name="scanned_files">Au fost scanate %1$d din %2$d fişiere.</string>
-    <string name="scrobbles_label">Monitorizare timp muzică</string>
     <string name="select_all">Selectează tot</string>
     <string name="selected">Selectat</string>
     <string name="set">Setare</string>

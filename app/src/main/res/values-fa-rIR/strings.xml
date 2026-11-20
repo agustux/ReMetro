@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">درباره %s...</string>
     <string name="about_settings_summary">تیم، پیوندهای اجتماعی</string>
     <string name="accent_color">رنگ تاکیدی محیط</string>
     <string name="accent_color_desc">رنگ تاکیدی محیط به صورت پیشفرض، رنگ بنفش است</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">از تنظیمات، لیست های پخش خود نسخه پشتیبان تهیه و بازیابی کنید</string>
     <string name="backup_restore_title"><![CDATA[پشتیبان‌گیری و بازیابی]]></string>
     <string name="backup_title">پشتیبان گیری</string>
-    <string name="biography">زندگینامه</string>
     <string name="black_theme_name">فقط مشکی</string>
     <string name="blacklist">لیست سیاه</string>
     <string name="bluetooth_summary">برای بررسی دستگاه‌های بلوتوث،برنامه نیاز به مجوز دسترسی دستگاه‌های نزدیک دارد</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">دسته بندی های کتابخانه</string>
     <string name="licenses">مجوزها</string>
     <string name="light_theme_name">کاملا سفید</string>
-    <string name="listeners_label">شنوندگان</string>
     <string name="lyrics">متن ترانه</string>
     <string name="made_with_love">ساخته شده با ❤️ در هند</string>
     <string name="material">تم material</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">پلی لیست در %s ذخیره شد.</string>
     <string name="scan_media">اسکن کردن رسانه</string>
     <string name="scanned_files">%1$d فایل از تعداد %2$d فایل موجود اسکن شد.</string>
-    <string name="scrobbles_label">تعيين علاقه مندی</string>
     <string name="select_all">انتخاب همه</string>
     <string name="selected">انتخاب شده</string>
     <string name="set">تنظیم</string>

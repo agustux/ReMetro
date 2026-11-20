@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">%s について</string>
     <string name="about_settings_summary">我々のチームとソーシャルリンク</string>
     <string name="accent_color">アクセントカラー</string>
     <string name="accent_color_desc">テーマのアクセントカラー、既定は紫色です。</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">設定、プレイリストのバックアップと復元</string>
     <string name="backup_restore_title"><![CDATA[バックアップと復元]]></string>
     <string name="backup_title">バックアップ</string>
-    <string name="biography">説明</string>
     <string name="black_theme_name">ダークテーマ時に漆黒にする</string>
     <string name="blacklist">ブラックリスト</string>
     <string name="bluetooth_summary">付近の Bluetooth デバイスを確認するために Nearby デバイス権限が必要です</string>
@@ -208,7 +206,6 @@
     <string name="library_categories">ライブラリの表示項目</string>
     <string name="licenses">ライセンス</string>
     <string name="light_theme_name">ライト</string>
-    <string name="listeners_label">リスナー</string>
     <string name="lyrics">歌詞</string>
     <string name="made_with_love">インドにて、❤をこめて開発</string>
     <string name="material">マテリアル</string>
@@ -417,7 +414,6 @@
     <string name="saved_playlist_to">%s にプレイリストを保存しました</string>
     <string name="scan_media">メディアをスキャン</string>
     <string name="scanned_files">%2$d のうち、%1$d がスキャンされました</string>
-    <string name="scrobbles_label">Scrobble 機能</string>
     <string name="select_all">すべて選択</string>
     <string name="selected">選択された</string>
     <string name="set">決定</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">%s ನ ಬಗ್ಗೆ </string>
     <string name="about_settings_summary">ತಂಡ, ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ಲಿಂಕ್‌ಗಳು</string>
     <string name="accent_color">ಪ್ರಧಾನ ಬಣ್ಣ</string>
     <string name="accent_color_desc">ಪ್ರಧಾನ ಬಣ್ಣ, ಇದು ನೇರಳೆ ಬಣ್ಣಕ್ಕೆ ಪೂರ್ವನಿಯೋಜಿತವಾಗಿರುತ್ತದೆ</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">ನಿಮ್ಮ ಸಂಯೋಜನೆಗಳನ್ನು, ಪ್ಲೇಲಿಸ್ಟ್ಗಳನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ ಮತ್ತು ಮರುಸ್ಥಾಪಿಸಿ</string>
     <string name="backup_restore_title"><![CDATA[ಬ್ಯಾಕ್ಅಪ್ ಮತ್ತು ಮರುಸ್ಥಾಪನೆ]]></string>
     <string name="backup_title">ಬ್ಯಾಕಪ್‍ಗಳು</string>
-    <string name="biography">ಜೀವನಚರಿತ್ರೆ</string>
     <string name="black_theme_name">ಜಸ್ಟ್ ಬ್ಲಾಕ್</string>
     <string name="blacklist">ಕಪ್ಪುಪಟ್ಟಿ</string>
     <string name="bluetooth_summary">ಬ್ಲೂಟೂತ್ ಸಾಧನಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಹತ್ತಿರದ ಸಾಧನಗಳ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿದೆ</string>
@@ -211,7 +209,6 @@
     <string name="library_categories">ಸಂಗ್ರಹ ವಿಭಾಗಗಳು</string>
     <string name="licenses">ಪರವಾನಗಿಗಳು</string>
     <string name="light_theme_name">ಸ್ಪಷ್ಟವಾಗಿ ಬಿಳಿ</string>
-    <string name="listeners_label">ಕೇಳುಗರು</string>
     <string name="lyrics">ಸಾಹಿತ್ಯ</string>
     <string name="made_with_love">ಭಾರತದಲ್ಲಿ ❤️ ನೊಂದಿಗೆ ತಯಾರಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="material">ಮೆಟೀರಿಯಲ್</string>
@@ -419,7 +416,6 @@
     <string name="saved_playlist_to">%s ಪ್ಲೇಲಿಸ್ಟ್ ಗೆ ಉಳಿಸಲಾಗಿದೆ.</string>
     <string name="scan_media">ಮೀಡಿಯಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
     <string name="scanned_files">%2$d ಗಳಲ್ಲಿ %1$d ಗಳನ್ನು ಹುಡುಕಲಾಗಿದೆ.</string>
-    <string name="scrobbles_label">ಸ್ಕ್ರೋಬಲ್ಸ್</string>
     <string name="select_all">ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="selected">ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
     <string name="set">ಹೊಂದಿಸಿ</string>

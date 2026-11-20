@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">%s -ról</string>
     <string name="about_settings_summary">Csapat, közösségi oldalak</string>
     <string name="accent_color">Kiemelő szín</string>
     <string name="accent_color_desc">A kiemelő téma színe, alapértelmezés szerint lila</string>
@@ -85,7 +84,6 @@
     <string name="backup_restore_settings_summary">Beállításaid, lejátszási listáid biztonsági mentése és visszaállítása</string>
     <string name="backup_restore_title"><![CDATA[Biztonsági mentés & Visszaállítás]]></string>
     <string name="backup_title">Biztonsági mentések</string>
-    <string name="biography">Életrajz</string>
     <string name="black_theme_name">Csak Fekete</string>
     <string name="blacklist">Feketelista</string>
     <string name="bluetooth_summary">Az alkalmazásnak szüksége van a \'Közeli eszközök\' engedélyre, hogy Bluetooth eszközöket kereshessen</string>
@@ -210,7 +208,6 @@
     <string name="library_categories">Könyvtár kategóriák</string>
     <string name="licenses">Licencek</string>
     <string name="light_theme_name">Világos fehér</string>
-    <string name="listeners_label">Hallgatók</string>
     <string name="lyrics">Dalszöveg</string>
     <string name="made_with_love">❤️-el készítve Indiából</string>
     <string name="material">Materiál</string>
@@ -418,7 +415,6 @@
     <string name="saved_playlist_to">Mentett lejátszási lista a következőhöz: %s</string>
     <string name="scan_media">Média szkennelés</string>
     <string name="scanned_files">%1$d / %2$d fájl beolvasva.</string>
-    <string name="scrobbles_label">Scrobblek</string>
     <string name="select_all">Minden kiválasztása</string>
     <string name="selected">Kijelölve</string>
     <string name="set">Beállít</string>

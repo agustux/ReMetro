@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="about_album_label">Thông tin về %s</string>
     <string name="about_settings_summary">Liên kết đến nhóm, mạng xã hội</string>
     <string name="accent_color">Màu sắc chủ đạo</string>
     <string name="accent_color_desc">Màu sắc chủ đạo của chủ đề, mặc định là màu tía</string>
@@ -83,7 +82,6 @@
     <string name="backup_restore_settings_summary">Lưu trữ và khôi phục lại tùy chọn, danh sách phát của bạn</string>
     <string name="backup_restore_title"><![CDATA[Sao lưu & Khôi phục]]></string>
     <string name="backup_title">Bản sao lưu</string>
-    <string name="biography">Tiểu sử</string>
     <string name="black_theme_name">Đen hoàn toàn</string>
     <string name="blacklist">Danh sách đen</string>
     <string name="bluetooth_summary">Ứng dụng cần quyền các thiết bị lân cận để kiểm tra các thiết bị bluetooth</string>
@@ -209,7 +207,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="library_categories">Danh mục thư viện</string>
     <string name="licenses">Giấy phép</string>
     <string name="light_theme_name">Hoàn toàn trắng</string>
-    <string name="listeners_label">Người nghe</string>
     <string name="lyrics">Lời bài hát</string>
     <string name="made_with_love">Được làm bằng ❤️ ở Ấn Độ</string>
     <string name="material">Material</string>
@@ -417,7 +414,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="saved_playlist_to">Danh sách phát đã lưu đến %s.</string>
     <string name="scan_media">Quét phương tiện</string>
     <string name="scanned_files">Đã sửa %1$d trong %2$d tập tin.</string>
-    <string name="scrobbles_label">Scrobbles</string>
     <string name="select_all">Chọn tất cả</string>
     <string name="selected">Đã chọn</string>
     <string name="set">Cấu hình</string>
