@@ -68,6 +68,7 @@ class HomeFragment :
         setupListeners()
         val name = userName?.trim().orEmpty()
         val hasCustomName = name.isNotEmpty() && name != getString(R.string.user_name)
+        binding.welcomeLabel.isVisible = hasCustomName
         binding.titleWelcome.isVisible = hasCustomName
         binding.titleWelcome.text = name
 
