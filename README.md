@@ -1,4 +1,4 @@
-# MetroX
+# ReMetro
 
 An offline, Google-free fork of [Retro Music Player](https://github.com/RetroMusicPlayer/RetroMusicPlayer), with the de-Google work from [Metro](https://github.com/MuntashirAkon/Metro) re-applied.
 

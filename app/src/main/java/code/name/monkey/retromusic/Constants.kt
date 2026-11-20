@@ -18,8 +18,8 @@ import android.provider.BaseColumns
 import android.provider.MediaStore
 
 object Constants {
-    const val GITHUB_PROJECT = "https://github.com/agustux/MetroX"
-    const val FAQ_LINK = "https://github.com/agustux/MetroX/blob/main/FAQ.md"
+    const val GITHUB_PROJECT = "https://github.com/agustux/ReMetro"
+    const val FAQ_LINK = "https://github.com/agustux/ReMetro/blob/main/FAQ.md"
 
     const val IS_MUSIC =
         MediaStore.Audio.AudioColumns.IS_MUSIC + "=1" + " AND " + MediaStore.Audio.AudioColumns.TITLE + " != ''"

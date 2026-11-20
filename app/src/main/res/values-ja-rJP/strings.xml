@@ -66,10 +66,10 @@
     <string name="app_shortcut_shuffle_all_short">シャッフル</string>
     <string name="app_shortcut_top_tracks_short">トップ曲</string>
     <string name="app_widget_big_name">元画像</string>
-    <string name="app_widget_card_name">MetroX - カード</string>
-    <string name="app_widget_classic_name">MetroX - クラシック</string>
+    <string name="app_widget_card_name">ReMetro - カード</string>
+    <string name="app_widget_classic_name">ReMetro - クラシック</string>
     <string name="app_widget_md3_name">MD3</string>
-    <string name="app_widget_small_name">MetroX - 小</string>
+    <string name="app_widget_small_name">ReMetro - 小</string>
     <string name="app_widget_text_name">最小のテキスト</string>
     <string name="artist">アーティスト</string>
     <string name="artists">アーティスト</string>
@@ -129,7 +129,7 @@
     <string name="deleted_x_songs">%1$d 曲を削除しました</string>
     <string name="depth">深さ</string>
     <string name="device_info">端末の情報</string>
-    <string name="dialog_message_set_ringtone">MetroXにオーディオ設定の変更を許可する</string>
+    <string name="dialog_message_set_ringtone">ReMetroにオーディオ設定の変更を許可する</string>
     <string name="dialog_title_set_ringtone">着信音に設定</string>
     <string name="disc_hint">ディスクナンバー</string>
     <string name="do_you_want_to_clear_the_blacklist">ブラックリストを削除しますか?</string>
@@ -298,7 +298,7 @@
     <string name="pref_summary_extra_song_info">ファイル形式、ビットレート、サンプリング周波数などの曲のメタデータを再生画面に表示する</string>
     <string name="pref_summary_ignore_media_store_artwork">アルバムジャケットのクオリティを上げますが、読み込みに時間がかかる場合があります。低解像度の画像で問題がある場合に有効です。</string>
     <string name="pref_summary_library_categories">ライブラリに表示される項目と、順番を変更する</string>
-    <string name="pref_summary_lock_screen">MetroXのカスタムされたロック画面を使用する</string>
+    <string name="pref_summary_lock_screen">ReMetroのカスタムされたロック画面を使用する</string>
     <string name="pref_summary_manage_audio_focus">ほかのアプリでの再生に関わらず再生し続けます</string>
     <string name="pref_summary_open_source_licences">オープンソースライセンスの詳細</string>
     <string name="pref_summary_pause_history">有効にすると、新たに再生された曲は履歴に表示されません</string>
@@ -372,7 +372,7 @@
     <string name="reset_action">リセット</string>
     <string name="reset_artist_image">アーティスト画像をリセット</string>
     <string name="restore">復元</string>
-    <string name="retro_music_player">MetroX</string>
+    <string name="retro_music_player">ReMetro</string>
     <string name="ringtone_summary">音楽を着信音に設定するには、端末の設定にアクセスする権限が必要です</string>
     <string name="ringtone_title">着信音（オプション）</string>
     <string name="permission_alarm_summary">スリープタイマーを設定するには、アプリに正確なアラームをスケジュールする許可が必要です</string>
@@ -461,7 +461,7 @@
     <string name="you_have_to_select_at_least_one_category">少なくとも 1 つのカテゴリを選択する必要があります。</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">不具合報告用のウェブサイトに移動します。</string>
     <string name="could_not_write_tags_to_file">音楽ファイルにタグを書き込めませんでした</string>
-    <string name="sleep_timer_no_permission">アラームをスケジュールする権限がありません。設定からMetroXを許可してください。</string>
+    <string name="sleep_timer_no_permission">アラームをスケジュールする権限がありません。設定からReMetroを許可してください。</string>
     <string name="scanning_folders_files">フォルダとファイルをスキャンしています…</string>
     <string name="scan_complete">スキャン完了: %1$d 件のメディアアイテムが見つかりました。</string>
     <string name="pref_save_last_directory_summary">フォルダビューに切り替えると、最後に使用したディレクトリが復元されます</string>

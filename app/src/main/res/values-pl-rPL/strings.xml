@@ -135,7 +135,7 @@
     <string name="deleted_x_songs">Usunięto %1$d utworów.</string>
     <string name="depth">Głębia</string>
     <string name="device_info">Informacje o urządzeniu</string>
-    <string name="dialog_message_set_ringtone">Pozwól MetroX na modyfikację ustawień dźwięku</string>
+    <string name="dialog_message_set_ringtone">Pozwól ReMetro na modyfikację ustawień dźwięku</string>
     <string name="dialog_title_set_ringtone">Ustaw jako dzwonek</string>
     <string name="disc_hint">Numer płyty</string>
     <string name="do_you_want_to_clear_the_blacklist">Czy chcesz wyczyścić listę ignorowanych?</string>
@@ -377,7 +377,7 @@
     <string name="reset_action">Zresetuj</string>
     <string name="reset_artist_image">Zresetuj grafikę wykonawcy</string>
     <string name="restore">Przywróć</string>
-    <string name="retro_music_player">MetroX</string>
+    <string name="retro_music_player">ReMetro</string>
     <string name="ringtone_summary">Potrzebujemy uprawnień do ustawień Twojego urządzenia, aby ustawić utwór jako dzwonek</string>
     <string name="ringtone_title">Dzwonek (opcjonalny)</string>
     <string name="permission_alarm_summary">Aplikacja potrzebuje uprawnień do planowania alarmów, aby ustawiać wyłączniki czasowe</string>
@@ -466,7 +466,7 @@
     <string name="you_have_to_select_at_least_one_category">Zaznacz przynajmniej jedną kategorię</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Zostaniesz przekierowany do strony ze zgłoszeniami.</string>
     <string name="could_not_write_tags_to_file">Nie udało się przypisać tagów do pliku!</string>
-    <string name="sleep_timer_no_permission">Brak uprawnień do ustawiania alarmów, proszę zezwolić na to MetroX.</string>
+    <string name="sleep_timer_no_permission">Brak uprawnień do ustawiania alarmów, proszę zezwolić na to ReMetro.</string>
     <string name="scanning_folders_files">Skanowanie folderów i plików…</string>
     <string name="scan_complete">Skanowanie zakończone: Znaleziono %1$d elementów multimedialnych.</string>
     <string name="pref_save_last_directory_summary">Podczas przełączania na widok folderu przywróć ostatnio używany katalog</string>

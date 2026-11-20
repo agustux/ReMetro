@@ -61,7 +61,7 @@ class LibraryFragment : AbsMainActivityFragment(R.layout.fragment_library) {
     private fun setupTitle() {
         val color = ThemeStore.accentColor(requireContext())
         val hexColor = String.format("#%06X", 0xFFFFFF and color)
-        val appName = "Metro<span  style='color:$hexColor';>X</span>".parseAsHtml()
+        val appName = "<span  style='color:$hexColor';>Re</span>Metro".parseAsHtml()
         binding.appNameText.text = appName
     }
 

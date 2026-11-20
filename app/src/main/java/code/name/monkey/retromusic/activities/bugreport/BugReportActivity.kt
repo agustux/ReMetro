@@ -86,6 +86,6 @@ open class BugReportActivity : AbsThemeActivity() {
 
     companion object {
         private const val ISSUE_TRACKER_LINK =
-            "https://github.com/agustux/MetroX/issues"
+            "https://github.com/agustux/ReMetro/issues"
     }
 }

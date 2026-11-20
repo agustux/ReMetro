@@ -129,7 +129,7 @@
     <string name="deleted_x_songs">已删除 %1$d 首歌曲。</string>
     <string name="depth">深度</string>
     <string name="device_info">设备信息</string>
-    <string name="dialog_message_set_ringtone">允许 MetroX 修改声音设置</string>
+    <string name="dialog_message_set_ringtone">允许 ReMetro 修改声音设置</string>
     <string name="dialog_title_set_ringtone">设为铃声</string>
     <string name="disc_hint">盘片编号</string>
     <string name="do_you_want_to_clear_the_blacklist">您想清空黑名单吗？</string>
@@ -298,7 +298,7 @@
     <string name="pref_summary_extra_song_info">显示额外的歌曲信息，例如文件格式、比特率和频率</string>
     <string name="pref_summary_ignore_media_store_artwork">可以提高封面质量，但加载时间较慢。请仅在图片分辨率过低时开启。</string>
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
-    <string name="pref_summary_lock_screen">使用 MetroX 的自定义锁屏</string>
+    <string name="pref_summary_lock_screen">使用 ReMetro 的自定义锁屏</string>
     <string name="pref_summary_manage_audio_focus">其他内容播放时，在后台继续播放音频</string>
     <string name="pref_summary_open_source_licences">开源许可详情</string>
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
@@ -372,7 +372,7 @@
     <string name="reset_action">重置</string>
     <string name="reset_artist_image">重置艺术家图片</string>
     <string name="restore">恢复</string>
-    <string name="retro_music_player">MetroX</string>
+    <string name="retro_music_player">ReMetro</string>
     <string name="ringtone_summary">应用需要系统设置访问权限，才能将音乐设置为为铃声</string>
     <string name="ringtone_title">铃声（可选）</string>
     <string name="permission_alarm_summary">应用程序需要权限来安排准确的闹钟以设置睡眠定时器</string>
@@ -461,7 +461,7 @@
     <string name="you_have_to_select_at_least_one_category">请至少选择一个分类。</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">将跳转至问题追踪网站。</string>
     <string name="could_not_write_tags_to_file">无法将标签写入音乐文件！</string>
-    <string name="sleep_timer_no_permission">无权限设定闹钟，请允许 MetroX 执行</string>
+    <string name="sleep_timer_no_permission">无权限设定闹钟，请允许 ReMetro 执行</string>
     <string name="scanning_folders_files">正在扫描文件夹和文件…</string>
     <string name="scan_complete">扫描完成：找到 %1$d 个媒体项目。</string>
     <string name="pref_save_last_directory_summary">切换到文件夹视图时恢复上次使用的目录</string>

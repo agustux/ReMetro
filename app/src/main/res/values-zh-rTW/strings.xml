@@ -129,7 +129,7 @@
     <string name="deleted_x_songs">已刪除 %1$d 首歌。</string>
     <string name="depth">深度風</string>
     <string name="device_info">裝置資訊</string>
-    <string name="dialog_message_set_ringtone">允許 MetroX 修改音訊設定</string>
+    <string name="dialog_message_set_ringtone">允許 ReMetro 修改音訊設定</string>
     <string name="dialog_title_set_ringtone">設定鈴聲</string>
     <string name="disc_hint">光碟編號</string>
     <string name="do_you_want_to_clear_the_blacklist">確定要清除黑名單嗎？</string>
@@ -297,7 +297,7 @@
     <string name="pref_summary_extra_song_info">顯示更多歌曲資訊，例如檔案格式、位元速率、頻率</string>
     <string name="pref_summary_ignore_media_store_artwork">可提升專輯封面的成像品質，但會造成較長的讀取時間。建議只有在低畫質專輯封面發生問題時再啟用此選項</string>
     <string name="pref_summary_library_categories">調整音樂庫類別的顯示和排序。</string>
-    <string name="pref_summary_lock_screen">使用 MetroX 自訂化鎖定畫面</string>
+    <string name="pref_summary_lock_screen">使用 ReMetro 自訂化鎖定畫面</string>
     <string name="pref_summary_manage_audio_focus">無論其他應用程式正在播放為何，永遠於背景播放音訊</string>
     <string name="pref_summary_open_source_licences">開源軟體授權詳細資訊</string>
     <string name="pref_summary_pause_history">啟用此選項後，新播放的歌曲將不再顯示於歷史記錄</string>
@@ -371,7 +371,7 @@
     <string name="reset_action">重設</string>
     <string name="reset_artist_image">重設藝人圖片</string>
     <string name="restore">復原</string>
-    <string name="retro_music_player">MetroX</string>
+    <string name="retro_music_player">ReMetro</string>
     <string name="ringtone_summary">應用程式需要取得權限以存取您的裝置設定，並將歌曲設為鈴聲</string>
     <string name="ringtone_title">鈴聲 (可選)</string>
     <string name="permission_alarm_summary">此應用程式需要鬧鐘權限以啟用睡眠計時器</string>
@@ -460,7 +460,7 @@
     <string name="you_have_to_select_at_least_one_category">您必須選取至少一個類別。</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">您將被重新導向至議題追蹤器網頁。</string>
     <string name="could_not_write_tags_to_file">無法寫入資訊至音樂檔案！</string>
-    <string name="sleep_timer_no_permission">尚未給予 MetroX 取用鬧鐘的權限。</string>
+    <string name="sleep_timer_no_permission">尚未給予 ReMetro 取用鬧鐘的權限。</string>
     <string name="scanning_folders_files">正在掃描資料夾和文件……</string>
     <string name="scan_complete">掃描完成: 尋找到%1$d個媒體檔案。</string>
     <string name="pref_save_last_directory_summary">切換到資料夾檢視時，還原上次使用的資料夾</string>

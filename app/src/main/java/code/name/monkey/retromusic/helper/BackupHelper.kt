@@ -232,7 +232,7 @@ object BackupHelper : KoinComponent {
     fun getBackupRoot(): File {
         return File(
             getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),
-            "MetroX/Backups"
+            "ReMetro/Backups"
         )
     }
 

@@ -131,7 +131,7 @@
     <string name="deleted_x_songs">Liedjes %1$d verwijderd.</string>
     <string name="depth">Diepte</string>
     <string name="device_info">Apparaatinfo</string>
-    <string name="dialog_message_set_ringtone">Sta MetroX toe om audioinstellingen te wijzigen</string>
+    <string name="dialog_message_set_ringtone">Sta ReMetro toe om audioinstellingen te wijzigen</string>
     <string name="dialog_title_set_ringtone">Stel in als beltoon</string>
     <string name="disc_hint">Schijfnummer</string>
     <string name="do_you_want_to_clear_the_blacklist">Wil je de zwarte lijst leegmaken?</string>
@@ -373,7 +373,7 @@
     <string name="reset_action">Resetten</string>
     <string name="reset_artist_image">Reset artiest afbeelding</string>
     <string name="restore">Herstellen</string>
-    <string name="retro_music_player">MetroX</string>
+    <string name="retro_music_player">ReMetro</string>
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Beltoon (Optioneel)</string>
     <string name="permission_alarm_summary">The app needs permission to schedule exact alarms to set sleep timers</string>
@@ -462,7 +462,7 @@
     <string name="you_have_to_select_at_least_one_category">Je moet ten minste één categorie selecteren.</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">You will be forwarded to the issue tracker website.</string>
     <string name="could_not_write_tags_to_file">Could not write tags to the music file!</string>
-    <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow MetroX.</string>
+    <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow ReMetro.</string>
     <string name="scanning_folders_files">Scanning folders and files…</string>
     <string name="scan_complete">Scan complete: %1$d media items found.</string>
     <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
