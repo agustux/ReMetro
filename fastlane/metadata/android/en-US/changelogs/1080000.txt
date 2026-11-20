@@ -1,0 +1,8 @@
+ReMetro 8.0.0: fully offline fork of Retro Music Player.
+
+• No INTERNET permission; no Google Play services, Cast or Play libraries
+• No Last.fm, Deezer or online lyrics; artist images use your custom image or the album cover
+• New package name (io.github.agustux.remetro)
+• English only; language picker removed
+• Recently played history resets after updating
+• Catppuccin Mocha / Latte theme and icon, Just Black by default
