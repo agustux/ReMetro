@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catppuccin Mocha -->
+    <color name="ctp_mocha_rosewater">#F5E0DC</color>
+    <color name="ctp_mocha_flamingo">#F2CDCD</color>
+    <color name="ctp_mocha_pink">#F5C2E7</color>
+    <color name="ctp_mocha_mauve">#CBA6F7</color>
+    <color name="ctp_mocha_red">#F38BA8</color>
+    <color name="ctp_mocha_maroon">#EBA0AC</color>
+    <color name="ctp_mocha_peach">#FAB387</color>
+    <color name="ctp_mocha_yellow">#F9E2AF</color>
+    <color name="ctp_mocha_green">#A6E3A1</color>
+    <color name="ctp_mocha_teal">#94E2D5</color>
+    <color name="ctp_mocha_sky">#89DCEB</color>
+    <color name="ctp_mocha_sapphire">#74C7EC</color>
+    <color name="ctp_mocha_blue">#89B4FA</color>
+    <color name="ctp_mocha_lavender">#B4BEFE</color>
+    <color name="ctp_mocha_text">#CDD6F4</color>
+    <color name="ctp_mocha_subtext1">#BAC2DE</color>
+    <color name="ctp_mocha_subtext0">#A6ADC8</color>
+    <color name="ctp_mocha_overlay2">#9399B2</color>
+    <color name="ctp_mocha_overlay1">#7F849C</color>
+    <color name="ctp_mocha_overlay0">#6C7086</color>
+    <color name="ctp_mocha_surface2">#585B70</color>
+    <color name="ctp_mocha_surface1">#45475A</color>
+    <color name="ctp_mocha_surface0">#313244</color>
+    <color name="ctp_mocha_base">#1E1E2E</color>
+    <color name="ctp_mocha_mantle">#181825</color>
+    <color name="ctp_mocha_crust">#11111B</color>
+
+    <!-- Catppuccin Latte -->
+    <color name="ctp_latte_rosewater">#DC8A78</color>
+    <color name="ctp_latte_flamingo">#DD7878</color>
+    <color name="ctp_latte_pink">#EA76CB</color>
+    <color name="ctp_latte_mauve">#8839EF</color>
+    <color name="ctp_latte_red">#D20F39</color>
+    <color name="ctp_latte_maroon">#E64553</color>
+    <color name="ctp_latte_peach">#FE640B</color>
+    <color name="ctp_latte_yellow">#DF8E1D</color>
+    <color name="ctp_latte_green">#40A02B</color>
+    <color name="ctp_latte_teal">#179299</color>
+    <color name="ctp_latte_sky">#04A5E5</color>
+    <color name="ctp_latte_sapphire">#209FB5</color>
+    <color name="ctp_latte_blue">#1E66F5</color>
+    <color name="ctp_latte_lavender">#7287FD</color>
+    <color name="ctp_latte_text">#4C4F69</color>
+    <color name="ctp_latte_subtext1">#5C5F77</color>
+    <color name="ctp_latte_subtext0">#6C6F85</color>
+    <color name="ctp_latte_overlay2">#7C7F93</color>
+    <color name="ctp_latte_overlay1">#8C8FA1</color>
+    <color name="ctp_latte_overlay0">#9CA0B0</color>
+    <color name="ctp_latte_surface2">#ACB0BE</color>
+    <color name="ctp_latte_surface1">#BCC0CC</color>
+    <color name="ctp_latte_surface0">#CCD0DA</color>
+    <color name="ctp_latte_base">#EFF1F5</color>
+    <color name="ctp_latte_mantle">#E6E9EF</color>
+    <color name="ctp_latte_crust">#DCE0E8</color>
+
+    <!-- Catppuccin Frappé accents -->
+    <color name="ctp_frappe_rosewater">#F2D5CF</color>
+    <color name="ctp_frappe_flamingo">#EEBEBE</color>
+    <color name="ctp_frappe_pink">#F4B8E4</color>
+    <color name="ctp_frappe_mauve">#CA9EE6</color>
+    <color name="ctp_frappe_red">#E78284</color>
+    <color name="ctp_frappe_maroon">#EA999C</color>
+    <color name="ctp_frappe_peach">#EF9F76</color>
+    <color name="ctp_frappe_yellow">#E5C890</color>
+    <color name="ctp_frappe_green">#A6D189</color>
+    <color name="ctp_frappe_teal">#81C8BE</color>
+    <color name="ctp_frappe_sky">#99D1DB</color>
+    <color name="ctp_frappe_sapphire">#85C1DC</color>
+    <color name="ctp_frappe_blue">#8CAAEE</color>
+    <color name="ctp_frappe_lavender">#BABBF1</color>
+
+    <!-- Catppuccin Macchiato accents -->
+    <color name="ctp_macchiato_rosewater">#F4DBD6</color>
+    <color name="ctp_macchiato_flamingo">#F0C6C6</color>
+    <color name="ctp_macchiato_pink">#F5BDE6</color>
+    <color name="ctp_macchiato_mauve">#C6A0F6</color>
+    <color name="ctp_macchiato_red">#ED8796</color>
+    <color name="ctp_macchiato_maroon">#EE99A0</color>
+    <color name="ctp_macchiato_peach">#F5A97F</color>
+    <color name="ctp_macchiato_yellow">#EED49F</color>
+    <color name="ctp_macchiato_green">#A6DA95</color>
+    <color name="ctp_macchiato_teal">#8BD5CA</color>
+    <color name="ctp_macchiato_sky">#91D7E3</color>
+    <color name="ctp_macchiato_sapphire">#7DC4E4</color>
+    <color name="ctp_macchiato_blue">#8AADF4</color>
+    <color name="ctp_macchiato_lavender">#B7BDF8</color>
+</resources>

@@ -10,7 +10,7 @@
         <item name="android:windowBackground">?colorSurface</item>
     </style>
 
-    <style name="Theme.RetroMusic.MD3" parent="@style/Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.RetroMusic.MD3" parent="@style/Theme.Catppuccin.DayNight">
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
         <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
@@ -213,9 +213,9 @@
     </style>
 
     <style name="CarTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimaryDark">@color/md_deep_purple_700</item>
-        <item name="colorAccent">@color/md_deep_purple_A400</item>
-        <item name="colorPrimary">@color/md_deep_purple_500</item>
+        <item name="colorPrimaryDark">@color/ctp_latte_lavender</item>
+        <item name="colorAccent">@color/ctp_latte_mauve</item>
+        <item name="colorPrimary">@color/ctp_latte_mauve</item>
     </style>
 
     <style name="Theme.RetroMusic.Dialog" parent="Theme.Material3.DayNight.Dialog">
@@ -245,7 +245,7 @@
     </style>
 
     <style name="Theme.AppWidget" parent="">
-        <item name="colorSurface">@color/md_black_1000</item>
+        <item name="colorSurface">@color/ctp_mocha_base</item>
     </style>
 
     <style name="ShapeAppearance.Material3.Circle" parent="">

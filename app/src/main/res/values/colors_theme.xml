@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Follow-system theme colors: Latte -->
+    <color name="theme_base">@color/ctp_latte_base</color>
+    <color name="theme_text">@color/ctp_latte_text</color>
+    <color name="theme_subtext0">@color/ctp_latte_subtext0</color>
+    <color name="theme_overlay0">@color/ctp_latte_overlay0</color>
+    <color name="theme_overlay1">@color/ctp_latte_overlay1</color>
+    <color name="theme_surface0">@color/ctp_latte_surface0</color>
+    <color name="theme_surface1">@color/ctp_latte_surface1</color>
+    <color name="theme_surface2">@color/ctp_latte_surface2</color>
+    <color name="theme_mantle">@color/ctp_latte_mantle</color>
+    <color name="theme_crust">@color/ctp_latte_crust</color>
+    <color name="theme_red">@color/ctp_latte_red</color>
+</resources>

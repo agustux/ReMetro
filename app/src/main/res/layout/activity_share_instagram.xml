@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textAppearance="@style/TextViewSubtitle1"
-                android:textColor="@color/md_grey_400"
+                android:textColor="@color/ctp_mocha_overlay2"
                 android:textStyle="bold"
                 app:layout_constrainedWidth="true"
                 app:layout_constraintEnd_toEndOf="@+id/imageContainerCard"

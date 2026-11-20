@@ -173,7 +173,7 @@
             android:gravity="center"
             android:maxLines="3"
             android:textAppearance="@style/TextViewHeadline5"
-            android:textColor="@color/md_grey_200"
+            android:textColor="@color/ctp_mocha_subtext1"
             tools:text="@tools:sample/lorem/random" />
     </LinearLayout>
 

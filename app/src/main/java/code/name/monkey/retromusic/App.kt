@@ -41,7 +41,7 @@ class App : Application() {
         // default theme
         if (!ThemeStore.isConfigured(this, 3)) {
             ThemeStore.editTheme(this)
-                .accentColorRes(R.color.ctp_mocha_sapphire)
+                .accentColorRes(code.name.monkey.appthemehelper.R.color.ctp_mocha_sapphire)
                 .coloredNavigationBar(true)
                 .commit()
         }

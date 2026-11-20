@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Follow-system theme colors: Mocha -->
+    <color name="theme_base">@color/ctp_mocha_base</color>
+    <color name="theme_text">@color/ctp_mocha_text</color>
+    <color name="theme_subtext0">@color/ctp_mocha_subtext0</color>
+    <color name="theme_overlay0">@color/ctp_mocha_overlay0</color>
+    <color name="theme_overlay1">@color/ctp_mocha_overlay1</color>
+    <color name="theme_surface0">@color/ctp_mocha_surface0</color>
+    <color name="theme_surface1">@color/ctp_mocha_surface1</color>
+    <color name="theme_surface2">@color/ctp_mocha_surface2</color>
+    <color name="theme_mantle">@color/ctp_mocha_mantle</color>
+    <color name="theme_crust">@color/ctp_mocha_crust</color>
+    <color name="theme_red">@color/ctp_mocha_red</color>
+</resources>

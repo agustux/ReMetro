@@ -19,7 +19,7 @@
             android:clipOrientation="vertical"
             android:gravity="bottom">
             <shape>
-                <solid android:color="@color/md_deep_purple_A400" />
+                <solid android:color="@color/ctp_mocha_mauve" />
             </shape>
         </clip>
     </item>

@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:background="?attr/colorSurface"
         android:scaleType="centerCrop"
-        app:srcCompat="@color/black_color" />
+        app:srcCompat="@color/ctp_mocha_base" />
 
     <View
         android:id="@+id/mask"

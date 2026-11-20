@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:background="@color/md_grey_800">
+    tools:background="@color/ctp_mocha_surface1">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/playerMenu"

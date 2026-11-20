@@ -100,7 +100,7 @@
         app:cs_circle_stroke_width="4dp"
         app:cs_end_angle="60"
         app:cs_move_outside_circle="true"
-        app:cs_pointer_color="@color/md_grey_200"
+        app:cs_pointer_color="@color/ctp_mocha_subtext1"
         app:cs_pointer_halo_width="0dp"
         app:cs_pointer_stroke_width="20dp"
         app:cs_start_angle="120"
