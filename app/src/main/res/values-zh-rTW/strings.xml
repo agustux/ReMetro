@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">專輯</item>
     </plurals>
-    <string name="always">永遠</string>
     <string name="app_share">嗨！邀請您使用這個好用的音樂播放器: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">隨機播放</string>
     <string name="app_shortcut_top_tracks_short">最佳單曲</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[嗨！<br> 歡迎使用 %s]]></string>
     <string name="my_name">名稱</string>
     <string name="my_top_tracks">最佳單曲</string>
-    <string name="never">永不</string>
     <string name="new_music_mix">新歌快選</string>
     <string name="new_playlist_title">新增播放清單</string>
     <string name="new_start_directory">%s 為新起始目錄。</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">現正播放</string>
     <string name="now_playing_queue">播放佇列</string>
     <string name="now_playing_summary">自訂現正播放畫面</string>
-    <string name="only_on_wifi">只在 Wi-Fi 連線時</string>
     <string name="other_settings_summary">進階測試功能</string>
     <string name="others">其他</string>
     <string name="over_cover">於封面上層顯示</string>
@@ -329,7 +326,6 @@
     <string name="pref_title_app_shortcuts">彩色應用程式捷徑</string>
     <string name="pref_title_appbar_mode">標題樣式</string>
     <string name="pref_title_audio_fade">淡入/淡出音訊</string>
-    <string name="pref_title_auto_download_artist_images">自動下載藝人圖片</string>
     <string name="pref_title_bluetooth_playback">藍牙播放</string>
     <string name="pref_title_blurred_album_art">模糊化專輯圖片</string>
     <string name="pref_title_circle_button">圓形播放鍵</string>

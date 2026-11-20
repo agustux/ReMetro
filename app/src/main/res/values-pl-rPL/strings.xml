@@ -69,7 +69,6 @@
         <item quantity="many">Albumów</item>
         <item quantity="other">Albumów</item>
     </plurals>
-    <string name="always">Zawsze</string>
     <string name="app_share">Hej, sprawdź ten fajny odtwarzacz muzyki na: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Losowo</string>
     <string name="app_shortcut_top_tracks_short">Najczęściej odtwarzane utwory</string>
@@ -224,7 +223,6 @@
     <string name="message_welcome"><![CDATA[Witaj! <br>Zapraszamy do %s]]></string>
     <string name="my_name">Imię</string>
     <string name="my_top_tracks">Najczęściej odtw.</string>
-    <string name="never">Nigdy</string>
     <string name="new_music_mix">Nowy miks muzyki</string>
     <string name="new_playlist_title">Nowa playlista</string>
     <string name="new_start_directory">%s jest nowym folderem startowym.</string>
@@ -248,7 +246,6 @@
     <string name="now_playing">Teraz odtwarzane</string>
     <string name="now_playing_queue">Teraz odtwarzane</string>
     <string name="now_playing_summary">Dostosuj odtwarzacz</string>
-    <string name="only_on_wifi">Tylko przez Wi-Fi</string>
     <string name="other_settings_summary">Zaawansowane funkcje eksperymentalne</string>
     <string name="others">Inne ustawienia</string>
     <string name="over_cover">Nad okładką</string>
@@ -335,7 +332,6 @@
     <string name="pref_title_app_shortcuts">Kolorowe skróty aplikacji</string>
     <string name="pref_title_appbar_mode">Styl nagłówka</string>
     <string name="pref_title_audio_fade">Zanikanie dźwięku</string>
-    <string name="pref_title_auto_download_artist_images">Automatycznie pobierz grafiki wykonawców</string>
     <string name="pref_title_bluetooth_playback">Odtwarzanie przez Bluetooth</string>
     <string name="pref_title_blurred_album_art">Rozmyj okładkę albumu</string>
     <string name="pref_title_circle_button">Okrągły przycisk Odtwórz</string>

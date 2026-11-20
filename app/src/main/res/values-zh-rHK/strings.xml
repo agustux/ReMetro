@@ -53,7 +53,6 @@
     <string name="album">專輯</string>
     <string name="album_artist">專輯歌手</string>
     <string name="albums">專輯</string>
-    <string name="always">經常</string>
     <string name="app_share">哈囉！來看看這個很有型的播放器吧: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">隨機播放</string>
     <string name="app_shortcut_top_tracks_short">歌曲榜</string>
@@ -169,7 +168,6 @@
     <string name="md_storage_perm_error">權限錯誤</string>
     <string name="my_name">名字</string>
     <string name="my_top_tracks">最常播放</string>
-    <string name="never">永不</string>
     <string name="new_playlist_title">新播放清單</string>
     <string name="new_start_directory">最新的主目錄是%s。</string>
     <string name="next_song">下一首</string>
@@ -190,7 +188,6 @@
     <string name="now_playing">現在播放</string>
     <string name="now_playing_queue">現在播放清單</string>
     <string name="now_playing_summary">個人化現在播放界面</string>
-    <string name="only_on_wifi">僅透過Wi-Fi</string>
     <string name="other_settings_summary">進階測試功能</string>
     <string name="others">其他</string>
     <string name="past_three_months">在3個月內</string>
@@ -250,7 +247,6 @@
     <string name="pref_title_album_cover_style">專輯圖片主題</string>
     <string name="pref_title_album_cover_transform">專輯圖片轉場</string>
     <string name="pref_title_app_shortcuts">彩色化程式捷徑</string>
-    <string name="pref_title_auto_download_artist_images">自動下載歌手相片</string>
     <string name="pref_title_bluetooth_playback">藍牙播放</string>
     <string name="pref_title_blurred_album_art">模糊化專輯圖片</string>
     <string name="pref_title_colored_app">自適應色彩</string>

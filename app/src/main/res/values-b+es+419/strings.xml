@@ -64,7 +64,6 @@
         <item quantity="one">Álbum</item>
         <item quantity="other">Álbumes</item>
     </plurals>
-    <string name="always">Siempre</string>
     <string name="app_share">Hola, echa un vistazo a este genial reproductor de música en: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Aleatorio</string>
     <string name="app_shortcut_top_tracks_short">Canciones más reproducidas</string>
@@ -203,7 +202,6 @@
     <string name="md_storage_perm_error">Error de permiso</string>
     <string name="my_name">Nombre</string>
     <string name="my_top_tracks">Más reproducidas</string>
-    <string name="never">Nunca</string>
     <string name="new_music_mix">Nueva música</string>
     <string name="new_playlist_title">Nueva playlist</string>
     <string name="new_start_directory">%s es el nuevo directorio de inicio.</string>
@@ -226,7 +224,6 @@
     <string name="now_playing">Reproduciendo ahora</string>
     <string name="now_playing_queue">Cola de reproducción actual</string>
     <string name="now_playing_summary">Personalizar la pantalla de reproducción actual</string>
-    <string name="only_on_wifi">Solo con Wi-Fi</string>
     <string name="other_settings_summary">Funciones de prueba avanzadas</string>
     <string name="others">Otro</string>
     <string name="over_cover">Sobre la portada</string>
@@ -307,7 +304,6 @@
     <string name="pref_title_app_shortcuts">Colored app shortcuts</string>
     <string name="pref_title_appbar_mode">App bar mode</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">Auto-download artist images</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">Blur album cover</string>
     <string name="pref_title_circle_button">Circular play button</string>

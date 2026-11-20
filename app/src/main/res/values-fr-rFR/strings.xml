@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Albums</item>
     </plurals>
-    <string name="always">Toujours</string>
     <string name="app_share">Hey, jetez un coup d\'œil à ce super lecteur de musique : https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Aléatoire</string>
     <string name="app_shortcut_top_tracks_short">Pistes préférées</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Bonjour ! <br>Bienvenu dans %s]]></string>
     <string name="my_name">Nom</string>
     <string name="my_top_tracks">Plus jouées</string>
-    <string name="never">Jamais</string>
     <string name="new_music_mix">Nouveau Mix</string>
     <string name="new_playlist_title">Nouvelle liste de lecture</string>
     <string name="new_start_directory">%s est le nouveau dossier de départ.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Lecture en cours</string>
     <string name="now_playing_queue">File d\'attente</string>
     <string name="now_playing_summary">Personnaliser l\'écran de lecture</string>
-    <string name="only_on_wifi">Uniquement via Wi-Fi</string>
     <string name="other_settings_summary">Fonctions de test avancées</string>
     <string name="others">Autre</string>
     <string name="over_cover">À propos de la pochette</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Raccourcis d\'application colorés</string>
     <string name="pref_title_appbar_mode">Style de l\'entête</string>
     <string name="pref_title_audio_fade">Fondu audio</string>
-    <string name="pref_title_auto_download_artist_images">Télécharger automatiquement les photos des artistes</string>
     <string name="pref_title_bluetooth_playback">Lecture via Bluetooth</string>
     <string name="pref_title_blurred_album_art">Flouter la couverture d\'album</string>
     <string name="pref_title_circle_button">Bouton de lecture circulaire</string>

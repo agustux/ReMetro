@@ -65,7 +65,6 @@
         <item quantity="one">Άλμπουμ</item>
         <item quantity="other">Άλμπουμς</item>
     </plurals>
-    <string name="always">Πάντα</string>
     <string name="app_share">Τσεκάρετε αυτόν τον φανταστικό music player στο: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Τυχαία αναπαραγωγή</string>
     <string name="app_shortcut_top_tracks_short">Κορυφαία κομμάτια</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Γεια σας! <br>Καλώς ήρθατε στο %s]]></string>
     <string name="my_name">Όνομα</string>
     <string name="my_top_tracks">Περισσότερες αναπαραγωγές</string>
-    <string name="never">Ποτέ</string>
     <string name="new_music_mix">Νέα μίξη</string>
     <string name="new_playlist_title">Νέα λίστα αναπαραγωγής</string>
     <string name="new_start_directory">%s είναι ο νέος κατάλογος εκκίνησης.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Παίζει τώρα</string>
     <string name="now_playing_queue">Τρέχουσα ουρά αναπαραγωγής</string>
     <string name="now_playing_summary">Προσαρμόστε την οθόνη αναπαραγωγής</string>
-    <string name="only_on_wifi">Μόνο μέσω Wi-Fi</string>
     <string name="other_settings_summary">Προηγμένες δοκιμαστικές λειτουργίες</string>
     <string name="others">Άλλα</string>
     <string name="over_cover">Πάνω από το εξώφυλλο</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Χρωματιστές συντομεύσεις εφαρμογής</string>
     <string name="pref_title_appbar_mode">Μορφή επικεφαλίδας</string>
     <string name="pref_title_audio_fade">Εξασθένηση ήχου</string>
-    <string name="pref_title_auto_download_artist_images">Αυτόματη λήψη εικόνων καλλιτεχνών</string>
     <string name="pref_title_bluetooth_playback">Αναπαραγωγή μέσω bluetooth</string>
     <string name="pref_title_blurred_album_art">Θόλωμα εξωφύλλων άλμπουμ</string>
     <string name="pref_title_circle_button">Κυκλικό κουμπί αναπαραγωγής</string>

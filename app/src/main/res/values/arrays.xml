@@ -39,12 +39,6 @@
         <item>3</item>
     </string-array>
 
-    <array name="pref_auto_download_images_titles">
-        <item>@string/always</item>
-        <item>@string/only_on_wifi</item>
-        <item>@string/never</item>
-    </array>
-
     <array name="pref_tab_text_mode_titles">
         <item>@string/auto</item>
         <item>@string/labeled</item>
@@ -96,12 +90,6 @@
         <item>@layout/item_album_card</item>
         <item>@layout/item_artist_card</item>
         <item>@layout/item_image</item>
-    </array>
-
-    <array name="pref_auto_download_images_values">
-        <item>always</item>
-        <item>only_wifi</item>
-        <item>never</item>
     </array>
 
     <string-array name="pref_playlists_last_added_interval_titles">

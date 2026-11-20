@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">アルバム</item>
     </plurals>
-    <string name="always">常時</string>
     <string name="app_share">クールな音楽プレイヤーをチェックしよう: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">シャッフル</string>
     <string name="app_shortcut_top_tracks_short">トップ曲</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[こんにちは！ <br> %s へようこそ]]></string>
     <string name="my_name">名前</string>
     <string name="my_top_tracks">最近のお気に入り</string>
-    <string name="never">しない</string>
     <string name="new_music_mix">新曲ミックス</string>
     <string name="new_playlist_title">新しいプレイリスト</string>
     <string name="new_start_directory">%s は新しい開始ディレクトリです。</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">再生画面</string>
     <string name="now_playing_queue">再生中のキュー</string>
     <string name="now_playing_summary">再生中の画面をカスタマイズ</string>
-    <string name="only_on_wifi">Wi-Fi使用時のみ</string>
     <string name="other_settings_summary">高度な試験的機能</string>
     <string name="others">その他</string>
     <string name="over_cover">カバーに重ねて表示</string>
@@ -330,7 +327,6 @@
     <string name="pref_title_app_shortcuts">色のついたアプリショートカット</string>
     <string name="pref_title_appbar_mode">ヘッダーのスタイル</string>
     <string name="pref_title_audio_fade">オーディオをフェードする</string>
-    <string name="pref_title_auto_download_artist_images">アーティスト画像を自動でダウンロード</string>
     <string name="pref_title_bluetooth_playback">Bluetooth接続時に再生</string>
     <string name="pref_title_blurred_album_art">アルバムジャケットにぼかしを適用する</string>
     <string name="pref_title_circle_button">丸い再生ボタン</string>

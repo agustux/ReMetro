@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">อัลบัม</item>
     </plurals>
-    <string name="always">ตลอด</string>
     <string name="app_share">มาลองแอปพลิเคชันเล่นเพลงเจ๋งๆ ได้ที่นี่: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">สุ่ม</string>
     <string name="app_shortcut_top_tracks_short">เพลงยอดนิยม</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
     <string name="my_name">ชื่อ</string>
     <string name="my_top_tracks">ฟังบ่อย</string>
-    <string name="never">ไม่ต้อง</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">เพลย์ลิสต์ใหม่</string>
     <string name="new_start_directory">%s ถูกกำหนดเป็น Directory เริ่มต้น</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">Now Playing</string>
     <string name="now_playing_queue">คิวที่กำลังเล่นอยู่</string>
     <string name="now_playing_summary">ตั้งค่าหน้าจอ Now playing</string>
-    <string name="only_on_wifi">เฉพาะ Wi-Fi</string>
     <string name="other_settings_summary">การตั้งค่าขั้นสูง</string>
     <string name="others">อื่นๆ</string>
     <string name="over_cover">Over Cover</string>
@@ -329,7 +326,6 @@
     <string name="pref_title_app_shortcuts">สีของทางลัดเข้าแอป</string>
     <string name="pref_title_appbar_mode">Header style</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">ดาวน์โหลดรูปศิลปินอัตโนมัติ</string>
     <string name="pref_title_bluetooth_playback">การเล่นด้วยอุปกรณ์ Bluetooth</string>
     <string name="pref_title_blurred_album_art">เบลอรูปปกอัลบัม</string>
     <string name="pref_title_circle_button">Circular play button</string>

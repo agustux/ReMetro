@@ -69,7 +69,6 @@
         <item quantity="many">Alb</item>
         <item quantity="other">Alb</item>
     </plurals>
-    <string name="always">Vždy</string>
     <string name="app_share">Ahoj, podívej se na tento cool hudební přehrávač na: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Přehrát náhodně</string>
     <string name="app_shortcut_top_tracks_short">Nejlepší Skladby</string>
@@ -224,7 +223,6 @@
     <string name="message_welcome"><![CDATA[Ahoj! <br>Vítejte v %s]]></string>
     <string name="my_name">Název</string>
     <string name="my_top_tracks">Nejhranější</string>
-    <string name="never">Nikdy</string>
     <string name="new_music_mix">Mix Nové Hudby</string>
     <string name="new_playlist_title">Nový seznam skladeb</string>
     <string name="new_start_directory">%s je nový úvodní adresář.</string>
@@ -248,7 +246,6 @@
     <string name="now_playing">Nyní hraje</string>
     <string name="now_playing_queue">Fronta přehrávání</string>
     <string name="now_playing_summary">Přizpůsobte si obrazovku přehrávání</string>
-    <string name="only_on_wifi">Pouze přes Wi-Fi</string>
     <string name="other_settings_summary">Pokročilé zkušební funkce</string>
     <string name="others">Jiné</string>
     <string name="over_cover">Přes Obal</string>
@@ -335,7 +332,6 @@
     <string name="pref_title_app_shortcuts">Barevné zkratky aplikace</string>
     <string name="pref_title_appbar_mode">Styl záhlaví</string>
     <string name="pref_title_audio_fade">Prolínání zvuku</string>
-    <string name="pref_title_auto_download_artist_images">Automatické stahování obrázků interpretů</string>
     <string name="pref_title_bluetooth_playback">Přehrávání Bluetooth</string>
     <string name="pref_title_blurred_album_art">Rozostřit obal alba</string>
     <string name="pref_title_circle_button">Kruhové tlačítko přehrávání</string>

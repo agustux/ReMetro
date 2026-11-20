@@ -67,7 +67,6 @@
         <item quantity="few">Албумa</item>
         <item quantity="other">Албумa</item>
     </plurals>
-    <string name="always">Увек</string>
     <string name="app_share">Isprobaj ovaj fantastican plejer na: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Reprodukuj nasumicno</string>
     <string name="app_shortcut_top_tracks_short">Najvise slusano</string>
@@ -222,7 +221,6 @@
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
     <string name="my_name">Moje ime je</string>
     <string name="my_top_tracks">Najslusanije numere</string>
-    <string name="never">Nikada</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Nova plejlista</string>
     <string name="new_start_directory">%s je novi pocetni direktorijum.</string>
@@ -246,7 +244,6 @@
     <string name="now_playing">Репродукује се</string>
     <string name="now_playing_queue">Lista za trenutno pustanje</string>
     <string name="now_playing_summary">Customize the now playing screen</string>
-    <string name="only_on_wifi">Samo kada je povezan na WiFi</string>
     <string name="other_settings_summary">Advanced testing features</string>
     <string name="others">Other</string>
     <string name="over_cover">Over Cover</string>
@@ -333,7 +330,6 @@
     <string name="pref_title_app_shortcuts">Obojene ikone aplikacije</string>
     <string name="pref_title_appbar_mode">Header style</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">Automatski preuzmi sliku izvodjaca</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">Zamuti omot albuma</string>
     <string name="pref_title_circle_button">Circular play button</string>

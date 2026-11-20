@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">Albums</item>
     </plurals>
-    <string name="always">항상</string>
     <string name="app_share">이 멋진 뮤직 플레이어를 한 번 써보세요!: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">무작위</string>
     <string name="app_shortcut_top_tracks_short">자주 재생한 음악</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
     <string name="my_name">내 이름</string>
     <string name="my_top_tracks">자주 재생한 음악</string>
-    <string name="never">아니오</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">새 재생목록</string>
     <string name="new_start_directory">이제 %s 디렉터리가 새 초기 디렉터리입니다.</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">지금 재생 중</string>
     <string name="now_playing_queue">현재 재생 대기열</string>
     <string name="now_playing_summary">Customize the now playing screen</string>
-    <string name="only_on_wifi">Wi-Fi에서만</string>
     <string name="other_settings_summary">Advanced testing features</string>
     <string name="others">기타</string>
     <string name="over_cover">Over Cover</string>
@@ -329,7 +326,6 @@
     <string name="pref_title_app_shortcuts">앱 바로가기 색상 틴트</string>
     <string name="pref_title_appbar_mode">Header style</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">아티스트 이미지 자동 다운로드</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">앨범 커버 블러</string>
     <string name="pref_title_circle_button">Circular play button</string>

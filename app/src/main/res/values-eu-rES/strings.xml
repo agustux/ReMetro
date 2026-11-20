@@ -61,7 +61,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Albums</item>
     </plurals>
-    <string name="always">Beti</string>
     <string name="app_share">Begiratu musika erreproduzitzaile hau: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Nahastu</string>
     <string name="app_shortcut_top_tracks_short">Pista onenak</string>
@@ -177,7 +176,6 @@
     <string name="md_storage_perm_error">Permission error</string>
     <string name="my_name">Nire izena</string>
     <string name="my_top_tracks">Gehien erreproduzituak</string>
-    <string name="never">Inoiz ez</string>
     <string name="new_playlist_title">Erreprodukzio zerrenda berria</string>
     <string name="new_start_directory">%s da hasierako direktorio berria</string>
     <string name="next_song">Next Song</string>
@@ -198,7 +196,6 @@
     <string name="now_playing">Orain erreproduzitzen</string>
     <string name="now_playing_queue">Erreprodukzio ilara</string>
     <string name="now_playing_summary">Pertsonalizatu orain erreproduzitzen pantaila</string>
-    <string name="only_on_wifi">Wi-Fi-arekin bakarrik</string>
     <string name="other_settings_summary">Advanced testing features</string>
     <string name="others">Bestelako</string>
     <string name="past_three_months">Azken 3 hilabeteak</string>
@@ -259,7 +256,6 @@
     <string name="pref_title_album_cover_style">Album azalaren gaia</string>
     <string name="pref_title_album_cover_transform">Albumaren azala saltatu</string>
     <string name="pref_title_app_shortcuts">Koloreztaturiko aplikazio lasterbideak</string>
-    <string name="pref_title_auto_download_artist_images">Deskargatu artisten irudiak automatikoki</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">Lausotu albumaren azala</string>
     <string name="pref_title_colored_app">Kolore moldagarria</string>

@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">专辑</item>
     </plurals>
-    <string name="always">始终</string>
     <string name="app_share">嘿，快来瞧瞧这个酷炫的音乐播放器：https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">随机播放</string>
     <string name="app_shortcut_top_tracks_short">热门曲目</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[您好！ <br>欢迎使用 %s]]></string>
     <string name="my_name">我的名字</string>
     <string name="my_top_tracks">最常播放</string>
-    <string name="never">从不</string>
     <string name="new_music_mix">新歌混烧</string>
     <string name="new_playlist_title">新建播放列表</string>
     <string name="new_start_directory">%s 是新的起始目录。</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">正在播放</string>
     <string name="now_playing_queue">正在播放队列</string>
     <string name="now_playing_summary">定制播放界面</string>
-    <string name="only_on_wifi">仅限 Wi-Fi 网络</string>
     <string name="other_settings_summary">高级测试功能</string>
     <string name="others">其他</string>
     <string name="over_cover">覆盖封面</string>
@@ -330,7 +327,6 @@
     <string name="pref_title_app_shortcuts">着色应用快捷方式</string>
     <string name="pref_title_appbar_mode">顶栏样式</string>
     <string name="pref_title_audio_fade">音频淡入淡出</string>
-    <string name="pref_title_auto_download_artist_images">自动下载艺术家图片</string>
     <string name="pref_title_bluetooth_playback">蓝牙播放</string>
     <string name="pref_title_blurred_album_art">模糊专辑封面</string>
     <string name="pref_title_circle_button">圆形播放按钮</string>

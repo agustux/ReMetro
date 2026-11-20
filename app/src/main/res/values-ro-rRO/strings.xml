@@ -67,7 +67,6 @@
         <item quantity="few">Albume</item>
         <item quantity="other">Albume</item>
     </plurals>
-    <string name="always">Mereu</string>
     <string name="app_share">Hey! încearcă acest music player la adresa: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Amestecă</string>
     <string name="app_shortcut_top_tracks_short">Top cântece</string>
@@ -222,7 +221,6 @@
     <string name="message_welcome"><![CDATA[Salut! <br>Bun venit la %s]]></string>
     <string name="my_name">Numele Meu</string>
     <string name="my_top_tracks">Top cântece redate</string>
-    <string name="never">Niciodată</string>
     <string name="new_music_mix">Mixare muzică nouă</string>
     <string name="new_playlist_title">Playlist nou</string>
     <string name="new_start_directory">%s a fost setat ca noul registru principal.</string>
@@ -246,7 +244,6 @@
     <string name="now_playing">Se redă</string>
     <string name="now_playing_queue">Coada de redare</string>
     <string name="now_playing_summary">Personalizează ecranul de redare acum</string>
-    <string name="only_on_wifi">Doar pe Wi-Fi</string>
     <string name="other_settings_summary">Funcții avansate de testare</string>
     <string name="others">Altele</string>
     <string name="over_cover">Peste copertă</string>
@@ -333,7 +330,6 @@
     <string name="pref_title_app_shortcuts">Comenzi rapide colorate</string>
     <string name="pref_title_appbar_mode">Stil antet</string>
     <string name="pref_title_audio_fade">Estompare audio</string>
-    <string name="pref_title_auto_download_artist_images">Descărcați automat imagini ale artistului</string>
     <string name="pref_title_bluetooth_playback">Redare prin Bluetooth</string>
     <string name="pref_title_blurred_album_art">Spălăcește coperta albumului</string>
     <string name="pref_title_circle_button">Butonul de redare circulară</string>

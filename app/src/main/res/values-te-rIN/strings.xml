@@ -53,7 +53,6 @@
     <string name="album">ఆల్బమ్</string>
     <string name="album_artist">ఆల్బమ్ ఆర్టిస్ట్</string>
     <string name="albums">ఆల్బమ్లు</string>
-    <string name="always">ఎల్లప్పుడూ</string>
     <string name="app_share">హే ఈ చల్లని మ్యూజిక్ ప్లేయర్‌ను ఇక్కడ చూడండి: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">షఫుల్</string>
     <string name="app_shortcut_top_tracks_short">అగ్ర ట్రాక్‌లు</string>
@@ -169,7 +168,6 @@
     <string name="md_storage_perm_error">అనుమతి లోపం</string>
     <string name="my_name">పేరు</string>
     <string name="my_top_tracks">ఎక్కువగా ఆడారు</string>
-    <string name="never">నెవర్</string>
     <string name="new_playlist_title">క్రొత్త ప్లేజాబితా</string>
     <string name="new_start_directory">%s క్రొత్త ప్రారంభ డైరెక్టరీ.</string>
     <string name="next_song">తదుపరి పాట</string>
@@ -190,7 +188,6 @@
     <string name="now_playing">ఇప్పుడు ఆడుతున్నారు</string>
     <string name="now_playing_queue">ఇప్పుడు క్యూ ఆడుతున్నారు</string>
     <string name="now_playing_summary">ఇప్పుడు ప్లే అవుతున్న స్క్రీన్‌ను అనుకూలీకరించండి</string>
-    <string name="only_on_wifi">Wi-Fi లో మాత్రమే</string>
     <string name="other_settings_summary">అధునాతన పరీక్ష లక్షణాలు</string>
     <string name="others">ఇతర</string>
     <string name="past_three_months">గత 3 నెలలు</string>
@@ -251,7 +248,6 @@
     <string name="pref_title_album_cover_style">ఆల్బమ్ కవర్ థీమ్</string>
     <string name="pref_title_album_cover_transform">ఆల్బమ్ కవర్ దాటవేయి</string>
     <string name="pref_title_app_shortcuts">రంగు అనువర్తన సత్వరమార్గాలు</string>
-    <string name="pref_title_auto_download_artist_images">ఆర్టిస్ట్ చిత్రాలను ఆటో-డౌన్‌లోడ్ చేయండి</string>
     <string name="pref_title_bluetooth_playback">బ్లూటూత్ ప్లేబ్యాక్</string>
     <string name="pref_title_blurred_album_art">బ్లర్ ఆల్బమ్ కవర్</string>
     <string name="pref_title_colored_app">అనుకూల రంగు</string>

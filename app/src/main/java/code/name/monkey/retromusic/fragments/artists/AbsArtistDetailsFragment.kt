@@ -55,7 +55,6 @@ abstract class AbsArtistDetailsFragment : AbsMainActivityFragment(R.layout.fragm
     private lateinit var artist: Artist
     private lateinit var songAdapter: SimpleSongAdapter
     private lateinit var albumAdapter: HorizontalAlbumAdapter
-    private var forceDownload: Boolean = false
 
     private val savedSongSortOrder: String
         get() = PreferenceUtil.artistDetailSongSortOrder
@@ -211,7 +210,6 @@ abstract class AbsArtistDetailsFragment : AbsMainActivityFragment(R.layout.fragm
                         .resetCustomArtistImage(artist)
                     detailsViewModel.refreshArtistInfo()
                 }
-                forceDownload = true
                 return true
             }
         }

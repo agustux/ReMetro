@@ -65,7 +65,6 @@
         <item quantity="one">ଆଲବମ୍</item>
         <item quantity="other">ଆଲବମ୍‌ଗୁଡ଼ିକ</item>
     </plurals>
-    <string name="always">ସର୍ବଦା</string>
     <string name="app_share">ହେ, ଏହି ଚମତ୍କାର ମ୍ୟୁଜିକ୍ ପ୍ଲେୟାରକୁ ଦେଖନ୍ତୁ: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ସଫଲ୍</string>
     <string name="app_shortcut_top_tracks_short">ଶ୍ରେଷ୍ଠ ଟ୍ରାକ୍</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[ନମସ୍କାର! <br> %s କୁ ସ୍ୱାଗତ।]]></string>
     <string name="my_name">ନାମ</string>
     <string name="my_top_tracks">ସର୍ବାଧିକ ବଜାଯାଇଥିବା</string>
-    <string name="never">କେବେ ନୁହେଁ</string>
     <string name="new_music_mix">ନୂଆ ମ୍ୟୁଜିକ୍ ମିକ୍ସ</string>
     <string name="new_playlist_title">ନୂଆ ଚାଳନାତାଲିକା</string>
     <string name="new_start_directory">%s ହେଉଛି ନୂଆ ଆରମ୍ଭ ଡିରେକ୍ଟୋରୀ।</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">ବର୍ତ୍ତମାନ ଚାଲୁଛି</string>
     <string name="now_playing_queue">ବର୍ତ୍ତମାନ ଚାଲୁଥିବା କ୍ୟୁ</string>
     <string name="now_playing_summary">ବର୍ତ୍ତମାନ ଚାଲୁଥିବା ସ୍କ୍ରିନ୍ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ</string>
-    <string name="only_on_wifi">କେବଳ ୱାଇ-ଫାଇରେ</string>
     <string name="other_settings_summary">ଆଡଭାନ୍ସଡ୍ ପରୀକ୍ଷା ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ</string>
     <string name="others">ଅନ୍ୟାନ୍ୟ</string>
     <string name="over_cover">କଭର ଉପରେ</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">ରଙ୍ଗୀନ ଆପ୍ ସର୍ଟକଟ୍</string>
     <string name="pref_title_appbar_mode">ହେଡର୍ ଶୈଳୀ</string>
     <string name="pref_title_audio_fade">ଅଡିଓ ଫେଡ୍</string>
-    <string name="pref_title_auto_download_artist_images">କଳାକାର ଛବି ସ୍ୱତଃ ଡାଉନଲୋଡ୍ କରନ୍ତୁ</string>
     <string name="pref_title_bluetooth_playback">ବ୍ଲୁଟୁଥ୍ ପ୍ଲେବ୍ୟାକ୍</string>
     <string name="pref_title_blurred_album_art">ଆଲବମ୍ କଭର ବ୍ଲର୍ କରନ୍ତୁ</string>
     <string name="pref_title_circle_button">ବୃତ୍ତାକାର ପ୍ଲେ ବଟନ୍</string>

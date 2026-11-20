@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">Album</item>
     </plurals>
-    <string name="always">Luôn luôn</string>
     <string name="app_share">Hãy dùng thử trình phát nhạc siêu chất này tại: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Ngẫu nhiên</string>
     <string name="app_shortcut_top_tracks_short">Bản nhạc hàng đầu</string>
@@ -219,7 +218,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="message_welcome"><![CDATA[Xin chào! <br>Chào mừng bạn đến với %s]]></string>
     <string name="my_name">Tên</string>
     <string name="my_top_tracks">Phát nhiều nhất</string>
-    <string name="never">Không bao giờ</string>
     <string name="new_music_mix">Bản phối nhạc mới</string>
     <string name="new_playlist_title">Danh sách phát mới</string>
     <string name="new_start_directory">%s là trang bắt đầu mới.</string>
@@ -243,7 +241,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="now_playing">Màn hình phát</string>
     <string name="now_playing_queue">Đang phát danh sách chờ</string>
     <string name="now_playing_summary">Tùy chỉnh màn hình phát</string>
-    <string name="only_on_wifi">Chỉ khi dùng Wi-Fi</string>
     <string name="other_settings_summary">Tính năng nâng cao đang kiểm tra</string>
     <string name="others">Khác</string>
     <string name="over_cover">Che phủ</string>
@@ -330,7 +327,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="pref_title_app_shortcuts">Đổi màu lối tắt ứng dụng</string>
     <string name="pref_title_appbar_mode">Kiểu tiêu đề</string>
     <string name="pref_title_audio_fade">Âm thanh phai dần</string>
-    <string name="pref_title_auto_download_artist_images">Tự động tải xuống hình ảnh nghệ sĩ</string>
     <string name="pref_title_bluetooth_playback">Tự động phát Bluetooth</string>
     <string name="pref_title_blurred_album_art">Làm mờ bìa album</string>
     <string name="pref_title_circle_button">Nút chơi nhạc tròn</string>

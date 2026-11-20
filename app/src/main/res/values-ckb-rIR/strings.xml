@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Albums</item>
     </plurals>
-    <string name="always">Always</string>
     <string name="app_share">Hey check out this cool music player at: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Shuffle</string>
     <string name="app_shortcut_top_tracks_short">Top Tracks</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[سڵاو! <br> بەخێربێی بۆ %s]]></string>
     <string name="my_name">ناو</string>
     <string name="my_top_tracks">Most played</string>
-    <string name="never">هەرگیز</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">لیستی لێدانی نوێ</string>
     <string name="new_start_directory">%s is the new start directory.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Now playing</string>
     <string name="now_playing_queue">Now playing queue</string>
     <string name="now_playing_summary">Customize the now playing screen</string>
-    <string name="only_on_wifi">Only on Wi-Fi</string>
     <string name="other_settings_summary">Advanced testing features</string>
     <string name="others">Other</string>
     <string name="over_cover">Over Cover</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Colored app shortcuts</string>
     <string name="pref_title_appbar_mode">Header style</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">Auto-download artist images</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">Blur album cover</string>
     <string name="pref_title_circle_button">Circular play button</string>

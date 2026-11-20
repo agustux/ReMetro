@@ -65,7 +65,6 @@
         <item quantity="one">Àlbum</item>
         <item quantity="other">Àlbums</item>
     </plurals>
-    <string name="always">Sempre</string>
     <string name="app_share">Dona una ullada a aquest reproductor de música a: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Reprodueix aleatòriament</string>
     <string name="app_shortcut_top_tracks_short">Cançons més reproduïdes</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Hola! <br>Benvingut a %s]]></string>
     <string name="my_name">Nom</string>
     <string name="my_top_tracks">Més reproduïdes</string>
-    <string name="never">Mai</string>
     <string name="new_music_mix">Llista musical creada recentment</string>
     <string name="new_playlist_title">Nova llista de reproducció</string>
     <string name="new_start_directory">El nou directori d\u2019inici és %s.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Reproducció en curs</string>
     <string name="now_playing_queue">Cua de la reproducció en curs</string>
     <string name="now_playing_summary">Personalitza la pantalla de reproducció en curs</string>
-    <string name="only_on_wifi">Només amb Wi-Fi</string>
     <string name="other_settings_summary">Funcions de prova avançades</string>
     <string name="others">Altres</string>
     <string name="over_cover">Per sobre la portada</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Dreceres de l\'aplicació acolorides</string>
     <string name="pref_title_appbar_mode">Estil de capçalera</string>
     <string name="pref_title_audio_fade">Esvaeix l\'àudio</string>
-    <string name="pref_title_auto_download_artist_images">Baixar automàticament les imatges dels artistes</string>
     <string name="pref_title_bluetooth_playback">Reproducció Bluetooth</string>
     <string name="pref_title_blurred_album_art">Difumina la portada de l\'àlbum</string>
     <string name="pref_title_circle_button">Botó de reproducció circular</string>

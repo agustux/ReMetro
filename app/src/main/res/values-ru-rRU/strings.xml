@@ -69,7 +69,6 @@
         <item quantity="many">Альбомов</item>
         <item quantity="other">Альбомов</item>
     </plurals>
-    <string name="always">Всегда</string>
     <string name="app_share">Привет, попробуй этот классный музыкальный плеер для Android: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Перемешать</string>
     <string name="app_shortcut_top_tracks_short">Лучшие треки</string>
@@ -224,7 +223,6 @@
     <string name="message_welcome"><![CDATA[Здравствуйте! <br>Добро пожаловать в %s]]></string>
     <string name="my_name">Имя</string>
     <string name="my_top_tracks">Частые</string>
-    <string name="never">Никогда</string>
     <string name="new_music_mix">Новый Микс</string>
     <string name="new_playlist_title">Новый плейлист</string>
     <string name="new_start_directory">%s - новая стартовая директория.</string>
@@ -248,7 +246,6 @@
     <string name="now_playing">Экран воспроизведения</string>
     <string name="now_playing_queue">Очередь треков</string>
     <string name="now_playing_summary">Настройка экрана воспроизведения</string>
-    <string name="only_on_wifi">Только по Wi-Fi</string>
     <string name="other_settings_summary">Экспериментальные возможности</string>
     <string name="others">Другие</string>
     <string name="over_cover">Поверх обложки</string>
@@ -335,7 +332,6 @@
     <string name="pref_title_app_shortcuts">Цветные ярлыки</string>
     <string name="pref_title_appbar_mode">Стиль верхней панели</string>
     <string name="pref_title_audio_fade">Затухание аудио</string>
-    <string name="pref_title_auto_download_artist_images">Автозагрузка изображений исполнителя</string>
     <string name="pref_title_bluetooth_playback">Воспроизведение при подключении Bluetooth</string>
     <string name="pref_title_blurred_album_art">Размывать обложку альбома</string>
     <string name="pref_title_circle_button">Круглая кнопка воспроизведения</string>

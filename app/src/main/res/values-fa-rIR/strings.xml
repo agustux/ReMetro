@@ -65,7 +65,6 @@
         <item quantity="one">آلبوم</item>
         <item quantity="other">آلبوم ها</item>
     </plurals>
-    <string name="always">همیشه</string>
     <string name="app_share">به اشتراک گذاری برنامه</string>
     <string name="app_shortcut_shuffle_all_short">حالت تصادفی</string>
     <string name="app_shortcut_top_tracks_short">بهترین اهنگ ها</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[سلام! <br> به %s خوش آمدید]]></string>
     <string name="my_name">عنوان</string>
     <string name="my_top_tracks">بیشترین پخش شده</string>
-    <string name="never">هیچوقت</string>
     <string name="new_music_mix">میکس موسیقی جدید</string>
     <string name="new_playlist_title">فهرست پخش جدید %d</string>
     <string name="new_start_directory">دایرکتوری شروع جدید است%s.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">صفحه در حال پخش</string>
     <string name="now_playing_queue">لیست درحال پخش</string>
     <string name="now_playing_summary">صفحه پخش اهنگ را شخصی سازی کنید</string>
-    <string name="only_on_wifi">فقط از طریق wi-fi</string>
     <string name="other_settings_summary">ویژگی های تستی پیش‌رفته</string>
     <string name="others">غیره</string>
     <string name="over_cover">روی پوشش</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">میان بُرهای رنگی برنامه</string>
     <string name="pref_title_appbar_mode">سبک سربرگ</string>
     <string name="pref_title_audio_fade">محو کردن صدا</string>
-    <string name="pref_title_auto_download_artist_images">دانلود خودکار تصاویر هنرمندان</string>
     <string name="pref_title_bluetooth_playback">پخش بلوتوث</string>
     <string name="pref_title_blurred_album_art">تار کردن جلد البوم</string>
     <string name="pref_title_circle_button">دکمه پخش دایره ای</string>

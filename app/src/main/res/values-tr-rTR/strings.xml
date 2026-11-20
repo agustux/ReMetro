@@ -65,7 +65,6 @@
         <item quantity="one">Albüm</item>
         <item quantity="other">Albümler</item>
     </plurals>
-    <string name="always">Her zaman</string>
     <string name="app_share">Hey, şu havalı müzik çalara şuradan bir göz atmaya ne dersin: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Karıştır</string>
     <string name="app_shortcut_top_tracks_short">Sık oynatılan parçalar</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Merhaba! <br>%s\'e<br> hoşgeldin]]></string>
     <string name="my_name">İsim</string>
     <string name="my_top_tracks">Sık oynatılanlar</string>
-    <string name="never">Asla</string>
     <string name="new_music_mix">Yeni Müzik Karışımı</string>
     <string name="new_playlist_title">Yeni şarkı listesi</string>
     <string name="new_start_directory">%s yeni başlangıç dizini.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Şimdi oynatılıyor</string>
     <string name="now_playing_queue">Şimdi çalınıyor kuyruğu</string>
     <string name="now_playing_summary">Şimdi oynatılıyor ekranını özelleştirin</string>
-    <string name="only_on_wifi">Sadece Wi-Fi\'da</string>
     <string name="other_settings_summary">Gelişmiş test özellikleri</string>
     <string name="others">Diğer</string>
     <string name="over_cover">Kapağın Üstüne</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Renkli uygulama kısayolları</string>
     <string name="pref_title_appbar_mode">Başlık stili</string>
     <string name="pref_title_audio_fade">Soluk Ses</string>
-    <string name="pref_title_auto_download_artist_images">Sanatçı resimlerini otomatik indir</string>
     <string name="pref_title_bluetooth_playback">Bluetooth ile oynatma</string>
     <string name="pref_title_blurred_album_art">Albüm kapağını bulanıklaştır</string>
     <string name="pref_title_circle_button">Dairesel oynatma düğmesi</string>

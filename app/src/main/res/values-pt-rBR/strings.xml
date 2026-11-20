@@ -65,7 +65,6 @@
         <item quantity="one">Álbum</item>
         <item quantity="other">Álbuns</item>
     </plurals>
-    <string name="always">Sempre</string>
     <string name="app_share">Ei, confira este reprodutor de música em: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Embaralhar</string>
     <string name="app_shortcut_top_tracks_short">Melhores Músicas</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Olá! <br>Bem-vindo ao %s]]></string>
     <string name="my_name">Nome</string>
     <string name="my_top_tracks">Mais tocadas</string>
-    <string name="never">Nunca</string>
     <string name="new_music_mix">Novo Mix de Músicas</string>
     <string name="new_playlist_title">Nova playlist</string>
     <string name="new_start_directory">%s é o novo diretório inicial.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Tela de Reprodução</string>
     <string name="now_playing_queue">Fila de reprodução atual</string>
     <string name="now_playing_summary">Personalizar a tela de reprodução</string>
-    <string name="only_on_wifi">Apenas em Wi-Fi</string>
     <string name="other_settings_summary">Recursos avançados em teste</string>
     <string name="others">Outro</string>
     <string name="over_cover">Sobre a Capa</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Colorir os atalhos do aplicativo</string>
     <string name="pref_title_appbar_mode">Estilo do cabeçalho</string>
     <string name="pref_title_audio_fade">Desvanecer áudio</string>
-    <string name="pref_title_auto_download_artist_images">Baixar automaticamente as imagens dos artistas</string>
     <string name="pref_title_bluetooth_playback">Reprodução bluetooth</string>
     <string name="pref_title_blurred_album_art">Desfocar a capa do álbum</string>
     <string name="pref_title_circle_button">Botão de reprodução circular</string>

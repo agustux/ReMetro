@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Alben</item>
     </plurals>
-    <string name="always">Immer</string>
     <string name="app_share">Hey, schau dir diesen coolen Music Player an: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Zufällig</string>
     <string name="app_shortcut_top_tracks_short">Top-Titel</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Hallo! <br>Willkommen bei %s]]></string>
     <string name="my_name">Name</string>
     <string name="my_top_tracks">Am häufigsten gespielt</string>
-    <string name="never">Nie</string>
     <string name="new_music_mix">Neuer Musik-Mix</string>
     <string name="new_playlist_title">Neue Playlist</string>
     <string name="new_start_directory">%s ist das neue Startverzeichnis.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Aktuelle Wiedergabe</string>
     <string name="now_playing_queue">Wiedergabe-Warteschlange</string>
     <string name="now_playing_summary">Passe den Wiedergabe-Bildschirm an</string>
-    <string name="only_on_wifi">Nur über WLAN</string>
     <string name="other_settings_summary">Experimentelle Funktionen</string>
     <string name="others">Sonstiges</string>
     <string name="over_cover">Über Cover</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Farbige App-Verknüpfungen</string>
     <string name="pref_title_appbar_mode">Stil der Suchleiste</string>
     <string name="pref_title_audio_fade">Audio überblenden</string>
-    <string name="pref_title_auto_download_artist_images">Interpreten-Bilder automatisch herunterladen</string>
     <string name="pref_title_bluetooth_playback">Bluetooth-Wiedergabe</string>
     <string name="pref_title_blurred_album_art">Album-Cover weichzeichnen</string>
     <string name="pref_title_circle_button">Runder Wiedergabeknopf</string>

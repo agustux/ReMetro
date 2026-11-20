@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Albumok</item>
     </plurals>
-    <string name="always">Mindig</string>
     <string name="app_share">Hé, nézd meg ezt a menő zenelejátszót itt: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Keverés</string>
     <string name="app_shortcut_top_tracks_short">Legjobb zeneszámok</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[Szia! <br>Üdv a %s-ban]]></string>
     <string name="my_name">Név</string>
     <string name="my_top_tracks">Legjobb számok</string>
-    <string name="never">Soha</string>
     <string name="new_music_mix">Új Zene Mix</string>
     <string name="new_playlist_title">Új lejátszási lista</string>
     <string name="new_start_directory">%s az új indítókönyvtár.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Most játszott</string>
     <string name="now_playing_queue">Sorban áll</string>
     <string name="now_playing_summary">Most játszott képernyő személyre szabása</string>
-    <string name="only_on_wifi">Csak Wi-Fi-n</string>
     <string name="other_settings_summary">Speciális tesztelési funkciók</string>
     <string name="others">Egyéb</string>
     <string name="over_cover">Albumborító helyett</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Színes alkalmazás parancsikonok</string>
     <string name="pref_title_appbar_mode">Fejléc stílusa</string>
     <string name="pref_title_audio_fade">Hang elhalkítása/felerősítése</string>
-    <string name="pref_title_auto_download_artist_images">Automatikusan letölti az előadók képeit</string>
     <string name="pref_title_bluetooth_playback">Bluetooth lejátszás</string>
     <string name="pref_title_blurred_album_art">Elhomályosított albumborító</string>
     <string name="pref_title_circle_button">Kerek lejátszási gomb</string>

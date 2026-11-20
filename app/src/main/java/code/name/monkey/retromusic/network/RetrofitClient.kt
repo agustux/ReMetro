@@ -54,13 +54,6 @@ fun provideOkHttp(context: Context, cache: Cache): OkHttpClient {
         .build()
 }
 
-fun provideDeezerRest(retrofit: Retrofit): DeezerService {
-    val newBuilder = retrofit.newBuilder()
-        .baseUrl("https://api.deezer.com/")
-        .build()
-    return newBuilder.create(DeezerService::class.java)
-}
-
 fun provideLyrics(retrofit: Retrofit): LyricsRestService {
     val newBuilder = retrofit.newBuilder()
         .baseUrl("https://makeitpersonal.co")

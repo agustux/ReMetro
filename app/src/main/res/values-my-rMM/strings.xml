@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">အယ်လ်ဘမ်များ</item>
     </plurals>
-    <string name="always">အမြဲတမ်း</string>
     <string name="app_share">ဟေ့ အရမ်းမိုက်တဲ့ဒီ Music Player ကိုတစ်ချက်ကြည့်ကြည့်! https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ကျရာ</string>
     <string name="app_shortcut_top_tracks_short">ထိပ်ဆုံးသီချင်းများ</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
     <string name="my_name">နာမည်</string>
     <string name="my_top_tracks">အများဆုံးနားထောင်ခဲ့သော</string>
-    <string name="never">ဘယ်တော့မှ</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Playlist အသစ်</string>
     <string name="new_start_directory">%s ဟာ Directory အစဖြစ်သွားပါပြီ</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">Now playing</string>
     <string name="now_playing_queue">Now playing queue</string>
     <string name="now_playing_summary">Now playing screen ကိုစိတ်ကြိုက်ပြင်ခြင်း</string>
-    <string name="only_on_wifi">Wi-Fi ဖြင့်သာ</string>
     <string name="other_settings_summary">အဆင့်မြင့် Settings များ</string>
     <string name="others">အခြား</string>
     <string name="over_cover">Over Cover</string>
@@ -329,7 +326,6 @@
     <string name="pref_title_app_shortcuts">Colored App shortcuts</string>
     <string name="pref_title_appbar_mode">Header style</string>
     <string name="pref_title_audio_fade">Fade audio</string>
-    <string name="pref_title_auto_download_artist_images">အဆိုတော်ဓာတ်ပုံများကို အလိုအလျောက်ဒေါင်းလုဒ်ဆွဲခြင်း</string>
     <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
     <string name="pref_title_blurred_album_art">Album cover အဝါး</string>
     <string name="pref_title_circle_button">Circular play button</string>

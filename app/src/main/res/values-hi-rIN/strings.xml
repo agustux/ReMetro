@@ -65,7 +65,6 @@
         <item quantity="one">एल्बम</item>
         <item quantity="other">एलबम</item>
     </plurals>
-    <string name="always">हमेशा</string>
     <string name="app_share">इस बढ़िया म्यूजिक प्लेयर को यहां देखें:https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">शफ़ल</string>
     <string name="app_shortcut_top_tracks_short">टॉप गीत</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[नमस्ते! <br>%s में आपका स्वागत है]]></string>
     <string name="my_name">नाम</string>
     <string name="my_top_tracks">सबसे अधिक बजाया गया</string>
-    <string name="never">कभी नहीं</string>
     <string name="new_music_mix">नया संगीत मिश्रण</string>
     <string name="new_playlist_title">नई प्लेलिस्ट</string>
     <string name="new_start_directory">%s नई प्रारंभ निर्देशिका है</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">अभी चल रहा है</string>
     <string name="now_playing_queue">नाउ प्लेइंग कतार</string>
     <string name="now_playing_summary">नाउ प्लेइंग स्क्रीन को अनुकूलित करें</string>
-    <string name="only_on_wifi">केवल वाई-फ़ाई पर</string>
     <string name="other_settings_summary">उन्नत परीक्षण सुविधाएँ</string>
     <string name="others">अन्य</string>
     <string name="over_cover">ओवर कवर</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">रंगीन ऐप शॉर्टकट</string>
     <string name="pref_title_appbar_mode">शीर्ष शैली</string>
     <string name="pref_title_audio_fade">फेड ऑडियो</string>
-    <string name="pref_title_auto_download_artist_images">कलाकार छवियाँ स्वतः डाउनलोड करें</string>
     <string name="pref_title_bluetooth_playback">ब्लूटूथ प्लेबैक</string>
     <string name="pref_title_blurred_album_art">धुंधला एल्बम कवर</string>
     <string name="pref_title_circle_button">गोलाकार प्ले बटन</string>

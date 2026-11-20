@@ -65,7 +65,6 @@
         <item quantity="one">ಆಲ್ಬಮ್</item>
         <item quantity="other">ಆಲ್ಬಮ್ಗಳು</item>
     </plurals>
-    <string name="always">ಯಾವಾಗಲೂ</string>
     <string name="app_share">ಈ ಉತ್ತಮ ಮ್ಯೂಸಿಕ್ ಪ್ಲೇಯರ್ ಅನ್ನು ಇಲ್ಲಿ ನೋಡಿ: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ಷಫಲ್</string>
     <string name="app_shortcut_top_tracks_short">ಉನ್ನತ ಹಾಡುಗಳು</string>
@@ -221,7 +220,6 @@
     <string name="message_welcome"><![CDATA[ನಮಸ್ಕಾರ! <br>%s ಗೆ ಸುಸ್ವಾಗತ]]></string>
     <string name="my_name">ಹೆಸರು</string>
     <string name="my_top_tracks">ಹೆಚ್ಚು ಕೇಳಿರುವುದು</string>
-    <string name="never">ಎಂದಿಗೂ ಬೇಡ</string>
     <string name="new_music_mix">ಹೊಸ ಹಾಡುಗಳ ಮಿಶ್ರಣ</string>
     <string name="new_playlist_title">ಹೊಸ ಪ್ಲೇಲೀಸ್ಟ್‌</string>
     <string name="new_start_directory">%s ಹೊಸ ಪ್ರಾರಂಭದ ಡೈರೆಕ್ಟರಿಯಾಗಿದೆ.</string>
@@ -245,7 +243,6 @@
     <string name="now_playing">ಇವಾಗ ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿರುವುದು</string>
     <string name="now_playing_queue">ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿರುವ ಪಟ್ಟಿ</string>
     <string name="now_playing_summary">ಈಗ ಪ್ಲೇ ಆಗುತ್ತಿರುವ ಪರದೆಯನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</string>
-    <string name="only_on_wifi">ವೈಫೈನಲ್ಲಿ ಮಾತ್ರ</string>
     <string name="other_settings_summary">ಸುಧಾರಿತ ಪರೀಕ್ಷಾ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
     <string name="others">ಇತರೆ</string>
     <string name="over_cover">ಕವರ್ ಮೇಲೆ</string>
@@ -332,7 +329,6 @@
     <string name="pref_title_app_shortcuts">ಬಣ್ಣದ ಅಪ್ಲಿಕೇಶನ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು</string>
     <string name="pref_title_appbar_mode">ಹೆಡ್ಡರ್ ಶೈಲಿ</string>
     <string name="pref_title_audio_fade">ಫೇಡ್ ಆಡಿಯೋ</string>
-    <string name="pref_title_auto_download_artist_images">ಕಲಾವಿದರ ಚಿತ್ರಗಳನ್ನು ಸ್ವಯಂ-ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
     <string name="pref_title_bluetooth_playback">ಬ್ಲೂಟೂತ್ ಪ್ಲೇಬ್ಯಾಕ್</string>
     <string name="pref_title_blurred_album_art">ಆಲ್ಬಮ್ ಕವರ್ ಅನ್ನು ಮಸುಕುಗೊಳಿಸಿ</string>
     <string name="pref_title_circle_button">ವೃತ್ತಾಕಾರದ ಪ್ಲೇ ಬಟನ್</string>

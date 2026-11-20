@@ -2,10 +2,7 @@ package code.name.monkey.retromusic.util
 
 import android.content.Context
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import android.net.ConnectivityManager
-import android.net.NetworkCapabilities
 import androidx.core.content.edit
-import androidx.core.content.getSystemService
 import androidx.core.content.res.use
 import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceManager
@@ -31,7 +28,6 @@ import code.name.monkey.retromusic.ARTIST_GRID_STYLE
 import code.name.monkey.retromusic.ARTIST_SONG_SORT_ORDER
 import code.name.monkey.retromusic.ARTIST_SORT_ORDER
 import code.name.monkey.retromusic.AUDIO_FADE_DURATION
-import code.name.monkey.retromusic.AUTO_DOWNLOAD_IMAGES_POLICY
 import code.name.monkey.retromusic.App
 import code.name.monkey.retromusic.BLACK_THEME
 import code.name.monkey.retromusic.BLUETOOTH_PLAYBACK
@@ -233,12 +229,6 @@ object PreferenceUtil {
             putString(SAF_SDCARD_URI, value)
         }
 
-    private val autoDownloadImagesPolicy
-        get() = sharedPreferences.getStringOrDefault(
-            AUTO_DOWNLOAD_IMAGES_POLICY,
-            "only_wifi"
-        )
-
     var albumArtistsOnly
         get() = sharedPreferences.getBoolean(
             ALBUM_ARTISTS_ONLY,
@@ -437,23 +427,6 @@ object PreferenceUtil {
         )
 
     val isLockScreen get() = sharedPreferences.getBoolean(LOCK_SCREEN, false)
-
-    @Suppress("deprecation")
-    fun isAllowedToDownloadMetadata(context: Context): Boolean {
-        return when (autoDownloadImagesPolicy) {
-            "always" -> true
-            "only_wifi" -> {
-                val connectivityManager = context.getSystemService<ConnectivityManager>()
-                val network = connectivityManager?.activeNetwork
-                val capabilities = connectivityManager?.getNetworkCapabilities(network)
-                capabilities != null && capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)
-            }
-
-            "never" -> false
-            else -> false
-        }
-    }
-
 
     var lyricsOption
         get() = sharedPreferences.getInt(LYRICS_OPTIONS, 1)

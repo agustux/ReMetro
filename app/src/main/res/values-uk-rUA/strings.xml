@@ -69,7 +69,6 @@
         <item quantity="many">Альбомів</item>
         <item quantity="other">Альбоми</item>
     </plurals>
-    <string name="always">Завжди</string>
     <string name="app_share">Привіт, перегляньте цей крутий музичний плеєр за адресою: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Перемішати</string>
     <string name="app_shortcut_top_tracks_short">Кращі треки</string>
@@ -224,7 +223,6 @@
     <string name="message_welcome"><![CDATA[Привіт! <br>Вітаємо в %s]]></string>
     <string name="my_name">Назва</string>
     <string name="my_top_tracks">Найчастіше відтворювані</string>
-    <string name="never">Ніколи</string>
     <string name="new_music_mix">Новий мікс</string>
     <string name="new_playlist_title">Новий список відтворення</string>
     <string name="new_start_directory">%s є новим початковим каталогом.</string>
@@ -248,7 +246,6 @@
     <string name="now_playing">Відтворюється зараз</string>
     <string name="now_playing_queue">Зараз в черзі відтворення</string>
     <string name="now_playing_summary">Налаштування екрану відтворення</string>
-    <string name="only_on_wifi">Лише через Wi-Fi</string>
     <string name="other_settings_summary">Розширені функції тестування</string>
     <string name="others">Інше</string>
     <string name="over_cover">Обкладинка</string>
@@ -335,7 +332,6 @@
     <string name="pref_title_app_shortcuts">Кольорові ярлики застосунків</string>
     <string name="pref_title_appbar_mode">Стиль заголовку</string>
     <string name="pref_title_audio_fade">Затухання аудіо</string>
-    <string name="pref_title_auto_download_artist_images">Автоматично завантажувати зображення виконавців</string>
     <string name="pref_title_bluetooth_playback">Відтворення Bluetooth</string>
     <string name="pref_title_blurred_album_art">Розмити обкладинку альбому</string>
     <string name="pref_title_circle_button">Кнопка кругового відтворення</string>

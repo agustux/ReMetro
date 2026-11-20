@@ -65,7 +65,6 @@
         <item quantity="one">Álbum</item>
         <item quantity="other">Álbumes</item>
     </plurals>
-    <string name="always">Siempre</string>
     <string name="app_share">Mira este genial reproductor de música en: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Aleatorio</string>
     <string name="app_shortcut_top_tracks_short">Canciones más reproducidas</string>
@@ -220,7 +219,6 @@
     <string name="message_welcome"><![CDATA[¡Hola! <br> Bienvenido(a) a %s]]></string>
     <string name="my_name">Nombre</string>
     <string name="my_top_tracks">Más reproducidas</string>
-    <string name="never">Nunca</string>
     <string name="new_music_mix">Nueva mezcla musical</string>
     <string name="new_playlist_title">Nueva lista de reproducción</string>
     <string name="new_start_directory">%s es el nuevo directorio de inicio.</string>
@@ -244,7 +242,6 @@
     <string name="now_playing">Reproduciendo ahora</string>
     <string name="now_playing_queue">Cola de reproducción actual</string>
     <string name="now_playing_summary">Personalizar la ventana de reproducción actual</string>
-    <string name="only_on_wifi">Solo con Wi-Fi</string>
     <string name="other_settings_summary">Funciones avanzadas experimentales</string>
     <string name="others">Otro</string>
     <string name="over_cover">Sobre la portada</string>
@@ -331,7 +328,6 @@
     <string name="pref_title_app_shortcuts">Accesos directos de la aplicación coloreados</string>
     <string name="pref_title_appbar_mode">Estilo de cabecera</string>
     <string name="pref_title_audio_fade">Desvanecer audio</string>
-    <string name="pref_title_auto_download_artist_images">Descarga automática de imágenes de artistas</string>
     <string name="pref_title_bluetooth_playback">Reproducción por Bluetooth</string>
     <string name="pref_title_blurred_album_art">Desenfocar portada del álbum</string>
     <string name="pref_title_circle_button">Botón de reproducción circular</string>

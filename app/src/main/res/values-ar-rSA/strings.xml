@@ -75,7 +75,6 @@
         <item quantity="many">الألبومات</item>
         <item quantity="other">الألبومات</item>
     </plurals>
-    <string name="always">دائما</string>
     <string name="app_share">مرحبا القي نظرة على مشغل الموسيقى الرائع هذا في: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">عشوائي</string>
     <string name="app_shortcut_top_tracks_short">المسارات الاكثر شعبية</string>
@@ -231,7 +230,6 @@
     <string name="message_welcome"><![CDATA[مرحبا يا هذا! <br>مرحبا بك في %s]]></string>
     <string name="my_name">الأسم</string>
     <string name="my_top_tracks">الأكثر تشغيل</string>
-    <string name="never">أبداً</string>
     <string name="new_music_mix">مزيج موسيقي جديد</string>
     <string name="new_playlist_title">قائمة تشغيل جديدة</string>
     <string name="new_start_directory">%s هذا دليل البدء الجديد.</string>
@@ -255,7 +253,6 @@
     <string name="now_playing">تشغيل الان</string>
     <string name="now_playing_queue">تسلسل التشغيل الان</string>
     <string name="now_playing_summary">تخصيص شاشة التشغيل الآن</string>
-    <string name="only_on_wifi">فقط على الواي فاي</string>
     <string name="other_settings_summary">اعدادات اختبارية متقدمة</string>
     <string name="others">آخر</string>
     <string name="over_cover">فوق الغلاف</string>
@@ -342,7 +339,6 @@
     <string name="pref_title_app_shortcuts">تلوين اختصارات التطبيق</string>
     <string name="pref_title_appbar_mode">نمط الرأس</string>
     <string name="pref_title_audio_fade">تلاشي الصوت</string>
-    <string name="pref_title_auto_download_artist_images">تحميل تلقائي لصور الالبومات</string>
     <string name="pref_title_bluetooth_playback">تشغيل البلوتوث</string>
     <string name="pref_title_blurred_album_art">تضبيب صورة الالبوم</string>
     <string name="pref_title_circle_button">زر التشغيل الدائري</string>

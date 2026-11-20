@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">Album</item>
     </plurals>
-    <string name="always">Selalu</string>
     <string name="app_share">Hai, cobalah pemutar musik keren ini di: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Acak</string>
     <string name="app_shortcut_top_tracks_short">Lagu Teratas</string>
@@ -218,7 +217,6 @@
     <string name="message_welcome"><![CDATA[Halo! <br> Selamat datang ke %s]]></string>
     <string name="my_name">Nama</string>
     <string name="my_top_tracks">Sering diputar</string>
-    <string name="never">Tidak pernah</string>
     <string name="new_music_mix">Acak Musik Baru</string>
     <string name="new_playlist_title">Daftar putar baru</string>
     <string name="new_start_directory">%s adalah direktori awal yang baru.</string>
@@ -242,7 +240,6 @@
     <string name="now_playing">Sedang diputar</string>
     <string name="now_playing_queue">Sekarang memutar antrean</string>
     <string name="now_playing_summary">Sesuaikan tampilan layar yang sedang diputar</string>
-    <string name="only_on_wifi">Hanya Wi-Fi</string>
     <string name="other_settings_summary">Fitur pengujian lanjutan</string>
     <string name="others">Lainnya</string>
     <string name="over_cover">Di Atas Sampul</string>
@@ -329,7 +326,6 @@
     <string name="pref_title_app_shortcuts">Pintasan Berwarna</string>
     <string name="pref_title_appbar_mode">Gaya header</string>
     <string name="pref_title_audio_fade">Suara Memudar</string>
-    <string name="pref_title_auto_download_artist_images">Unduh otomatis gambar artis</string>
     <string name="pref_title_bluetooth_playback">Pemutaran Bluetooth</string>
     <string name="pref_title_blurred_album_art">Buramkan sampul album</string>
     <string name="pref_title_circle_button">Tombol putar melingkar</string>

@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Album</item>
     </plurals>
-    <string name="always">Her dem</string>
     <string name="app_share">Silav ev lêdera muzîkê ya xweşik li vir binêre:
 https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Tevlîhev bike</string>
@@ -221,7 +220,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="message_welcome"><![CDATA[Silav! <br>Tu bi xêr hatî %s]]></string>
     <string name="my_name">Nav</string>
     <string name="my_top_tracks">Herî pir lêdayî</string>
-    <string name="never">Tu car</string>
     <string name="new_music_mix">Muzîka nû tevlîhev bike</string>
     <string name="new_playlist_title">Rêzoka lêdanê ya nû</string>
     <string name="new_start_directory">%s reberiya destpêkê ya nû ye.</string>
@@ -245,7 +243,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="now_playing">Niha tê lêdan</string>
     <string name="now_playing_queue">Rêzeya niha tê lêdan</string>
     <string name="now_playing_summary">Dîmendera niha tê lêdan kesane bike</string>
-    <string name="only_on_wifi">Tenê li ser Wi-Fi</string>
     <string name="other_settings_summary">Taybetmendiyên testkirina pêşketî</string>
     <string name="others">Ên din</string>
     <string name="over_cover">Li ser bergê</string>
@@ -333,7 +330,6 @@ têne guhertin</string>
     <string name="pref_title_app_shortcuts">Kurteyên sepanê yên rengîn</string>
     <string name="pref_title_appbar_mode">Awayê sernav</string>
     <string name="pref_title_audio_fade">Wendabûna dengê</string>
-    <string name="pref_title_auto_download_artist_images">Wêneyên hunermendan bixweber daxe</string>
     <string name="pref_title_bluetooth_playback">Bi riya Bluetooth lêde</string>
     <string name="pref_title_blurred_album_art">Berga albumê mijbarî bike</string>
     <string name="pref_title_circle_button">Bişkoka lêdana gilover nîşan bide</string>
