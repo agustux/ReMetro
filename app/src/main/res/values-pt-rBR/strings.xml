@@ -144,7 +144,6 @@
     <string name="equalizer">Equalizador</string>
     <string name="error_create_backup">Não foi possível criar o backup</string>
     <string name="error_delete_backup">Não foi possível excluir o backup</string>
-    <string name="error_empty_name">Seu nome não pode estar em branco!</string>
     <string name="error_load_failed">Falha ao carregar</string>
     <string name="expanded">Expandido</string>
     <string name="faq">Perguntas frequentes</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Backup criado com sucesso.</string>
     <string name="message_limit_tabs">Não mais que 5 itens</string>
     <string name="message_restore_success">Restauração concluída com sucesso.</string>
-    <string name="message_updated">Atualizado</string>
     <string name="message_welcome"><![CDATA[Olá! <br>Bem-vindo ao %s]]></string>
-    <string name="my_name">Nome</string>
     <string name="my_top_tracks">Mais tocadas</string>
     <string name="new_music_mix">Novo Mix de Músicas</string>
     <string name="new_playlist_title">Nova playlist</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Clicar na notificação irá mostrar a tela de reprodução ao invés da tela inicial</string>
     <string name="pref_summary_extra_controls">Adicionar botões extras para o mini reprodutor</string>
     <string name="pref_summary_extra_song_info">Mostrar informações extras da música, como formato de arquivo, taxa de bits e frequência</string>
-    <string name="pref_summary_home_banner">Mostrar ou esconder o mural inicial</string>
     <string name="pref_summary_ignore_media_store_artwork">Pode aumentar a qualidade da capa do álbum, mas diminui a velocidade de carregamento. Ative isso apenas se você tiver problemas com capas de baixa resolução</string>
     <string name="pref_summary_library_categories">Configurar visibilidade e ordem das categorias da biblioteca.</string>
     <string name="pref_summary_lock_screen">Usar controles personalizados do MetroX na tela de bloqueio</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Tema do aplicativo</string>
     <string name="pref_title_home_album_grid_style">Álbum em grade</string>
     <string name="pref_title_home_artist_grid_style">Artistas em grade</string>
-    <string name="pref_title_home_banner">Mural</string>
     <string name="pref_title_ignore_media_store_artwork">Ignorar capas do Armazenamento de Mídia</string>
     <string name="pref_title_last_added_interval">Intervalo da playlist \"Mais recentes\"</string>
     <string name="pref_title_lock_screen">Controles em tela cheia</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Cor de destaque do papel de parede</string>
     <string name="pref_title_whitelist">Lista branca</string>
     <string name="pro">Pro</string>
-    <string name="profile">Perfil</string>
     <string name="queue">Fila</string>
     <string name="recent_albums">Álbuns recentes</string>
     <string name="recent_artists">Artistas recentes</string>
@@ -456,13 +450,10 @@
     <string name="up_next">A seguir</string>
     <string name="update_image">Atualizar imagem</string>
     <string name="updating">Atualizando...</string>
-    <string name="user_images_description">Imagens do Usuário</string>
-    <string name="user_name">Nome do Usuário</string>
     <string name="version">Versão</string>
     <string name="vertical_flip">Giro vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pesquisar na internet</string>
-    <string name="welcome">Bem-vindo(a),</string>
     <string name="what_do_you_want_to_share">O que você quer compartilhar?</string>
     <string name="window">Janela</string>
     <string name="x_has_been_set_as_ringtone">Definir %1$s como toque.</string>

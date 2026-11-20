@@ -144,7 +144,6 @@
     <string name="equalizer">اکولایزر</string>
     <string name="error_create_backup">پشتیبان گیری \u2019 انجام نشد</string>
     <string name="error_delete_backup">حذف \u2019 نسخه پشتیبان انجام نشد</string>
-    <string name="error_empty_name">نام شما نمیتواند خالی باشد!</string>
     <string name="error_load_failed">بارگیری انجام نشد</string>
     <string name="expanded">گسترش یافته</string>
     <string name="faq">سوالات متداول</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">پشتیبان گیری با موفقیت انجام شد.</string>
     <string name="message_limit_tabs">بیشتر از ۵ مورد نیست</string>
     <string name="message_restore_success">بازیابی با موفقیت انجام شد.</string>
-    <string name="message_updated">به روز شد</string>
     <string name="message_welcome"><![CDATA[سلام! <br> به %s خوش آمدید]]></string>
-    <string name="my_name">عنوان</string>
     <string name="my_top_tracks">بیشترین پخش شده</string>
     <string name="new_music_mix">میکس موسیقی جدید</string>
     <string name="new_playlist_title">فهرست پخش جدید %d</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">با کلیک بر روی اعلان، به جای صفحه اصلی، صفحه در حال پخش نمایش داده می شود</string>
     <string name="pref_summary_extra_controls">اضافه کردن کنترل های اضافی برای پخش‌کننده کوچک</string>
     <string name="pref_summary_extra_song_info">نمایش اطلاعات اضافی آهنگ، مانند فرمت فایل، میزان بیت و فرکانس</string>
-    <string name="pref_summary_home_banner">نمایش یا عدم نمایش نوار</string>
     <string name="pref_summary_ignore_media_store_artwork">می تواند کیفیت جلد آلبوم را افزایش دهد، اما باعث کندی بارگذاری تصویر می شود. فقط اگر با آثار هنری با وضوح پایین مشکل دارید این را فعال کنید</string>
     <string name="pref_summary_library_categories">قابلیت مشاهده و ترتیب دسته‌های کتابخانه را پیکربندی کنید.</string>
     <string name="pref_summary_lock_screen">از کنترل‌های صفحه قفل سفارشی MetroX استفاده کنید</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">تم برنامه</string>
     <string name="pref_title_home_album_grid_style">تصویر آلبوم</string>
     <string name="pref_title_home_artist_grid_style">صفحه هنرمند</string>
-    <string name="pref_title_home_banner">بنر</string>
     <string name="pref_title_ignore_media_store_artwork">پوشش های فروشگاه رسانه را نادیده بگیرید</string>
     <string name="pref_title_last_added_interval">آخرین فاصله لیست پخش اضافه شده</string>
     <string name="pref_title_lock_screen">کنترل های تمام صفحه</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">رنگ تاکیدی کاغذ دیواری</string>
     <string name="pref_title_whitelist">لیست سفید موسیقی</string>
     <string name="pro">حرفه‌ای</string>
-    <string name="profile">نمایه</string>
     <string name="queue">صف درحال پخش</string>
     <string name="recent_albums">آلبوم های اخیر</string>
     <string name="recent_artists">هنرمندان اخیر</string>
@@ -456,13 +450,10 @@
     <string name="up_next">تا بعدی</string>
     <string name="update_image">بروز رسانی تصویر</string>
     <string name="updating">درحال به روز رسانی…</string>
-    <string name="user_images_description">تصاویر کاربر</string>
-    <string name="user_name">نام کاربری</string>
     <string name="version">نسخه</string>
     <string name="vertical_flip">چرخش عمودی</string>
     <string name="volume">حجم صدا</string>
     <string name="web_search">جستجوی وب</string>
-    <string name="welcome">خوش آمدید</string>
     <string name="what_do_you_want_to_share">چه چیزی را میخواهید به اشتراک بگذارید؟</string>
     <string name="window">پنجره</string>
     <string name="x_has_been_set_as_ringtone">%1$s را به عنوان صدای زنگ تنظیم کن</string>

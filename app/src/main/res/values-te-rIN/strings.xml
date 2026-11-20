@@ -163,7 +163,6 @@
     <string name="material">మెటీరియల్</string>
     <string name="md_error_label">లోపం</string>
     <string name="md_storage_perm_error">అనుమతి లోపం</string>
-    <string name="my_name">పేరు</string>
     <string name="my_top_tracks">ఎక్కువగా ఆడారు</string>
     <string name="new_playlist_title">క్రొత్త ప్లేజాబితా</string>
     <string name="new_start_directory">%s క్రొత్త ప్రారంభ డైరెక్టరీ.</string>
@@ -231,7 +230,6 @@
     <string name="pref_summary_expand_now_playing_panel">నోటిఫికేషన్‌పై క్లిక్ చేస్తే హోమ్ స్క్రీన్‌కు బదులుగా ఇప్పుడు ప్లే స్క్రీన్ కనిపిస్తుంది</string>
     <string name="pref_summary_extra_controls">మినీ ప్లేయర్ కోసం అదనపు నియంత్రణలను జోడించండి</string>
     <string name="pref_summary_extra_song_info">ఫైల్ ఫార్మాట్, బిట్రేట్ మరియు ఫ్రీక్వెన్సీ వంటి అదనపు పాట సమాచారాన్ని చూపించు</string>
-    <string name="pref_summary_home_banner">హోమ్ బ్యానర్ శైలిని టోగుల్ చేయండి</string>
     <string name="pref_summary_ignore_media_store_artwork">ఆల్బమ్ కవర్ నాణ్యతను పెంచగలదు, కానీ నెమ్మదిగా చిత్రం లోడింగ్ సమయాలకు కారణమవుతుంది.  మీకు తక్కువ రిజల్యూషన్ కళాకృతులతో సమస్యలు ఉంటే మాత్రమే దీన్ని ప్రారంభించండి</string>
     <string name="pref_summary_library_categories">లైబ్రరీ వర్గాల దృశ్యమానత మరియు క్రమాన్ని కాన్ఫిగర్ చేయండి.</string>
     <string name="pref_summary_lock_screen">రెట్రో మ్యూజిక్ యొక్క అనుకూల లాక్‌స్క్రీన్ నియంత్రణలను ఉపయోగించండి</string>
@@ -252,7 +250,6 @@
     <string name="pref_title_extra_song_info">పాట సమాచారం</string>
     <string name="pref_title_general_theme">అనువర్తన థీమ్</string>
     <string name="pref_title_home_artist_grid_style">హోమ్ ఆర్టిస్ట్ గ్రిడ్</string>
-    <string name="pref_title_home_banner">హోమ్ బ్యానర్</string>
     <string name="pref_title_ignore_media_store_artwork">మీడియా స్టోర్ కవర్లను విస్మరించండి</string>
     <string name="pref_title_last_added_interval">చివరిగా జోడించిన ప్లేజాబితా విరామం</string>
     <string name="pref_title_lock_screen">పూర్తి స్క్రీన్ నియంత్రణలు</string>
@@ -264,7 +261,6 @@
     <string name="pref_title_toggle_toggle_headset">ఆటో ప్లే</string>
     <string name="pref_title_toggle_volume">వాల్యూమ్ నియంత్రణలు</string>
     <string name="pro">ప్రో</string>
-    <string name="profile">ప్రొఫైల్</string>
     <string name="queue">క్యూ</string>
     <string name="recent_albums">ఇటీవలి ఆల్బమ్‌లు</string>
     <string name="recent_artists">ఇటీవలి కళాకారులు</string>
@@ -351,7 +347,6 @@
     <string name="vertical_flip">లంబ ఫ్లిప్</string>
     <string name="volume">వాల్యూమ్</string>
     <string name="web_search">వెబ్ సెర్చ్</string>
-    <string name="welcome">స్వాగతం</string>
     <string name="what_do_you_want_to_share">మీరు ఏమి భాగస్వామ్యం చేయాలనుకుంటున్నారు?</string>
     <string name="window">కిటికీ</string>
     <string name="x_has_been_set_as_ringtone">%1$s ను మీ రింగ్‌టోన్‌గా సెట్ చేయండి.</string>

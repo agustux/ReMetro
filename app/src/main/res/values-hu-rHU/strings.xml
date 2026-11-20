@@ -144,7 +144,6 @@
     <string name="equalizer">Hangszínszabályzó</string>
     <string name="error_create_backup">Biztonsági mentés sikertelen</string>
     <string name="error_delete_backup">Biztonsági mentés törlése sikertelen</string>
-    <string name="error_empty_name">A neved nem lehet üres!</string>
     <string name="error_load_failed">Betöltés sikertelen</string>
     <string name="expanded">Kibővített</string>
     <string name="faq">GYIK</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Biztonsági mentés sikeresen létrehozva</string>
     <string name="message_limit_tabs">Nem lehet több 5 elemnél</string>
     <string name="message_restore_success">A visszaállítás sikeresen befejeződött</string>
-    <string name="message_updated">Frissítve</string>
     <string name="message_welcome"><![CDATA[Szia! <br>Üdv a %s-ban]]></string>
-    <string name="my_name">Név</string>
     <string name="my_top_tracks">Legjobb számok</string>
     <string name="new_music_mix">Új Zene Mix</string>
     <string name="new_playlist_title">Új lejátszási lista</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Az értesítésre kattintva a kezdőképernyő helyett a lejátszási képernyő jelenik meg</string>
     <string name="pref_summary_extra_controls">Extra vezérlők hozzáadása a mini lejátszóhoz</string>
     <string name="pref_summary_extra_song_info">Mutasson további dalinformációkat, például a fájl formátumát, bitrátáját és frekvenciáját</string>
-    <string name="pref_summary_home_banner">Kezdőlap banner mutatása/elrejtése</string>
     <string name="pref_summary_ignore_media_store_artwork">Növelheti az albumborító minőségét, de lassabb kép betöltési időt eredményez. Csak akkor engedélyezze ezt, ha problémái vannak az alacsony felbontású borítókkal kapcsolatban.</string>
     <string name="pref_summary_library_categories">A könyvtári kategóriák sorrendjének és láthatóságának beállítása.</string>
     <string name="pref_summary_lock_screen">MetroX egyéni vezérlőinek a használata zárolási képernyőn.</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Alkalmazás téma</string>
     <string name="pref_title_home_album_grid_style">Album rács</string>
     <string name="pref_title_home_artist_grid_style">Kezdőlapi előadó rács</string>
-    <string name="pref_title_home_banner">Kezdőlap banner</string>
     <string name="pref_title_ignore_media_store_artwork">A médiatár albumborítóinak figyelmen kívül hagyása</string>
     <string name="pref_title_last_added_interval">Az utoljára hozzáadott lejátszási lista hossza</string>
     <string name="pref_title_lock_screen">Teljes képernyős vezérlők</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Háttérkép kiemelő szín</string>
     <string name="pref_title_whitelist">Engedélyezett zenelisták</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">Sorban áll</string>
     <string name="recent_albums">Legutóbbi albumok</string>
     <string name="recent_artists">Legújabb előadók</string>
@@ -456,13 +450,10 @@
     <string name="up_next">A következő</string>
     <string name="update_image">Kép frissítése</string>
     <string name="updating">Frissítés...</string>
-    <string name="user_images_description">Felhasználó képei</string>
-    <string name="user_name">Felhasználónév</string>
     <string name="version">Verzió</string>
     <string name="vertical_flip">Függőleges forgatás</string>
     <string name="volume">Hangerő</string>
     <string name="web_search">Webes keresés</string>
-    <string name="welcome">Üdvözöljük,</string>
     <string name="what_do_you_want_to_share">Mit szeretne megosztani?</string>
     <string name="window">Ablak</string>
     <string name="x_has_been_set_as_ringtone">Állítsd be a(z) %1$s számot csengőhangnak.</string>

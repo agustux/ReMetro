@@ -143,7 +143,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="equalizer">Bộ chỉnh âm</string>
     <string name="error_create_backup">Không thể tạo bản sao lưu</string>
     <string name="error_delete_backup">Không thể xóa bản sao lưu</string>
-    <string name="error_empty_name">Tên của bạn không được để trống!</string>
     <string name="error_load_failed">Không thể tải</string>
     <string name="expanded">Mở rộng</string>
     <string name="faq">Câu hỏi thường gặp</string>
@@ -211,9 +210,7 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="message_backup_create_success">Đã tạo thành công bản sao lưu.</string>
     <string name="message_limit_tabs">Không nhiều hơn 5 tùy chọn</string>
     <string name="message_restore_success">Khôi phục thành công.</string>
-    <string name="message_updated">Đã cập nhật</string>
     <string name="message_welcome"><![CDATA[Xin chào! <br>Chào mừng bạn đến với %s]]></string>
-    <string name="my_name">Tên</string>
     <string name="my_top_tracks">Phát nhiều nhất</string>
     <string name="new_music_mix">Bản phối nhạc mới</string>
     <string name="new_playlist_title">Danh sách phát mới</string>
@@ -299,7 +296,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="pref_summary_expand_now_playing_panel">Nhấn vào thông báo sẽ hiển thị màn hình phát nhạc thay vì màn hình chính</string>
     <string name="pref_summary_extra_controls">Thêm điều khiển bổ sung cho trình phát mini</string>
     <string name="pref_summary_extra_song_info">Hiển thị thêm thông tin Bài hát, như là định dạng, tốc độ bit và tần số</string>
-    <string name="pref_summary_home_banner">Hiện hoặc ẩn banner màn hình chính</string>
     <string name="pref_summary_ignore_media_store_artwork">Có thể tăng chất lượng hiển thị ảnh bìa album, nhưng sẽ làm thời gian tải hình ảnh chậm hơn. Chỉ bật tính năng này nếu bạn không thích chất lượng ảnh gốc</string>
     <string name="pref_summary_library_categories">Khả năng hiển thị và thứ tự của các danh mục trong thư viện.</string>
     <string name="pref_summary_lock_screen">Sử dụng các điều khiển màn hình khóa tùy chỉnh của MetroX</string>
@@ -336,7 +332,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="pref_title_general_theme">Chủ đề ứng dụng</string>
     <string name="pref_title_home_album_grid_style">Lưới Album</string>
     <string name="pref_title_home_artist_grid_style">Lưới nghệ sĩ trang chủ</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Ảnh bìa chất lượng cao</string>
     <string name="pref_title_last_added_interval">Làm mới danh sách thêm gần đây sau</string>
     <string name="pref_title_lock_screen">Điều khiển toàn màn hình.</string>
@@ -359,7 +354,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="pref_title_wallpaper_accent">Màu chủ đạo của hình nền</string>
     <string name="pref_title_whitelist">Nhạc danh sách trắng</string>
     <string name="pro">Pro</string>
-    <string name="profile">Hồ sơ</string>
     <string name="queue">Danh sách chờ phát</string>
     <string name="recent_albums">Album mới thêm</string>
     <string name="recent_artists">Nghệ sĩ mới thêm</string>
@@ -455,13 +449,10 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="up_next">Tiếp theo</string>
     <string name="update_image">Cập nhật hình ảnh</string>
     <string name="updating">Đang cập nhật...</string>
-    <string name="user_images_description">Ảnh người dùng</string>
-    <string name="user_name">Người dùng</string>
     <string name="version">Phiên bản</string>
     <string name="vertical_flip">Lật dọc</string>
     <string name="volume">Âm lượng</string>
     <string name="web_search">Tìm kiếm trên web</string>
-    <string name="welcome">Chào mừng,</string>
     <string name="what_do_you_want_to_share">Bạn muốn chia sẻ gì?</string>
     <string name="window">Cửa sổ</string>
     <string name="x_has_been_set_as_ringtone">Đặt %1$s làm nhạc chuông.</string>

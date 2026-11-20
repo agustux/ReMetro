@@ -19,8 +19,6 @@ import android.provider.MediaStore
 
 object Constants {
     const val GITHUB_PROJECT = "https://github.com/agustux/MetroX"
-    const val USER_PROFILE = "profile.jpg"
-    const val USER_BANNER = "banner.jpg"
     const val FAQ_LINK = "https://github.com/agustux/MetroX/blob/main/FAQ.md"
 
     const val IS_MUSIC =
@@ -61,7 +59,6 @@ const val DESATURATED_COLOR = "desaturated_color"
 const val BLACK_THEME = "black_theme"
 const val KEEP_SCREEN_ON = "keep_screen_on"
 const val SHOW_WHEN_LOCKED = "show_when_locked"
-const val TOGGLE_HOME_BANNER = "toggle_home_banner"
 const val NOW_PLAYING_SCREEN_ID = "now_playing_screen_id"
 const val CAROUSEL_EFFECT = "carousel_effect"
 const val ALBUM_ART_ON_LOCK_SCREEN = "album_art_on_lock_screen"
@@ -72,7 +69,6 @@ const val GENERAL_THEME = "general_theme"
 const val ACCENT_COLOR = "accent_color"
 const val SHOULD_COLOR_APP_SHORTCUTS = "should_color_app_shortcuts"
 const val CIRCULAR_ALBUM_ART = "circular_album_art"
-const val USER_NAME = "user_name"
 const val TOGGLE_FULL_SCREEN = "toggle_full_screen"
 const val TOGGLE_VOLUME = "toggle_volume"
 const val ADAPTIVE_COLOR_APP = "adaptive_color_app"

@@ -144,7 +144,6 @@
     <string name="equalizer">Equalizzatore</string>
     <string name="error_create_backup">Impossibile creare il backup</string>
     <string name="error_delete_backup">Impossibile eliminare il backup</string>
-    <string name="error_empty_name">Il tuo nome non può essere vuoto!</string>
     <string name="error_load_failed">Caricamento fallito</string>
     <string name="expanded">Esteso</string>
     <string name="faq">FAQ</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Backup creato con successo.</string>
     <string name="message_limit_tabs">Non più di 5 elementi</string>
     <string name="message_restore_success">Ripristino completato con successo.</string>
-    <string name="message_updated">Aggiornato</string>
     <string name="message_welcome"><![CDATA[Ciao! <br> Benvenuto su %s]]></string>
-    <string name="my_name">Nome</string>
     <string name="my_top_tracks">I più riprodotti</string>
     <string name="new_music_mix">Nuovo mix musicale</string>
     <string name="new_playlist_title">Nuova playlist</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Cliccando sulla notifica verrà visualizzata la schermata di riproduzione invece della homepage</string>
     <string name="pref_summary_extra_controls">Aggiungi controlli extra nel mini player</string>
     <string name="pref_summary_extra_song_info">Mostra informazioni extra sul brano come formato del file, bitrate e frequenza</string>
-    <string name="pref_summary_home_banner">Mostra/nascondi banner nella homepage</string>
     <string name="pref_summary_ignore_media_store_artwork">Può aumentare la qualità delle copertine degli album, ma causa un rallentamento nel caricamento delle immagini. Abilita solo se hai problemi con la bassa qualità delle copertine</string>
     <string name="pref_summary_library_categories">Configura la visibilità e l\'ordine delle categorie</string>
     <string name="pref_summary_lock_screen">Usa i comandi di MetroX nella schermata di blocco</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Tema generale</string>
     <string name="pref_title_home_album_grid_style">Griglia schermata album</string>
     <string name="pref_title_home_artist_grid_style">Griglia schermata artista</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Ignora le copertine del Media Store</string>
     <string name="pref_title_last_added_interval">Intervallo playlist ultimi aggiunti</string>
     <string name="pref_title_lock_screen">Controlli a schermo intero</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Colore in rilievo sfondo</string>
     <string name="pref_title_whitelist">Whitelist</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profilo</string>
     <string name="queue">Coda</string>
     <string name="recent_albums">Album recenti</string>
     <string name="recent_artists">Artisti recenti</string>
@@ -456,13 +450,10 @@
     <string name="up_next">Prossimo</string>
     <string name="update_image">Aggiorna immagine</string>
     <string name="updating">Aggiornamento...</string>
-    <string name="user_images_description">Immagini dell\'utente</string>
-    <string name="user_name">Nome utente</string>
     <string name="version">Versione</string>
     <string name="vertical_flip">Flip verticale</string>
     <string name="volume">Volume</string>
     <string name="web_search">Ricerca web</string>
-    <string name="welcome">Benvenuto,</string>
     <string name="what_do_you_want_to_share">Cosa vuoi condividere?</string>
     <string name="window">Finestra</string>
     <string name="x_has_been_set_as_ringtone">%1$s impostata come suoneria.</string>

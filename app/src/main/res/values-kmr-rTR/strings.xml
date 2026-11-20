@@ -144,7 +144,6 @@
     <string name="equalizer">Yeksaneker</string>
     <string name="error_create_backup">Nikare hîlanîna\u2019 çê bikê</string>
     <string name="error_delete_backup">Nikare hîlanîna\u2019 jê bibê</string>
-    <string name="error_empty_name">Navê te nabe ku vala be!</string>
     <string name="error_load_failed">Barkirin têk çû</string>
     <string name="expanded">Dirêjkirî</string>
     <string name="faq">Pirsên pir têne pirsîn (PPP)</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Hîlanîn bi serkeftî hate çêkirin.</string>
     <string name="message_limit_tabs">Ji 5 hêmanan ne bêtir e</string>
     <string name="message_restore_success">Vegerandin bi serkeftî qediya.</string>
-    <string name="message_updated">Rojanekirî ye</string>
     <string name="message_welcome"><![CDATA[Silav! <br>Tu bi xêr hatî %s]]></string>
-    <string name="my_name">Nav</string>
     <string name="my_top_tracks">Herî pir lêdayî</string>
     <string name="new_music_mix">Muzîka nû tevlîhev bike</string>
     <string name="new_playlist_title">Rêzoka lêdanê ya nû</string>
@@ -301,7 +298,6 @@ têne guhertin</string>
     <string name="pref_summary_expand_now_playing_panel">Tikandina li ser agahiyan wê niha tê lêdan li şûna dîmendera sereke nîşan bidê</string>
     <string name="pref_summary_extra_controls">Bêtir kontrol ji bo lêdera biçûk tevlî bike</string>
     <string name="pref_summary_extra_song_info">Bêtir zanyariyên stranê, wekî formata pelê, leza bitê û frekansê nîşan bide</string>
-    <string name="pref_summary_home_banner">Wêneya navrûyê veşêre an jî nîşan bide</string>
     <string name="pref_summary_ignore_media_store_artwork">Dikare kalîteya bergê albûmê bilind bike, lê dibe sedema ku demên barkirina wêneyê hêdî bibe. Tenê ku pirsgirêkên te bi bergê albumên bi çareseriya kêm re hebin vê yekê çalak bike</string>
     <string name="pref_summary_library_categories">Dîtin û rêzkirina beşên pirtûkxaneyê pevsaz bike.</string>
     <string name="pref_summary_lock_screen">Kontrolên dîmendera kilîtkirinê yên kesanekirî yên MetroX bi kar bîne</string>
@@ -338,7 +334,6 @@ têne guhertin</string>
     <string name="pref_title_general_theme">Rûkara sepanê</string>
     <string name="pref_title_home_album_grid_style">Berga albumê</string>
     <string name="pref_title_home_artist_grid_style">Tora sereke ya hunermend</string>
-    <string name="pref_title_home_banner">Wêneya navrûyê</string>
     <string name="pref_title_ignore_media_store_artwork">Bergên bîrgeha medya paşguh bike</string>
     <string name="pref_title_last_added_interval">Navbera rêzoka lêdanê dawî ya tevlîkirî</string>
     <string name="pref_title_lock_screen">Kontrolên dîmendera tije</string>
@@ -361,7 +356,6 @@ têne guhertin</string>
     <string name="pref_title_wallpaper_accent">Rengê devokê paşrûyê</string>
     <string name="pref_title_whitelist">Rêzoka stranên spî</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profîl</string>
     <string name="queue">Rêzkirin</string>
     <string name="recent_albums">Albumên dawî</string>
     <string name="recent_artists">Hunermendên dawî</string>
@@ -457,13 +451,10 @@ têne guhertin</string>
     <string name="up_next">Pêş</string>
     <string name="update_image">Wêneyê rojane bike</string>
     <string name="updating">Tê rojanekirin…</string>
-    <string name="user_images_description">Wêneyên bikarhêner</string>
-    <string name="user_name">Navê bikarhêner</string>
     <string name="version">Guherto</string>
     <string name="vertical_flip">Stûnî bizivirîne</string>
     <string name="volume">Deng</string>
     <string name="web_search">Lêgerîna tevnê</string>
-    <string name="welcome">Silav,</string>
     <string name="what_do_you_want_to_share">Tu dixwazî çi parve bikî?</string>
     <string name="window">Çarçove</string>
     <string name="x_has_been_set_as_ringtone">%1$s wekî dengê zengilê xwe saz bike.</string>

@@ -154,7 +154,6 @@
     <string name="equalizer">موازن الصوت</string>
     <string name="error_create_backup">تعذر \u2019 انشاء نسخة</string>
     <string name="error_delete_backup">تعذر \u2019 حذف نسخة</string>
-    <string name="error_empty_name">لا يمكن أن يكون اسمك فارغاً!</string>
     <string name="error_load_failed">فشل في التحميل</string>
     <string name="expanded">موسع</string>
     <string name="faq">التعليمات</string>
@@ -222,9 +221,7 @@
     <string name="message_backup_create_success">تم إنشاء النسخة الاحتياطية بنجاح.</string>
     <string name="message_limit_tabs">ما لا يزيد على 5 عناصر</string>
     <string name="message_restore_success">أكملت الاستعادة بنجاح.</string>
-    <string name="message_updated">محدث</string>
     <string name="message_welcome"><![CDATA[مرحبا يا هذا! <br>مرحبا بك في %s]]></string>
-    <string name="my_name">الأسم</string>
     <string name="my_top_tracks">الأكثر تشغيل</string>
     <string name="new_music_mix">مزيج موسيقي جديد</string>
     <string name="new_playlist_title">قائمة تشغيل جديدة</string>
@@ -310,7 +307,6 @@
     <string name="pref_summary_expand_now_playing_panel">النقر على الإشعار سيظهر الآن مايتم تشغيله بدلاً من الشاشة الرئيسية لتطبيق</string>
     <string name="pref_summary_extra_controls">اضافة المزيد من التحكم في المشغل المصغر</string>
     <string name="pref_summary_extra_song_info">إظهار معلومات الأغنية الإضافية، مثل تنسيق الملف، معدل البت، والتواتر</string>
-    <string name="pref_summary_home_banner">تفعيل وضع البانر في الشاشة الرئيسية</string>
     <string name="pref_summary_ignore_media_store_artwork">يمكنك أن تزيد من جودة غلاف الألبوم ، لكنه يسبب بطئ في التحميل للصور. قم بتمكين هذا فقط إذا كنت تواجه مشاكل مع صور ألبومات منخفضة الدقة</string>
     <string name="pref_summary_library_categories">تكوين وعرض وترتيب فئات المكتبة.</string>
     <string name="pref_summary_lock_screen">استخدم شاشة القفل المخصصة من ريترو ميوزك لتحكم بالتشغيل</string>
@@ -347,7 +343,6 @@
     <string name="pref_title_general_theme">سمات التطبيق</string>
     <string name="pref_title_home_album_grid_style">صورة الألبوم</string>
     <string name="pref_title_home_artist_grid_style">شبكة الفنان الرئيسية</string>
-    <string name="pref_title_home_banner">صورة الواجهة</string>
     <string name="pref_title_ignore_media_store_artwork">تجاهل صور تخزين الميديا</string>
     <string name="pref_title_last_added_interval">آخر قائمة تشغيل تمت إضافتها</string>
     <string name="pref_title_lock_screen">ازار التحكم في كامل الشاشة</string>
@@ -370,7 +365,6 @@
     <string name="pref_title_wallpaper_accent">لون لكنة الخلفية</string>
     <string name="pref_title_whitelist">موسيقى القائمة البيضاء</string>
     <string name="pro">الكامل</string>
-    <string name="profile">الملف الشخصي</string>
     <string name="queue">تسلسل</string>
     <string name="recent_albums">الالبومات الحديثة</string>
     <string name="recent_artists">الفنانون الحديثون</string>
@@ -466,13 +460,10 @@
     <string name="up_next">التالي</string>
     <string name="update_image">تحديث الصورة</string>
     <string name="updating">تحديث...</string>
-    <string name="user_images_description">صور المستخدم</string>
-    <string name="user_name">إسم المستخدم</string>
     <string name="version">الإصدار</string>
     <string name="vertical_flip">تدوير رأسي</string>
     <string name="volume">الصوت</string>
     <string name="web_search">البحث عبر الانترنت</string>
-    <string name="welcome">مرحبا,</string>
     <string name="what_do_you_want_to_share">مالذي تريد مشاركته?</string>
     <string name="window">نافذة</string>
     <string name="x_has_been_set_as_ringtone">تعيين %1$s كنغمة الرنين الخاصة بك.</string>

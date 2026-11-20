@@ -142,7 +142,6 @@
     <string name="equalizer">イコライザー</string>
     <string name="error_create_backup">バックアップを作成できませんでした</string>
     <string name="error_delete_backup">バックアップを削除できませんでした</string>
-    <string name="error_empty_name">名前を空欄にはできません。</string>
     <string name="error_load_failed">読み込み失敗</string>
     <string name="expanded">展開</string>
     <string name="faq">よくある質問</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">バックアップは正常に作成されました。</string>
     <string name="message_limit_tabs">5 アイテムまで</string>
     <string name="message_restore_success">復元が正常に完了しました。</string>
-    <string name="message_updated">更新しました</string>
     <string name="message_welcome"><![CDATA[こんにちは！ <br> %s へようこそ]]></string>
-    <string name="my_name">名前</string>
     <string name="my_top_tracks">最近のお気に入り</string>
     <string name="new_music_mix">新曲ミックス</string>
     <string name="new_playlist_title">新しいプレイリスト</string>
@@ -299,7 +296,6 @@
     <string name="pref_summary_expand_now_playing_panel">通知をタップすることでアプリのトップ画面ではなく、再生画面を表示するようにする</string>
     <string name="pref_summary_extra_controls">ミニプレイヤー専用のコントロールボタンを追加する</string>
     <string name="pref_summary_extra_song_info">ファイル形式、ビットレート、サンプリング周波数などの曲のメタデータを再生画面に表示する</string>
-    <string name="pref_summary_home_banner">ホーム画面を切り替える</string>
     <string name="pref_summary_ignore_media_store_artwork">アルバムジャケットのクオリティを上げますが、読み込みに時間がかかる場合があります。低解像度の画像で問題がある場合に有効です。</string>
     <string name="pref_summary_library_categories">ライブラリに表示される項目と、順番を変更する</string>
     <string name="pref_summary_lock_screen">MetroXのカスタムされたロック画面を使用する</string>
@@ -336,7 +332,6 @@
     <string name="pref_title_general_theme">アプリのテーマ</string>
     <string name="pref_title_home_album_grid_style">アルバムの表示</string>
     <string name="pref_title_home_artist_grid_style">アーティストの表示</string>
-    <string name="pref_title_home_banner">ホーム画面</string>
     <string name="pref_title_ignore_media_store_artwork">Media Store のカバーを無視する</string>
     <string name="pref_title_last_added_interval">最後に追加されたプレイリストの間隔</string>
     <string name="pref_title_lock_screen">フルスクリーンコントロール</string>
@@ -359,7 +354,6 @@
     <string name="pref_title_wallpaper_accent">壁紙の色を使用する</string>
     <string name="pref_title_whitelist">楽曲のホワイトリスト</string>
     <string name="pro">プロ版</string>
-    <string name="profile">プロフィール</string>
     <string name="queue">キュー</string>
     <string name="recent_albums">最近のアルバム</string>
     <string name="recent_artists">最近のアーティスト</string>
@@ -455,13 +449,10 @@
     <string name="up_next">次</string>
     <string name="update_image">画像を更新</string>
     <string name="updating">更新中...</string>
-    <string name="user_images_description">ユーザーイメージ</string>
-    <string name="user_name">ユーザー名</string>
     <string name="version">バージョン</string>
     <string name="vertical_flip">垂直方向に反転</string>
     <string name="volume">音量</string>
     <string name="web_search">ウェブで検索</string>
-    <string name="welcome">ようこそ,</string>
     <string name="what_do_you_want_to_share">何を共有しますか?</string>
     <string name="window">ウィンドウ</string>
     <string name="x_has_been_set_as_ringtone">%1$s を着信音として設定しました</string>

@@ -144,7 +144,6 @@
     <string name="equalizer">Ισοσταθμιστής</string>
     <string name="error_create_backup">Αδυναμία δημιουργίας αντιγράφου ασφαλείας</string>
     <string name="error_delete_backup">Αδυναμία διαγραφής αντιγράφου ασφαλείας</string>
-    <string name="error_empty_name">Το όνομά δεν μπορεί να είναι κενό!</string>
     <string name="error_load_failed">Αποτυχία φόρτωσης</string>
     <string name="expanded">Εκτεταμένο</string>
     <string name="faq">Συχνές ερωτήσεις</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Επιτυχής δημιουργία αντιγράφου ασφαλείας.</string>
     <string name="message_limit_tabs">Το πολύ 5 επιλογές</string>
     <string name="message_restore_success">Η επαναφορά ολοκληρώθηκε επιτυχώς.</string>
-    <string name="message_updated">Ενημερώθηκε</string>
     <string name="message_welcome"><![CDATA[Γεια σας! <br>Καλώς ήρθατε στο %s]]></string>
-    <string name="my_name">Όνομα</string>
     <string name="my_top_tracks">Περισσότερες αναπαραγωγές</string>
     <string name="new_music_mix">Νέα μίξη</string>
     <string name="new_playlist_title">Νέα λίστα αναπαραγωγής</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Κάνοντας κλικ στην ειδοποίηση θα εμφανίζεται η οθόνη αναπαραγωγής αντί της αρχικής οθόνης</string>
     <string name="pref_summary_extra_controls">Προσθήκη επιπλέον ελέγχων για τον μίνι αναπαραγωγέα</string>
     <string name="pref_summary_extra_song_info">Εμφάνιση επιπλέον πληροφοριών τραγουδιού, όπως μορφή αρχείου, ρυθμό μετάδοσης δεδομένων και συχνότητα</string>
-    <string name="pref_summary_home_banner">Προβολή ή απόκρυψη πανό αρχικής οθόνης</string>
     <string name="pref_summary_ignore_media_store_artwork">Μπορεί να αυξήσει την ποιότητα των εξώφυλλων άλμπουμ, αλλά προκαλεί αργή φόρτωση εικόνων. Ενεργοποιήστε αυτή την επιλογή μόνο εάν αντιμετωπίζετε προβλήματα με εξώφυλλα χαμηλής ανάλυσης</string>
     <string name="pref_summary_library_categories">Ρυθμίστε την ορατότητα και τη σειρά των κατηγοριών βιβλιοθήκης.</string>
     <string name="pref_summary_lock_screen">Χρήση προσαρμοσμένων χειριστηρίων οθόνης κλειδώματος του MetroX</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Γενικό θέμα</string>
     <string name="pref_title_home_album_grid_style">Πλέγμα άλμπουμ</string>
     <string name="pref_title_home_artist_grid_style">Πλέγμα καλλιτέχνη</string>
-    <string name="pref_title_home_banner">Πανό</string>
     <string name="pref_title_ignore_media_store_artwork">Παράληψη Media Store για εξώφυλλα</string>
     <string name="pref_title_last_added_interval">Χρονικό διάστημα λίστα αναπαραγωγής \"Πρόσφατες προσθήκες\"</string>
     <string name="pref_title_lock_screen">Χειριστήρια πλήρους οθόνης</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Απόχρωση ταπετσαρίας</string>
     <string name="pref_title_whitelist">Λίστα επιτρεπόμενων κομματιών</string>
     <string name="pro">Pro</string>
-    <string name="profile">Προφίλ</string>
     <string name="queue">Ουρά αναπαραγωγής</string>
     <string name="recent_albums">Πρόσφατα άλμπουμ</string>
     <string name="recent_artists">Πρόσφατοι καλλιτέχνες</string>
@@ -456,13 +450,10 @@
     <string name="up_next">Επόμενο</string>
     <string name="update_image">Ενημέρωση εικόνας</string>
     <string name="updating">Ενημέρωση…</string>
-    <string name="user_images_description">Εικόνες Χρήστη</string>
-    <string name="user_name">Όνομα Χρήστη</string>
     <string name="version">Έκδοση</string>
     <string name="vertical_flip">Κάθετη αναστροφή</string>
     <string name="volume">Ένταση</string>
     <string name="web_search">Αναζήτηση στον ιστό</string>
-    <string name="welcome">Καλώς ήρθες,</string>
     <string name="what_do_you_want_to_share">Τι θα θέλατε να μοιραστείτε;</string>
     <string name="window">Παράθυρο</string>
     <string name="x_has_been_set_as_ringtone">Ορισμός %1$s ως ήχου κλήσης.</string>

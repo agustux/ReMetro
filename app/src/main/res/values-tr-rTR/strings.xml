@@ -144,7 +144,6 @@
     <string name="equalizer">Ekolayzır</string>
     <string name="error_create_backup">Yedek oluşturulamadı</string>
     <string name="error_delete_backup">Yedek silinemedi</string>
-    <string name="error_empty_name">İsmin boş olamaz!</string>
     <string name="error_load_failed">Yükleme başarısız</string>
     <string name="expanded">Genişletilmiş</string>
     <string name="faq">SSS</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Yedekleme başarılı bir şekilde oluşturuldu.</string>
     <string name="message_limit_tabs">En fazla 5 öğe</string>
     <string name="message_restore_success">Geri yükleme başarıyla tamamlandı.</string>
-    <string name="message_updated">Güncellendi</string>
     <string name="message_welcome"><![CDATA[Merhaba! <br>%s\'e<br> hoşgeldin]]></string>
-    <string name="my_name">İsim</string>
     <string name="my_top_tracks">Sık oynatılanlar</string>
     <string name="new_music_mix">Yeni Müzik Karışımı</string>
     <string name="new_playlist_title">Yeni şarkı listesi</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Bildirime tıklamak ana ekran yerine şimdi oynatılıyor ekranını gösterecek</string>
     <string name="pref_summary_extra_controls">Mini oynatıcı için ekstra kontroller ekle</string>
     <string name="pref_summary_extra_song_info">Dosya formatı, bit hızı ve frekans gibi fazladan şarkı bilgilerini göster</string>
-    <string name="pref_summary_home_banner">Ana sayfa afişini etkinleştir</string>
     <string name="pref_summary_ignore_media_store_artwork">Albüm kapağı kalitesini artırabilir, ancak fotoğrafın yavaş yüklenmesine neden olur. Bunu, yalnızca düşük çözünürlüklü resimlerle ilgili sorunlarınız varsa etkinleştirin.</string>
     <string name="pref_summary_library_categories">Kütüphane kategorilerinin görünürlük ve sırasını yapılandırın</string>
     <string name="pref_summary_lock_screen">MetroX\'in özel kilit ekranı kontrollerini kullanın</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Uygulama teması</string>
     <string name="pref_title_home_album_grid_style">Albüm kapağı</string>
     <string name="pref_title_home_artist_grid_style">Ana sayfa sanatçı ızgarası</string>
-    <string name="pref_title_home_banner">Ana sayfa afişi</string>
     <string name="pref_title_ignore_media_store_artwork">Media Store kapaklarını yoksay</string>
     <string name="pref_title_last_added_interval">Son eklenen çalma listesi aralığı</string>
     <string name="pref_title_lock_screen">Tam ekran kontrolleri</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Duvar kağıdı vurgu rengi</string>
     <string name="pref_title_whitelist">Beyaz liste müziği</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">Kuyruk</string>
     <string name="recent_albums">Son albümler</string>
     <string name="recent_artists">Son sanatçılar</string>
@@ -456,13 +450,10 @@
     <string name="up_next">Bir sonraki</string>
     <string name="update_image">Resmi güncelle</string>
     <string name="updating">Güncelleniyor ...</string>
-    <string name="user_images_description">Kullanıcı Resimleri</string>
-    <string name="user_name">Kullanıcı Adı</string>
     <string name="version">Sürüm</string>
     <string name="vertical_flip">Dikey çevir</string>
     <string name="volume">Ses</string>
     <string name="web_search">İnternette ara</string>
-    <string name="welcome">Hoşgeldiniz,</string>
     <string name="what_do_you_want_to_share">Ne paylaşmak istiyorsunuz?</string>
     <string name="window">Pencere</string>
     <string name="x_has_been_set_as_ringtone">%1$s\'i zil sesi olarak ayarla.</string>

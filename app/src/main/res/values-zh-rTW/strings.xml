@@ -142,7 +142,6 @@
     <string name="equalizer">等化器</string>
     <string name="error_create_backup">無法建立備份</string>
     <string name="error_delete_backup">無法刪除備份</string>
-    <string name="error_empty_name">名稱不得為空！</string>
     <string name="error_load_failed">載入失敗</string>
     <string name="expanded">展開</string>
     <string name="faq">常見問題</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">已成功建立備份。</string>
     <string name="message_limit_tabs">不得多於 5 個項目</string>
     <string name="message_restore_success">已成功完成復原。</string>
-    <string name="message_updated">已更新</string>
     <string name="message_welcome"><![CDATA[嗨！<br> 歡迎使用 %s]]></string>
-    <string name="my_name">名稱</string>
     <string name="my_top_tracks">最佳單曲</string>
     <string name="new_music_mix">新歌快選</string>
     <string name="new_playlist_title">新增播放清單</string>
@@ -298,7 +295,6 @@
     <string name="pref_summary_expand_now_playing_panel">按兩下通知欄以顯示現正播放畫面，而非首頁</string>
     <string name="pref_summary_extra_controls">於迷你播放列顯示更多控制鍵</string>
     <string name="pref_summary_extra_song_info">顯示更多歌曲資訊，例如檔案格式、位元速率、頻率</string>
-    <string name="pref_summary_home_banner">顯示或隱藏首頁橫幅</string>
     <string name="pref_summary_ignore_media_store_artwork">可提升專輯封面的成像品質，但會造成較長的讀取時間。建議只有在低畫質專輯封面發生問題時再啟用此選項</string>
     <string name="pref_summary_library_categories">調整音樂庫類別的顯示和排序。</string>
     <string name="pref_summary_lock_screen">使用 MetroX 自訂化鎖定畫面</string>
@@ -335,7 +331,6 @@
     <string name="pref_title_general_theme">佈景主題</string>
     <string name="pref_title_home_album_grid_style">專輯網格</string>
     <string name="pref_title_home_artist_grid_style">藝人網格</string>
-    <string name="pref_title_home_banner">橫幅</string>
     <string name="pref_title_ignore_media_store_artwork">略過媒體商店的專輯封面</string>
     <string name="pref_title_last_added_interval">最後新增播放清單的時間範圍</string>
     <string name="pref_title_lock_screen">全螢幕控制</string>
@@ -358,7 +353,6 @@
     <string name="pref_title_wallpaper_accent">桌布強調色</string>
     <string name="pref_title_whitelist">白名單音樂</string>
     <string name="pro">Pro</string>
-    <string name="profile">個人資料</string>
     <string name="queue">播放佇列</string>
     <string name="recent_albums">最近專輯</string>
     <string name="recent_artists">最近藝人</string>
@@ -454,13 +448,10 @@
     <string name="up_next">即將播放</string>
     <string name="update_image">更新圖片</string>
     <string name="updating">正在更新…</string>
-    <string name="user_images_description">使用者圖片</string>
-    <string name="user_name">使用者名稱</string>
     <string name="version">版本</string>
     <string name="vertical_flip">垂直翻轉風</string>
     <string name="volume">音量</string>
     <string name="web_search">網頁搜尋</string>
-    <string name="welcome">歡迎，</string>
     <string name="what_do_you_want_to_share">您想分享哪些內容？</string>
     <string name="window">視窗</string>
     <string name="x_has_been_set_as_ringtone">已將 %1$s 設為鈴聲。</string>

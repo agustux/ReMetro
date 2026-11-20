@@ -144,7 +144,6 @@
     <string name="equalizer">इक्वलाइज़र</string>
     <string name="error_create_backup">\u2019 बैकअप नहीं बनाया जा सका।</string>
     <string name="error_delete_backup">\u2019 बैकअप हटाया नहीं जा सका।</string>
-    <string name="error_empty_name">आपका नाम खाली नहीं हो सकता!</string>
     <string name="error_load_failed">लोड विफल हो गया</string>
     <string name="expanded">विस्तारित</string>
     <string name="faq">सामान्य प्रश्न</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">प्रतिकृति सफलतापूर्वक बनाया गया</string>
     <string name="message_limit_tabs">5 से अधिक आइटम नहीं</string>
     <string name="message_restore_success">पुनर्स्थापना सफलतापूर्वक पूर्ण हुई</string>
-    <string name="message_updated">सुधारित</string>
     <string name="message_welcome"><![CDATA[नमस्ते! <br>%s में आपका स्वागत है]]></string>
-    <string name="my_name">नाम</string>
     <string name="my_top_tracks">सबसे अधिक बजाया गया</string>
     <string name="new_music_mix">नया संगीत मिश्रण</string>
     <string name="new_playlist_title">नई प्लेलिस्ट</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">नोटिफिकेशन पर क्लिक करने पर होम स्क्रीन की जगह \"नाउ प्लेइंग\" स्क्रीन दिखाई देगी</string>
     <string name="pref_summary_extra_controls">मिनी प्लेयर के लिए अतिरिक्त नियंत्रण जोड़ें</string>
     <string name="pref_summary_extra_song_info">अतिरिक्त जानकारी दिखाएँ, जैसे फ़ाइल स्वरूप, बिटरेट और आवृत्ति</string>
-    <string name="pref_summary_home_banner">होम बैनर दिखाएँ या छिपाएँ</string>
     <string name="pref_summary_ignore_media_store_artwork">एल्बम कवर गुणवत्ता को बढ़ा सकता है, लेकिन छवि लोडिंग समय को धीमा कर देता है। इसे केवल तभी सक्षम करें जब आपको कम रिज़ॉल्यूशन वाली कलाकृति में समस्या हो</string>
     <string name="pref_summary_library_categories">लाइब्रेरी श्रेणियों की दृश्यता और क्रम कॉन्फ़िगर करें।</string>
     <string name="pref_summary_lock_screen">MetroX के कस्टम लॉकस्क्रीन नियंत्रण का उपयोग करें</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">ऐप थीम</string>
     <string name="pref_title_home_album_grid_style">एल्बम ग्रिड</string>
     <string name="pref_title_home_artist_grid_style">कलाकार ग्रिड</string>
-    <string name="pref_title_home_banner">बैनर</string>
     <string name="pref_title_ignore_media_store_artwork">मीडिया स्टोर कवर पर ध्यान न दें</string>
     <string name="pref_title_last_added_interval">अंतिम जोड़ा गया प्लेलिस्ट अंतराल</string>
     <string name="pref_title_lock_screen">फ़ुलस्क्रीन नियंत्रण</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">वॉलपेपर एक्सेंट रंग</string>
     <string name="pref_title_whitelist">श्वेतसूची संगीत</string>
     <string name="pro">प्रो</string>
-    <string name="profile">प्रोफ़ाइल</string>
     <string name="queue">गानों की क़तार</string>
     <string name="recent_albums">हाल के एल्बम</string>
     <string name="recent_artists">हाल के कलाकार</string>
@@ -456,13 +450,10 @@
     <string name="up_next">आगे</string>
     <string name="update_image">चित्र बदले</string>
     <string name="updating">अपडेट हो रहा है...</string>
-    <string name="user_images_description">यूज़र इमेजस</string>
-    <string name="user_name">उपयोगकर्ता नाम</string>
     <string name="version">संस्करण</string>
     <string name="vertical_flip">खड़ा (फ्लिप)</string>
     <string name="volume">आयतन</string>
     <string name="web_search">वेब खोज</string>
-    <string name="welcome">स्वागत है,</string>
     <string name="what_do_you_want_to_share">आप क्या साझा करना चाहते हैं?</string>
     <string name="window">विंडो</string>
     <string name="x_has_been_set_as_ringtone">%1$s को अपनी रिंगटोन के रूप में सेट करें।</string>

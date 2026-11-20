@@ -144,7 +144,6 @@
     <string name="equalizer">Equalizador</string>
     <string name="error_create_backup">Não foi possível criar cópia</string>
     <string name="error_delete_backup">Não foi possível eliminar cópia</string>
-    <string name="error_empty_name">O nome não pode estar vazio!</string>
     <string name="error_load_failed">O carregamento falhou</string>
     <string name="expanded">Expandido</string>
     <string name="faq">FAQ</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Cópia criada com sucesso</string>
     <string name="message_limit_tabs">Não mais do que 5 itens</string>
     <string name="message_restore_success">Restauro concluído com sucesso</string>
-    <string name="message_updated">Actualizado</string>
     <string name="message_welcome"><![CDATA[Olá! <br>Bem-vindo a %s]]></string>
-    <string name="my_name">Nome</string>
     <string name="my_top_tracks">Mais tocadas</string>
     <string name="new_music_mix">Novo mix de música</string>
     <string name="new_playlist_title">Nova lista de reprodução</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Tocar na notificação vai mostrar o ecrã A reproduzir em vez do ecrã inicial</string>
     <string name="pref_summary_extra_controls">Adicionar controlos extras para o mini leitor</string>
     <string name="pref_summary_extra_song_info">Mostrar info. extras da música, como o formato, taxa de bits e frequência</string>
-    <string name="pref_summary_home_banner">Mostrar ou ocultar o banner inicial</string>
     <string name="pref_summary_ignore_media_store_artwork">Pode aumentar a qualidade da capa do álbum, mas aumenta o tempo de carregamento. Ligue apenas se tiver problemas com capas de baixa resolução</string>
     <string name="pref_summary_library_categories">Configurar visibilidade e ordem das categorias.</string>
     <string name="pref_summary_lock_screen">Utilizar os controlos personalizados do MetroX</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Tema da aplicação</string>
     <string name="pref_title_home_album_grid_style">Álbuns em grelha</string>
     <string name="pref_title_home_artist_grid_style">Artistas em grelha</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Ignorar capas da Media Store</string>
     <string name="pref_title_last_added_interval">Intervalo da última lista adicionada</string>
     <string name="pref_title_lock_screen">Controlos de ecrã inteiro</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Cor do papel de parede</string>
     <string name="pref_title_whitelist">Lista segura de música</string>
     <string name="pro">Pro</string>
-    <string name="profile">Perfil</string>
     <string name="queue">Fila de reprodução</string>
     <string name="recent_albums">Álbuns recentes</string>
     <string name="recent_artists">Artistas recentes</string>
@@ -456,13 +450,10 @@
     <string name="up_next">A seguir</string>
     <string name="update_image">Actualizar imagem</string>
     <string name="updating">A actualizar…</string>
-    <string name="user_images_description">Imagens do utilizador</string>
-    <string name="user_name">Utilizador</string>
     <string name="version">Versão</string>
     <string name="vertical_flip">Flip vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pesquisar na web</string>
-    <string name="welcome">Bem-vindo,</string>
     <string name="what_do_you_want_to_share">O que deseja partilhar?</string>
     <string name="window">Janelas</string>
     <string name="x_has_been_set_as_ringtone">Definir %1$s como toque.</string>

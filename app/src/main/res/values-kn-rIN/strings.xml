@@ -144,7 +144,6 @@
     <string name="equalizer">ಈಕ್ವಲೈಸರ್</string>
     <string name="error_create_backup">ಬ್ಯಾಕಪ್ ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
     <string name="error_delete_backup">ಬ್ಯಾಕಪ್ ಅನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
-    <string name="error_empty_name">ನಿಮ್ಮ ಹೆಸರು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ!</string>
     <string name="error_load_failed">ಲೋಡ್ ವಿಫಲವಾಗಿದೆ</string>
     <string name="expanded">ವಿಸ್ತರಿಸಿದೆ</string>
     <string name="faq">ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</string>
@@ -213,9 +212,7 @@
     <string name="message_backup_create_success">ಬ್ಯಾಕಪ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ.</string>
     <string name="message_limit_tabs">5 ಐಟಂಗಳಿಗಿಂತ ಹೆಚ್ಚಿಲ್ಲ</string>
     <string name="message_restore_success">ಮರುಸ್ಥಾಪನೆ ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಂಡಿದೆ.</string>
-    <string name="message_updated">ನವೀಕರಿಸಲಾಗಿದೆ</string>
     <string name="message_welcome"><![CDATA[ನಮಸ್ಕಾರ! <br>%s ಗೆ ಸುಸ್ವಾಗತ]]></string>
-    <string name="my_name">ಹೆಸರು</string>
     <string name="my_top_tracks">ಹೆಚ್ಚು ಕೇಳಿರುವುದು</string>
     <string name="new_music_mix">ಹೊಸ ಹಾಡುಗಳ ಮಿಶ್ರಣ</string>
     <string name="new_playlist_title">ಹೊಸ ಪ್ಲೇಲೀಸ್ಟ್‌</string>
@@ -301,7 +298,6 @@
     <string name="pref_summary_expand_now_playing_panel">ಅಧಿಸೂಚನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡುವುದರಿಂದ ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಬದಲಿಗೆ ಪ್ಲೇಯಿಂಗ್ ಸ್ಕ್ರೀನ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ</string>
     <string name="pref_summary_extra_controls">ಮಿನಿ ಪ್ಲೇಯರ್‌ಗೆ ಹೆಚ್ಚುವರಿ ನಿಯಂತ್ರಣಗಳನ್ನು ಸೇರಿಸಿ</string>
     <string name="pref_summary_extra_song_info">ಫೈಲ್ ಫಾರ್ಮ್ಯಾಟ್, ಬಿಟ್ರೇಟ್ ಮತ್ತು ಆವರ್ತನದಂತಹ ಹೆಚ್ಚುವರಿ ಸಾಂಗ್ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಿ</string>
-    <string name="pref_summary_home_banner">ಹೋಮ್ ಬ್ಯಾನರ್ ಅನ್ನು ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ</string>
     <string name="pref_summary_ignore_media_store_artwork">ಆಲ್ಬಮ್ ಕವರ್ ಗುಣಮಟ್ಟವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು, ಆದರೆ ಚಿತ್ರಗಳ ಲೋಡಿಂಗ್ ಸಮಯವನ್ನು ಹೆಚ್ಚು ಮಾಡುತ್ತದೆ. ಕಡಿಮೆ ರೆಸಲ್ಯೂಶನ್ ಕಲಾಕೃತಿಯಲ್ಲಿ ನಿಮಗೆ ಸಮಸ್ಯೆಗಳಿದ್ದರೆ ಮಾತ್ರ ಇದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="pref_summary_library_categories">ಸಂಗ್ರಹಣೆಯ ವರ್ಗಗಳ ಗೋಚರತೆ ಮತ್ತು ಕ್ರಮವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ.</string>
     <string name="pref_summary_lock_screen">MetroX ನ ಕಸ್ಟಮ್ ಲಾಕ್ ಸ್ಕ್ರೀನ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಬಳಸಿ</string>
@@ -338,7 +334,6 @@
     <string name="pref_title_general_theme">ಆ್ಯಪ್‌ ಥೀಮ್</string>
     <string name="pref_title_home_album_grid_style">ಆಲ್ಬಮ್ ಗ್ರಿಡ್</string>
     <string name="pref_title_home_artist_grid_style">ಕಲಾವಿದ ಗ್ರಿಡ್</string>
-    <string name="pref_title_home_banner">ಬ್ಯಾನರ್</string>
     <string name="pref_title_ignore_media_store_artwork">ಮೀಡಿಯಾ ಸ್ಟೋರ್ ಕವರ್‌ಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ</string>
     <string name="pref_title_last_added_interval">ಕೊನೆಯದಾಗಿ ಸೇರಿಸಲಾದ ಪ್ಲೇಲಿಸ್ಟ್ ಮಧ್ಯಂತರ</string>
     <string name="pref_title_lock_screen">ಪೂರ್ಣಪರದೆ ನಿಯಂತ್ರಣಗಳು</string>
@@ -361,7 +356,6 @@
     <string name="pref_title_wallpaper_accent">ವಾಲ್ಪೇಪರ್ನ ಪ್ರಧಾನ ಬಣ್ಣ</string>
     <string name="pref_title_whitelist">ಶ್ವೇತಪಟ್ಟಿ ಸಂಗೀತ</string>
     <string name="pro">ಪ್ರೊ</string>
-    <string name="profile">ಪ್ರೊಫೈಲ್</string>
     <string name="queue">ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿರುವ ಪಟ್ಟಿ</string>
     <string name="recent_albums">ಇತ್ತೀಚಿನ ಆಲ್ಬಮ್‌ಗಳು</string>
     <string name="recent_artists">ಇತ್ತೀಚಿನ ಕಲಾವಿದರು</string>
@@ -457,13 +451,10 @@
     <string name="up_next">ಮುಂದಿನದು</string>
     <string name="update_image">ಚಿತ್ರವನ್ನು ನವೀಕರಿಸಿ</string>
     <string name="updating">ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ…</string>
-    <string name="user_images_description">ಬಳಕೆದಾರ ಚಿತ್ರಗಳು</string>
-    <string name="user_name">ಬಳಕೆದಾರರ ಹೆಸರು</string>
     <string name="version">ಆವೃತ್ತಿ</string>
     <string name="vertical_flip">ಲಂಬ ಫ್ಲಿಪ್</string>
     <string name="volume">ಪರಿಮಾಣ</string>
     <string name="web_search">ವೆಬ್ ಹುಡುಕಾಟ</string>
-    <string name="welcome">ಸುಸ್ವಾಗತ,</string>
     <string name="what_do_you_want_to_share">ಏನನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವಿರಿ?</string>
     <string name="window">Window</string>
     <string name="x_has_been_set_as_ringtone">%1$s ನನ್ನು ನಿಮ್ಮ ರಿಂಗ್ಟೊನ್ ಆಗಿ ಸೆಟ್ ಮಾಡಿ.</string>

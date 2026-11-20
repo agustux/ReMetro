@@ -144,7 +144,6 @@
     <string name="equalizer">Égaliseur</string>
     <string name="error_create_backup">Impossible de créer une sauvegarde</string>
     <string name="error_delete_backup">Impossible de supprimer une sauvegarde</string>
-    <string name="error_empty_name">Votre nom ne peut pas être vide !</string>
     <string name="error_load_failed">Échec du chargement</string>
     <string name="expanded">Développé</string>
     <string name="faq">Foire aux questions</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Sauvegarde créée avec succès.</string>
     <string name="message_limit_tabs">Pas plus de 5 éléments</string>
     <string name="message_restore_success">Restauration effectuée avec succès.</string>
-    <string name="message_updated">Mis à jour</string>
     <string name="message_welcome"><![CDATA[Bonjour ! <br>Bienvenu dans %s]]></string>
-    <string name="my_name">Nom</string>
     <string name="my_top_tracks">Plus jouées</string>
     <string name="new_music_mix">Nouveau Mix</string>
     <string name="new_playlist_title">Nouvelle liste de lecture</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Toucher la notification affichera l\'écran de lecture en cours au lieu de l\'écran d\'accueil</string>
     <string name="pref_summary_extra_controls">Ajouter des contrôles supplémentaires pour le mini lecteur</string>
     <string name="pref_summary_extra_song_info">Afficher les informations supplémentaires du morceau, comme le format de fichier, le débit et la fréquence</string>
-    <string name="pref_summary_home_banner">Montrer ou cacher la bannière d\'accueil</string>
     <string name="pref_summary_ignore_media_store_artwork">Peut améliorer la qualité de la pochette de l\'album, mais ralenti le chargement des images. N\'activez ceci que si vous avez des problèmes avec les images basse résolution</string>
     <string name="pref_summary_library_categories">Configurer la visibilité et l\'ordre des catégories de la librairie.</string>
     <string name="pref_summary_lock_screen">Utiliser les contrôles personnalisés de MetroX sur l\'écran de verrouillage</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Thème de l\'application</string>
     <string name="pref_title_home_album_grid_style">Grille d\'album</string>
     <string name="pref_title_home_artist_grid_style">Grille d\'artistes</string>
-    <string name="pref_title_home_banner">Bannière d\'accueil</string>
     <string name="pref_title_ignore_media_store_artwork">Ignorer les couvertures du Media Store</string>
     <string name="pref_title_last_added_interval">Dernier intervalle de playlist ajouté</string>
     <string name="pref_title_lock_screen">Commandes plein écran</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Couleur d\'accentuation du fond d\'écran</string>
     <string name="pref_title_whitelist">Liste blanche</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">File de lecture</string>
     <string name="recent_albums">Albums récents</string>
     <string name="recent_artists">Artistes récents</string>
@@ -456,13 +450,10 @@
     <string name="up_next">À suivre</string>
     <string name="update_image">Mettre à jour l\'image</string>
     <string name="updating">Mise à jour…</string>
-    <string name="user_images_description">Images de l\'utilisateur</string>
-    <string name="user_name">Nom d\'utilisateur</string>
     <string name="version">Version</string>
     <string name="vertical_flip">Retournement vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Recherche sur le Web</string>
-    <string name="welcome">Bienvenue,</string>
     <string name="what_do_you_want_to_share">Que souhaitez-vous partager ?</string>
     <string name="window">Fenêtre</string>
     <string name="x_has_been_set_as_ringtone">Définir %1$s comme sonnerie.</string>

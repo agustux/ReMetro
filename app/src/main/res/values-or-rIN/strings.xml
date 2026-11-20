@@ -144,7 +144,6 @@
     <string name="equalizer">ଇକ୍ୱାଲାଇଜର୍</string>
     <string name="error_create_backup">ବ୍ୟାକଅପ୍ ସୃଷ୍ଟି କରିହେଲାନାହିଁ</string>
     <string name="error_delete_backup">ବ୍ୟାକଅପ୍ ବିଲୋପ କରିହେଲାନାହିଁ</string>
-    <string name="error_empty_name">ଆପଣଙ୍କ ନାମ ଖାଲି ହୋଇପାରିବ ନାହିଁ!</string>
     <string name="error_load_failed">ଲୋଡ୍ ବିଫଳ</string>
     <string name="expanded">ବିସ୍ତାରିତ</string>
     <string name="faq">ସାଧାରଣ ପ୍ରଶ୍ନାବଳୀ (FAQ)</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">ବ୍ୟାକଅପ୍ ସଫଳତାର ସହ ସୃଷ୍ଟି କରାଗଲା।</string>
     <string name="message_limit_tabs">୫ଟିରୁ ଅଧିକ ଆଇଟମ୍ ନୁହେଁ</string>
     <string name="message_restore_success">ରିଷ୍ଟୋର୍ ସଫଳତାର ସହ ସମ୍ପୂର୍ଣ୍ଣ ହେଲା।</string>
-    <string name="message_updated">ଅପଡେଟ୍ ହୋଇଛି</string>
     <string name="message_welcome"><![CDATA[ନମସ୍କାର! <br> %s କୁ ସ୍ୱାଗତ।]]></string>
-    <string name="my_name">ନାମ</string>
     <string name="my_top_tracks">ସର୍ବାଧିକ ବଜାଯାଇଥିବା</string>
     <string name="new_music_mix">ନୂଆ ମ୍ୟୁଜିକ୍ ମିକ୍ସ</string>
     <string name="new_playlist_title">ନୂଆ ଚାଳନାତାଲିକା</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">ବିଜ୍ଞପ୍ତି ଉପରେ କ୍ଲିକ୍ କଲେ ହୋମ୍ ସ୍କ୍ରିନ୍ ବଦଳରେ ବର୍ତ୍ତମାନ ଚାଲୁଥିବା ସ୍କ୍ରିନ୍ ଦେଖାଇବ</string>
     <string name="pref_summary_extra_controls">ମିନି ପ୍ଲେୟାର୍ ପାଇଁ ଅତିରିକ୍ତ ନିୟନ୍ତ୍ରଣ ଯୋଡନ୍ତୁ</string>
     <string name="pref_summary_extra_song_info">ଅତିରିକ୍ତ ଗୀତ ସୂଚନା ଦେଖାନ୍ତୁ, ଯେପରିକି ଫାଇଲ୍ ଫର୍ମାଟ୍, ବିଟ୍‌ରେଟ୍ ଏବଂ ଫ୍ରିକ୍ୱେନ୍ସି</string>
-    <string name="pref_summary_home_banner">ହୋମ୍ ବ୍ୟାନର୍ ଦେଖାନ୍ତୁ କିମ୍ବା ଲୁଚାନ୍ତୁ</string>
     <string name="pref_summary_ignore_media_store_artwork">ଆଲବମ୍ କଭରର ଗୁଣବତ୍ତା ବଢ଼ାଇପାରେ, କିନ୍ତୁ ଛବି ଲୋଡିଂରେ ବିଳମ୍ବ କରାଏ। ଯଦି ଆପଣଙ୍କର କମ୍ ରିଜୋଲ୍ୟୁସନ୍ ଆର୍ଟୱାର୍କ ସହ ସମସ୍ୟା ଅଛି, ତେବେ କେବଳ ଏହାକୁ ସକ୍ଷମ କରନ୍ତୁ</string>
     <string name="pref_summary_library_categories">ଲାଇବ୍ରେରୀ ଶ୍ରେଣୀଗୁଡ଼ିକର ଦୃଶ୍ୟମାନତା ଏବଂ କ୍ରମ ବିନ୍ୟାସ କରନ୍ତୁ।</string>
     <string name="pref_summary_lock_screen">ରେଟ୍ରୋ ମ୍ୟୁଜିକ୍‌ର କଷ୍ଟମ୍ ଲକ୍‌ସ୍କ୍ରିନ୍ ନିୟନ୍ତ୍ରଣ ବ୍ୟବହାର କରନ୍ତୁ</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">ଆପ୍ ଥିମ୍</string>
     <string name="pref_title_home_album_grid_style">ଆଲବମ୍ ଗ୍ରୀଡ୍</string>
     <string name="pref_title_home_artist_grid_style">କଳାକାର ଗ୍ରୀଡ୍</string>
-    <string name="pref_title_home_banner">ବ୍ୟାନର୍</string>
     <string name="pref_title_ignore_media_store_artwork">ମିଡିଆ ଷ୍ଟୋର୍ କଭର୍‌ଗୁଡ଼ିକୁ ଅଣଦେଖା କରନ୍ତୁ</string>
     <string name="pref_title_last_added_interval">ଶେଷରେ ଯୋଡ଼ାଯାଇଥିବା ପ୍ଲେଲିଷ୍ଟ୍ ଅନ୍ତରାଳ</string>
     <string name="pref_title_lock_screen">ଫୁଲସ୍କ୍ରିନ୍ ନିୟନ୍ତ୍ରଣ</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">ୱାଲପେପର୍ ଆକ୍ସେଣ୍ଟ ରଙ୍ଗ</string>
     <string name="pref_title_whitelist">ମ୍ୟୁଜିକ୍ ହ୍ୱାଇଟଲିଷ୍ଟ୍ କରନ୍ତୁ</string>
     <string name="pro">ପ୍ରୋ</string>
-    <string name="profile">ପ୍ରୋଫାଇଲ୍</string>
     <string name="queue">ପ୍ଲେ କ୍ୟୁ</string>
     <string name="recent_albums">ନିକଟତମ ଆଲବମ୍</string>
     <string name="recent_artists">ନିକଟତମ କଳାକାର</string>
@@ -456,13 +450,10 @@
     <string name="up_next">ଏହା ପରେ</string>
     <string name="update_image">ଛବି ଅପଡେଟ୍ କରନ୍ତୁ</string>
     <string name="updating">ଅପଡେଟ୍ କରୁଛି…</string>
-    <string name="user_images_description">ଉପଭୋକ୍ତା ଛବି</string>
-    <string name="user_name">ଉପଭୋକ୍ତା ନାମ</string>
     <string name="version">ସଂସ୍କରଣ</string>
     <string name="vertical_flip">ଭର୍ଟିକାଲ୍ ଫ୍ଲିପ୍</string>
     <string name="volume">ଭଲ୍ୟୁମ୍</string>
     <string name="web_search">ୱେବ୍ ସନ୍ଧାନ</string>
-    <string name="welcome">ସ୍ୱାଗତ,</string>
     <string name="what_do_you_want_to_share">ଆପଣ କ\'ଣ ସେୟାର କରିବାକୁ ଚାହୁଁଛନ୍ତି?</string>
     <string name="window">ୱିଣ୍ଡୋ</string>
     <string name="x_has_been_set_as_ringtone">%1$sକୁ ଆପଣଙ୍କ ରିଙ୍ଗଟୋନ୍ ଭାବରେ ସେଟ୍ କରାଗଲା।</string>

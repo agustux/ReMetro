@@ -142,7 +142,6 @@
     <string name="equalizer">Equalizer</string>
     <string name="error_create_backup">Couldn\u2019t create backup</string>
     <string name="error_delete_backup">Couldn\u2019t delete backup</string>
-    <string name="error_empty_name">Your name can\'t be empty!</string>
     <string name="error_load_failed">Load failed</string>
     <string name="expanded">Expanded</string>
     <string name="faq">မေးလေ့ရှိသောမေးခွန်းများ</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">Backup created successfully.</string>
     <string name="message_limit_tabs">Not more than 5 items</string>
     <string name="message_restore_success">Restore completed successfully.</string>
-    <string name="message_updated">Updated</string>
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
-    <string name="my_name">နာမည်</string>
     <string name="my_top_tracks">အများဆုံးနားထောင်ခဲ့သော</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Playlist အသစ်</string>
@@ -298,7 +295,6 @@
     <string name="pref_summary_expand_now_playing_panel">Notification ကိုနှိပ်သည့်အခါ Home screen သို့ရောက်မည့်အစား Now Playing screen သို့တိုက်ရိုက်ရောက်သွားမည်</string>
     <string name="pref_summary_extra_controls">Mini player တွင် ထိန်းချုပ်ခလုတ်အပိုများထပ်ပေါင်းမည်</string>
     <string name="pref_summary_extra_song_info">သီချင်းဖိုင်၏အသေးစိတ်အချက်အလက်များ ပြသမည်၊ ဥပမာ - ဖိုင်အမျိုးအစား၊ bitrate နှင့် ကြိမ်နှုန်း</string>
-    <string name="pref_summary_home_banner">Home banner အား ပြသခြင်း၊ ဖျောက်ထားခြင်း</string>
     <string name="pref_summary_ignore_media_store_artwork">Album cover အရည်အသွေးပိုမိုကောင်းမွန်လာနိုင်သော်လည်း Loading time ပိုကြာနိုင်သည်။ အရည်အသွေးနိမ့်သောပုံများနှင့်အဆင်မပြေမှသာလျှင် ဤခလုတ်ကိုဖွင့်ပါ။</string>
     <string name="pref_summary_library_categories">Library category များ ဖော်ခြင်း၊ ဖျောက်ခြင်းနှင့် အထားအသိုများ ချိန်ညှိမည်</string>
     <string name="pref_summary_lock_screen">MetroX ၏ ပြင်ဆင်ထားသော Lockscreen controls များကိုသုံးမည်</string>
@@ -335,7 +331,6 @@
     <string name="pref_title_general_theme">App theme</string>
     <string name="pref_title_home_album_grid_style">Album အကွက်ပုံစံ</string>
     <string name="pref_title_home_artist_grid_style">အဆိုတော်အကွက်ပုံစံ</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Media Store covers များကိုလျစ်လျူရှုခြင်း</string>
     <string name="pref_title_last_added_interval">နောက်ဆုံးသွင်းထားသော playlist ရှိသီချင်းများ</string>
     <string name="pref_title_lock_screen">Lockscreen အပြည့် controls</string>
@@ -358,7 +353,6 @@
     <string name="pref_title_wallpaper_accent">Wallpaper accent color</string>
     <string name="pref_title_whitelist">Whitelist music</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profile</string>
     <string name="queue">နားထောင်နေသည့်စာရင်း</string>
     <string name="recent_albums">မကြာသေးခင်ကနားထောင်ထားသော Album များ</string>
     <string name="recent_artists">မကြာသေးခင်ကနားထောင်ထားသော အဆိုတော်များ</string>
@@ -454,13 +448,10 @@
     <string name="up_next">လာမည့်အပုဒ်</string>
     <string name="update_image">Update image</string>
     <string name="updating">အပ်ဒိတ်လုပ်နေသည်…</string>
-    <string name="user_images_description">User Images</string>
-    <string name="user_name">သုံးစွဲသူ</string>
     <string name="version">Version</string>
     <string name="vertical_flip">ဒေါင်လိုက်ဟိုဘက်ဒီဘက်လှန်ခြင်း</string>
     <string name="volume">အသံအတိုးအကျယ်</string>
     <string name="web_search">Web search</string>
-    <string name="welcome">မင်္ဂလာပါ</string>
     <string name="what_do_you_want_to_share">ဘာများမျှဝေချင်ပါသလဲ</string>
     <string name="window">Window</string>
     <string name="x_has_been_set_as_ringtone">%1$s ကို Ringtone အဖြစ်ထားပြီးပါပြီ</string>

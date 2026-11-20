@@ -144,7 +144,6 @@
     <string name="equalizer">Equalizer</string>
     <string name="error_create_backup">Kon geen back-up maken</string>
     <string name="error_delete_backup">Kon back-up niet verwijderen</string>
-    <string name="error_empty_name">Uw naam kan niet leeg zijn!</string>
     <string name="error_load_failed">Laden mislukt</string>
     <string name="expanded">Expanded</string>
     <string name="faq">Veelgestelde vragen</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Backup created successfully.</string>
     <string name="message_limit_tabs">Niet meer dan 5 items</string>
     <string name="message_restore_success">Herstellen succesvol voltooid.</string>
-    <string name="message_updated">Updated</string>
     <string name="message_welcome"><![CDATA[Hallo! <br>Welkom bij %s]]></string>
-    <string name="my_name">Mijn naam</string>
     <string name="my_top_tracks">Mijn top tracks</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Nieuwe afspeellijst</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
     <string name="pref_summary_extra_controls">Extra besturingselementen voor mini speler toevoegen</string>
     <string name="pref_summary_extra_song_info">Show extra Song information, such as file format, bitrate and frequency</string>
-    <string name="pref_summary_home_banner">Show or hide the home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Kan album cover kwaliteit verbeteren, maar veroorzaakt langere laadtijden. Alleen aanzetten als je problemen hebt met lage resolutie artworks</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
     <string name="pref_summary_lock_screen">Zet besturing knoppen aan op vergrendelscherm</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Basis thema</string>
     <string name="pref_title_home_album_grid_style">Album raster</string>
     <string name="pref_title_home_artist_grid_style">Artist grid</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Negeer media store covers</string>
     <string name="pref_title_last_added_interval">Laatst toegevoegde afspeellijst interval</string>
     <string name="pref_title_lock_screen">Volledig scherm besturing knoppen</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Achtergrond accentkleur</string>
     <string name="pref_title_whitelist">Whitelist music</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profiel</string>
     <string name="queue">Wachtrij</string>
     <string name="recent_albums">Recente albums</string>
     <string name="recent_artists">Recente artiesten</string>
@@ -456,13 +450,10 @@
     <string name="up_next">Volgende</string>
     <string name="update_image">Update afbeelding</string>
     <string name="updating">Bijwerken...</string>
-    <string name="user_images_description">User Images</string>
-    <string name="user_name">Gebruikersnaam</string>
     <string name="version">Versie</string>
     <string name="vertical_flip">Verticaal omdraaien</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web zoekopdracht</string>
-    <string name="welcome">Welkom,</string>
     <string name="what_do_you_want_to_share">Wat wil je delen?</string>
     <string name="window">Venster</string>
     <string name="x_has_been_set_as_ringtone">Stel %1$s in als ringtone</string>

@@ -37,7 +37,6 @@ object BackupHelper : KoinComponent {
         val zipItems = mutableListOf<ZipItem>()
         zipItems.addAll(getPlaylistZipItems(context))
         zipItems.addAll(getSettingsZipItems(context))
-        getUserImageZipItems(context)?.let { zipItems.addAll(it) }
         zipItems.addAll(getCustomArtistZipItems(context))
         zipAll(context, zipItems, backupFile)
         // Clean Cache Playlist Directory
@@ -101,14 +100,6 @@ object BackupHelper : KoinComponent {
         }
     }
 
-    private fun getUserImageZipItems(context: Context): List<ZipItem>? {
-        return context.filesDir.listFiles { _, name ->
-            name.endsWith(".jpg")
-        }?.map {
-            ZipItem(it.absolutePath, IMAGES_PATH.child(it.name))
-        }
-    }
-
     private fun getCustomArtistZipItems(context: Context): List<ZipItem> {
         val zipItemList = mutableListOf<ZipItem>()
         val sharedPrefPath = File(context.filesDir.parentFile, "shared_prefs")
@@ -148,8 +139,6 @@ object BackupHelper : KoinComponent {
                         restorePlaylists(it, entry)
                     } else if (entry.isPreferenceEntry() && contents.contains(SETTINGS)) {
                         restorePreferences(context, it, entry)
-                    } else if (entry.isImageEntry() && contents.contains(USER_IMAGES)) {
-                        restoreImages(context, it, entry)
                     } else if (entry.isCustomArtistEntry() && contents.contains(CUSTOM_ARTIST_IMAGES)) {
                         if (entry.isCustomArtistPrefEntry()) {
                             restoreCustomArtistPrefs(context, it, entry)
@@ -163,15 +152,6 @@ object BackupHelper : KoinComponent {
             withContext(Dispatchers.Main) {
                 context.showToast(R.string.message_restore_success)
             }
-        }
-    }
-
-    private fun restoreImages(context: Context, zipIn: ZipInputStream, zipEntry: ZipEntry) {
-        val file = File(
-            context.filesDir.path, zipEntry.getFileName()
-        )
-        file.outputStream().buffered().use { bos ->
-            zipIn.copyTo(bos)
         }
     }
 
@@ -260,7 +240,6 @@ object BackupHelper : KoinComponent {
     const val APPEND_EXTENSION = ".$BACKUP_EXTENSION"
     private const val PLAYLISTS_PATH = "Playlists"
     private const val SETTINGS_PATH = "prefs"
-    private const val IMAGES_PATH = "userImages"
     private const val CUSTOM_ARTISTS_PATH = "artistImages"
     private const val THEME_PREFS_KEY_DEFAULT = "[[kabouzeid_app-theme-helper]]"
 
@@ -270,10 +249,6 @@ object BackupHelper : KoinComponent {
 
     private fun ZipEntry.isPreferenceEntry(): Boolean {
         return name.startsWith(SETTINGS_PATH)
-    }
-
-    private fun ZipEntry.isImageEntry(): Boolean {
-        return name.startsWith(IMAGES_PATH)
     }
 
     private fun ZipEntry.isCustomArtistEntry(): Boolean {
@@ -318,7 +293,6 @@ fun String.child(child: String): String {
 
 enum class BackupContent {
     SETTINGS,
-    USER_IMAGES,
     CUSTOM_ARTIST_IMAGES,
     PLAYLISTS
 }

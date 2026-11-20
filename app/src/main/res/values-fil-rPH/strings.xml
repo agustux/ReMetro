@@ -144,7 +144,6 @@
     <string name="equalizer">Equalizer</string>
     <string name="error_create_backup">Couldn\u2019t create backup</string>
     <string name="error_delete_backup">Couldn\u2019t delete backup</string>
-    <string name="error_empty_name">Your name can\'t be empty!</string>
     <string name="error_load_failed">Load failed</string>
     <string name="expanded">Expanded</string>
     <string name="faq">FAQ</string>
@@ -212,9 +211,7 @@
     <string name="message_backup_create_success">Backup created successfully.</string>
     <string name="message_limit_tabs">Not more than 5 items</string>
     <string name="message_restore_success">Restore completed successfully.</string>
-    <string name="message_updated">Updated</string>
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
-    <string name="my_name">Pangalan</string>
     <string name="my_top_tracks">Madalas patugtugin</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Bagong playlist</string>
@@ -300,7 +297,6 @@
     <string name="pref_summary_expand_now_playing_panel">Ang pag-click sa notification ay deretso sa nagpe-play ngayon ng screen sa halip na sa home screen</string>
     <string name="pref_summary_extra_controls">Magdagdag ng mga karagdagang kontrol para sa mini player</string>
     <string name="pref_summary_extra_song_info">Magpakita ng karagdagang impormasyon ng Kanta, gaya ng format file, bitrate at dalas</string>
-    <string name="pref_summary_home_banner">Ipakita o itago ang home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Maaaring pataasin ang kalidad ng album cover, ngunit nagiging sanhi ng mas mabagal na oras ng paglo-load ng larawan. Paganahin lamang ito kung mayroon kang mga problema sa mga likhang sining na may mababang resolusyon</string>
     <string name="pref_summary_library_categories">I-configure ang visibility at pagkakasunud-sunod ng mga kategorya ng librerya.</string>
     <string name="pref_summary_lock_screen">Gamitin ang Reto Music\'s custom para sa lockscreen controls</string>
@@ -337,7 +333,6 @@
     <string name="pref_title_general_theme">Theme ng app</string>
     <string name="pref_title_home_album_grid_style">Grid ng Album</string>
     <string name="pref_title_home_artist_grid_style">Grid ng Artista</string>
-    <string name="pref_title_home_banner">Bandila</string>
     <string name="pref_title_ignore_media_store_artwork">I-ignore ang mga cover ng Media Store</string>
     <string name="pref_title_last_added_interval">Huling idinagdag na pagitan ng playlist</string>
     <string name="pref_title_lock_screen">Mga kontrol sa fullscreen</string>
@@ -360,7 +355,6 @@
     <string name="pref_title_wallpaper_accent">Wallpaper accent color</string>
     <string name="pref_title_whitelist">Whitelist music</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profile</string>
     <string name="queue">Playing Queue</string>
     <string name="recent_albums">Mga kamakailang album</string>
     <string name="recent_artists">Mga kamakailang artista</string>
@@ -456,13 +450,10 @@
     <string name="up_next">Susunod</string>
     <string name="update_image">I-update ang larawan</string>
     <string name="updating">Ina-update…</string>
-    <string name="user_images_description">User Images</string>
-    <string name="user_name">User Name</string>
     <string name="version">Bersyon</string>
     <string name="vertical_flip">Pini-flip ng patayo</string>
     <string name="volume">Volume</string>
     <string name="web_search">Maghanap sa web</string>
-    <string name="welcome">Mabuhay,</string>
     <string name="what_do_you_want_to_share">Ano ang gusto mong ibahagi?</string>
     <string name="window">Bintana</string>
     <string name="x_has_been_set_as_ringtone">Itakda ang %1$s bilang iyong ringtone.</string>

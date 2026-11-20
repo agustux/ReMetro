@@ -142,7 +142,6 @@
     <string name="equalizer">Equalizer</string>
     <string name="error_create_backup">Tidak dapat membuat cadangan</string>
     <string name="error_delete_backup">Tidak dapat menghapus cadangan</string>
-    <string name="error_empty_name">Namamu tidak boleh kosong!</string>
     <string name="error_load_failed">Gagal memuat</string>
     <string name="expanded">Diperluas</string>
     <string name="faq">Pertanyaan Umum (FAQ)</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">Cadangan berhasil dibuat.</string>
     <string name="message_limit_tabs">Tidak lebih dari 5 item</string>
     <string name="message_restore_success">Restorasi sukses.</string>
-    <string name="message_updated">Diperbarui</string>
     <string name="message_welcome"><![CDATA[Halo! <br> Selamat datang ke %s]]></string>
-    <string name="my_name">Nama</string>
     <string name="my_top_tracks">Sering diputar</string>
     <string name="new_music_mix">Acak Musik Baru</string>
     <string name="new_playlist_title">Daftar putar baru</string>
@@ -298,7 +295,6 @@
     <string name="pref_summary_expand_now_playing_panel">Menekan notifikasi akan menampilkan layar putar sekarang daripada layar beranda</string>
     <string name="pref_summary_extra_controls">Tambahkan kontrol ekstra untuk pemutar mini</string>
     <string name="pref_summary_extra_song_info">Tampilkan informasi Lagu tambahan seperti format berkas, kecepatan bit, dan frekuensi</string>
-    <string name="pref_summary_home_banner">Tampilkan atau sembunyikan spanduk beranda</string>
     <string name="pref_summary_ignore_media_store_artwork">Dapat meningkatkan kualitas sampul album, namun menyebabkan waktu pemuatan lebih lambat. Aktifkan jika Anda bermasalah dengan resolusi gambar album yang rendah</string>
     <string name="pref_summary_library_categories">Mengkonfigurasi visibilitas dan susunan kategori perpustakaan.</string>
     <string name="pref_summary_lock_screen">Gunakan kontrol layar kunci khusus MetroX</string>
@@ -335,7 +331,6 @@
     <string name="pref_title_general_theme">Tema aplikasi</string>
     <string name="pref_title_home_album_grid_style">Kisi album</string>
     <string name="pref_title_home_artist_grid_style">Kisi artis</string>
-    <string name="pref_title_home_banner">Spanduk</string>
     <string name="pref_title_ignore_media_store_artwork">Abaikan sampul dari Media Penyimpanan</string>
     <string name="pref_title_last_added_interval">Interval daftar putar yang terakhir ditambahkan</string>
     <string name="pref_title_lock_screen">Kontrol layar penuh</string>
@@ -358,7 +353,6 @@
     <string name="pref_title_wallpaper_accent">Warna aksen wallpaper</string>
     <string name="pref_title_whitelist">Musik daftar putih</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">Antrean Putar</string>
     <string name="recent_albums">Album terbaru</string>
     <string name="recent_artists">Artis terbaru</string>
@@ -454,13 +448,10 @@
     <string name="up_next">Berikutnya</string>
     <string name="update_image">Perbarui gambar</string>
     <string name="updating">Memperbarui…</string>
-    <string name="user_images_description">Gambar Pengguna</string>
-    <string name="user_name">Nama Pengguna</string>
     <string name="version">Versi</string>
     <string name="vertical_flip">Vertikal</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pencarian web</string>
-    <string name="welcome">Selamat datang,</string>
     <string name="what_do_you_want_to_share">Apa yang ingin Anda bagikan?</string>
     <string name="window">Jendela</string>
     <string name="x_has_been_set_as_ringtone">Atur %1$s sebagai nada dering Anda.</string>

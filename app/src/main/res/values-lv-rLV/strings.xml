@@ -146,7 +146,6 @@
     <string name="equalizer">Ekvalaizers</string>
     <string name="error_create_backup">Couldn\u2019t create backup</string>
     <string name="error_delete_backup">Couldn\u2019t delete backup</string>
-    <string name="error_empty_name">Your name can\'t be empty!</string>
     <string name="error_load_failed">Load failed</string>
     <string name="expanded">Expanded</string>
     <string name="faq">BUJ</string>
@@ -214,9 +213,7 @@
     <string name="message_backup_create_success">Dublējums izveidots veiksmīgi.</string>
     <string name="message_limit_tabs">Not more than 5 items</string>
     <string name="message_restore_success">Atjaunošana veikta veiksmīgi.</string>
-    <string name="message_updated">Updated</string>
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
-    <string name="my_name">Vārds</string>
     <string name="my_top_tracks">Visbiežāk atskaņotās</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">Jauns atskaņošanas saraksts</string>
@@ -302,7 +299,6 @@
     <string name="pref_summary_expand_now_playing_panel">Uzspiežot uz paziņojumatiks rādīts tas, kas pašreiz tiek atskaņots, nevis sākuma ekrāns</string>
     <string name="pref_summary_extra_controls">Add extra controls for mini player</string>
     <string name="pref_summary_extra_song_info">Show extra Song information, such as file format, bitrate and frequency</string>
-    <string name="pref_summary_home_banner">Rādīt vai slēpt sākuma baneri</string>
     <string name="pref_summary_ignore_media_store_artwork">Can increase the album cover quality, but causes slower image loading times. Only enable this if you have problems with low resolution artworks</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
     <string name="pref_summary_lock_screen">Use MetroX\'s custom lockscreen controls</string>
@@ -339,7 +335,6 @@
     <string name="pref_title_general_theme">Lietotnes motīvs</string>
     <string name="pref_title_home_album_grid_style">Album grid</string>
     <string name="pref_title_home_artist_grid_style">Artist grid</string>
-    <string name="pref_title_home_banner">Baneris</string>
     <string name="pref_title_ignore_media_store_artwork">Ignore Media Store covers</string>
     <string name="pref_title_last_added_interval">Last added playlist interval</string>
     <string name="pref_title_lock_screen">Fullscreen controls</string>
@@ -362,7 +357,6 @@
     <string name="pref_title_wallpaper_accent">Wallpaper accent color</string>
     <string name="pref_title_whitelist">Whitelist music</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profile</string>
     <string name="queue">Atskaņošanas rinda</string>
     <string name="recent_albums">Nesenie albumi</string>
     <string name="recent_artists">Recent artists</string>
@@ -458,13 +452,10 @@
     <string name="up_next">Up next</string>
     <string name="update_image">Update image</string>
     <string name="updating">Updating…</string>
-    <string name="user_images_description">User Images</string>
-    <string name="user_name">User Name</string>
     <string name="version">Version</string>
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">Skaļums</string>
     <string name="web_search">Meklēt tīmeklī</string>
-    <string name="welcome">Sveicināti,</string>
     <string name="what_do_you_want_to_share">What do you want to share?</string>
     <string name="window">Logs</string>
     <string name="x_has_been_set_as_ringtone">Iestatīt %1$s kā zvana signālu.</string>

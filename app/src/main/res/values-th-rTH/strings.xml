@@ -142,7 +142,6 @@
     <string name="equalizer">Equalizer</string>
     <string name="error_create_backup">Couldn\u2019t create backup</string>
     <string name="error_delete_backup">Couldn\u2019t delete backup</string>
-    <string name="error_empty_name">Your name can\'t be empty!</string>
     <string name="error_load_failed">Load failed</string>
     <string name="expanded">Expanded</string>
     <string name="faq">คำถามที่พบบ่อย</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">Backup created successfully.</string>
     <string name="message_limit_tabs">Not more than 5 items</string>
     <string name="message_restore_success">Restore completed successfully.</string>
-    <string name="message_updated">Updated</string>
     <string name="message_welcome"><![CDATA[Hello there! <br>Welcome to %s]]></string>
-    <string name="my_name">ชื่อ</string>
     <string name="my_top_tracks">ฟังบ่อย</string>
     <string name="new_music_mix">New Music Mix</string>
     <string name="new_playlist_title">เพลย์ลิสต์ใหม่</string>
@@ -298,7 +295,6 @@
     <string name="pref_summary_expand_now_playing_panel">คลิกที่การแจ้งเตือนจะแสดงหน้าจอ Now Playing แทนที่จะแสดงหน้าแรก</string>
     <string name="pref_summary_extra_controls">เพิ่มปุ่มควบคุมเพิ่มเติมใน mini player</string>
     <string name="pref_summary_extra_song_info">แสดงข้อมูลเพลงเพิ่มเติม เช่น ประเภทไฟล์, ความถี่ และ บิตเรท</string>
-    <string name="pref_summary_home_banner">แสดงหรือซ่อนแบนเนอร์หน้าแรก</string>
     <string name="pref_summary_ignore_media_store_artwork">เพิ่มคุณภาพของรูปปกอัลบัม แต่จะส่งผลให้โหลดรูปภาพช้าขึ้น</string>
     <string name="pref_summary_library_categories">ตั้งค่าการแสดงผลและจัดเรียงของหมวดหมู่คลังเพลง</string>
     <string name="pref_summary_lock_screen">ใช้ MetroX ในหน้าล็อคสกรีน</string>
@@ -335,7 +331,6 @@
     <string name="pref_title_general_theme">ธีมของ App</string>
     <string name="pref_title_home_album_grid_style">อัลบัมกริด</string>
     <string name="pref_title_home_artist_grid_style">กริดของหน้าศิลปิน</string>
-    <string name="pref_title_home_banner">แบนเนอร์</string>
     <string name="pref_title_ignore_media_store_artwork">มองข้ามรูปปก</string>
     <string name="pref_title_last_added_interval">รายการเพลย์ลิสต์ล่าสุดที่ถูกเพิ่มเข้ามา</string>
     <string name="pref_title_lock_screen">แสดงผลเต็มจอ</string>
@@ -358,7 +353,6 @@
     <string name="pref_title_wallpaper_accent">Wallpaper accent color</string>
     <string name="pref_title_whitelist">Whitelist music</string>
     <string name="pro">โปร</string>
-    <string name="profile">โปรไฟล์</string>
     <string name="queue">คิวเพลง</string>
     <string name="recent_albums">อัลบัมล่าสุด</string>
     <string name="recent_artists">ศิลปินล่าสุด</string>
@@ -454,13 +448,10 @@
     <string name="up_next">เพลงต่อไป</string>
     <string name="update_image">เปลี่ยนรูป</string>
     <string name="updating">กำลังดำเนินการ</string>
-    <string name="user_images_description">User Images</string>
-    <string name="user_name">ชื่อผู้ใช้งาน</string>
     <string name="version">เวอร์ชัน</string>
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">เสียง</string>
     <string name="web_search">ค้นหาจากเว็บไซต์</string>
-    <string name="welcome">ยินดีต้อนรับ</string>
     <string name="what_do_you_want_to_share">คุณต้องการจะแชร์อะไร?</string>
     <string name="window">Window</string>
     <string name="x_has_been_set_as_ringtone">กำหนดให้ %1$s เป็นริงโทนของคุณ</string>

@@ -142,7 +142,6 @@
     <string name="equalizer">均衡器</string>
     <string name="error_create_backup">无法创建备份</string>
     <string name="error_delete_backup">无法删除备份</string>
-    <string name="error_empty_name">您的名字不能为空！</string>
     <string name="error_load_failed">加载失败</string>
     <string name="expanded">已展开</string>
     <string name="faq">常见问题和解答</string>
@@ -210,9 +209,7 @@
     <string name="message_backup_create_success">备份创建成功。</string>
     <string name="message_limit_tabs">不超过 5 项</string>
     <string name="message_restore_success">还原成功完成。</string>
-    <string name="message_updated">已更新</string>
     <string name="message_welcome"><![CDATA[您好！ <br>欢迎使用 %s]]></string>
-    <string name="my_name">我的名字</string>
     <string name="my_top_tracks">最常播放</string>
     <string name="new_music_mix">新歌混烧</string>
     <string name="new_playlist_title">新建播放列表</string>
@@ -299,7 +296,6 @@
     <string name="pref_summary_expand_now_playing_panel">点击通知将显示正在播放页，而不是主页</string>
     <string name="pref_summary_extra_controls">给播放栏添加额外控件</string>
     <string name="pref_summary_extra_song_info">显示额外的歌曲信息，例如文件格式、比特率和频率</string>
-    <string name="pref_summary_home_banner">是否显示主页横幅</string>
     <string name="pref_summary_ignore_media_store_artwork">可以提高封面质量，但加载时间较慢。请仅在图片分辨率过低时开启。</string>
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
     <string name="pref_summary_lock_screen">使用 MetroX 的自定义锁屏</string>
@@ -336,7 +332,6 @@
     <string name="pref_title_general_theme">应用主题</string>
     <string name="pref_title_home_album_grid_style">专辑网格</string>
     <string name="pref_title_home_artist_grid_style">主页艺术家网格</string>
-    <string name="pref_title_home_banner">主页横幅</string>
     <string name="pref_title_ignore_media_store_artwork">忽略媒体存储封面</string>
     <string name="pref_title_last_added_interval">最近播放列表时间间隔</string>
     <string name="pref_title_lock_screen">全屏控件</string>
@@ -359,7 +354,6 @@
     <string name="pref_title_wallpaper_accent">壁纸主题色</string>
     <string name="pref_title_whitelist">白名单音乐</string>
     <string name="pro">高级版</string>
-    <string name="profile">个人信息</string>
     <string name="queue">播放队列</string>
     <string name="recent_albums">最近专辑</string>
     <string name="recent_artists">最近艺术家</string>
@@ -455,13 +449,10 @@
     <string name="up_next">下一首</string>
     <string name="update_image">更新图片</string>
     <string name="updating">正在更新…</string>
-    <string name="user_images_description">用户图片</string>
-    <string name="user_name">用户名</string>
     <string name="version">版本</string>
     <string name="vertical_flip">垂直翻转</string>
     <string name="volume">音量</string>
     <string name="web_search">网络搜索</string>
-    <string name="welcome">欢迎，</string>
     <string name="what_do_you_want_to_share">您有什么想分享的吗？</string>
     <string name="window">窗口</string>
     <string name="x_has_been_set_as_ringtone">将 %1$s 设置为铃声。</string>

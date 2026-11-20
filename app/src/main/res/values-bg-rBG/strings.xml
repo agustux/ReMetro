@@ -145,7 +145,6 @@
     <string name="equalizer">Еквалайзер</string>
     <string name="error_create_backup">Неуспешно създаване на резервно копие</string>
     <string name="error_delete_backup">Неуспешно изтриване на резервно копие</string>
-    <string name="error_empty_name">Вашето име не може да бъде празно!</string>
     <string name="error_load_failed">Грешка при зареждане</string>
     <string name="expanded">Увеличена</string>
     <string name="faq">ЧЗВ</string>
@@ -213,9 +212,7 @@
     <string name="message_backup_create_success">Архивирането е създадено успешно.</string>
     <string name="message_limit_tabs">Не трябва да има повече от 5 елемента</string>
     <string name="message_restore_success">Възстановяването завърши успешно.</string>
-    <string name="message_updated">Актуализиран</string>
     <string name="message_welcome"><![CDATA[Здравейте! <br>Добре дошли в %s]]></string>
-    <string name="my_name">Име</string>
     <string name="my_top_tracks">Често пускани</string>
     <string name="new_music_mix">Нов Микс</string>
     <string name="new_playlist_title">Нов плейлист</string>
@@ -301,7 +298,6 @@
     <string name="pref_summary_expand_now_playing_panel">Щракването върху известие ще покаже екрана за възпроизвеждане вместо началния екран</string>
     <string name="pref_summary_extra_controls">Добавете още контроли за миниплейъра</string>
     <string name="pref_summary_extra_song_info">Показване на допълнителна информация за песента като файлов формат, битрейт и честота</string>
-    <string name="pref_summary_home_banner">Показвай начален бутон</string>
     <string name="pref_summary_ignore_media_store_artwork">Може да подобри качеството на обложката на албума, но да доведе до по-бавно зареждане на изображението. Активирайте това само ако имате проблеми със снимки с ниска резолюция</string>
     <string name="pref_summary_library_categories">Персонализирайте вида и реда на разделите в библиотеката.</string>
     <string name="pref_summary_lock_screen">Използвайте свой собствен екран за заключване на MetroX</string>
@@ -338,7 +334,6 @@
     <string name="pref_title_general_theme">Тема приложения</string>
     <string name="pref_title_home_album_grid_style">Решетка на албума</string>
     <string name="pref_title_home_artist_grid_style">Решетка на изпълнителя</string>
-    <string name="pref_title_home_banner">Начален бутон</string>
     <string name="pref_title_ignore_media_store_artwork">Игнорирайте кориците от хранилището</string>
     <string name="pref_title_last_added_interval">Датата на последното добавяне на плейлист</string>
     <string name="pref_title_lock_screen">Контрол на цял екран</string>
@@ -361,7 +356,6 @@
     <string name="pref_title_wallpaper_accent">Цвят на акцента на тапета</string>
     <string name="pref_title_whitelist">Музика от белия списък</string>
     <string name="pro">Про</string>
-    <string name="profile">Профил</string>
     <string name="queue">Възпроизвеждане на опашка</string>
     <string name="recent_albums">Скорошни албуми</string>
     <string name="recent_artists">Скорошни изпълнители</string>
@@ -457,13 +451,10 @@
     <string name="up_next">Следващи песни</string>
     <string name="update_image">Опресняване на изображението</string>
     <string name="updating">Актуализация…</string>
-    <string name="user_images_description">Персонализирани изображения</string>
-    <string name="user_name">Потребителско име</string>
     <string name="version">Версия</string>
     <string name="vertical_flip">Вертикално превъртане</string>
     <string name="volume">Сила на звука</string>
     <string name="web_search">Потърсете в интернет</string>
-    <string name="welcome">Добре дошли,</string>
     <string name="what_do_you_want_to_share">Какво искаш да споделиш?</string>
     <string name="window">Прозорец</string>
     <string name="x_has_been_set_as_ringtone">Set %1$s as your ringtone.</string>

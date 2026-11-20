@@ -148,7 +148,6 @@
     <string name="equalizer">Korektor dźwięku</string>
     <string name="error_create_backup">Nie udało się utworzyć kopii zapasowej</string>
     <string name="error_delete_backup">Nie udało się usunąć kopii zapasowej</string>
-    <string name="error_empty_name">Imię nie może być puste!</string>
     <string name="error_load_failed">Nie udało się załadować</string>
     <string name="expanded">Rozszerzony</string>
     <string name="faq">Najczęściej zadawane pytania</string>
@@ -216,9 +215,7 @@
     <string name="message_backup_create_success">Kopia zapasowa utworzona pomyślnie.</string>
     <string name="message_limit_tabs">Nie więcej niż 5 elementów</string>
     <string name="message_restore_success">Przywracanie zakończone pomyślnie.</string>
-    <string name="message_updated">Zaktualizowano</string>
     <string name="message_welcome"><![CDATA[Witaj! <br>Zapraszamy do %s]]></string>
-    <string name="my_name">Imię</string>
     <string name="my_top_tracks">Najczęściej odtw.</string>
     <string name="new_music_mix">Nowy miks muzyki</string>
     <string name="new_playlist_title">Nowa playlista</string>
@@ -304,7 +301,6 @@
     <string name="pref_summary_expand_now_playing_panel">Kliknięcie powiadomienia pokaże odtwarzacz zamiast ekranu głównego</string>
     <string name="pref_summary_extra_controls">Dodaj dodatkowe przyciski do miniodtwarzacza</string>
     <string name="pref_summary_extra_song_info">Pokaż dodatkowe informacje o utworze, takie jak format pliku, próbkowanie i jakość</string>
-    <string name="pref_summary_home_banner">Pokaż lub ukryj baner ekranu głównego</string>
     <string name="pref_summary_ignore_media_store_artwork">Może zwiększyć jakość okładki albumu, ale powoduje spowolnienie ładowania obrazu. Włącz tę opcję tylko jeśli masz problemy z okładkami o niskiej rozdzielczości.</string>
     <string name="pref_summary_library_categories">Dostosuj widoczność i kolejność kategorii bibliotek.</string>
     <string name="pref_summary_lock_screen">Użyj niestandardowych przycisków kontroli na ekranie blokady</string>
@@ -341,7 +337,6 @@
     <string name="pref_title_general_theme">Motyw aplikacji</string>
     <string name="pref_title_home_album_grid_style">Siatka albumu</string>
     <string name="pref_title_home_artist_grid_style">Siatka wykonawców</string>
-    <string name="pref_title_home_banner">Baner strony głównej</string>
     <string name="pref_title_ignore_media_store_artwork">Ignoruj okładki z Media Store</string>
     <string name="pref_title_last_added_interval">Interwał ostatnio dodanych playlist</string>
     <string name="pref_title_lock_screen">Sterowanie pełnoekranowe</string>
@@ -364,7 +359,6 @@
     <string name="pref_title_wallpaper_accent">Kolor akcentu z tapety</string>
     <string name="pref_title_whitelist">Muzyka z listy dozwolonych</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">Kolejka odtwarzania</string>
     <string name="recent_albums">Ostatnie albumy</string>
     <string name="recent_artists">Ostatni wykonawcy</string>
@@ -460,13 +454,10 @@
     <string name="up_next">Następne</string>
     <string name="update_image">Zaktualizuj grafikę</string>
     <string name="updating">Aktualizowanie…</string>
-    <string name="user_images_description">Zdjęcia użytkownika</string>
-    <string name="user_name">Nazwa użytkownika</string>
     <string name="version">Wersja</string>
     <string name="vertical_flip">Obrót pionowy</string>
     <string name="volume">Głośność</string>
     <string name="web_search">Przeszukaj sieć</string>
-    <string name="welcome">Witaj,</string>
     <string name="what_do_you_want_to_share">Co chciałbyś udostępnić?</string>
     <string name="window">Okno</string>
     <string name="x_has_been_set_as_ringtone">Ustaw %1$s jako dzwonek.</string>

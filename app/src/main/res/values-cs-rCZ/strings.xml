@@ -148,7 +148,6 @@
     <string name="equalizer">Ekvalizér</string>
     <string name="error_create_backup">Nebylo možné vytvořit zálohu</string>
     <string name="error_delete_backup">Nebylo možné smazat zálohu</string>
-    <string name="error_empty_name">Vaše jméno nemůže být prázdné!</string>
     <string name="error_load_failed">Načítání se nezdařilo</string>
     <string name="expanded">Rozšířené</string>
     <string name="faq">Nejčastější dotazy</string>
@@ -216,9 +215,7 @@
     <string name="message_backup_create_success">Záloha byla úspěšně vytvořena.</string>
     <string name="message_limit_tabs">Ne více než 5 položek</string>
     <string name="message_restore_success">Obnovení úspěšně dokončeno.</string>
-    <string name="message_updated">Aktualizováno</string>
     <string name="message_welcome"><![CDATA[Ahoj! <br>Vítejte v %s]]></string>
-    <string name="my_name">Název</string>
     <string name="my_top_tracks">Nejhranější</string>
     <string name="new_music_mix">Mix Nové Hudby</string>
     <string name="new_playlist_title">Nový seznam skladeb</string>
@@ -304,7 +301,6 @@
     <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
     <string name="pref_summary_extra_controls">Add extra controls for mini player</string>
     <string name="pref_summary_extra_song_info">Show extra Song information, such as file format, bitrate and frequency</string>
-    <string name="pref_summary_home_banner">Show or hide the home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Může zvýšit kvalitu obalu alba, ale způsobí pomalejší načítání snímků. Tuto možnost povolte pouze v případě potíží s uměleckými díly s nízkým rozlišením.</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
     <string name="pref_summary_lock_screen">Use MetroX\'s custom lockscreen controls</string>
@@ -341,7 +337,6 @@
     <string name="pref_title_general_theme">Hlavní téma</string>
     <string name="pref_title_home_album_grid_style">Mřížka alb</string>
     <string name="pref_title_home_artist_grid_style">Mřížka umělců</string>
-    <string name="pref_title_home_banner">Banner</string>
     <string name="pref_title_ignore_media_store_artwork">Ignorovat obaly v zařízení</string>
     <string name="pref_title_last_added_interval">Last added playlist interval</string>
     <string name="pref_title_lock_screen">Ovládání na celou obrazovku</string>
@@ -364,7 +359,6 @@
     <string name="pref_title_wallpaper_accent">Barva zvýraznění tapety</string>
     <string name="pref_title_whitelist">Vložit hudbu na bílou listinu</string>
     <string name="pro">Pro</string>
-    <string name="profile">Profil</string>
     <string name="queue">Fronta</string>
     <string name="recent_albums">Nedávná alba</string>
     <string name="recent_artists">Nedávní umělci</string>
@@ -460,13 +454,10 @@
     <string name="up_next">Další</string>
     <string name="update_image">Aktualizovat obrázek</string>
     <string name="updating">Aktualizace...</string>
-    <string name="user_images_description">Obrázky Uživatele</string>
-    <string name="user_name">Uživatelské Jméno</string>
     <string name="version">Verze</string>
     <string name="vertical_flip">Vertikální otočení</string>
     <string name="volume">Hlasitost</string>
     <string name="web_search">Webové vyhledávání</string>
-    <string name="welcome">Vítejte,</string>
     <string name="what_do_you_want_to_share">Co chcete sdílet?</string>
     <string name="window">Okno</string>
     <string name="x_has_been_set_as_ringtone">Nastavit %1$s jako zvonění</string>

@@ -148,7 +148,6 @@
     <string name="equalizer">Эквалайзер</string>
     <string name="error_create_backup">Не удалось создать резервную копию</string>
     <string name="error_delete_backup">Не удалось удалить резервную копию</string>
-    <string name="error_empty_name">Ваше имя не может быть пустым!</string>
     <string name="error_load_failed">Загрузка не удалась</string>
     <string name="expanded">Увеличенная</string>
     <string name="faq">Часто задаваемые вопросы</string>
@@ -216,9 +215,7 @@
     <string name="message_backup_create_success">Резервная копия успешно создана.</string>
     <string name="message_limit_tabs">Должно быть не более 5 элементов</string>
     <string name="message_restore_success">Восстановление успешно завершено.</string>
-    <string name="message_updated">Обновлено</string>
     <string name="message_welcome"><![CDATA[Здравствуйте! <br>Добро пожаловать в %s]]></string>
-    <string name="my_name">Имя</string>
     <string name="my_top_tracks">Частые</string>
     <string name="new_music_mix">Новый Микс</string>
     <string name="new_playlist_title">Новый плейлист</string>
@@ -304,7 +301,6 @@
     <string name="pref_summary_expand_now_playing_panel">Нажатие на уведомление будет показывать экран воспроизведения вместо домашнего экрана</string>
     <string name="pref_summary_extra_controls">Добавить дополнительные элементы управления для мини-плеера</string>
     <string name="pref_summary_extra_song_info">Показывать дополнительную информацию о треке, такую как расширение файла, битрейт и частота</string>
-    <string name="pref_summary_home_banner">Показывать шапку в разделе \"Для вас\"</string>
     <string name="pref_summary_ignore_media_store_artwork">Может повысить качество обложки альбома, но привести к более медленной загрузке изображения. Включайте это только в том случае, если у вас есть проблемы с обложками низкого разрешения</string>
     <string name="pref_summary_library_categories">Настроить вид и порядок вкладок в библиотеке.</string>
     <string name="pref_summary_lock_screen">Используйте собственный экран блокировки MetroX</string>
@@ -341,7 +337,6 @@
     <string name="pref_title_general_theme">Тема приложения</string>
     <string name="pref_title_home_album_grid_style">Сетка альбомов</string>
     <string name="pref_title_home_artist_grid_style">Сетка исполнителей</string>
-    <string name="pref_title_home_banner">Шапка</string>
     <string name="pref_title_ignore_media_store_artwork">Игнорировать обложки из хранилища</string>
     <string name="pref_title_last_added_interval">Дата последнего добавления плейлиста</string>
     <string name="pref_title_lock_screen">Полноэкранное управление</string>
@@ -364,7 +359,6 @@
     <string name="pref_title_wallpaper_accent">Цвет акцента обоев</string>
     <string name="pref_title_whitelist">Музыка из белого списка</string>
     <string name="pro">Pro</string>
-    <string name="profile">Профиль</string>
     <string name="queue">Очередь воспроизведения</string>
     <string name="recent_albums">Недавние альбомы</string>
     <string name="recent_artists">Недавние исполнители</string>
@@ -460,13 +454,10 @@
     <string name="up_next">Следующие треки</string>
     <string name="update_image">Обновить изображение</string>
     <string name="updating">Обновление…</string>
-    <string name="user_images_description">Пользовательские изображения</string>
-    <string name="user_name">Имя Пользователя</string>
     <string name="version">Версия</string>
     <string name="vertical_flip">Вертикальный поворот</string>
     <string name="volume">Громкость</string>
     <string name="web_search">Поиск в интернете</string>
-    <string name="welcome">Добро пожаловать,</string>
     <string name="what_do_you_want_to_share">Чем вы хотите поделиться?</string>
     <string name="window">Окно</string>
     <string name="x_has_been_set_as_ringtone">%1$s установлен в качестве мелодии звонка</string>

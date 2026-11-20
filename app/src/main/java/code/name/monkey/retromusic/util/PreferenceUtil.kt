@@ -94,10 +94,8 @@ import code.name.monkey.retromusic.TAB_TEXT_MODE
 import code.name.monkey.retromusic.TOGGLE_ADD_CONTROLS
 import code.name.monkey.retromusic.TOGGLE_FULL_SCREEN
 import code.name.monkey.retromusic.TOGGLE_HEADSET
-import code.name.monkey.retromusic.TOGGLE_HOME_BANNER
 import code.name.monkey.retromusic.TOGGLE_SUGGESTIONS
 import code.name.monkey.retromusic.TOGGLE_VOLUME
-import code.name.monkey.retromusic.USER_NAME
 import code.name.monkey.retromusic.WALLPAPER_ACCENT
 import code.name.monkey.retromusic.WHITELIST_MUSIC
 import code.name.monkey.retromusic.extensions.getIntRes
@@ -212,15 +210,6 @@ object PreferenceUtil {
         )
         set(value) = sharedPreferences.edit {
             putBoolean(LOCALE_AUTO_STORE_ENABLED, value)
-        }
-
-    var Fragment.userName
-        get() = sharedPreferences.getString(
-            USER_NAME,
-            getString(R.string.user_name)
-        )
-        set(value) = sharedPreferences.edit {
-            putString(USER_NAME, value)
         }
 
     var safSdCardUri
@@ -341,11 +330,6 @@ object PreferenceUtil {
     val isExtraControls
         get() = sharedPreferences.getBoolean(
             TOGGLE_ADD_CONTROLS, false
-        )
-
-    val isHomeBanner
-        get() = sharedPreferences.getBoolean(
-            TOGGLE_HOME_BANNER, false
         )
 
     val isScreenOnEnabled get() = sharedPreferences.getBoolean(KEEP_SCREEN_ON, false)
