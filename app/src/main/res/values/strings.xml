@@ -284,7 +284,6 @@
     <string name="pref_keep_screen_on_title">Keep the screen on</string>
     <string name="pref_show_when_locked_summary">Requires an app restart to take effect. The player must be on foreground before locking for this feature to work</string>
     <string name="pref_show_when_locked_title">Show the player interface when locked</string>
-    <string name="pref_language_name">Select language</string>
     <string name="pref_snow_fall_title">Snow fall effect</string>
     <string name="pref_summary_album_art_on_lockscreen">Use the currently playing song album cover as the lockscreen wallpaper</string>
     <string name="pref_summary_audio_fade">Fade audio when song is paused or played</string>
@@ -472,22 +471,4 @@
     <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
     <string name="pref_save_last_directory_title">Save Last Directory</string>
     <string name="go_to_artist">Go to artist</string>
-
-    <!-- The following strings are unused but kept as non-translatable to resolve ExtraTranslation lint errors in 45+ languages without bulk-editing them. -->
-    <string name="buy_now" translatable="false" />
-    <string name="could_not_restore_purchase" translatable="false" />
-    <string name="loading_products" translatable="false" />
-    <string name="message_pro_feature" translatable="false" />
-    <string name="no_purchase_found" translatable="false" />
-    <string name="pro" translatable="false" />
-    <string name="pro_summary" translatable="false" />
-    <string name="purchase" translatable="false" />
-    <string name="restored_previous_purchase_please_restart" translatable="false" />
-    <string name="restored_previous_purchases" translatable="false" />
-    <string name="restoring_purchase" translatable="false" />
-    <string name="billing_error" translatable="false" />
-    <string name="retro_music_pro" translatable="false" />
-    <string name="try_retro_music_premium" translatable="false" />
-    <string name="listing_files" translatable="false" />
-
 </resources>

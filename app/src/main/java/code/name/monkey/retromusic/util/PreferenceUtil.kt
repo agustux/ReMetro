@@ -49,14 +49,12 @@ import code.name.monkey.retromusic.HOME_ARTIST_GRID_STYLE
 import code.name.monkey.retromusic.IGNORE_MEDIA_STORE_ARTWORK
 import code.name.monkey.retromusic.INITIALIZED_BLACKLIST
 import code.name.monkey.retromusic.KEEP_SCREEN_ON
-import code.name.monkey.retromusic.LANGUAGE_NAME
 import code.name.monkey.retromusic.LAST_ADDED_CUTOFF
 import code.name.monkey.retromusic.LAST_CHANGELOG_VERSION
 import code.name.monkey.retromusic.LAST_DIRECTORY
 import code.name.monkey.retromusic.LAST_SLEEP_TIMER_VALUE
 import code.name.monkey.retromusic.LAST_USED_TAB
 import code.name.monkey.retromusic.LIBRARY_CATEGORIES
-import code.name.monkey.retromusic.LOCALE_AUTO_STORE_ENABLED
 import code.name.monkey.retromusic.LOCK_SCREEN
 import code.name.monkey.retromusic.LYRICS_OPTIONS
 import code.name.monkey.retromusic.LYRICS_TYPE
@@ -196,21 +194,6 @@ object PreferenceUtil {
             }
         }
     }
-
-    var languageCode: String
-        get() = sharedPreferences.getString(LANGUAGE_NAME, "auto") ?: "auto"
-        set(value) = sharedPreferences.edit {
-            putString(LANGUAGE_NAME, value)
-        }
-
-    var isLocaleAutoStorageEnabled: Boolean
-        get() = sharedPreferences.getBoolean(
-            LOCALE_AUTO_STORE_ENABLED,
-            false
-        )
-        set(value) = sharedPreferences.edit {
-            putBoolean(LOCALE_AUTO_STORE_ENABLED, value)
-        }
 
     var safSdCardUri
         get() = sharedPreferences.getStringOrDefault(SAF_SDCARD_URI, "")

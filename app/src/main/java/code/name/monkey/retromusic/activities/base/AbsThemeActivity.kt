@@ -18,9 +18,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.KeyEvent
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatDelegate.setDefaultNightMode
-import androidx.core.os.LocaleListCompat
 import code.name.monkey.appthemehelper.common.ATHToolbarActivity
 import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.R
@@ -42,7 +40,6 @@ abstract class AbsThemeActivity : ATHToolbarActivity(), Runnable {
     private val handler = Handler(Looper.getMainLooper())
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        updateLocale()
         updateTheme()
         hideStatusBar()
         super.onCreate(savedInstanceState)
@@ -64,14 +61,6 @@ abstract class AbsThemeActivity : ATHToolbarActivity(), Runnable {
 
         if (PreferenceUtil.isCustomFont) {
             setTheme(R.style.FontThemeOverlay)
-        }
-    }
-
-    private fun updateLocale() {
-        val localeCode = PreferenceUtil.languageCode
-        if (PreferenceUtil.isLocaleAutoStorageEnabled) {
-            AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(localeCode))
-            PreferenceUtil.isLocaleAutoStorageEnabled = true
         }
     }
 
