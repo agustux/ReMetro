@@ -1442,7 +1442,7 @@ class MusicService : MediaBrowserServiceCompat(),
 
     companion object {
         val TAG: String = MusicService::class.java.simpleName
-        const val RETRO_MUSIC_PACKAGE_NAME = "code.name.monkey.retromusic"
+        const val RETRO_MUSIC_PACKAGE_NAME = BuildConfig.APPLICATION_ID
         const val MUSIC_PACKAGE_NAME = "com.android.music"
         const val ACTION_TOGGLE_PAUSE = "$RETRO_MUSIC_PACKAGE_NAME.togglepause"
         const val ACTION_PLAY = "$RETRO_MUSIC_PACKAGE_NAME.play"

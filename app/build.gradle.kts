@@ -20,11 +20,9 @@ android {
             useSupportLibrary = true
         }
 
-        applicationId = namespace
+        applicationId = "io.github.agustux.metrox"
         versionCode = 10703
         versionName = "7.0.3"
-
-        buildConfigField("String", "GOOGLE_PLAY_LICENSING_KEY", "\"${getProperty(getProperties("../public.properties"), "GOOGLE_PLAY_LICENSE_KEY")}\"")
     }
     val signingProperties = getProperties("retro.properties")
     val theSigningConfig = if (signingProperties != null) {
