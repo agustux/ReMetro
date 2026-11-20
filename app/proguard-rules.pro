@@ -28,13 +28,6 @@
 -dontwarn **$$Lambda$*
 -dontwarn javax.annotation.**
 
-# RetroFit
--dontwarn retrofit.**
--keep class retrofit.** { *; }
--keep,allowobfuscation,allowshrinking interface retrofit2.Call
--keep,allowobfuscation,allowshrinking class retrofit2.Response
--keep,allowobfuscation,allowshrinking class kotlin.coroutines.Continuation
-
 # Glide
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep class * extends com.bumptech.glide.module.AppGlideModule {
@@ -48,11 +41,8 @@
   *** rewind();
 }
 
-# OkHttp
 -keepattributes Signature
 -keepattributes *Annotation*
--keep interface com.squareup.okhttp3.** { *; }
--dontwarn com.squareup.okhttp3.**
 
 #-dontwarn
 #-ignorewarnings

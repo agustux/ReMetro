@@ -10,23 +10,11 @@ import code.name.monkey.retromusic.fragments.artists.ArtistDetailsViewModel
 import code.name.monkey.retromusic.fragments.genres.GenreDetailsViewModel
 import code.name.monkey.retromusic.fragments.playlists.PlaylistDetailsViewModel
 import code.name.monkey.retromusic.model.Genre
-import code.name.monkey.retromusic.network.provideDefaultCache
-import code.name.monkey.retromusic.network.provideOkHttp
 import code.name.monkey.retromusic.repository.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.bind
 import org.koin.dsl.module
-
-val networkModule = module {
-
-    factory {
-        provideDefaultCache()
-    }
-    factory {
-        provideOkHttp(get(), get())
-    }
-}
 
 private val roomModule = module {
 
@@ -169,4 +157,4 @@ private val viewModules = module {
     }
 }
 
-val appModules = listOf(mainModule, dataModule, autoModule, viewModules, networkModule, roomModule)
+val appModules = listOf(mainModule, dataModule, autoModule, viewModules, roomModule)

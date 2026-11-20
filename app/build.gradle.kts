@@ -116,9 +116,7 @@ dependencies {
 
     implementation(libs.android.material)
 
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.converter.gson)
-    implementation(libs.okhttp3.logging.interceptor)
+    implementation(libs.gson)
 
     implementation(libs.afollestad.material.dialogs.core)
     implementation(libs.afollestad.material.dialogs.input)
@@ -132,7 +130,6 @@ dependencies {
 
     implementation(libs.glide)
     ksp(libs.glide.ksp)
-    implementation(libs.glide.okhttp3.integration)
 
     implementation(libs.advrecyclerview)
 
@@ -144,7 +141,6 @@ dependencies {
     implementation(libs.chrisbanes.insetter)
 
 
-    implementation(libs.org.eclipse.egit.github.core)
     implementation(libs.jaudiotagger)
     implementation(libs.slidableactivity)
     implementation(libs.material.intro)
