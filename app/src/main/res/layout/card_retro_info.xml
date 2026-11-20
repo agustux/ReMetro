@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <code.name.monkey.appthemehelper.common.views.ATEAccentTextView
+        <io.github.agustux.remetro.appthemehelper.common.views.ATEAccentTextView
             android:id="@+id/sb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <code.name.monkey.retromusic.views.ListItemView
+        <io.github.agustux.remetro.views.ListItemView
             android:id="@+id/appGithub"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             app:listItemTitle="@string/git_hub" />
 
 
-        <code.name.monkey.retromusic.views.ListItemView
+        <io.github.agustux.remetro.views.ListItemView
             android:id="@+id/bugReportLink"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             app:listItemTitle="@string/report_bug" />
 
 
-        <code.name.monkey.retromusic.views.ListItemView
+        <io.github.agustux.remetro.views.ListItemView
             android:id="@+id/faqLink"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

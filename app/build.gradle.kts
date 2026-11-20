@@ -10,7 +10,7 @@ plugins {
 
 android {
     compileSdk = 36
-    namespace = "code.name.monkey.retromusic"
+    namespace = "io.github.agustux.remetro"
 
     defaultConfig {
         minSdk = 24

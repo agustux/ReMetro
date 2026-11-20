@@ -59,8 +59,8 @@
 -keep class * extends androidx.fragment.app.Fragment{}
 -keepnames class * extends android.os.Parcelable
 -keepnames class * extends java.io.Serializable
--keep class code.name.monkey.retromusic.network.model.** { *; }
--keep class code.name.monkey.retromusic.model.** { *; }
+-keep class io.github.agustux.remetro.network.model.** { *; }
+-keep class io.github.agustux.remetro.model.** { *; }
 -keep class com.google.android.material.bottomsheet.** { *; }
 
 # TypeToken https://stackoverflow.com/questions/70969756/caused-by-java-lang-runtimeexception-missing-type-parameter
