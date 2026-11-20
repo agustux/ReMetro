@@ -1,4 +1,4 @@
-Retro Music Player 🎵
+MetroX is an offline, Google-free local music player based on Retro Music Player. It has no internet access.
 
 <b>📦 Included Features</b>
 <ul>

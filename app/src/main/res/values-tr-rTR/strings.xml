@@ -68,10 +68,10 @@
     <string name="app_shortcut_shuffle_all_short">Karıştır</string>
     <string name="app_shortcut_top_tracks_short">Sık oynatılan parçalar</string>
     <string name="app_widget_big_name">Tüm Resim</string>
-    <string name="app_widget_card_name">Retro müzik - Kart</string>
-    <string name="app_widget_classic_name">Retro müzik - Klasik</string>
+    <string name="app_widget_card_name">MetroX - Kart</string>
+    <string name="app_widget_classic_name">MetroX - Klasik</string>
     <string name="app_widget_md3_name">MD3</string>
-    <string name="app_widget_small_name">Retro müzik - Küçük</string>
+    <string name="app_widget_small_name">MetroX - Küçük</string>
     <string name="app_widget_text_name">Minimal Metin</string>
     <string name="artist">Sanatçı</string>
     <string name="artists">Sanatçılar</string>
@@ -131,7 +131,7 @@
     <string name="deleted_x_songs">%1$d parça silindi.</string>
     <string name="depth">Derinlik</string>
     <string name="device_info">Cihaz Bilgisi</string>
-    <string name="dialog_message_set_ringtone">Retro Müzik\'in ses ayarlarını değiştirmesine izin verin</string>
+    <string name="dialog_message_set_ringtone">MetroX\'in ses ayarlarını değiştirmesine izin verin</string>
     <string name="dialog_title_set_ringtone">Zil sesini ayarla</string>
     <string name="disc_hint">Disk numarası</string>
     <string name="do_you_want_to_clear_the_blacklist">Kara listeyi temizlemek istiyor musunuz?</string>
@@ -305,7 +305,7 @@
     <string name="pref_summary_home_banner">Ana sayfa afişini etkinleştir</string>
     <string name="pref_summary_ignore_media_store_artwork">Albüm kapağı kalitesini artırabilir, ancak fotoğrafın yavaş yüklenmesine neden olur. Bunu, yalnızca düşük çözünürlüklü resimlerle ilgili sorunlarınız varsa etkinleştirin.</string>
     <string name="pref_summary_library_categories">Kütüphane kategorilerinin görünürlük ve sırasını yapılandırın</string>
-    <string name="pref_summary_lock_screen">Retro Müzik\'in özel kilit ekranı kontrollerini kullanın</string>
+    <string name="pref_summary_lock_screen">MetroX\'in özel kilit ekranı kontrollerini kullanın</string>
     <string name="pref_summary_manage_audio_focus">Çalınan herhangi birşeyden bağımsız olarak sesi arka planda çalmaya devam et</string>
     <string name="pref_summary_open_source_licences">Açık kaynaklı yazılım için lisans detayları</string>
     <string name="pref_summary_pause_history">Etkinleştirildiğinde, yeni çalınan şarkılar geçmişte gösterilmez</string>
@@ -381,7 +381,7 @@
     <string name="reset_action">Sıfırla</string>
     <string name="reset_artist_image">Sanatçı resmini sıfırla</string>
     <string name="restore">Geri yükle</string>
-    <string name="retro_music_player">Retro Müzik Çalar</string>
+    <string name="retro_music_player">MetroX</string>
     <string name="ringtone_summary">Müziği zil sesi yapmak için uygulamanın cihaz ayarlarına erişim yetkisi gereklidir</string>
     <string name="ringtone_title">Zil sesi (İsteğe Bağlı)</string>
     <string name="permission_alarm_summary">Uygulamanın alarm ve uyku zamanlayıcısı ayarlamak için özel izinlere ihtiyacı var</string>
@@ -479,7 +479,7 @@
     <string name="you_have_to_select_at_least_one_category">En az bir kategori seçmek zorundasınız.</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Sorun izleyici web sitesine yönlendirileceksiniz.</string>
     <string name="could_not_write_tags_to_file">Etiketler müzik dosyasına yazılamadı!</string>
-    <string name="sleep_timer_no_permission">Uygulamanın alarm ayarlaması için izni yok, lütfen Retro Music\'e izin verin.</string>
+    <string name="sleep_timer_no_permission">Uygulamanın alarm ayarlaması için izni yok, lütfen MetroX\'e izin verin.</string>
     <string name="scanning_folders_files">Dosyalar ve klasörler taranıyor…</string>
     <string name="scan_complete">Tarama tamamlandı: %1$d medya öğesi bulundu.</string>
     <string name="pref_save_last_directory_summary">Klasör görünümüne geçerken son kullanılan dizini geri getir</string>

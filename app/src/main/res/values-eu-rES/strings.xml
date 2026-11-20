@@ -112,7 +112,7 @@
     <string name="deleted_x_songs">%1$d abesti ezabatu dira</string>
     <string name="depth">Sakonera</string>
     <string name="device_info">Gailuaren informazioa</string>
-    <string name="dialog_message_set_ringtone">Allow Retro Music to modify audio settings</string>
+    <string name="dialog_message_set_ringtone">Allow MetroX to modify audio settings</string>
     <string name="dialog_title_set_ringtone">Set ringtone</string>
     <string name="do_you_want_to_clear_the_blacklist">Zerrenda beltza garbitu nahi duzu?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[<b>%1$s</b> zerrenda beltzetik ezabatu nahi duzu?]]></string>
@@ -244,7 +244,7 @@
     <string name="pref_summary_home_banner">Txandakatu hasierako banner estiloa</string>
     <string name="pref_summary_ignore_media_store_artwork">Album azalaren kalitatea hobetu dezake, baina irudien kargatze-denbora moteltzen du. Soilik bereizmen baxuko azalekin arazoa baduzu aktibatu</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
-    <string name="pref_summary_lock_screen">Retro Music-en pantaila-blokeoko kontrolak erabili</string>
+    <string name="pref_summary_lock_screen">MetroX-en pantaila-blokeoko kontrolak erabili</string>
     <string name="pref_summary_open_source_licences">Software librerako lizentziaren xehetasunak</string>
     <string name="pref_summary_toggle_full_screen">Murgiltze modua</string>
     <string name="pref_summary_toggle_headset">Hasi erreproduzitzen entzungailuak konektatzeaz bat</string>
@@ -291,7 +291,7 @@
     <string name="reset_action">Reset</string>
     <string name="reset_artist_image">Artistaren irudia berrezarri</string>
     <string name="restore">Leheneratu</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">MetroX</string>
     <string name="saf_delete_failed">File delete failed: %s</string>
     <!-- SAF -->
     <string name="saf_error_uri">Can\'t get SAF URI</string>

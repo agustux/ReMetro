@@ -131,7 +131,7 @@
     <string name="deleted_x_songs">%1$d músicas eliminadas.</string>
     <string name="depth">Profundidade</string>
     <string name="device_info">Info. do dispositivo</string>
-    <string name="dialog_message_set_ringtone">Permitir que Música Retro modifique as definições de áudio</string>
+    <string name="dialog_message_set_ringtone">Permitir que MetroX modifique as definições de áudio</string>
     <string name="dialog_title_set_ringtone">Definir toque</string>
     <string name="disc_hint">Número do disco</string>
     <string name="do_you_want_to_clear_the_blacklist">Quer limpar a lista negra?</string>
@@ -305,7 +305,7 @@
     <string name="pref_summary_home_banner">Mostrar ou ocultar o banner inicial</string>
     <string name="pref_summary_ignore_media_store_artwork">Pode aumentar a qualidade da capa do álbum, mas aumenta o tempo de carregamento. Ligue apenas se tiver problemas com capas de baixa resolução</string>
     <string name="pref_summary_library_categories">Configurar visibilidade e ordem das categorias.</string>
-    <string name="pref_summary_lock_screen">Utilizar os controlos personalizados do Música Retro</string>
+    <string name="pref_summary_lock_screen">Utilizar os controlos personalizados do MetroX</string>
     <string name="pref_summary_manage_audio_focus">Reproduzir sempre áudio em segundo plano independentemente do que estiver a ser reproduzido</string>
     <string name="pref_summary_open_source_licences">Detalhes da licença do software open source</string>
     <string name="pref_summary_pause_history">Quando activado, as músicas novas reproduzidas não vão aparecer no histórico</string>
@@ -381,7 +381,7 @@
     <string name="reset_action">Repor</string>
     <string name="reset_artist_image">Repor imagem do artista</string>
     <string name="restore">Restaurar</string>
-    <string name="retro_music_player">Música Retro</string>
+    <string name="retro_music_player">MetroX</string>
     <string name="ringtone_summary">Esta aplicação necessita de permissão para aceder às definições para definir músicas como toques</string>
     <string name="ringtone_title">Toque (opcional)</string>
     <string name="permission_alarm_summary">A aplicação precisa de permissão para agendar alarmes exatos para definir os temporizadores de sono</string>
@@ -479,7 +479,7 @@
     <string name="you_have_to_select_at_least_one_category">Tem que seleccionar pelo menos uma categoria.</string>
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Vai ser reencaminhado para o site de rastreio de problemas.</string>
     <string name="could_not_write_tags_to_file">Não foi possível gravar etiquetas para o ficheiro de música!</string>
-    <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow Retro Music.</string>
+    <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow MetroX.</string>
     <string name="scanning_folders_files">Scanning folders and files…</string>
     <string name="scan_complete">Scan complete: %1$d media items found.</string>
     <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>

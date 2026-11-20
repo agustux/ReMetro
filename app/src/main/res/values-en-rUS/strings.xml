@@ -153,7 +153,7 @@
 
     <string name="device_info">Device info</string>
 
-    <string name="dialog_message_set_ringtone">Allow Retro Music to modify audio settings</string>
+    <string name="dialog_message_set_ringtone">Allow MetroX to modify audio settings</string>
     <string name="dialog_title_set_ringtone">Set ringtone</string>
 
     <string name="do_you_want_to_clear_the_blacklist">Do you want to clear the blacklist?</string>
@@ -346,7 +346,7 @@
     <string name="pref_summary_home_banner">Show or hide the home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Can increase the album cover quality, but causes slower image loading times. Only enable this if you have problems with low resolution artworks</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
-    <string name="pref_summary_lock_screen">Use Retro Music\'s custom lockscreen controls</string>
+    <string name="pref_summary_lock_screen">Use MetroX\'s custom lockscreen controls</string>
     <string name="pref_summary_open_source_licences">License details for open source software</string>
     <string name="pref_summary_toggle_full_screen">Immersive mode</string>
     <string name="pref_summary_toggle_headset">Start playing immediately after headphones are connected</string>
@@ -404,7 +404,7 @@
 
     <string name="restore">Restore</string>
 
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">MetroX</string>
 
     <string name="saf_delete_failed">File delete failed: %s</string>
     <!-- SAF -->
