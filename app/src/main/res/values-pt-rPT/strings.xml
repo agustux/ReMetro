@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Adicionar à fila de reprodução</string>
     <string name="action_add_to_playlist">Adicionar à lista</string>
     <string name="action_cancel">Cancelar</string>
-    <string name="action_cast">Transmitir</string>
     <string name="action_clear_playing_queue">Limpar fila de reprodução</string>
     <string name="action_cycle_repeat">Modo de repetição</string>
     <string name="action_delete">Eliminar</string>

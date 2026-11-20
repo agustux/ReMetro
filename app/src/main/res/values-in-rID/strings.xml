@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Tambahkan ke antrean putar</string>
     <string name="action_add_to_playlist">Tambah ke daftar putar</string>
     <string name="action_cancel">Batal</string>
-    <string name="action_cast">Transmisi</string>
     <string name="action_clear_playing_queue">Kosongkan antrean pemutaran</string>
     <string name="action_cycle_repeat">Mode pengulangan siklus</string>
     <string name="action_delete">Hapus</string>

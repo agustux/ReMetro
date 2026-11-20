@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">إضافة إلى قائمة التشغيل الحالية</string>
     <string name="action_add_to_playlist">أضف إلى قائمة التشغيل</string>
     <string name="action_cancel">إلغاء</string>
-    <string name="action_cast">ممثلين</string>
     <string name="action_clear_playing_queue">إخلاء قائمة التشغيل الحالية</string>
     <string name="action_cycle_repeat">وضع التكرار</string>
     <string name="action_delete">حذف</string>

@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Ajouter à la file d\'attente</string>
     <string name="action_add_to_playlist">Ajouter à la liste de lecture</string>
     <string name="action_cancel">Annuler</string>
-    <string name="action_cast">Diffuser</string>
     <string name="action_clear_playing_queue">Vider la file d\'attente</string>
     <string name="action_cycle_repeat">Mode de répétition</string>
     <string name="action_delete">Supprimer</string>

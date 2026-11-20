@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Idagdag sa playing queue</string>
     <string name="action_add_to_playlist">Idagdag sa playlist</string>
     <string name="action_cancel">Kanselahin</string>
-    <string name="action_cast">Kast</string>
     <string name="action_clear_playing_queue">Burahin ang playing queue</string>
     <string name="action_cycle_repeat">Cycle repeat mode</string>
     <string name="action_delete">Tanggalin</string>

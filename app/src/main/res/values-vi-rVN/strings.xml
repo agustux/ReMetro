@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Thêm vào danh sách chờ phát</string>
     <string name="action_add_to_playlist">Thêm vào danh sách phát</string>
     <string name="action_cancel">Hủy</string>
-    <string name="action_cast">Truyền tới</string>
     <string name="action_clear_playing_queue">Xoá danh sách chờ phát</string>
     <string name="action_cycle_repeat">Chế độ lặp lại chu kỳ</string>
     <string name="action_delete">Xoá</string>

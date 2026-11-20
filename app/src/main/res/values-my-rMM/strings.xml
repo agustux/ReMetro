@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">နားထောင်နေသည့်စာရင်းထဲသို့ထည့်မည်</string>
     <string name="action_add_to_playlist">Playlist သို့ထည့်မည်</string>
     <string name="action_cancel">ပယ်ဖျက်မည်</string>
-    <string name="action_cast">လွှင့်မည်</string>
     <string name="action_clear_playing_queue">နားထောင်နေသည့်စာရင်းအားရှင်းမည်</string>
     <string name="action_cycle_repeat">ပြန်ပြီးထပ်ခါထပ်ခါ</string>
     <string name="action_delete">ဖျက်မည်</string>

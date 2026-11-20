@@ -846,10 +846,7 @@ class MusicService : MediaBrowserServiceCompat(),
     }
 
     fun playSongAt(position: Int) {
-        // Every chromecast method needs to run on main thread or you are greeted with IllegalStateException
-        // So it will use Main dispatcher
-        // And by using Default dispatcher for local playback we are reduce the burden of main thread
-        serviceScope.launch(if (playbackManager.isLocalPlayback) Default else Main) {
+        serviceScope.launch(Default) {
             openTrackAndPrepareNextAt(position) { success ->
                 if (success) {
                     play()
@@ -1250,10 +1247,6 @@ class MusicService : MediaBrowserServiceCompat(),
 
     fun switchToLocalPlayback() {
         playbackManager.switchToLocalPlayback(this::restorePlaybackState)
-    }
-
-    fun switchToRemotePlayback(castPlayer: CastPlayer) {
-        playbackManager.switchToRemotePlayback(castPlayer, this::restorePlaybackState)
     }
 
     private fun restorePlaybackState(wasPlaying: Boolean, progress: Int) {

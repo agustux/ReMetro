@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">افزودن به لیست پخش آهنگ</string>
     <string name="action_add_to_playlist">افزودن به لیست پخش</string>
     <string name="action_cancel">انصراف</string>
-    <string name="action_cast">پخش و نمایش تصویر</string>
     <string name="action_clear_playing_queue">پاک کردن لیست پخش آهنگ</string>
     <string name="action_cycle_repeat">حالت پخش چرخشی آهنگ ها</string>
     <string name="action_delete">حذف</string>

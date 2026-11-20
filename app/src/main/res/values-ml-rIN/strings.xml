@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">ക്യൂലേക് ആഡ് ചെയ്യൂ</string>
     <string name="action_add_to_playlist">പ്ലേലിസ്റ്റിലേക്ക് ആഡ് ചെയ്യുക</string>
     <string name="action_cancel">പരിസ്കരിച്ചു</string>
-    <string name="action_cast">കാസ്റ്റ്</string>
     <string name="action_clear_playing_queue">നിലവിൽ ഉള്ള ക്യൂ ക്ലിയർ ചെയ്യൂ</string>
     <string name="action_cycle_repeat">സൈക്കിൾ പുനരാവൃത്തി രീതി</string>
     <string name="action_delete">ഡിലീറ്റ്</string>

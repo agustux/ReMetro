@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">再生キューに追加</string>
     <string name="action_add_to_playlist">プレイリストに追加</string>
     <string name="action_cancel">キャンセル</string>
-    <string name="action_cast">キャスト</string>
     <string name="action_clear_playing_queue">再生キューをクリア</string>
     <string name="action_cycle_repeat">サイクルリピートモード</string>
     <string name="action_delete">削除</string>

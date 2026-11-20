@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Dodaj u listu za pustanje</string>
     <string name="action_add_to_playlist">Dodaj na plejlistu</string>
     <string name="action_cancel">Otkazi trenutni tajmer</string>
-    <string name="action_cast">Cast</string>
     <string name="action_clear_playing_queue">Izbrisi trenutnu plejlistu za pustanje</string>
     <string name="action_cycle_repeat">Понављај</string>
     <string name="action_delete">Obrisi</string>

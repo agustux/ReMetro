@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Adaugă la coada de redare</string>
     <string name="action_add_to_playlist">Adaugă la un playlist</string>
     <string name="action_cancel">Anulează cronometrul curent</string>
-    <string name="action_cast">Transmite</string>
     <string name="action_clear_playing_queue">Curăță coada de redare</string>
     <string name="action_cycle_repeat">Mod repetare ciclu</string>
     <string name="action_delete">Șterge</string>

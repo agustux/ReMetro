@@ -27,7 +27,6 @@ import code.name.monkey.retromusic.R
 import code.name.monkey.retromusic.extensions.showToast
 import code.name.monkey.retromusic.model.Song
 import code.name.monkey.retromusic.repository.SongRepository
-import code.name.monkey.retromusic.service.CastPlayer
 import code.name.monkey.retromusic.service.MusicService
 import code.name.monkey.retromusic.util.getExternalStorageDirectory
 import code.name.monkey.retromusic.util.logE
@@ -455,10 +454,6 @@ object MusicPlayerRemote : KoinComponent {
     private fun getSongIdFromMediaProvider(uri: Uri): String {
         return DocumentsContract.getDocumentId(uri).split(":".toRegex())
             .dropLastWhile { it.isEmpty() }.toTypedArray()[1]
-    }
-
-    fun switchToRemotePlayback(castPlayer: CastPlayer) {
-        musicService?.switchToRemotePlayback(castPlayer)
     }
 
     fun switchToLocalPlayback() {

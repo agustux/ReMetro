@@ -17,9 +17,6 @@ import code.name.monkey.retromusic.util.PreferenceUtil
 class PlaybackManager(val context: Context) {
 
     var playback: Playback? = null
-    private var playbackLocation = PlaybackLocation.LOCAL
-
-    val isLocalPlayback get() = playbackLocation == PlaybackLocation.LOCAL
 
     val audioSessionId: Int
         get() = if (playback != null) {
@@ -59,14 +56,12 @@ class PlaybackManager(val context: Context) {
                 onNotInitialized()
             } else {
                 openAudioEffectSession()
-                if (playbackLocation == PlaybackLocation.LOCAL) {
-                    if (playback is CrossFadePlayer) {
-                        if (!(playback as CrossFadePlayer).isCrossFading) {
-                            AudioFader.startFadeAnimator(playback!!, true)
-                        }
-                    } else {
+                if (playback is CrossFadePlayer) {
+                    if (!(playback as CrossFadePlayer).isCrossFading) {
                         AudioFader.startFadeAnimator(playback!!, true)
                     }
+                } else {
+                    AudioFader.startFadeAnimator(playback!!, true)
                 }
                 playback?.start()
             }
@@ -158,16 +153,7 @@ class PlaybackManager(val context: Context) {
     }
 
     fun switchToLocalPlayback(onChange: (wasPlaying: Boolean, progress: Int) -> Unit) {
-        playbackLocation = PlaybackLocation.LOCAL
         switchToPlayback(createLocalPlayback(), onChange)
-    }
-
-    fun switchToRemotePlayback(
-        castPlayer: CastPlayer,
-        onChange: (wasPlaying: Boolean, progress: Int) -> Unit,
-    ) {
-        playbackLocation = PlaybackLocation.REMOTE
-        switchToPlayback(castPlayer, onChange)
     }
 
     private fun switchToPlayback(
@@ -218,9 +204,4 @@ class PlaybackManager(val context: Context) {
         }
         return true
     }
-}
-
-enum class PlaybackLocation {
-    LOCAL,
-    REMOTE
 }

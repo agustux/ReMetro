@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Zur Wiedergabeliste hinzufügen</string>
     <string name="action_add_to_playlist">Zur Playlist hinzufügen</string>
     <string name="action_cancel">Abbrechen</string>
-    <string name="action_cast">Übertragen</string>
     <string name="action_clear_playing_queue">Wiedergabeliste leeren</string>
     <string name="action_cycle_repeat">Wiederholungsmodus wechseln</string>
     <string name="action_delete">Löschen</string>

@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Añadir a la cola de reproducción</string>
     <string name="action_add_to_playlist">Añadir a la lista de reproducción</string>
     <string name="action_cancel">Cancelar</string>
-    <string name="action_cast">Emitir</string>
     <string name="action_clear_playing_queue">Limpiar cola de reproducción</string>
     <string name="action_cycle_repeat">Modo de repetición</string>
     <string name="action_delete">Eliminar</string>

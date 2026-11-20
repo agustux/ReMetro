@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Afegeix a la cua de reproducció</string>
     <string name="action_add_to_playlist">Afegeix a la llista de reproducció</string>
     <string name="action_cancel">Cancel·la</string>
-    <string name="action_cast">Emet</string>
     <string name="action_clear_playing_queue">Esborra la cua de reproducció</string>
     <string name="action_cycle_repeat">Canvia el mode de repetició</string>
     <string name="action_delete">Suprimir</string>

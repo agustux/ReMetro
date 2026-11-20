@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Lägg till i spelkön</string>
     <string name="action_add_to_playlist">Lägg till i spellista</string>
     <string name="action_cancel">Avbryt</string>
-    <string name="action_cast">Cast</string>
     <string name="action_clear_playing_queue">Rensa spelkön</string>
     <string name="action_cycle_repeat">Loopläge</string>
     <string name="action_delete">Radera</string>

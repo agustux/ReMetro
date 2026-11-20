@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">زیادکردن بۆ لێدان دواتر</string>
     <string name="action_add_to_playlist">زیادکردن بۆ لیستی لێدان</string>
     <string name="action_cancel">پاشگەزبونەوە</string>
-    <string name="action_cast">پەخشکردنەوە</string>
     <string name="action_clear_playing_queue">لادانی لیستی دواخراو</string>
     <string name="action_cycle_repeat">دۆخی دووپاتکردنەوە</string>
     <string name="action_delete">سڕینەوە</string>

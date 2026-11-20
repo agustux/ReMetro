@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">ಚಲಿಸುವ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಿ</string>
     <string name="action_add_to_playlist">ಪ್ಲೇಲಿಸ್ಟ್‌ಗೆ ಸೇರಿಸಿ</string>
     <string name="action_cancel">ರದ್ದುಮಾಡಿ</string>
-    <string name="action_cast">ಕ್ಯಾಸ್ಟ್</string>
     <string name="action_clear_playing_queue">ಚಲಿಸುವ ಪಟ್ಟಿಯನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
     <string name="action_cycle_repeat">ಸೈಕಲ್ ರಿಪೀಟ್ ಮೋಡ್</string>
     <string name="action_delete">ಅಳಿಸಿ</string>

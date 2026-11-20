@@ -9,7 +9,6 @@
     <string name="action_add_to_favorites">Agregar a Tus Me gusta</string>
     <string name="action_add_to_playing_queue">Agregar a la cola de reproducción</string>
     <string name="action_add_to_playlist">Agregar a playlist</string>
-    <string name="action_cast">Emitir</string>
     <string name="action_clear_playing_queue">Vaciar cola de reproducción</string>
     <string name="action_cycle_repeat">Modo de repetición de ciclo</string>
     <string name="action_delete">Eliminar</string>

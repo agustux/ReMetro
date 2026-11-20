@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Přidat do fronty přehrávání</string>
     <string name="action_add_to_playlist">Přidat do seznamu skladeb</string>
     <string name="action_cancel">Zrušit</string>
-    <string name="action_cast">Odeslat</string>
     <string name="action_clear_playing_queue">Vymazat frontu přehrávání</string>
     <string name="action_cycle_repeat">Opakování</string>
     <string name="action_delete">Smazat</string>

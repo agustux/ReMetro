@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Dodaj u red čekanja</string>
     <string name="action_add_to_playlist">Dodaj na popis</string>
     <string name="action_cancel">Odustani</string>
-    <string name="action_cast">Emitiraj</string>
     <string name="action_clear_playing_queue">Očisti red čekanja</string>
     <string name="action_cycle_repeat">Cycle repeat mode</string>
     <string name="action_delete">Izbriši</string>

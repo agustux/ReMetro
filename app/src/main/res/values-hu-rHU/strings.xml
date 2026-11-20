@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Hozzáadás a lejátszási sorhoz</string>
     <string name="action_add_to_playlist">Hozzáadás lejátszási listához</string>
     <string name="action_cancel">Mégse</string>
-    <string name="action_cast">Tartalomátküldés</string>
     <string name="action_clear_playing_queue">Lejátszási sor törlése</string>
     <string name="action_cycle_repeat">Ciklus ismétlési üzemmód</string>
     <string name="action_delete">Törlés</string>

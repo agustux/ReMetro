@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Добави към опашката за възпроизвеждане</string>
     <string name="action_add_to_playlist">Добави в плейлист</string>
     <string name="action_cancel">Отказ</string>
-    <string name="action_cast">Излъчване</string>
     <string name="action_clear_playing_queue">Изчистване на опашката за възпроизвеждане</string>
     <string name="action_cycle_repeat">Режим циклического повтора</string>
     <string name="action_delete">Изтрий</string>

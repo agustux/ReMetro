@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Προσθήκη στην ουρά αναπαραγωγής</string>
     <string name="action_add_to_playlist">Προσθήκη στη λίστα αναπαραγωγής</string>
     <string name="action_cancel">Ακύρωση τρέχοντος χρονοδιακόπτη</string>
-    <string name="action_cast">Μετάδοση</string>
     <string name="action_clear_playing_queue">Εκκαθάριση ουράς αναπαραγωγής</string>
     <string name="action_cycle_repeat">Λειτουργία κυκλικής επανάληψης</string>
     <string name="action_delete">Διαγραφή</string>

@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Додати до черги відтворення</string>
     <string name="action_add_to_playlist">Додати до списку відтворення</string>
     <string name="action_cancel">Скасовувати</string>
-    <string name="action_cast">Трансляція на іншому дисплеї</string>
     <string name="action_clear_playing_queue">Очистити чергу відтворення</string>
     <string name="action_cycle_repeat">Циклічне повторення</string>
     <string name="action_delete">Видалити</string>

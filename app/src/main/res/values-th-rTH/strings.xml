@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">เพิ่มเข้าคิวเพลง</string>
     <string name="action_add_to_playlist">เพิ่มเข้าเพลย์ลิสต์</string>
     <string name="action_cancel">ยกเลิก</string>
-    <string name="action_cast">แคสต์</string>
     <string name="action_clear_playing_queue">ล้างคิวเพลง</string>
     <string name="action_cycle_repeat">เปิดเล่นซ้ำ</string>
     <string name="action_delete">ลบ</string>

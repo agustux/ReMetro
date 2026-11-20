@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">பாடல் வரிசையில் சேர்</string>
     <string name="action_add_to_playlist">பாடல் வரிசையில் சேர்</string>
     <string name="action_cancel">நிராகரி</string>
-    <string name="action_cast">ஒப்பனை</string>
     <string name="action_clear_playing_queue">பாடல் வரிசையை நீக்கு</string>
     <string name="action_cycle_repeat">திரும்பச் செய்</string>
     <string name="action_delete">நீக்கு</string>

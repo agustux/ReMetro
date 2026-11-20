@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Aggiungi alla coda</string>
     <string name="action_add_to_playlist">Aggiungi alla playlist</string>
     <string name="action_cancel">Annulla</string>
-    <string name="action_cast">Trasmetti</string>
     <string name="action_clear_playing_queue">Cancella coda</string>
     <string name="action_cycle_repeat">Modalità ripetizione continua</string>
     <string name="action_delete">Elimina</string>

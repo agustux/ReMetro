@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">Oynatma kuyruğuna ekle</string>
     <string name="action_add_to_playlist">Oynatma listesine ekle</string>
     <string name="action_cancel">İptal et</string>
-    <string name="action_cast">Yayınla</string>
     <string name="action_clear_playing_queue">Oynatma kuyruğunu temizle</string>
     <string name="action_cycle_repeat">Tekrarlı oynatma modu</string>
     <string name="action_delete">Sil</string>

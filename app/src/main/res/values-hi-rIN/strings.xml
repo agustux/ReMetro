@@ -10,7 +10,6 @@
     <string name="action_add_to_playing_queue">बजने वाली कतार में जोड़ें</string>
     <string name="action_add_to_playlist">प्लेलिस्ट में जोड़ें</string>
     <string name="action_cancel">रद्द करें</string>
-    <string name="action_cast">प्रसारित करें</string>
     <string name="action_clear_playing_queue">बजने वाली कतार साफ़ करें</string>
     <string name="action_cycle_repeat">पुनः चलित स्थिती</string>
     <string name="action_delete">हटाएं</string>

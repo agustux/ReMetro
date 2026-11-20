@@ -7,7 +7,6 @@
     <string name="action_add_to_favorites">ఇష్టమైన వాటికి జోడించండి</string>
     <string name="action_add_to_playing_queue">క్యూ ఆడటానికి జోడించండి</string>
     <string name="action_add_to_playlist">పాటల క్రమంలో చేర్చు</string>
-    <string name="action_cast">తారాగణం</string>
     <string name="action_clear_playing_queue">క్యూ ప్లే చేయడం క్లియర్</string>
     <string name="action_cycle_repeat">సైకిల్ రిపీట్ మోడ్</string>
     <string name="action_delete">తొలగించు</string>

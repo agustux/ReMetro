@@ -55,16 +55,6 @@ android {
         }
     }
 
-    flavorDimensions += "version"
-    productFlavors {
-        create("normal") {
-            dimension = "version"
-        }
-        create("fdroid") {
-            dimension = "version"
-        }
-    }
-
     buildFeatures {
         viewBinding = true
         buildConfig = true
@@ -109,13 +99,8 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.preference.ktx)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.media)
     implementation(libs.androidx.palette.ktx)
-
-    implementation(libs.androidx.mediarouter)
-    //Cast Dependencies
-    "normalImplementation"(libs.google.play.services.cast.framework)
-    //WebServer by NanoHttpd
-    "normalImplementation"(libs.nanohttpd)
 
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
@@ -130,9 +115,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.common.java8)
 
     implementation(libs.androidx.core.splashscreen)
-
-    "normalImplementation"(libs.google.feature.delivery)
-    "normalImplementation"(libs.google.play.review)
 
     implementation(libs.android.material)
 
