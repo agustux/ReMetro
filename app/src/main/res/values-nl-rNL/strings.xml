@@ -136,8 +136,6 @@
     <string name="disc_hint">Schijfnummer</string>
     <string name="do_you_want_to_clear_the_blacklist">Wil je de zwarte lijst leegmaken?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Wil je <b>%1$s</b> verwijderen van de zwarte lijst?]]></string>
-    <string name="donate">Doneren</string>
-    <string name="donate_summary">Als je vindt dat ik het verdien om geld te krijgen voor mijn werk, dan kun je hier een paar euro\'s doneren.</string>
     <string name="done">Klaar</string>
     <string name="drive_mode">Rijmodus</string>
     <string name="edit_normal_lyrics">Muziek tekst bewerken</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simpel</string>
     <string name="sleep_timer_canceled">Slaap timer geannuleerd</string>
     <string name="sleep_timer_set">Slaap timer ingesteld in %d minuten vanaf nu</string>
-    <string name="social">Social</string>
     <string name="social_stories">Verhaal delen</string>
     <string name="song">Liedje</string>
     <string name="song_duration">Duur liedje</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Zoek door je bibliotheek</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Suggesties</string>
-    <string name="support_development">Ondersteun ontwikkelaars</string>
     <string name="swipe_to_unlock">Swipe om te ontgrendelen</string>
     <string name="synced_lyrics">Synced lyrics</string>
     <string name="the_audio_file">Het geluidsbestand</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Top Artiesten</string>
     <string name="track_hint">"Nummer (2 voor nummer 2 of 3004 voor CD3 nummer 4)"</string>
     <string name="track_list">Track nummer</string>
-    <string name="translate">Vertalen</string>
-    <string name="translate_community">Help us translate the app to your language</string>
     <string name="unlabeled">Niet gelabeld</string>
     <string name="unplayable_file">Kon dit nummer niet afspelen </string>
     <string name="up_next">Volgende</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Verticaal omdraaien</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web zoekopdracht</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Welkom,</string>
     <string name="what_do_you_want_to_share">Wat wil je delen?</string>
     <string name="window">Venster</string>

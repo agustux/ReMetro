@@ -138,8 +138,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Da li zelite da ispraznite listu za ignorisanje foldera?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Da li zelite da izbrisete <b>%1$s</b> sa liste za ignorisanje foldera?]]></string>
-    <string name="donate">Doniraj</string>
-    <string name="donate_summary">Ako mislis da zasluzujem da budem placen za ovaj posao, mozes mi poslati par dolara</string>
     <string name="done">Done</string>
     <string name="drive_mode">Drive mode</string>
     <string name="edit_normal_lyrics">Edit Lyrics</string>
@@ -418,7 +416,6 @@
     <string name="simple">Jednostavan</string>
     <string name="sleep_timer_canceled">Tajmer za iskljucivanje je otkazan</string>
     <string name="sleep_timer_set">Tajmer za iskljucivanje je podesen za %d od sad.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Share story</string>
     <string name="song">Pesma</string>
     <string name="song_duration">Trajanje pesme</string>
@@ -442,7 +439,6 @@
     <string name="speech_prompt">Pretrazi svoju biblioteku</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Suggestions</string>
-    <string name="support_development">Podrzi programera</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Synced lyrics</string>
     <string name="the_audio_file">Audio fajl</string>
@@ -457,8 +453,6 @@
     <string name="top_artists">Top artists</string>
     <string name="track_hint">"Redni broj (2 za redni broj 2 ili 3004 za CD3 redni broj 4)"</string>
     <string name="track_list">Redni broj</string>
-    <string name="translate">Prevod</string>
-    <string name="translate_community">Help us translate the app to your language</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Nije moguce pustiti pesmu.</string>
     <string name="up_next">Sledece</string>
@@ -470,8 +464,6 @@
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web pretraga</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Welcome,</string>
     <string name="what_do_you_want_to_share">Sta zelis da podelis?</string>
     <string name="window">Window</string>

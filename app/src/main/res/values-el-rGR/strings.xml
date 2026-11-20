@@ -136,8 +136,6 @@
     <string name="disc_hint">Αριθμός δίσκου</string>
     <string name="do_you_want_to_clear_the_blacklist">Εκκαθάριση μαύρης λίστας;</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Αφαίρεση <b>%1$s</b> από τη μαύρη λίστα;]]></string>
-    <string name="donate">Δωρεά</string>
-    <string name="donate_summary">Αν σου άρεσε η εφαρμογή μπορείς να δωρίσεις εδώ. </string>
     <string name="done">Ολοκληρώθηκε</string>
     <string name="drive_mode">Λειτουργία οδήγησης</string>
     <string name="edit_normal_lyrics">Επεξεργασία στίχων</string>
@@ -416,7 +414,6 @@
     <string name="simple">Απλό</string>
     <string name="sleep_timer_canceled">Ο χρονοδιακόπτης ύπνου ακυρώθηκε.</string>
     <string name="sleep_timer_set">Ο χρονοδιακόπτης ύπνου ορίστηκε σε %d λεπτά από τώρα.</string>
-    <string name="social">Κοινωνικά</string>
     <string name="social_stories">Μοιραστείτε την ιστορία</string>
     <string name="song">Κομμάτι</string>
     <string name="song_duration">Διάρκεια κομματιού</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Αναζήτηση στη βιβλιοθήκη σας</string>
     <string name="stack">Στοίβα</string>
     <string name="suggestion_songs">Προτάσεις</string>
-    <string name="support_development">Υποστήριξη ανάπτυξης της εφαρμογής</string>
     <string name="swipe_to_unlock">Σύρετε για ξεκλείδωμα</string>
     <string name="synced_lyrics">Συγχρονισμένοι στίχοι</string>
     <string name="the_audio_file">Το αρχείο ήχου</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Κορυφαίοι καλλιτέχνες</string>
     <string name="track_hint">"Κομμάτι (2 για κομμάτι 2, ή 3004 για CD3 κομμάτι 4)"</string>
     <string name="track_list">Αριθμός κομματιού</string>
-    <string name="translate">Μετάφραση</string>
-    <string name="translate_community">Βοηθήστε μας να μεταφράσουμε την εφαρμογή στη γλώσσα σας</string>
     <string name="unlabeled">Χωρίς ετικέτα</string>
     <string name="unplayable_file">Αδυναμία αναπαραγωγής αυτού του κομματιού.</string>
     <string name="up_next">Επόμενο</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Κάθετη αναστροφή</string>
     <string name="volume">Ένταση</string>
     <string name="web_search">Αναζήτηση στον ιστό</string>
-    <string name="website">Ιστοσελίδα</string>
-    <string name="website_summary">Δείτε την ιστοσελίδα μας</string>
     <string name="welcome">Καλώς ήρθες,</string>
     <string name="what_do_you_want_to_share">Τι θα θέλατε να μοιραστείτε;</string>
     <string name="window">Παράθυρο</string>

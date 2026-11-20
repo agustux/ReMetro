@@ -136,8 +136,6 @@
     <string name="disc_hint">شماره دیسک</string>
     <string name="do_you_want_to_clear_the_blacklist">ایا می‌خواهید بلک لیست را پاک کنید؟</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[آیا شما میخواهید آهنگ X را از لیست سیاه حذف کنید؟]]></string>
-    <string name="donate">کمک مالی</string>
-    <string name="donate_summary">اگر فکر میکنید شایسته ی دریافت کمک مالی هستم، می توانید مقداری پول اینجا بگذارید</string>
     <string name="done">انجام شد</string>
     <string name="drive_mode">حالت رانندگی</string>
     <string name="edit_normal_lyrics">ویرایش متن ترانه</string>
@@ -416,7 +414,6 @@
     <string name="simple">ساده</string>
     <string name="sleep_timer_canceled">زمان خواب لغو شد.</string>
     <string name="sleep_timer_set">تایمر خواب از هم اکنون برای %d دقیقه تنظیم شده است.</string>
-    <string name="social">شبکه های اجتماعی</string>
     <string name="social_stories">اشتراک گذاری استوری</string>
     <string name="song">آهنگ</string>
     <string name="song_duration">مدت زمان آهنگ</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">جستجو کتابخانه شما</string>
     <string name="stack">دسته</string>
     <string name="suggestion_songs">پیشنهادات</string>
-    <string name="support_development">پشتیبانی از توسعه</string>
     <string name="swipe_to_unlock">برای باز کردن قفل، انگشت خود را بکشید</string>
     <string name="synced_lyrics">همگام سازی متن ترانه ها</string>
     <string name="the_audio_file">فایل صوتی</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">هنرمندان برتر</string>
     <string name="track_hint">"آهنگ (2 برای آهنگ 2 یا 3004 برای آهنگ CD3 4)"</string>
     <string name="track_list">شماره  آهنگ</string>
-    <string name="translate">ترجمه کردن</string>
-    <string name="translate_community">به ما کمک کنید تا برنامه را به زبان شما ترجمه کنیم</string>
     <string name="unlabeled">بدون برچسب</string>
     <string name="unplayable_file">این آهنگ پخش نمیشود.</string>
     <string name="up_next">تا بعدی</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">چرخش عمودی</string>
     <string name="volume">حجم صدا</string>
     <string name="web_search">جستجوی وب</string>
-    <string name="website">وب سایت</string>
-    <string name="website_summary">وب سایت ما را نگاه کنید</string>
     <string name="welcome">خوش آمدید</string>
     <string name="what_do_you_want_to_share">چه چیزی را میخواهید به اشتراک بگذارید؟</string>
     <string name="window">پنجره</string>

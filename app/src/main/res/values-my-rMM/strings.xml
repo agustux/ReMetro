@@ -134,8 +134,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Blacklist ကိုရှင်းလင်းလိုပါသလား</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Blacklist မှ <b>%1$s</b> ကိုဖယ်ရှားလိုပါသလား]]></string>
-    <string name="donate">လှူဒါန်းမည်</string>
-    <string name="donate_summary">ကျွန်တော့်ရဲ့လက်ရာအတွက် မုန့်ဖိုးရဖို့ထိုက်တန်တယ်လို့ထင်ရင် ဒီမှာပေးသွားလိုက်ပါ။</string>
     <string name="done">ပြီးပြီ</string>
     <string name="drive_mode">Drive mode</string>
     <string name="edit_normal_lyrics">Edit Lyrics</string>
@@ -414,7 +412,6 @@
     <string name="simple">ရိုးရိုးရှင်းရှင်း</string>
     <string name="sleep_timer_canceled">Sleep timer ကိုဖျက်ပြီးပါပြီ</string>
     <string name="sleep_timer_set">ယခုမှစတင်၍ Sleep timer ကို %d မိနစ်အချိန်မှတ်ပြီးပါပြီ</string>
-    <string name="social">Social</string>
     <string name="social_stories">Story မျှဝေမည်</string>
     <string name="song">သီချင်း</string>
     <string name="song_duration">သီချင်းကြာချိန်</string>
@@ -438,7 +435,6 @@
     <string name="speech_prompt">သင့် Library တွင်ရှာဖွေခြင်း</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">အကြံပြုထားသောသီချင်းများ</string>
-    <string name="support_development">Support development</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">ချိန်ကိုက်ထားသောသီချင်းစာသား</string>
     <string name="the_audio_file">အသံဖိုင်</string>
@@ -453,8 +449,6 @@
     <string name="top_artists">ထိပ်ဆုံးအဆိုတော်များ</string>
     <string name="track_hint">"Track (2 for track 2 or 3004 for CD3 track 4)"</string>
     <string name="track_list">အပုဒ်နံပါတ်</string>
-    <string name="translate">ဘာသာပြန်ခြင်း</string>
-    <string name="translate_community">App ကိုသင့်ဘာသာစကားသို့ ကူပြန်ပေးပါ</string>
     <string name="unlabeled">Label မထိုးပါ</string>
     <string name="unplayable_file">ဤသီချင်းကို မ play နိုင်ပါ</string>
     <string name="up_next">လာမည့်အပုဒ်</string>
@@ -466,8 +460,6 @@
     <string name="vertical_flip">ဒေါင်လိုက်ဟိုဘက်ဒီဘက်လှန်ခြင်း</string>
     <string name="volume">အသံအတိုးအကျယ်</string>
     <string name="web_search">Web search</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">မင်္ဂလာပါ</string>
     <string name="what_do_you_want_to_share">ဘာများမျှဝေချင်ပါသလဲ</string>
     <string name="window">Window</string>

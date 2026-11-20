@@ -137,8 +137,6 @@
     <string name="disc_hint">Номер на диска</string>
     <string name="do_you_want_to_clear_the_blacklist">Изчистване на черния списък?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Да се премахне ли <b>%1$s</b> от черния списък?]]></string>
-    <string name="donate">Дарете</string>
-    <string name="donate_summary">Ако смятате, че заслужавам награда за труда си, можете да ми изпратите определена сума</string>
     <string name="done">Готово</string>
     <string name="drive_mode">Режим в движение</string>
     <string name="edit_normal_lyrics">Редактиране на текст</string>
@@ -417,7 +415,6 @@
     <string name="simple">Прост</string>
     <string name="sleep_timer_canceled">Таймерът за заспиване е отменен.</string>
     <string name="sleep_timer_set">Таймерът за заспиване е зададен на %d минути.</string>
-    <string name="social">Социални</string>
     <string name="social_stories">Споделете в истории</string>
     <string name="song">Песен</string>
     <string name="song_duration">Продължителност на песента</string>
@@ -441,7 +438,6 @@
     <string name="speech_prompt">Търсете във вашата библиотека</string>
     <string name="stack">Стопка</string>
     <string name="suggestion_songs">Предложения</string>
-    <string name="support_development">Подкрепете развитието</string>
     <string name="swipe_to_unlock">Плъзнете за отключване</string>
     <string name="synced_lyrics">Синхронизиран текст</string>
     <string name="the_audio_file">Аудиофайл</string>
@@ -456,8 +452,6 @@
     <string name="top_artists">Най-добрите изпълнители</string>
     <string name="track_hint">"Песен (2 за песен 2 или 3004 за песен 4 от диск 3)"</string>
     <string name="track_list">Номер на песента</string>
-    <string name="translate">Помощ за превод</string>
-    <string name="translate_community">Помогнете ни да преведем приложението на вашия език</string>
     <string name="unlabeled">Не показвай</string>
     <string name="unplayable_file">Не мога да пусна този запис.</string>
     <string name="up_next">Следващи песни</string>
@@ -469,8 +463,6 @@
     <string name="vertical_flip">Вертикално превъртане</string>
     <string name="volume">Сила на звука</string>
     <string name="web_search">Потърсете в интернет</string>
-    <string name="website">Официална страница</string>
-    <string name="website_summary">Посетете официалната ни страница</string>
     <string name="welcome">Добре дошли,</string>
     <string name="what_do_you_want_to_share">Какво искаш да споделиш?</string>
     <string name="window">Прозорец</string>

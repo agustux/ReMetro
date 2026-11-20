@@ -136,8 +136,6 @@
     <string name="disc_hint">CD-Nummer</string>
     <string name="do_you_want_to_clear_the_blacklist">Möchtest du die Ausschlussliste leeren?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Möchtest du <b>%1$s</b> von der Ausschlussliste entfernen?]]></string>
-    <string name="donate">Spenden</string>
-    <string name="donate_summary">Falls du meinst, ich habe mir etwas für meine Arbeit verdient, kannst du hier gerne ein bisschen Geld hinterlassen</string>
     <string name="done">Fertig</string>
     <string name="drive_mode">Fahrmodus</string>
     <string name="edit_normal_lyrics">Liedtext bearbeiten</string>
@@ -416,7 +414,6 @@
     <string name="simple">Einfach</string>
     <string name="sleep_timer_canceled">Einschlafmodus abgebrochen.</string>
     <string name="sleep_timer_set">Einschlafmodus auf %d Minuten gesetzt.</string>
-    <string name="social">Soziale Medien</string>
     <string name="social_stories">Story teilen</string>
     <string name="song">Titel</string>
     <string name="song_duration">Länge</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Bibliothek durchsuchen</string>
     <string name="stack">Gestapelt</string>
     <string name="suggestion_songs">Empfehlungen</string>
-    <string name="support_development">Unterstütze die Entwicklung</string>
     <string name="swipe_to_unlock">Zum Entsperren Wischen</string>
     <string name="synced_lyrics">Synchronisierter Liedtext</string>
     <string name="the_audio_file">Audio-Datei</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Top-Interpreten</string>
     <string name="track_hint">"Titelnummer (2 für Titel 2 oder 3004 für CD 3, Titel 4)"</string>
     <string name="track_list">Titel-Nummer</string>
-    <string name="translate">Übersetzen</string>
-    <string name="translate_community">Hilf uns, die App in deine Sprache zu übersetzen</string>
     <string name="unlabeled">Unbenannt</string>
     <string name="unplayable_file">Titel konnte nicht abgespielt werden.</string>
     <string name="up_next">Als Nächstes</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Vertikale Drehung</string>
     <string name="volume">Lautstärke</string>
     <string name="web_search">Internetsuche</string>
-    <string name="website">Webseite</string>
-    <string name="website_summary">Besuche unsere Webseite</string>
     <string name="welcome">Willkommen,</string>
     <string name="what_do_you_want_to_share">Was möchtest du teilen?</string>
     <string name="window">Fenster</string>

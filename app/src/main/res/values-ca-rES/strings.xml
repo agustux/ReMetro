@@ -136,8 +136,6 @@
     <string name="disc_hint">Número del disc</string>
     <string name="do_you_want_to_clear_the_blacklist">Voleu esborrar la llista negra?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Voleu suprimir <b>%1$s</b> de la llista negra?]]></string>
-    <string name="donate">Feu un donatiu</string>
-    <string name="donate_summary">Si penseu que mereixo rebre diners per la meva feina, em podeu fer un donatiu aquí</string>
     <string name="done">Fet</string>
     <string name="drive_mode">Mode de conducció</string>
     <string name="edit_normal_lyrics">Edita la lletra</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">S\'ha cancel·lat l\'aturada automàtica.</string>
     <string name="sleep_timer_set">El temporitzador de l\'aturada automàtica s\'ha establert d\'aquí a %d minuts.</string>
-    <string name="social">Xarxes socials</string>
     <string name="social_stories">Comparteix la història</string>
     <string name="song">Cançó</string>
     <string name="song_duration">Durada de la cançó</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Cerca a la biblioteca</string>
     <string name="stack">Apila</string>
     <string name="suggestion_songs">Suggeriments</string>
-    <string name="support_development">Doneu suport al desenvolupament</string>
     <string name="swipe_to_unlock">Llisqueu per desbloquejar</string>
     <string name="synced_lyrics">Lletra sincronitzada</string>
     <string name="the_audio_file">El fitxer d\'àudio</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Artistes més reproduïts</string>
     <string name="track_hint">"Pista (2 per a la pista 2 o 3004 per a la pista 4 del CD3)"</string>
     <string name="track_list">Número de pista</string>
-    <string name="translate">Tradueix</string>
-    <string name="translate_community">Ajuda\'ns a traduir l\'aplicació al teu idioma</string>
     <string name="unlabeled">Sense etiqueta</string>
     <string name="unplayable_file">No s\'ha pogut reproduir aquesta cançó.</string>
     <string name="up_next">A continuació</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Inverteix verticalment</string>
     <string name="volume">Volum</string>
     <string name="web_search">Cerca al web</string>
-    <string name="website">Lloc web</string>
-    <string name="website_summary">Consulteu el nostre lloc web</string>
     <string name="welcome">Benvingut,</string>
     <string name="what_do_you_want_to_share">Què vols compartir?</string>
     <string name="window">Finestra</string>

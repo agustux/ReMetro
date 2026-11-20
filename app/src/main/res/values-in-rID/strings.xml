@@ -134,8 +134,6 @@
     <string name="disc_hint">Nomor disk</string>
     <string name="do_you_want_to_clear_the_blacklist">Apakah Anda ingin menghapus daftar hitam?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Apakah Anda ingin menghapus <b>%1$s</b> dari daftar hitam?]]></string>
-    <string name="donate">Donasi</string>
-    <string name="donate_summary">Jika Anda pikir saya pantas dibayar untuk pekerjaan saya, Anda dapat meninggalkan sejumlah uang di sini</string>
     <string name="done">Selesai</string>
     <string name="drive_mode">Mode mengemudi</string>
     <string name="edit_normal_lyrics">Edit Lirik</string>
@@ -414,7 +412,6 @@
     <string name="simple">Sederhana</string>
     <string name="sleep_timer_canceled">Pewaktu tidur dibatalkan.</string>
     <string name="sleep_timer_set">Pewaktu tidur diatur selama %d menit dari sekarang.</string>
-    <string name="social">Sosial</string>
     <string name="social_stories">Bagikan cerita</string>
     <string name="song">Lagu</string>
     <string name="song_duration">Durasi lagu</string>
@@ -438,7 +435,6 @@
     <string name="speech_prompt">Cari pustaka Anda</string>
     <string name="stack">Tumpukan</string>
     <string name="suggestion_songs">Saran</string>
-    <string name="support_development">Dukung pengembangan</string>
     <string name="swipe_to_unlock">Geser untuk membuka</string>
     <string name="synced_lyrics">Lirik yang tersinkron</string>
     <string name="the_audio_file">File audio</string>
@@ -453,8 +449,6 @@
     <string name="top_artists">Artis papan atas</string>
     <string name="track_hint">"Trek (2 untuk trek ke-2 atau 3004 untuk CD3 trek ke-4)"</string>
     <string name="track_list">Nomor trek</string>
-    <string name="translate">Terjemahan</string>
-    <string name="translate_community">Bantu kami terjemahkan aplikasi ke dalam bahasa Anda</string>
     <string name="unlabeled">Tidak berlabel</string>
     <string name="unplayable_file">Tidak dapat\u2019 memutar lagu ini.</string>
     <string name="up_next">Berikutnya</string>
@@ -466,8 +460,6 @@
     <string name="vertical_flip">Vertikal</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pencarian web</string>
-    <string name="website">Situs web</string>
-    <string name="website_summary">Lihat situs web kami</string>
     <string name="welcome">Selamat datang,</string>
     <string name="what_do_you_want_to_share">Apa yang ingin Anda bagikan?</string>
     <string name="window">Jendela</string>

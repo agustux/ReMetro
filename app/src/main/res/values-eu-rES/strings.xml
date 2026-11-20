@@ -116,8 +116,6 @@
     <string name="dialog_title_set_ringtone">Set ringtone</string>
     <string name="do_you_want_to_clear_the_blacklist">Zerrenda beltza garbitu nahi duzu?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[<b>%1$s</b> zerrenda beltzetik ezabatu nahi duzu?]]></string>
-    <string name="donate">Lagundu diruz</string>
-    <string name="donate_summary">Nire lanagatik ordaindua izan behar dudala pentsatzen baduzu, diru apur bat utzi dezakezu hemen</string>
     <string name="drive_mode">Drive mode</string>
     <string name="empty">Hutsik</string>
     <string name="equalizer">Nahasgailua</string>
@@ -321,7 +319,6 @@
     <string name="simple">Soila</string>
     <string name="sleep_timer_canceled">Lo tenporizadorea bertan behera utzi da</string>
     <string name="sleep_timer_set">Lo tenporizadorea %d minuturako ezarri da</string>
-    <string name="social">Soziala</string>
     <string name="social_stories">Share story</string>
     <string name="song">Abestia</string>
     <string name="song_duration">Abestiaren iraupena</string>
@@ -339,7 +336,6 @@
     <string name="speech_prompt">Zure liburutegian bilatu</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Iradokizunak</string>
-    <string name="support_development">Onartutako garapena</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Letra sinkronizatuak</string>
     <!-- Message displayed when tag editing fails -->
@@ -354,8 +350,6 @@
     <string name="top_artists">Artista onenak</string>
     <string name="track_hint">"Pista (2, 2. pistarako edo 3004 3. CDko 4. pistarako)"</string>
     <string name="track_list">Pista zenbakia</string>
-    <string name="translate">Itzuli</string>
-    <string name="translate_community">Lagun iezaguzu aplikazioa zure hizkuntzara itzultzen</string>
     <string name="unlabeled">Etiketa gabe</string>
     <string name="unplayable_file">Ezin izan da abestia erreproduzitu</string>
     <string name="up_next">Jarraian</string>

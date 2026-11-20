@@ -108,8 +108,6 @@
     <string name="dialog_title_set_ringtone">రింగ్‌టోన్ సెట్ చేయండి</string>
     <string name="do_you_want_to_clear_the_blacklist">మీరు బ్లాక్లిస్ట్ క్లియర్ చేయాలనుకుంటున్నారా?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[మీరు బ్లాక్లిస్ట్ నుండి <b>%1$s</b> ను తొలగించాలనుకుంటున్నారా?]]></string>
-    <string name="donate">దానం</string>
-    <string name="donate_summary">నా పనికి డబ్బు సంపాదించడానికి నేను అర్హుడని మీరు అనుకుంటే, మీరు ఇక్కడ కొంత డబ్బును వదిలివేయవచ్చు</string>
     <string name="drive_mode">డ్రైవ్ మోడ్</string>
     <string name="empty">ఖాళీ</string>
     <string name="equalizer">సమం</string>
@@ -313,7 +311,6 @@
     <string name="simple">సాధారణ</string>
     <string name="sleep_timer_canceled">స్లీప్ టైమర్ రద్దు చేయబడింది.</string>
     <string name="sleep_timer_set">స్లీప్ టైమర్ ఇప్పటి నుండి %d నిమిషాలు సెట్ చేయబడింది.</string>
-    <string name="social">సామాజిక</string>
     <string name="social_stories">కథను భాగస్వామ్యం చేయండి</string>
     <string name="song">సాంగ్</string>
     <string name="song_duration">పాట వ్యవధి</string>
@@ -331,7 +328,6 @@
     <string name="speech_prompt">మీ లైబ్రరీని శోధించండి</string>
     <string name="stack">స్టాక్</string>
     <string name="suggestion_songs">సలహాలు</string>
-    <string name="support_development">అభివృద్ధికి మద్దతు ఇవ్వండి</string>
     <string name="swipe_to_unlock">అన్‌లాక్ చేయడానికి స్వైప్ చేయండి</string>
     <string name="synced_lyrics">సమకాలీకరించిన సాహిత్యం</string>
     <!-- Message displayed when tag editing fails -->
@@ -346,8 +342,6 @@
     <string name="top_artists">అగ్ర కళాకారులు</string>
     <string name="track_hint">"ట్రాక్ (ట్రాక్ 2 కోసం 2 లేదా సిడి 3 ట్రాక్ 4 కోసం 3004)"</string>
     <string name="track_list">ట్రాక్ సంఖ్య</string>
-    <string name="translate">అనువదించు</string>
-    <string name="translate_community">మీ భాషకు అనువర్తనాన్ని అనువదించడానికి మాకు సహాయపడండి</string>
     <string name="unlabeled">అన్ లేబుల్</string>
     <string name="unplayable_file">ఈ పాటను ప్లే చేయలేదు.</string>
     <string name="up_next">తదుపరిది</string>

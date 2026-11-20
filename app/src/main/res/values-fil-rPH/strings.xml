@@ -136,8 +136,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Gusto mo bang burahin ang blacklist?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Gusto mo bang alisin ang <b>%1$s</b> sa blacklist?]]></string>
-    <string name="donate">Mag Donate</string>
-    <string name="donate_summary">Kung sa tingin mo ay karapat-dapat akong mabayaran para sa aking trabaho, maaari kang mag-iwan ng pera dito</string>
     <string name="done">Tapos na</string>
     <string name="drive_mode">Nagmamaniho</string>
     <string name="edit_normal_lyrics">I-edit ang Lyrics</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">Nakansel na ang sleep timer.</string>
     <string name="sleep_timer_set">Nakatakda ang sleep timer sa %d minuto mula ngayon.</string>
-    <string name="social">Sosyal</string>
     <string name="social_stories">Ibahagi sa story</string>
     <string name="song">Kanta</string>
     <string name="song_duration">Duration ng kanta</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Hanapin ang iyong librerya</string>
     <string name="stack">Salansan</string>
     <string name="suggestion_songs">Mga Mungkahi</string>
-    <string name="support_development">Suportahan ang pag-unlad</string>
     <string name="swipe_to_unlock">I-swipe para ma-unlock</string>
     <string name="synced_lyrics">Naka-sync na lyrics</string>
     <string name="the_audio_file">Ang audio file</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Nangungunang mga artista</string>
     <string name="track_hint">"Track (2 para sa track 2 o 3004 para sa CD3 track 4)"</string>
     <string name="track_list">Numero ng track</string>
-    <string name="translate">Isalin</string>
-    <string name="translate_community">Tulungan kaming isalin ang app sa iyong wika</string>
     <string name="unlabeled">Walang label</string>
     <string name="unplayable_file">Hindi ma-play ang kantang ito.</string>
     <string name="up_next">Susunod</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Pini-flip ng patayo</string>
     <string name="volume">Volume</string>
     <string name="web_search">Maghanap sa web</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Tingnan ang aming Website</string>
     <string name="welcome">Mabuhay,</string>
     <string name="what_do_you_want_to_share">Ano ang gusto mong ibahagi?</string>
     <string name="window">Bintana</string>

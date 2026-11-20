@@ -136,8 +136,6 @@
     <string name="disc_hint">Numero del disco</string>
     <string name="do_you_want_to_clear_the_blacklist">Vuoi cancellare la blacklist?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Vuoi rimuovere <b>%1$s</b> dalla blacklist?]]></string>
-    <string name="donate">Dona</string>
-    <string name="donate_summary">Se pensi che io meriti di essere pagato per il mio lavoro, puoi lasciarmi qualche soldo qui</string>
     <string name="done">Fatto</string>
     <string name="drive_mode">Modalità alla guida</string>
     <string name="edit_normal_lyrics">Modifica testi</string>
@@ -416,7 +414,6 @@
     <string name="simple">Semplice</string>
     <string name="sleep_timer_canceled">Timer sonno cancellato.</string>
     <string name="sleep_timer_set">Timer sonno impostato per %d minuti da ora.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Condividi storia</string>
     <string name="song">Brano</string>
     <string name="song_duration">Durata brano</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Cerca nella tua raccolta</string>
     <string name="stack">Pila</string>
     <string name="suggestion_songs">Suggerimenti</string>
-    <string name="support_development">Sostieni lo sviluppo</string>
     <string name="swipe_to_unlock">Scorri per sbloccare</string>
     <string name="synced_lyrics">Testi sincronizzati</string>
     <string name="the_audio_file">Il file audio</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Artisti migliori</string>
     <string name="track_hint">"Traccia (2 per traccia 2 o 3004 per CD3 traccia 4)"</string>
     <string name="track_list">Numero traccia</string>
-    <string name="translate">Traduci</string>
-    <string name="translate_community">Aiutaci traducendo l\'app nella tua lingua</string>
     <string name="unlabeled">Senza etichetta</string>
     <string name="unplayable_file">Impossibile riprodurre il brano.</string>
     <string name="up_next">Prossimo</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Flip verticale</string>
     <string name="volume">Volume</string>
     <string name="web_search">Ricerca web</string>
-    <string name="website">Sito web</string>
-    <string name="website_summary">Visita il nostro sito</string>
     <string name="welcome">Benvenuto,</string>
     <string name="what_do_you_want_to_share">Cosa vuoi condividere?</string>
     <string name="window">Finestra</string>

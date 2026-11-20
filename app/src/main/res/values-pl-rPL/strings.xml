@@ -140,8 +140,6 @@
     <string name="disc_hint">Numer płyty</string>
     <string name="do_you_want_to_clear_the_blacklist">Czy chcesz wyczyścić listę ignorowanych?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Czy chcesz usunąć <b>%1$s</b> z listy ignorowanych?]]></string>
-    <string name="donate">Wesprzyj nas</string>
-    <string name="donate_summary">Jeżeli uważasz, że zasługuje na zapłatę za moją pracę możesz zostawić tu drobną sumę</string>
     <string name="done">Gotowe</string>
     <string name="drive_mode">Tryb samochodowy</string>
     <string name="edit_normal_lyrics">Edytuj tekst</string>
@@ -420,7 +418,6 @@
     <string name="simple">Prosty</string>
     <string name="sleep_timer_canceled">Wyłącznik czasowy wyłączony.</string>
     <string name="sleep_timer_set">Wyłącznik czasowy ustawiony na %d minut.</string>
-    <string name="social">Społeczność</string>
     <string name="social_stories">Udostępnij historię</string>
     <string name="song">Utwór</string>
     <string name="song_duration">Długość utworu</string>
@@ -444,7 +441,6 @@
     <string name="speech_prompt">Przeszukaj swoją bibliotekę</string>
     <string name="stack">Stos</string>
     <string name="suggestion_songs">Sugestie</string>
-    <string name="support_development">Wspieraj rozwój</string>
     <string name="swipe_to_unlock">Przesuń, aby odblokować</string>
     <string name="synced_lyrics">Zsynchronizowany tekst utworu</string>
     <string name="the_audio_file">Plik dźwiękowy</string>
@@ -459,8 +455,6 @@
     <string name="top_artists">Najczęściej odtwarzani wykonawcy</string>
     <string name="track_hint">"Ścieżka (2 dla ścieżki 2 lub 3004 dla ścieżki CD3 4)"</string>
     <string name="track_list">Numer utworu</string>
-    <string name="translate">Przetłumacz</string>
-    <string name="translate_community">Pomóż nam przetłumaczyć aplikację na swój język</string>
     <string name="unlabeled">Niepodpisane</string>
     <string name="unplayable_file">Nie można odtworzyć utworu.</string>
     <string name="up_next">Następne</string>
@@ -472,8 +466,6 @@
     <string name="vertical_flip">Obrót pionowy</string>
     <string name="volume">Głośność</string>
     <string name="web_search">Przeszukaj sieć</string>
-    <string name="website">Strona internetowa</string>
-    <string name="website_summary">Odwiedź naszą stronę internetową</string>
     <string name="welcome">Witaj,</string>
     <string name="what_do_you_want_to_share">Co chciałbyś udostępnić?</string>
     <string name="window">Okno</string>

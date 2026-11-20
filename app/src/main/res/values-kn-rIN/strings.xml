@@ -136,8 +136,6 @@
     <string name="disc_hint">ಡಿಸ್ಕ್ ಸಂಖ್ಯೆ</string>
     <string name="do_you_want_to_clear_the_blacklist">ನೀವು ಕಪ್ಪುಪಟ್ಟಿಯನ್ನು ತೆರವುಗೊಳಿಸಲು ಬಯಸುವಿರಾ?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[ನೀವು ಕಪ್ಪುಪಟ್ಟಿಯಿಂದ <b>%1$s</b> ಅನ್ನು ತೆಗೆದುಹಾಕಲು ಬಯಸುವಿರಾ?]]></string>
-    <string name="donate">ಕಾಣಿಕೆನೀಡಿ</string>
-    <string name="donate_summary">ನನ್ನ ಕೆಲಸಕ್ಕೆ ಹಣ ಪಡೆಯಲು ಅರ್ಹನೆಂದು ನೀವು ಭಾವಿಸಿದರೆ, ನೀವು ಸ್ವಲ್ಪ ಹಣವನ್ನು ಇಲ್ಲಿ ಬಿಡಬಹುದು</string>
     <string name="done">ಆಗಿದೆ</string>
     <string name="drive_mode">ಡ್ರೈವ್ ಮೋಡ್</string>
     <string name="edit_normal_lyrics">ಸಾಹಿತ್ಯ ಎಡಿಟ್‌ ಮಾಡಿ</string>
@@ -417,7 +415,6 @@
     <string name="simple">ಸರಳ</string>
     <string name="sleep_timer_canceled">ಸ್ಲೀಪ್ ಟೈಮರ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ.</string>
     <string name="sleep_timer_set">ಈಗಿನಿಂದ %d ನಿಮಿಷಗಳವರೆಗೆ ಸ್ಲೀಪ್ ಟೈಮರ್ ಹೊಂದಿಸಲಾಗಿದೆ.</string>
-    <string name="social">ಸಾಮಾಜಿಕ ಜಾಲತಾಣಗಳು</string>
     <string name="social_stories">Story ಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="song">ಹಾಡು</string>
     <string name="song_duration">ಹಾಡಿನ ಅವಧಿ</string>
@@ -441,7 +438,6 @@
     <string name="speech_prompt">ನಿಮ್ಮ ಸಂಗ್ರಹವನ್ನು ಹುಡುಕಿ</string>
     <string name="stack">ಪೇರಿಸಿ</string>
     <string name="suggestion_songs">ಸಲಹೆಗಳು</string>
-    <string name="support_development">ಅಭಿವೃದ್ದಿಗೆ ಬೆಂಬಲಿಸಿ</string>
     <string name="swipe_to_unlock">ಅನ್‍ಲಾಕ್ ಮಾಡಲು ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="synced_lyrics">ಸಿಂಕ್ ಮಾಡಲಾಗಿರುವ ಸಾಹಿತ್ಯ</string>
     <string name="the_audio_file">ಧ್ವನಿ ಕಡತ</string>
@@ -456,8 +452,6 @@
     <string name="top_artists">ಉನ್ನತ ಕಲಾವಿದರು</string>
     <string name="track_hint">"ಸುರುಳಿ (ಸುರುಳಿ 2 ಕ್ಕೆ 2 ಅಥವಾ CD3 ಸುರುಳಿ 4 ಕ್ಕೆ 3004)"</string>
     <string name="track_list">ಸುರುಳಿ ಸಂಖ್ಯೆ</string>
-    <string name="translate">ಅನುವಾದಿಸಿ</string>
-    <string name="translate_community">ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನಿಮ್ಮ ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ</string>
     <string name="unlabeled">ಲೇಬಲ್ ಮಾಡಲಾಗಿಲ್ಲ</string>
     <string name="unplayable_file">ಈ ಹಾಡನ್ನು ಪ್ಲೇ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
     <string name="up_next">ಮುಂದಿನದು</string>
@@ -469,8 +463,6 @@
     <string name="vertical_flip">ಲಂಬ ಫ್ಲಿಪ್</string>
     <string name="volume">ಪರಿಮಾಣ</string>
     <string name="web_search">ವೆಬ್ ಹುಡುಕಾಟ</string>
-    <string name="website">ಜಾಲತಾಣ</string>
-    <string name="website_summary">ನಮ್ಮ ಜಾಲತಾಣವನ್ನು ಪರಿಶೀಲಿಸಿ</string>
     <string name="welcome">ಸುಸ್ವಾಗತ,</string>
     <string name="what_do_you_want_to_share">ಏನನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವಿರಿ?</string>
     <string name="window">Window</string>

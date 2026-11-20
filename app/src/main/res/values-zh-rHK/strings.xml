@@ -108,8 +108,6 @@
     <string name="dialog_title_set_ringtone">設定鈴聲</string>
     <string name="do_you_want_to_clear_the_blacklist">要清除黑名單嗎？</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[您想要將<b>%1$s</b>由黑名單移除嗎？]]></string>
-    <string name="donate">捐款</string>
-    <string name="donate_summary">若果您覺得我的開發工作值得回報，可以捐助幾元給我</string>
     <string name="drive_mode">駕駛模式</string>
     <string name="empty">空白</string>
     <string name="equalizer">等化器</string>
@@ -310,7 +308,6 @@
     <string name="simple">簡單</string>
     <string name="sleep_timer_canceled">休眠計時器已經取消。</string>
     <string name="sleep_timer_set">休眠計時器從現在開始 %d 分鐘後停止播放。</string>
-    <string name="social">社交</string>
     <string name="social_stories">分享故事</string>
     <string name="song">歌曲</string>
     <string name="song_duration">歌曲長度</string>
@@ -328,7 +325,6 @@
     <string name="speech_prompt">搜尋媒體庫</string>
     <string name="stack">堆疊</string>
     <string name="suggestion_songs">建議</string>
-    <string name="support_development">開發支援</string>
     <string name="swipe_to_unlock">滑動螢幕以解鎖</string>
     <string name="synced_lyrics">同步歌詞</string>
     <!-- Message displayed when tag editing fails -->
@@ -342,8 +338,6 @@
     <string name="top_artists">歌手榜</string>
     <string name="track_hint">"音軌 (2指音軌2或3004指CD3中的音軌4)"</string>
     <string name="track_list">歌曲號碼</string>
-    <string name="translate">翻譯</string>
-    <string name="translate_community">協助我們將這個應用程式翻譯成為您的語言</string>
     <string name="unlabeled">未標記</string>
     <string name="unplayable_file">\u7121\u6cd5\u64ad\u653e\u9019\u9996\u6b4c\u66f2\u3002</string>
     <string name="up_next">下一首</string>

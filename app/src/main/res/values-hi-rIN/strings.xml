@@ -136,8 +136,6 @@
     <string name="disc_hint">डिस्क संख्या</string>
     <string name="do_you_want_to_clear_the_blacklist">क्या आप ब्लैक्लिस्ट साफ़ करना चाहते हैं?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[क्या आप <b>%1$s</b> को ब्लैक्लिस्ट से हटाना चाहते हैं?]]></string>
-    <string name="donate">दान करें</string>
-    <string name="donate_summary">यदि आपको लगता है कि मैं अपने काम के लिए भुगतान पाने का हकदार हूं, तो आप यहां कुछ पैसे दे सकते हैं।</string>
     <string name="done">पूर्ण</string>
     <string name="drive_mode">ड्राइव मोड</string>
     <string name="edit_normal_lyrics">बोल संपादित करें</string>
@@ -416,7 +414,6 @@
     <string name="simple">सरल</string>
     <string name="sleep_timer_canceled">स्लीप टाइमर रद्द कर दिया गया।</string>
     <string name="sleep_timer_set">अब से %d मिनट के लिए स्लीप टाइमर सेट किया गया है।</string>
-    <string name="social">सोशल</string>
     <string name="social_stories">स्टोरी साझा करें</string>
     <string name="song">गाना</string>
     <string name="song_duration">गाने की अवधि</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">अपनी लाइब्रेरी खोजें</string>
     <string name="stack">स्टैक</string>
     <string name="suggestion_songs">सुझाव</string>
-    <string name="support_development">विकास में समर्थन करें</string>
     <string name="swipe_to_unlock">खोलने के लिए स्वाइप करें</string>
     <string name="synced_lyrics">सिंक किए गए बोल</string>
     <string name="the_audio_file">ऑडियो फ़ाइल</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">शीर्ष कलाकार</string>
     <string name="track_hint">"ट्रैक (ट्रैक २ के लिए २ या सीडी३ ट्रैक ४ के लिए ३००४)"</string>
     <string name="track_list">ट्रैक संख्या</string>
-    <string name="translate">अनुवाद करें</string>
-    <string name="translate_community">ऐप को अपनी मूल भाषा में अनुवाद करने में मेरी सहायता करें</string>
     <string name="unlabeled">लेबल नहीं किया गया</string>
     <string name="unplayable_file">\u2019 गाना नहीं चलाया जा सका</string>
     <string name="up_next">आगे</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">खड़ा (फ्लिप)</string>
     <string name="volume">आयतन</string>
     <string name="web_search">वेब खोज</string>
-    <string name="website">वेबसाइट</string>
-    <string name="website_summary">हमारी वेबसाइट देखे</string>
     <string name="welcome">स्वागत है,</string>
     <string name="what_do_you_want_to_share">आप क्या साझा करना चाहते हैं?</string>
     <string name="window">विंडो</string>

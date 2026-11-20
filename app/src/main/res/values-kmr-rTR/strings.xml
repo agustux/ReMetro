@@ -136,8 +136,6 @@
     <string name="disc_hint">Jimara diskê</string>
     <string name="do_you_want_to_clear_the_blacklist">Tu dixwazî rêzoka reş pak bikî?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Tu dixwazî <b>%1$s</b> ji rêzoka reş rakî?]]></string>
-    <string name="donate">Bexş bike</string>
-    <string name="donate_summary">Ku tu raman dibî ez maf distînim ku ji ber karê xwe pere bistînim, tu dikarî hinek pere li vir bihêlî</string>
     <string name="done">Qediya</string>
     <string name="drive_mode">Awaya ajotinê</string>
     <string name="edit_normal_lyrics">Peyvên stranê serrast bike</string>
@@ -417,7 +415,6 @@ têne guhertin</string>
     <string name="simple">Hêsan</string>
     <string name="sleep_timer_canceled">Demkera xewê hate têkbirin.</string>
     <string name="sleep_timer_set">Demkera xewê ji bo %d xulek hate sazkirin.</string>
-    <string name="social">Civakî</string>
     <string name="social_stories">Çîrokê parve bike</string>
     <string name="song">Stran</string>
     <string name="song_duration">Dirêjahiya stranê</string>
@@ -441,7 +438,6 @@ têne guhertin</string>
     <string name="speech_prompt">Di pirtûkxaneya xwe de bigere</string>
     <string name="stack">Lodkirin</string>
     <string name="suggestion_songs">Pêşniyarî</string>
-    <string name="support_development">Piştgiriya pêşdebirinê bike</string>
     <string name="swipe_to_unlock">Kaş bike ji bo vekirinê</string>
     <string name="synced_lyrics">Peyvên hevdemkirî</string>
     <string name="the_audio_file">Pela dengî</string>
@@ -456,8 +452,6 @@ têne guhertin</string>
     <string name="top_artists">Baştirîn hunermend</string>
     <string name="track_hint">"Herik (2 bo herika 2 an jî 3004 bo herika CD3 4)"</string>
     <string name="track_list">Jimara herikê</string>
-    <string name="translate">Wergerandin</string>
-    <string name="translate_community">Alîkariya me bike ku em sepanê wergerînin zimanê te</string>
     <string name="unlabeled">Nenîşankirî</string>
     <string name="unplayable_file">Nikare vê stranê\u2019 lêdê.</string>
     <string name="up_next">Pêş</string>
@@ -469,8 +463,6 @@ têne guhertin</string>
     <string name="vertical_flip">Stûnî bizivirîne</string>
     <string name="volume">Deng</string>
     <string name="web_search">Lêgerîna tevnê</string>
-    <string name="website">Malpera tevnê</string>
-    <string name="website_summary">Serdana malpera me bike</string>
     <string name="welcome">Silav,</string>
     <string name="what_do_you_want_to_share">Tu dixwazî çi parve bikî?</string>
     <string name="window">Çarçove</string>

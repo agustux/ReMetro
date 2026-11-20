@@ -135,8 +135,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="disc_hint">Số đĩa</string>
     <string name="do_you_want_to_clear_the_blacklist">Bạn có muốn xóa danh sách đen?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Bạn có muốn gỡ <b>%1$s</b> khỏi danh sách đen?]]></string>
-    <string name="donate">Ủng hộ</string>
-    <string name="donate_summary">Nếu bạn nghĩ rằng tôi xứng đáng được thưởng cho công việc này, bạn có thể để lại một số tiền ở đây. Cảm ơn bạn! :D</string>
     <string name="done">Xong</string>
     <string name="drive_mode">Chế độ lái xe</string>
     <string name="edit_normal_lyrics">Sửa lời</string>
@@ -415,7 +413,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="simple">Đơn giản</string>
     <string name="sleep_timer_canceled">Đã huỷ hẹn giờ ngừng phát.</string>
     <string name="sleep_timer_set">Ngừng phát nhạc sau %d phút kể từ bây giờ.</string>
-    <string name="social">Xã hội</string>
     <string name="social_stories">Chia sẻ story</string>
     <string name="song">Bài hát</string>
     <string name="song_duration">Thời lượng bài hát</string>
@@ -439,7 +436,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="speech_prompt">Tìm kiếm trong thư viện của bạn</string>
     <string name="stack">Ngăn xếp</string>
     <string name="suggestion_songs">Đề nghị</string>
-    <string name="support_development">Hỗ trợ nhà phát triển</string>
     <string name="swipe_to_unlock">Trượt để mở khóa</string>
     <string name="synced_lyrics">Lời Đồng bộ</string>
     <string name="the_audio_file">Tệp âm thanh</string>
@@ -454,8 +450,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="top_artists">Nghệ sĩ hàng đầu</string>
     <string name="track_hint">"Rãnh (2 cho bài số 2 hoặc 3004 cho CD3 bài số 4)"</string>
     <string name="track_list">Số rãnh</string>
-    <string name="translate">Dịch</string>
-    <string name="translate_community">Hãy giúp chúng tôi dịch ứng dụng sang ngôn ngữ của bạn nhé</string>
     <string name="unlabeled">Chưa gắn nhãn</string>
     <string name="unplayable_file">Không thể phát bài hát này.</string>
     <string name="up_next">Tiếp theo</string>
@@ -467,8 +461,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="vertical_flip">Lật dọc</string>
     <string name="volume">Âm lượng</string>
     <string name="web_search">Tìm kiếm trên web</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Xem Website của chúng tôi</string>
     <string name="welcome">Chào mừng,</string>
     <string name="what_do_you_want_to_share">Bạn muốn chia sẻ gì?</string>
     <string name="window">Cửa sổ</string>

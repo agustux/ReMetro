@@ -140,8 +140,6 @@
     <string name="disc_hint">Číslo Disku</string>
     <string name="do_you_want_to_clear_the_blacklist">Chcete vyčistit černou listinu?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Chcete odstranit <b>%1$s</b> z černé listiny?]]></string>
-    <string name="donate">Přispět</string>
-    <string name="donate_summary">Pokud si myslíte, že si zasloužím odměnu za svou práci, můžete mi nechat pár dolarů</string>
     <string name="done">Hotovo</string>
     <string name="drive_mode">Režim řízení</string>
     <string name="edit_normal_lyrics">Upravit Texty</string>
@@ -420,7 +418,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">Časovač vypnutí byl zrušen.</string>
     <string name="sleep_timer_set">Časovač vypnutí byl nastaven na %d minut.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Share story</string>
     <string name="song">Skladba</string>
     <string name="song_duration">Délka skladby</string>
@@ -444,7 +441,6 @@
     <string name="speech_prompt">Prohledat knihovnu</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Návrhy</string>
-    <string name="support_development">Podpora vývoje</string>
     <string name="swipe_to_unlock">Odemkněte posunutím prstu</string>
     <string name="synced_lyrics">Synchronizované texty</string>
     <string name="the_audio_file">Audio soubor</string>
@@ -459,8 +455,6 @@
     <string name="top_artists">Top umělci</string>
     <string name="track_hint">"Skladba (2 pro stopu 2 ​​nebo 3004 pro čtvrtou stopu z CD3)"</string>
     <string name="track_list">Číslo skladby</string>
-    <string name="translate">Překlad</string>
-    <string name="translate_community">Pomožte nám přeložit tuto aplikaci do vašeho jazyka</string>
     <string name="unlabeled">Bez štítku</string>
     <string name="unplayable_file">Tuto p\u00edse\u0148 se nepoda\u0159ilo p\u0159ehr\u00e1t.</string>
     <string name="up_next">Další</string>
@@ -472,8 +466,6 @@
     <string name="vertical_flip">Vertikální otočení</string>
     <string name="volume">Hlasitost</string>
     <string name="web_search">Webové vyhledávání</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Vítejte,</string>
     <string name="what_do_you_want_to_share">Co chcete sdílet?</string>
     <string name="window">Okno</string>

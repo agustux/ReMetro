@@ -52,11 +52,7 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
     private fun setUpView() {
         binding.aboutContent.cardRetroInfo.appGithub.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.faqLink.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.appTranslation.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.donateLink.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.bugReportLink.setOnClickListener(this)
-
-        binding.aboutContent.cardSocial.websiteLink.setOnClickListener(this)
 
         binding.aboutContent.cardOther.changelog.setOnClickListener(this)
         binding.aboutContent.cardOther.openSource.setOnClickListener(this)
@@ -66,12 +62,9 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
         when (view.id) {
             R.id.faqLink -> openUrl(Constants.FAQ_LINK)
             R.id.appGithub -> openUrl(Constants.GITHUB_PROJECT)
-            R.id.appTranslation -> openUrl(Constants.TRANSLATE)
-            R.id.donateLink -> NavigationUtil.goToSupportDevelopment(requireActivity())
             R.id.changelog -> NavigationUtil.gotoWhatNews(requireActivity())
             R.id.openSource -> NavigationUtil.goToOpenSource(requireActivity())
             R.id.bugReportLink -> NavigationUtil.bugReport(requireActivity())
-            R.id.websiteLink -> openUrl(Constants.WEBSITE)
         }
     }
 

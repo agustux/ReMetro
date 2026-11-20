@@ -136,8 +136,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Vill du rensa svartlistan?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Vill du ta bort <b>%1$s</b> från svartlistan?]]></string>
-    <string name="donate">Donera</string>
-    <string name="donate_summary">Om du tycker att jag förtjänar någon ersättning för mitt arbete, kan du gärna donera lite pengar här</string>
     <string name="done">Done</string>
     <string name="drive_mode">Förarläge</string>
     <string name="edit_normal_lyrics">Edit Lyrics</string>
@@ -416,7 +414,6 @@
     <string name="simple">Enkel</string>
     <string name="sleep_timer_canceled">Sömntimer inaktiverad.</string>
     <string name="sleep_timer_set">Sömntimern är inställd på %d minuter från och med nu.</string>
-    <string name="social">Socialt</string>
     <string name="social_stories">Dela Story</string>
     <string name="song">Låt</string>
     <string name="song_duration">Låtlängd</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Sök i ditt bibliotek</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Förslag</string>
-    <string name="support_development">Stöd utvecklingen</string>
     <string name="swipe_to_unlock">Svep för att låsa upp</string>
     <string name="synced_lyrics">Synkad låttext</string>
     <string name="the_audio_file">Ljudfilen</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Toppartister</string>
     <string name="track_hint">"Spår (2 för spår 2 eller 3004 för CD3 spår 4)"</string>
     <string name="track_list">Spårnummer</string>
-    <string name="translate">Översätt</string>
-    <string name="translate_community">Hjälp oss att översätta appen till ditt språk</string>
     <string name="unlabeled">Omärkt</string>
     <string name="unplayable_file">Kunde inte spela den här låten.</string>
     <string name="up_next">Spelas härnäst</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Vänd vertikalt</string>
     <string name="volume">Volym</string>
     <string name="web_search">Webbsökning</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Välkommen,</string>
     <string name="what_do_you_want_to_share">Vad vill du dela?</string>
     <string name="window">Fönster</string>

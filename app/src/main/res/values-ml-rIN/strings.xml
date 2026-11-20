@@ -136,8 +136,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Do you want to clear the blacklist?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Do you want to remove <b>%1$s</b> from the blacklist?]]></string>
-    <string name="donate">Donate</string>
-    <string name="donate_summary">If you think I deserve to get paid for my work, you can leave some money here</string>
     <string name="done">Done</string>
     <string name="drive_mode">Drive mode</string>
     <string name="edit_normal_lyrics">Edit Lyrics</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">Sleep timer canceled.</string>
     <string name="sleep_timer_set">Sleep timer set for %d minutes from now.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Share story</string>
     <string name="song">Song</string>
     <string name="song_duration">Song duration</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Search your library</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Suggestions</string>
-    <string name="support_development">Support development</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Synced lyrics</string>
     <string name="the_audio_file">The audio file</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Top artists</string>
     <string name="track_hint">"Track (2 for track 2 or 3004 for CD3 track 4)"</string>
     <string name="track_list">Track number</string>
-    <string name="translate">Translate</string>
-    <string name="translate_community">Help us translate the app to your language</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Couldn\u2019t play this song.</string>
     <string name="up_next">Up next</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web search</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Welcome,</string>
     <string name="what_do_you_want_to_share">What do you want to share?</string>
     <string name="window">Window</string>

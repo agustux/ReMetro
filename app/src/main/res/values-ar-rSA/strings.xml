@@ -146,9 +146,6 @@
     <string name="disc_hint">رقم القرص</string>
     <string name="do_you_want_to_clear_the_blacklist">هل تريد إزالة القائمة السوداء؟</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[هل تريد إزالة <b>%1$s</b> من القائمة السوداء]]></string>
-    <string name="donate">تبرع</string>
-    <string name="donate_summary">إذا كنت تعتقد أنني أستحق الحصول على المال مقابل عملي ،
-يمكنك ترك بعض المال هنا.</string>
     <string name="done">تم</string>
     <string name="drive_mode">وضع القيادة</string>
     <string name="edit_normal_lyrics">تعديل كلمات الأغنية</string>
@@ -427,7 +424,6 @@
     <string name="simple">بسيط</string>
     <string name="sleep_timer_canceled">تم إلغاء مؤقت النوم.</string>
     <string name="sleep_timer_set">تم ضبط مؤقت النوم الى %d دقيقة من الآن.</string>
-    <string name="social">أجتماعي</string>
     <string name="social_stories">مشاركة القصة</string>
     <string name="song">الاغنية</string>
     <string name="song_duration">مدة الأغنية</string>
@@ -451,7 +447,6 @@
     <string name="speech_prompt">أبحث في مكتبتك</string>
     <string name="stack">التكدس</string>
     <string name="suggestion_songs">اقتراحات</string>
-    <string name="support_development">دعم التطوير</string>
     <string name="swipe_to_unlock">اسخب للفتح</string>
     <string name="synced_lyrics">مزامنة الكلمات</string>
     <string name="the_audio_file">الملف الصوتي</string>
@@ -466,8 +461,6 @@
     <string name="top_artists">افضل الفنانين</string>
     <string name="track_hint">"المسار (2 للمسار 2 أو 3004 لمسار CD3 4)"</string>
     <string name="track_list">رقم المسار</string>
-    <string name="translate">ترجمة</string>
-    <string name="translate_community">ساعدها لترجمة التطبيق الى لغتك</string>
     <string name="unlabeled">غير معنون</string>
     <string name="unplayable_file">تعذّر تشغيل\u2019t هذه الأغنية.</string>
     <string name="up_next">التالي</string>
@@ -479,8 +472,6 @@
     <string name="vertical_flip">تدوير رأسي</string>
     <string name="volume">الصوت</string>
     <string name="web_search">البحث عبر الانترنت</string>
-    <string name="website">الموقع الإلكتروني</string>
-    <string name="website_summary">تحقق من موقعنا</string>
     <string name="welcome">مرحبا,</string>
     <string name="what_do_you_want_to_share">مالذي تريد مشاركته?</string>
     <string name="window">نافذة</string>

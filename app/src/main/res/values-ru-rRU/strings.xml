@@ -140,8 +140,6 @@
     <string name="disc_hint">Номер диска</string>
     <string name="do_you_want_to_clear_the_blacklist">Очистить чёрный список?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Удалить <b>%1$s</b> из чёрного списка?]]></string>
-    <string name="donate">Пожертвовать</string>
-    <string name="donate_summary">Если вы считаете, что я заслуживаю награды за свой труд, можете отправить мне определённую сумму</string>
     <string name="done">Готово</string>
     <string name="drive_mode">Режим вождения</string>
     <string name="edit_normal_lyrics">Редактировать текст</string>
@@ -420,7 +418,6 @@
     <string name="simple">Простой</string>
     <string name="sleep_timer_canceled">Таймер сна отменён.</string>
     <string name="sleep_timer_set">Таймер сна установлен на %d минут.</string>
-    <string name="social">Социальный</string>
     <string name="social_stories">Поделиться в историях</string>
     <string name="song">Трек</string>
     <string name="song_duration">Продолжительность трека</string>
@@ -444,7 +441,6 @@
     <string name="speech_prompt">Поиск в вашей библиотеке</string>
     <string name="stack">Стопка</string>
     <string name="suggestion_songs">Предложения</string>
-    <string name="support_development">Поддержать разработку</string>
     <string name="swipe_to_unlock">Проведите, чтобы разблокировать</string>
     <string name="synced_lyrics">Синхронизированный текст</string>
     <string name="the_audio_file">Аудиофайл</string>
@@ -459,8 +455,6 @@
     <string name="top_artists">Топ исполнителей</string>
     <string name="track_hint">"Трек (2 для трека 2 или 3004 для трека 4 диска 3)"</string>
     <string name="track_list">Номер трека</string>
-    <string name="translate">Помочь с переводом</string>
-    <string name="translate_community">Помогите нам перевести приложение на ваш язык</string>
     <string name="unlabeled">Не показывать</string>
     <string name="unplayable_file">Невозможно проиграть этот трек.</string>
     <string name="up_next">Следующие треки</string>
@@ -472,8 +466,6 @@
     <string name="vertical_flip">Вертикальный поворот</string>
     <string name="volume">Громкость</string>
     <string name="web_search">Поиск в интернете</string>
-    <string name="website">Наш сайт</string>
-    <string name="website_summary">Посмотрите наш веб-сайт</string>
     <string name="welcome">Добро пожаловать,</string>
     <string name="what_do_you_want_to_share">Чем вы хотите поделиться?</string>
     <string name="window">Окно</string>

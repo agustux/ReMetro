@@ -134,8 +134,6 @@
     <string name="disc_hint">ディスクナンバー</string>
     <string name="do_you_want_to_clear_the_blacklist">ブラックリストを削除しますか?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[<b>%1$s</b> をブラックリストから削除しますか?]]></string>
-    <string name="donate">寄付する</string>
-    <string name="donate_summary">もし私の活動に価値を感じていただけたら、こちらからご支援いただけると嬉しいです</string>
     <string name="done">完了</string>
     <string name="drive_mode">運転モード</string>
     <string name="edit_normal_lyrics">歌詞を編集</string>
@@ -415,7 +413,6 @@
     <string name="simple">シンプル</string>
     <string name="sleep_timer_canceled">スリープタイマーがキャンセルされました</string>
     <string name="sleep_timer_set">スリープタイマーは %d 分後に設定されました。</string>
-    <string name="social">ソーシャル</string>
     <string name="social_stories">ストーリーを共有</string>
     <string name="song">曲</string>
     <string name="song_duration">曲の長さ</string>
@@ -439,7 +436,6 @@
     <string name="speech_prompt">ライブラリを検索</string>
     <string name="stack">スタック</string>
     <string name="suggestion_songs">改善を提案</string>
-    <string name="support_development">開発を支援</string>
     <string name="swipe_to_unlock">スワイプしてアンロック</string>
     <string name="synced_lyrics">連動した歌詞</string>
     <string name="the_audio_file">オーディオファイル</string>
@@ -454,8 +450,6 @@
     <string name="top_artists">トップアーティスト</string>
     <string name="track_hint">"トラック（トラック２の場合は「2」、CD3のトラック４の場合は「3004」）"</string>
     <string name="track_list">トラック番号</string>
-    <string name="translate">翻訳</string>
-    <string name="translate_community">翻訳を手伝ってください！</string>
     <string name="unlabeled">ラベルを表示しない</string>
     <string name="unplayable_file">\u3053\u306e\u66f2\u3092\u518d\u751f\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f</string>
     <string name="up_next">次</string>
@@ -467,8 +461,6 @@
     <string name="vertical_flip">垂直方向に反転</string>
     <string name="volume">音量</string>
     <string name="web_search">ウェブで検索</string>
-    <string name="website">ウェブサイト</string>
-    <string name="website_summary">ウェブサイトをチェック</string>
     <string name="welcome">ようこそ,</string>
     <string name="what_do_you_want_to_share">何を共有しますか?</string>
     <string name="window">ウィンドウ</string>

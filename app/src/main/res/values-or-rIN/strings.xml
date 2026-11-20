@@ -136,8 +136,6 @@
     <string name="disc_hint">ଡିସ୍କ ସଂଖ୍ୟା</string>
     <string name="do_you_want_to_clear_the_blacklist">ଆପଣ ବ୍ଲାକଲିଷ୍ଟ୍ ସଫା କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[ଆପଣ <b>%1$s</b>କୁ ବ୍ଲାକଲିଷ୍ଟ୍‌ରୁ ଅପସାରଣ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?]]></string>
-    <string name="donate">ଦାନ କରନ୍ତୁ</string>
-    <string name="donate_summary">ଯଦି ଆପଣ ଭାବୁଛନ୍ତି ମୁଁ ମୋ କାମ ପାଇଁ ପାରିଶ୍ରମିକ ପାଇବାକୁ ଯୋଗ୍ୟ, ତେବେ ଆପଣ ଏଠାରେ କିଛି ଅର୍ଥ ଦାନ କରିପାରିବେ</string>
     <string name="done">ସମ୍ପନ୍ନ</string>
     <string name="drive_mode">ଡ୍ରାଇଭ୍ ମୋଡ୍</string>
     <string name="edit_normal_lyrics">ଗୀତ ସମ୍ପାଦନା କରନ୍ତୁ</string>
@@ -416,7 +414,6 @@
     <string name="simple">ସରଳ</string>
     <string name="sleep_timer_canceled">ସ୍ଲିପ୍ ଟାଇମର୍ ବାତିଲ କରାଗଲା।</string>
     <string name="sleep_timer_set">ସ୍ଲିପ୍ ଟାଇମର୍ ବର୍ତ୍ତମାନଠାରୁ %d ମିନିଟ୍ ପାଇଁ ସେଟ୍ କରାଗଲା।</string>
-    <string name="social">ସାମାଜିକ</string>
     <string name="social_stories">ଷ୍ଟୋରୀ ସେୟାର କରନ୍ତୁ</string>
     <string name="song">ଗୀତ</string>
     <string name="song_duration">ଗୀତର ଅବଧି</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">ଆପଣଙ୍କ ଲାଇବ୍ରେରୀ ସନ୍ଧାନ କରନ୍ତୁ</string>
     <string name="stack">ଷ୍ଟାକ୍</string>
     <string name="suggestion_songs">ପରାମର୍ଶ</string>
-    <string name="support_development">ବିକାଶକୁ ସମର୍ଥନ କରନ୍ତୁ</string>
     <string name="swipe_to_unlock">ଅନଲକ୍ କରିବାକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
     <string name="synced_lyrics">ସିଙ୍କ୍ ହୋଇଥିବା ଗୀତ</string>
     <string name="the_audio_file">ଅଡିଓ ଫାଇଲ୍</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">ଶ୍ରେଷ୍ଠ କଳାକାର</string>
     <string name="track_hint">"ଟ୍ରାକ୍ (ଟ୍ରାକ୍ ୨ ପାଇଁ ୨ କିମ୍ବା CD୩ ଟ୍ରାକ୍ ୪ ପାଇଁ ୩୦୦୪)"</string>
     <string name="track_list">ଟ୍ରାକ୍ ସଂଖ୍ୟା</string>
-    <string name="translate">ଅନୁବାଦ କରନ୍ତୁ</string>
-    <string name="translate_community">ଆପ୍‌କୁ ଆପଣଙ୍କ ଭାଷାରେ ଅନୁବାଦ କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ</string>
     <string name="unlabeled">ବିନା ଲେବଲ୍‌ରେ</string>
     <string name="unplayable_file">ଏହି ଗୀତଟି ପ୍ଲେ କରିହେଲାନାହିଁ।</string>
     <string name="up_next">ଏହା ପରେ</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">ଭର୍ଟିକାଲ୍ ଫ୍ଲିପ୍</string>
     <string name="volume">ଭଲ୍ୟୁମ୍</string>
     <string name="web_search">ୱେବ୍ ସନ୍ଧାନ</string>
-    <string name="website">ୱେବସାଇଟ୍</string>
-    <string name="website_summary">ଆମ ୱେବସାଇଟ୍ ଦେଖନ୍ତୁ</string>
     <string name="welcome">ସ୍ୱାଗତ,</string>
     <string name="what_do_you_want_to_share">ଆପଣ କ\'ଣ ସେୟାର କରିବାକୁ ଚାହୁଁଛନ୍ତି?</string>
     <string name="window">ୱିଣ୍ଡୋ</string>

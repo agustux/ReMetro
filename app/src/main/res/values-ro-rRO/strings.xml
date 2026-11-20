@@ -138,8 +138,6 @@
     <string name="disc_hint">Număr disc</string>
     <string name="do_you_want_to_clear_the_blacklist">Doriți să ștergeți lista neagră?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Doriți să ștergeți <b>%1$s</b> din lista neagră?]]></string>
-    <string name="donate">Donează</string>
-    <string name="donate_summary">Dacă ești de părere că merit să fiu plătit pentru munca mea,  poți să donezi aici.</string>
     <string name="done">Finalizat</string>
     <string name="drive_mode">Mod condus</string>
     <string name="edit_normal_lyrics">Editare versuri</string>
@@ -418,7 +416,6 @@
     <string name="simple">Simplu</string>
     <string name="sleep_timer_canceled">Temporizatorul a fost anulat.</string>
     <string name="sleep_timer_set">Temporizatorul este setat pentru %d minute de acum.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Partajează povestea</string>
     <string name="song">Melodie</string>
     <string name="song_duration">Durată</string>
@@ -442,7 +439,6 @@
     <string name="speech_prompt">Caută în colecția ta</string>
     <string name="stack">Stivă</string>
     <string name="suggestion_songs">Sugestii</string>
-    <string name="support_development">Susţineţi dezvoltarea</string>
     <string name="swipe_to_unlock">Glisează pentru a debloca</string>
     <string name="synced_lyrics">Versuri sincronizate</string>
     <string name="the_audio_file">Fișier audio</string>
@@ -457,8 +453,6 @@
     <string name="top_artists">Artişti de top</string>
     <string name="track_hint">"Melodie (2 pentru melodia 2 sau 3004 pentru CD3 melodia 4)"</string>
     <string name="track_list">Numărul piesei</string>
-    <string name="translate">Traducere</string>
-    <string name="translate_community">Ajută-ne să traducem aplicația</string>
     <string name="unlabeled">Neetichetat</string>
     <string name="unplayable_file">Nu s-a putut reda aceast\u0103 melodie.</string>
     <string name="up_next">Urmează</string>
@@ -470,8 +464,6 @@
     <string name="vertical_flip">Rotire răsturnată</string>
     <string name="volume">Volum</string>
     <string name="web_search">Căutare pe internet</string>
-    <string name="website">Pagină web</string>
-    <string name="website_summary">Vizitați site-ul nostru</string>
     <string name="welcome">Bun venit,</string>
     <string name="what_do_you_want_to_share">Ce doriți să expediați?</string>
     <string name="window">Fereastră</string>

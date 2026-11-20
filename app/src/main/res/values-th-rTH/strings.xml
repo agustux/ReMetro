@@ -134,8 +134,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">คุณต้องการล้างรายชื่อแบล็คลิสต์ใช่ไหม?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[คุณต้องการลบ <b>%1$s</b> จากรายชื่อแบล็คลิสต์ใช่ไหม?]]></string>
-    <string name="donate">Donate</string>
-    <string name="donate_summary">หากคุณพึงพอใจในการใช้งาน สามารถให้ Donate ได้ที่นี่</string>
     <string name="done">ตกลง</string>
     <string name="drive_mode">โหมดขับรถ</string>
     <string name="edit_normal_lyrics">ปุ่มเนื้อเพลง</string>
@@ -414,7 +412,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">ยกเลิกการตั้งเวลาหยุดเล่น</string>
     <string name="sleep_timer_set">ตั้งเวลาให้หยุดเล่นใน %d นาทีจากตอนนี้</string>
-    <string name="social">Social</string>
     <string name="social_stories">แชร์ Story</string>
     <string name="song">เพลง</string>
     <string name="song_duration">ระยะเวลาของเพลง</string>
@@ -438,7 +435,6 @@
     <string name="speech_prompt">ค้นหาคลังเพลง</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">แนะนำ</string>
-    <string name="support_development">สนับสนุนนักพัฒนา</string>
     <string name="swipe_to_unlock">ปัดเพื่อปลดล็อก</string>
     <string name="synced_lyrics">ซิ้งค์เนื้อเพลง</string>
     <string name="the_audio_file">ไฟล์เสียง</string>
@@ -453,8 +449,6 @@
     <string name="top_artists">Top ศิลปิน</string>
     <string name="track_hint">"แทร็ก (2 สำหรับแทร็ก 2 หรือ 3004 สำหรับ CD3 แทร็ก 4)"</string>
     <string name="track_list">หมายเลขแทร็ก</string>
-    <string name="translate">แปลภาษา</string>
-    <string name="translate_community">ช่วยพวกเราแปลภาษาเป็นภาษาของคุณ</string>
     <string name="unlabeled">ไม่แสดงตัวหนังสือ</string>
     <string name="unplayable_file">ไม่สามารถเล่นเพลงนี้ได้</string>
     <string name="up_next">เพลงต่อไป</string>
@@ -466,8 +460,6 @@
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">เสียง</string>
     <string name="web_search">ค้นหาจากเว็บไซต์</string>
-    <string name="website">เว็บไซต์</string>
-    <string name="website_summary">ดูเว็บไซต์ของพวกเรา</string>
     <string name="welcome">ยินดีต้อนรับ</string>
     <string name="what_do_you_want_to_share">คุณต้องการจะแชร์อะไร?</string>
     <string name="window">Window</string>

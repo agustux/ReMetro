@@ -134,8 +134,6 @@
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">블랙리스트를 비우시겠습니까?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[블랙리스트에서 <b>%1$s</b> 항목을 제거하시겠습니까?]]></string>
-    <string name="donate">기부하기</string>
-    <string name="donate_summary">제 작업에 대한 대가를 받을 자격이 있다고 생각하신다면 여기서 저를 위해 소액을 기부할 수 있습니다.</string>
     <string name="done">Done</string>
     <string name="drive_mode">Drive mode</string>
     <string name="edit_normal_lyrics">Edit Lyrics</string>
@@ -414,7 +412,6 @@
     <string name="simple">심플</string>
     <string name="sleep_timer_canceled">수면 타이머가 취소되었습니다.</string>
     <string name="sleep_timer_set">수면 타이머가 지금으로부터 %d분 후로 설정되었습니다.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Share story</string>
     <string name="song">노래</string>
     <string name="song_duration">노래 길이</string>
@@ -438,7 +435,6 @@
     <string name="speech_prompt">라이브러리 검색</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Suggestions</string>
-    <string name="support_development">개발 지원</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Synced lyrics</string>
     <string name="the_audio_file">오디오 파일</string>
@@ -453,8 +449,6 @@
     <string name="top_artists">인기 아티스트</string>
     <string name="track_hint">"트랙 (트랙 2는 2, CD3의 트랙 4는 3004)"</string>
     <string name="track_list">트랙 번호</string>
-    <string name="translate">번역</string>
-    <string name="translate_community">Help us translate the app to your language</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">\uc774 \ub178\ub798\ub97c \uc7ac\uc0dd\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.</string>
     <string name="up_next">다음 곡으로 재생</string>
@@ -466,8 +460,6 @@
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">Volume</string>
     <string name="web_search">웹 검색</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Check out our Website</string>
     <string name="welcome">Welcome,</string>
     <string name="what_do_you_want_to_share">무엇을 공유하시겠습니까?</string>
     <string name="window">창</string>

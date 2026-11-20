@@ -140,8 +140,6 @@
     <string name="disc_hint">Номер диску</string>
     <string name="do_you_want_to_clear_the_blacklist">Ви хочете очистити чорний список?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Вилучити <b>%1$s</b> з чорного списку?]]></string>
-    <string name="donate">Підтримати</string>
-    <string name="donate_summary">Якщо ви вважаєте, що я заслуговую на оплату своєї праці, ви можете залишити гроші тут</string>
     <string name="done">Готово</string>
     <string name="drive_mode">Режим водія</string>
     <string name="edit_normal_lyrics">Змінити текст пісні</string>
@@ -420,7 +418,6 @@
     <string name="simple">Простий</string>
     <string name="sleep_timer_canceled">Таймер сну скасовано.</string>
     <string name="sleep_timer_set">Таймер сну спрацює за %d хвилин.</string>
-    <string name="social">Соціальні мережі</string>
     <string name="social_stories">Поділитися історією</string>
     <string name="song">Пісня</string>
     <string name="song_duration">Тривалість пісні</string>
@@ -444,7 +441,6 @@
     <string name="speech_prompt">Пошук у бібліотеці</string>
     <string name="stack">Стек</string>
     <string name="suggestion_songs">Пропозиції</string>
-    <string name="support_development">Підтримати розробку</string>
     <string name="swipe_to_unlock">Свайпніть, щоб розблокувати</string>
     <string name="synced_lyrics">Синхронізовані тексти</string>
     <string name="the_audio_file">Аудіофайл</string>
@@ -459,8 +455,6 @@
     <string name="top_artists">Топ виконавців</string>
     <string name="track_hint">"Доріжка (2 для доріжки 2 або 3004 для CD3 доріжки 4)"</string>
     <string name="track_list">Номер пісні</string>
-    <string name="translate">Перекласти</string>
-    <string name="translate_community">Допоможіть нам перекласти застосунок на вашу мову</string>
     <string name="unlabeled">Без позначки</string>
     <string name="unplayable_file">Не можу відтворити пісню.</string>
     <string name="up_next">Наступне</string>
@@ -472,8 +466,6 @@
     <string name="vertical_flip">Вертикальне сальто</string>
     <string name="volume">Гучність</string>
     <string name="web_search">Пошук в інтернеті</string>
-    <string name="website">Сайт</string>
-    <string name="website_summary">Відвідайте наш вебсайт</string>
     <string name="welcome">Вітаємо вас,</string>
     <string name="what_do_you_want_to_share">Чим ви хочете поділитися?</string>
     <string name="window">Вікно</string>

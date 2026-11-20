@@ -136,8 +136,6 @@
     <string name="disc_hint">Lemez száma</string>
     <string name="do_you_want_to_clear_the_blacklist">Szeretné kiüríteni a feketelistát?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Szeretné eltávolítani a <b>%1$s</b> elemet a feketelistáról?]]></string>
-    <string name="donate">Támogatás</string>
-    <string name="donate_summary">Ha úgy gondolod, hogy megérdemlem, hogy fizess a munkámért, hagyhatsz egy kis pénzt itt</string>
     <string name="done">Kész</string>
     <string name="drive_mode">Vezetés mód</string>
     <string name="edit_normal_lyrics">Dalszöveg szerkesztése</string>
@@ -416,7 +414,6 @@
     <string name="simple">Egyszerű</string>
     <string name="sleep_timer_canceled">Az elalvás időzítő kikapcsolva.</string>
     <string name="sleep_timer_set">Elalvásidőzítés beállítva, mostantól számított %d percre.</string>
-    <string name="social">Közösségi</string>
     <string name="social_stories">Történet megosztása</string>
     <string name="song">Dal</string>
     <string name="song_duration">A dal időtartama</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Keresés a könyvtárban</string>
     <string name="stack">Halom</string>
     <string name="suggestion_songs">Javaslatok</string>
-    <string name="support_development">Támogatás fejlesztése</string>
     <string name="swipe_to_unlock">Csúsztasd fel a feloldáshoz</string>
     <string name="synced_lyrics">Szinkronizált dalszövegek</string>
     <string name="the_audio_file">Az audió fájl</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Legjobb előadok</string>
     <string name="track_hint">"Sáv (2 a 2. vagy a 3004-es számhoz a CD3 4. sávjához)"</string>
     <string name="track_list">Sáv száma</string>
-    <string name="translate">Fordítás</string>
-    <string name="translate_community">Segítsen lefordítani az alkalmazást az Ön nyelvére</string>
     <string name="unlabeled">Címkézetlen</string>
     <string name="unplayable_file">Nem lehetett lejátszani ezt a dalt.</string>
     <string name="up_next">A következő</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Függőleges forgatás</string>
     <string name="volume">Hangerő</string>
     <string name="web_search">Webes keresés</string>
-    <string name="website">Weboldal</string>
-    <string name="website_summary">Nézd meg a weboldalunkat</string>
     <string name="welcome">Üdvözöljük,</string>
     <string name="what_do_you_want_to_share">Mit szeretne megosztani?</string>
     <string name="window">Ablak</string>

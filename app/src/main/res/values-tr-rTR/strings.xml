@@ -136,8 +136,6 @@
     <string name="disc_hint">Disk numarası</string>
     <string name="do_you_want_to_clear_the_blacklist">Kara listeyi temizlemek istiyor musunuz?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Kara listeden <b>%1$s</b>\'i kaldırmak istiyor musunuz?]]></string>
-    <string name="donate">Bağış yapın</string>
-    <string name="donate_summary">Çalışmalarımın karşılığı olarak para hakettiğimi düşünüyorsanız bana biraz bahşiş bırakabilirsiniz</string>
     <string name="done">Tamam</string>
     <string name="drive_mode">Sürüş modu</string>
     <string name="edit_normal_lyrics">Sözleri düzenle</string>
@@ -416,7 +414,6 @@
     <string name="simple">Basit</string>
     <string name="sleep_timer_canceled">Uyku zamanlayıcısı iptal edildi.</string>
     <string name="sleep_timer_set">Uyku zamanlayıcısı %d dakikaya ayarlandı.</string>
-    <string name="social">Sosyal</string>
     <string name="social_stories">Hikaye olarak paylaş</string>
     <string name="song">Şarkı</string>
     <string name="song_duration">Şarkı süresi</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Kütüphanenizde arayın</string>
     <string name="stack">Kümele</string>
     <string name="suggestion_songs">Öneriler</string>
-    <string name="support_development">Destek geliştirme</string>
     <string name="swipe_to_unlock">Açmak için kaydırın</string>
     <string name="synced_lyrics">Senkronize edilmiş sözler</string>
     <string name="the_audio_file">Ses dosyası</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">En iyi sanatçılar</string>
     <string name="track_hint">"Parça (parça 2 için 2 veya CD3 parça 4 için 3004)"</string>
     <string name="track_list">Parça numarası</string>
-    <string name="translate">Çevir</string>
-    <string name="translate_community">Uygulamayı diline çevirmek için bize yardımcı ol.</string>
     <string name="unlabeled">Etiketsiz</string>
     <string name="unplayable_file">Bu şarkı oynatılamadı\u2019.</string>
     <string name="up_next">Bir sonraki</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Dikey çevir</string>
     <string name="volume">Ses</string>
     <string name="web_search">İnternette ara</string>
-    <string name="website">Web Sitesi</string>
-    <string name="website_summary">Web sitemize göz atın</string>
     <string name="welcome">Hoşgeldiniz,</string>
     <string name="what_do_you_want_to_share">Ne paylaşmak istiyorsunuz?</string>
     <string name="window">Pencere</string>

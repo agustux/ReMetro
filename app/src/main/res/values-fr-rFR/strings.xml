@@ -136,8 +136,6 @@
     <string name="disc_hint">Numéro de disque</string>
     <string name="do_you_want_to_clear_the_blacklist">Voulez-vous vraiment vider la liste noire ?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Voulez-vous vraiment retirer <b>%1$s</b> de la liste noire ?]]></string>
-    <string name="donate">Faire un don</string>
-    <string name="donate_summary">Si vous pensez que je mérite d\'être payé pour mon travail, vous pouvez me donner quelques dollars ici</string>
     <string name="done">Terminé</string>
     <string name="drive_mode">Mode conduite</string>
     <string name="edit_normal_lyrics">Modifier les paroles</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">Minuterie de mise en veille annulée.</string>
     <string name="sleep_timer_set">La minuterie de mise en veille est réglée sur %d minutes à partir de maintenant.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Partager la story</string>
     <string name="song">Titre</string>
     <string name="song_duration">Durée du titre</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Rechercher dans votre bibliothèque</string>
     <string name="stack">Empiler</string>
     <string name="suggestion_songs">Suggestions</string>
-    <string name="support_development">Soutenir le développement</string>
     <string name="swipe_to_unlock">Glissez pour déverrouiller</string>
     <string name="synced_lyrics">Paroles synchronisées</string>
     <string name="the_audio_file">Le fichier audio</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Meilleurs artistes</string>
     <string name="track_hint">"Piste (2 pour la piste 2 ou 3004 pour la piste 4 du CD3)"</string>
     <string name="track_list">Numéro de piste</string>
-    <string name="translate">Traduction</string>
-    <string name="translate_community">Aidez-nous à traduire l\'application dans votre langue</string>
     <string name="unlabeled">Sans étiquette</string>
     <string name="unplayable_file">Impossible de lire ce titre.</string>
     <string name="up_next">À suivre</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Retournement vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Recherche sur le Web</string>
-    <string name="website">Site web</string>
-    <string name="website_summary">Consultez notre site Web</string>
     <string name="welcome">Bienvenue,</string>
     <string name="what_do_you_want_to_share">Que souhaitez-vous partager ?</string>
     <string name="window">Fenêtre</string>

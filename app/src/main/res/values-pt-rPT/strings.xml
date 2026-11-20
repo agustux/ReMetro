@@ -136,8 +136,6 @@
     <string name="disc_hint">Número do disco</string>
     <string name="do_you_want_to_clear_the_blacklist">Quer limpar a lista negra?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Quer remover <b>%1$s</b> da lista negra?]]></string>
-    <string name="donate">Doar</string>
-    <string name="donate_summary">Se achar que eu mereço ser pago pelo meu trabalho, pode fazê-lo aqui</string>
     <string name="done">Concluído</string>
     <string name="drive_mode">Modo Condução</string>
     <string name="edit_normal_lyrics">Editar letras</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simples</string>
     <string name="sleep_timer_canceled">Temporizador cancelado.</string>
     <string name="sleep_timer_set">Temporizador definido para %d minutos a partir de agora.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Partilhar história</string>
     <string name="song">Música</string>
     <string name="song_duration">Duração da música</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Procurar na sua biblioteca</string>
     <string name="stack">Pilha</string>
     <string name="suggestion_songs">Sugestões</string>
-    <string name="support_development">Apoie o desenvolvimento</string>
     <string name="swipe_to_unlock">Deslizar para desbloquear</string>
     <string name="synced_lyrics">Letras sincronizadas</string>
     <string name="the_audio_file">O ficheiro de áudio</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Top artistas</string>
     <string name="track_hint">"Faixa (2 para faixa 2 ou 3004 para CD3 faixa 4)"</string>
     <string name="track_list">Número da faixa</string>
-    <string name="translate">Traduzir</string>
-    <string name="translate_community">Ajude-nos a traduzir a aplicação para o seu idioma</string>
     <string name="unlabeled">Sem etiqueta</string>
     <string name="unplayable_file">Não foi possível tocar esta música.</string>
     <string name="up_next">A seguir</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Flip vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pesquisar na web</string>
-    <string name="website">Site</string>
-    <string name="website_summary">Veja o nosso site</string>
     <string name="welcome">Bem-vindo,</string>
     <string name="what_do_you_want_to_share">O que deseja partilhar?</string>
     <string name="window">Janelas</string>

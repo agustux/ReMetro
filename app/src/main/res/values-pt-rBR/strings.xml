@@ -136,8 +136,6 @@
     <string name="disc_hint">Número do Disco</string>
     <string name="do_you_want_to_clear_the_blacklist">Você quer limpar a lista negra?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Você quer remover <b>%1$s</b> da lista negra?]]></string>
-    <string name="donate">Doar</string>
-    <string name="donate_summary">Se você acha que eu mereço ser recompensado pelo meu trabalho, você pode me deixar algum dinheiro aqui</string>
     <string name="done">Concluído</string>
     <string name="drive_mode">Modo Carro</string>
     <string name="edit_normal_lyrics">Editar Letra</string>
@@ -416,7 +414,6 @@
     <string name="simple">Simples</string>
     <string name="sleep_timer_canceled">Temporizador cancelado.</string>
     <string name="sleep_timer_set">Temporizador definido para %d minutos a partir de agora.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Compartilhar story</string>
     <string name="song">Música</string>
     <string name="song_duration">Duração da música</string>
@@ -440,7 +437,6 @@
     <string name="speech_prompt">Pesquisar sua biblioteca</string>
     <string name="stack">Pilha</string>
     <string name="suggestion_songs">Sugestões</string>
-    <string name="support_development">Apoiar o desenvolvimento</string>
     <string name="swipe_to_unlock">Deslize para desbloquear</string>
     <string name="synced_lyrics">Letras sincronizadas</string>
     <string name="the_audio_file">Arquivo de áudio</string>
@@ -455,8 +451,6 @@
     <string name="top_artists">Melhores artistas</string>
     <string name="track_hint">"Música (2 para a música 2 ou 3004 para a música 4 do CD3)"</string>
     <string name="track_list">Número da música</string>
-    <string name="translate">Traduzir</string>
-    <string name="translate_community">Ajude-nos a traduzir o aplicativo para o seu idioma</string>
     <string name="unlabeled">Não rotulado</string>
     <string name="unplayable_file">Não foi possível reproduzir esta música.</string>
     <string name="up_next">A seguir</string>
@@ -468,8 +462,6 @@
     <string name="vertical_flip">Giro vertical</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pesquisar na internet</string>
-    <string name="website">Site</string>
-    <string name="website_summary">Confira nosso site</string>
     <string name="welcome">Bem-vindo(a),</string>
     <string name="what_do_you_want_to_share">O que você quer compartilhar?</string>
     <string name="window">Janela</string>

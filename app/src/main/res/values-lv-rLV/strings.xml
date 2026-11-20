@@ -138,8 +138,6 @@
     <string name="disc_hint">Diska numurs</string>
     <string name="do_you_want_to_clear_the_blacklist">Do you want to clear the blacklist?</string>
     <string name="do_you_want_to_remove_from_the_blacklist"><![CDATA[Do you want to remove <b>%1$s</b> from the blacklist?]]></string>
-    <string name="donate">Ziedot</string>
-    <string name="donate_summary">If you think I deserve to get paid for my work, you can leave some money here</string>
     <string name="done">Gatavs</string>
     <string name="drive_mode">Braukšanas režīms</string>
     <string name="edit_normal_lyrics">Rediģēt vārdus</string>
@@ -418,7 +416,6 @@
     <string name="simple">Simple</string>
     <string name="sleep_timer_canceled">Sleep timer canceled.</string>
     <string name="sleep_timer_set">Sleep timer set for %d minutes from now.</string>
-    <string name="social">Social</string>
     <string name="social_stories">Share story</string>
     <string name="song">Song</string>
     <string name="song_duration">Song duration</string>
@@ -442,7 +439,6 @@
     <string name="speech_prompt">Search your library</string>
     <string name="stack">Stack</string>
     <string name="suggestion_songs">Ieteikumi</string>
-    <string name="support_development">Atbalstīt izstrādi</string>
     <string name="swipe_to_unlock">Velciet ar pirkstu, lai atbloķētu</string>
     <string name="synced_lyrics">Synced lyrics</string>
     <string name="the_audio_file">The audio file</string>
@@ -457,8 +453,6 @@
     <string name="top_artists">Top artists</string>
     <string name="track_hint">"Track (2 for track 2 or 3004 for CD3 track 4)"</string>
     <string name="track_list">Dziesmas numurs</string>
-    <string name="translate">Tulkot</string>
-    <string name="translate_community">Palīdziet mums pārtulkot lietotni Jūsu valodā</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Šo dziesmu nevarēja atskaņot.</string>
     <string name="up_next">Up next</string>
@@ -470,8 +464,6 @@
     <string name="vertical_flip">Vertical flip</string>
     <string name="volume">Skaļums</string>
     <string name="web_search">Meklēt tīmeklī</string>
-    <string name="website">Mājaslapa</string>
-    <string name="website_summary">Apskatiet mūsu mājaslapu</string>
     <string name="welcome">Sveicināti,</string>
     <string name="what_do_you_want_to_share">What do you want to share?</string>
     <string name="window">Logs</string>
