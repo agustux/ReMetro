@@ -23,8 +23,8 @@
         <item name="colorOnSecondaryContainer">@color/ctp_mocha_text</item>
         <item name="colorSurfaceInverse">@color/ctp_mocha_text</item>
         <item name="colorOnSurfaceInverse">@color/ctp_mocha_base</item>
-        <item name="android:textColorPrimary">@color/ctp_mocha_text</item>
-        <item name="android:textColorSecondary">@color/ctp_mocha_subtext0</item>
+        <item name="android:textColorPrimary">@color/text_primary_mocha</item>
+        <item name="android:textColorSecondary">@color/text_secondary_mocha</item>
         <item name="android:textColorTertiary">@color/ctp_mocha_overlay1</item>
         <item name="android:textColorHint">@color/ctp_mocha_overlay0</item>
     </style>
@@ -59,8 +59,8 @@
         <item name="colorOnSecondaryContainer">@color/ctp_latte_text</item>
         <item name="colorSurfaceInverse">@color/ctp_latte_text</item>
         <item name="colorOnSurfaceInverse">@color/ctp_latte_base</item>
-        <item name="android:textColorPrimary">@color/ctp_latte_text</item>
-        <item name="android:textColorSecondary">@color/ctp_latte_subtext0</item>
+        <item name="android:textColorPrimary">@color/text_primary_latte</item>
+        <item name="android:textColorSecondary">@color/text_secondary_latte</item>
         <item name="android:textColorTertiary">@color/ctp_latte_overlay1</item>
         <item name="android:textColorHint">@color/ctp_latte_overlay0</item>
     </style>
@@ -88,8 +88,8 @@
         <item name="colorOnSecondaryContainer">@color/theme_text</item>
         <item name="colorSurfaceInverse">@color/theme_text</item>
         <item name="colorOnSurfaceInverse">@color/theme_base</item>
-        <item name="android:textColorPrimary">@color/theme_text</item>
-        <item name="android:textColorSecondary">@color/theme_subtext0</item>
+        <item name="android:textColorPrimary">@color/text_primary_daynight</item>
+        <item name="android:textColorSecondary">@color/text_secondary_daynight</item>
         <item name="android:textColorTertiary">@color/theme_overlay1</item>
         <item name="android:textColorHint">@color/theme_overlay0</item>
     </style>
