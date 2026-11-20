@@ -176,11 +176,11 @@ object PreferenceUtil {
     ) = sharedPreferences.unregisterOnSharedPreferenceChangeListener(changeListener)
 
 
-    val baseTheme get() = sharedPreferences.getStringOrDefault(GENERAL_THEME, "auto")
+    val baseTheme get() = sharedPreferences.getStringOrDefault(GENERAL_THEME, "dark")
 
     fun getGeneralThemeValue(isSystemDark: Boolean): ThemeMode {
         val themeMode: String =
-            sharedPreferences.getStringOrDefault(GENERAL_THEME, "auto")
+            sharedPreferences.getStringOrDefault(GENERAL_THEME, "dark")
         return if (isBlackMode && isSystemDark && themeMode != "light") {
             ThemeMode.BLACK
         } else {
@@ -324,7 +324,7 @@ object PreferenceUtil {
 
     private val isBlackMode
         get() = sharedPreferences.getBoolean(
-            BLACK_THEME, false
+            BLACK_THEME, true
         )
 
     val isExtraControls
@@ -767,7 +767,7 @@ object PreferenceUtil {
     val isCrossfadeEnabled get() = crossFadeDuration > 0
 
     val materialYou
-        get() = sharedPreferences.getBoolean(MATERIAL_YOU, VersionUtils.hasS())
+        get() = sharedPreferences.getBoolean(MATERIAL_YOU, false)
 
     val isCustomFont
         get() = sharedPreferences.getBoolean(CUSTOM_FONT, false)

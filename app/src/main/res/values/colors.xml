@@ -7,8 +7,13 @@
     <color name="md_indigo_A400">#3D5AFE</color>
     <color name="black_color">#202124</color>
 
-    <color name="darkColorPrimary">#202124</color>
-    <color name="darkColorSurface">#202124</color>
+    <!-- Catppuccin Mocha -->
+    <color name="ctp_mocha_base">#1E1E2E</color>
+    <color name="ctp_mocha_overlay2">#9399B2</color>
+    <color name="ctp_mocha_sapphire">#74C7EC</color>
+
+    <color name="darkColorPrimary">@color/ctp_mocha_base</color>
+    <color name="darkColorSurface">@color/ctp_mocha_base</color>
 
     <color name="lighterColorSurface">#dddddd</color>
 

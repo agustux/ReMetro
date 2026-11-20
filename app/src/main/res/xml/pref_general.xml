@@ -6,7 +6,7 @@
         android:title="@string/pref_header_general">
 
         <code.name.monkey.appthemehelper.common.prefs.supportv7.ATEListPreference
-            android:defaultValue="auto"
+            android:defaultValue="dark"
             android:entries="@array/pref_general_theme_list_titles"
             android:entryValues="@array/pref_general_theme_list_values"
             android:key="general_theme"
@@ -17,6 +17,7 @@
             app:icon="@drawable/ic_palette_outline" />
 
         <code.name.monkey.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+            android:defaultValue="true"
             android:key="black_theme"
             android:layout="@layout/list_item_view_switch_no_title"
             android:title="@string/black_theme_name" />
