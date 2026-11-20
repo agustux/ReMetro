@@ -20,26 +20,26 @@
                 <path
                     android:name="path"
                     android:pathData="M 335.76 181.285 L 156.573 77.829 C 138.704 67.513 116.396 80.405 116.396 101.044 L 116.396 307.948 C 116.396 328.587 138.737 341.479 156.605 331.163 L 335.76 227.707 C 353.637 217.392 353.637 191.6 335.76 181.285 Z"
-                    android:fillColor="#1E1E2E"
+                    android:fillColor="#45475A"
                     android:strokeWidth="1"/>
                 <group android:name="group">
                     <path
                         android:name="path_1"
                         android:pathData="M 156.605 331.163 C 138.737 341.479 116.396 328.587 116.396 307.948 L 116.362 203.77 C 116.362 203.77 124.741 210.537 152.877 211.235 C 175.274 211.789 188.32 202.943 210.455 206.362 C 242 211.235 253.569 187.161 273.959 181.389 C 283.479 178.695 293.865 183.097 304.502 186.026 C 315.14 188.956 326.03 190.411 336.56 181.823 C 353.61 192.419 353.353 217.585 335.757 227.739 L 156.605 331.163 Z"
-                        android:fillColor="#ffffff"
-                        android:fillAlpha="0.045"
+                        android:fillColor="#585B70"
+                        android:fillAlpha="1"
                         android:strokeWidth="1"/>
                     <path
                         android:name="path_2"
                         android:pathData="M 156.605 331.163 C 138.737 341.479 116.396 328.587 116.396 307.948 L 116.396 195.506 C 116.396 195.506 122.5 191.5 133.5 191.5 C 144.5 191.5 165 209.413 186 209.413 C 205.5 209.413 219.761 197.157 232.878 194.53 C 255.5 190 269.5 203.5 295.235 209.413 C 313.5 213.61 323.5 194.53 347.632 195.518 C 349.736 201.424 349.7 207.882 347.53 213.764 C 345.361 219.647 341.195 224.581 335.76 227.707 L 156.605 331.163 Z"
-                        android:fillColor="#ffffff"
-                        android:fillAlpha="0.07"
+                        android:fillColor="#585B70"
+                        android:fillAlpha="1"
                         android:strokeWidth="1"/>
                     <path
                         android:name="path_3"
                         android:pathData="M 156.605 331.163 C 138.737 341.479 116.396 328.587 116.396 307.948 L 116.34 207.484 C 135.5 199 148 198 163.889 201.361 C 188.089 206.481 223 244 259.611 233.069 C 312.484 217.284 323 221.5 334.299 228.582 L 156.605 331.163 Z"
-                        android:fillColor="#ffffff"
-                        android:fillAlpha="0.045"
+                        android:fillColor="#585B70"
+                        android:fillAlpha="1"
                         android:strokeWidth="1"/>
                 </group>
                 <group android:name="group_1">
@@ -52,7 +52,7 @@
                 <path
                     android:name="path_5"
                     android:pathData="M 116.396 136.268 L 116.396 250.256 L 183.521 250.256 C 190.005 250.261 196.443 249.227 202.554 247.06 L 138.616 136.268 L 116.396 136.268 Z"
-                    android:fillColor="#89DCEB"
+                    android:fillColor="#74C7EC"
                     android:fillAlpha="0"
                     android:strokeWidth="1"/>
                 <path
