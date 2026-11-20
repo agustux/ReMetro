@@ -21,8 +21,8 @@ android {
         }
 
         applicationId = "io.github.agustux.metrox"
-        versionCode = 10703
-        versionName = "7.0.3"
+        versionCode = 1070301
+        versionName = "7.0.3-mx1"
     }
     val signingProperties = getProperties("retro.properties")
     val theSigningConfig = if (signingProperties != null) {

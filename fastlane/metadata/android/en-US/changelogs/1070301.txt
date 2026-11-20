@@ -1,0 +1,8 @@
+First MetroX release, based on Retro Music Player 7.0.3.
+
+• Fully offline: no INTERNET permission
+• Removed Google Play services, Cast, in-app review and Play language downloads
+• Removed Last.fm biographies, Deezer artist images and online lyrics
+• Artist images now use your custom image or the album cover
+• Backups and lyrics are stored under MetroX/
+• New Catppuccin Mocha icon
