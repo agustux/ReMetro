@@ -4,65 +4,60 @@ Guidance for coding agents working in this repository.
 
 ## Project Shape
 
-- This is an Android music player, not a Compose or SwiftUI app.
-- Work from the repository root and use the checked-in Gradle wrapper.
-- Main modules are `:app` and `:appthemehelper`.
-- App code lives under `app/src/main/java/code/name/monkey/retromusic`.
-- Product flavors matter:
-  - `normal` contains Play Billing, Cast, and Play-only behavior.
-  - `fdroid` contains stubs or alternative implementations for store-free builds.
-- Keep flavor-specific code in `app/src/normal` or `app/src/fdroid`; do not reference normal-only classes from `main`.
+- ReMetro: offline, FOSS Android music player, forked from Retro Music Player. XML layouts, Fragments, ViewBinding, Material Components, Navigation/Safe Args. Not Compose.
+- Modules: `:app` and `:appthemehelper`.
+- Package/namespace: `io.github.agustux.remetro` (app), `io.github.agustux.remetro.appthemehelper` (theme helper). App code lives under `app/src/main/java/io/github/agustux/remetro`.
+- Single variant: no product flavors. Source sets are `main` and `debug`.
+- Use the checked-in Gradle wrapper from the repository root, Java 21.
+
+## Offline Only
+
+- No network code, no `INTERNET` permission, no Google/Play/Cast/Firebase/billing libraries. Do not add them, and do not add online features (streaming, downloading, Last.fm/Deezer, online lyrics, update checks, analytics).
+- Local music only.
+- Strings are English only: edit `values/strings.xml`; do not add `values-<locale>` directories or a language picker.
 
 ## Build And Verification
 
-- Use Java 21.
-- Prefer these checks before handing off code changes:
-  - `./gradlew lint`
-  - `./gradlew app:assemble`
-- For a faster local loop, use focused module tasks such as:
-  - `./gradlew :app:assembleNormalDebug`
-  - `./gradlew :app:assembleFdroidDebug`
-- CI currently validates wrapper integrity, `./gradlew lint`, and `./gradlew app:assemble`.
-- There is no substantial test suite in this checkout right now; do not invent broad test scaffolding for a narrow fix unless the change needs it.
+- `./gradlew lint`
+- `./gradlew :app:assembleDebug`
+- `./gradlew assembleRelease` (R8 enabled; run when touching proguard rules, reflection, Glide, Room or Koin).
+- Release signing is optional: put `storeFile`, `keyAlias`, `storePassword`, `keyPassword` in an untracked `signing.properties`; without it the debug key is used.
+- CI (`.github/workflows/android.yml`) runs `./gradlew lint` and `./gradlew app:assemble`, uploading `app/build/outputs/apk/release/*.apk`.
+- No substantial test suite; do not add broad test scaffolding for a narrow fix.
 
 ## Architecture Rules
 
-- `App.kt` owns app startup, Koin startup, billing, crash handling, shortcuts, wallpaper accent setup, and default preferences.
-- `MainModule.kt` is the dependency injection map. Add new repositories, services, and ViewModels there instead of constructing them ad hoc in UI code.
-- `Repository` and `RealRepository` are the app-level data facade. Prefer repository/ViewModel changes over direct data access from fragments or adapters.
-- Room state is in `RetroDatabase` and related DAOs/entities under `db/`. If a schema changes, add a real migration and wire it into `Room.databaseBuilder(...).addMigrations(...)`.
-- MediaStore, Room, tag editing, backup/restore, image decoding, and playlist operations must stay off the main thread. Prefer `viewModelScope` or lifecycle-aware scopes with `Dispatchers.IO`.
-- Avoid unowned background work from adapters, dialogs, or menu helpers. If existing code uses it, keep new work tighter and lifecycle-aware.
-- Keep UI state in ViewModels where possible. Fragments should coordinate views, navigation, and observers rather than becoming data/business logic owners.
+- `App.kt` owns app startup, Koin startup, crash handling, shortcuts, wallpaper accent setup and default preferences.
+- `MainModule.kt` is the DI map. Register new repositories, services and ViewModels there.
+- `Repository` / `RealRepository` is the data facade. Prefer repository/ViewModel changes over direct data access from fragments or adapters.
+- Room: `ReMetroDatabase` and DAOs/entities under `db/`. Schema change requires a real migration wired into `Room.databaseBuilder(...).addMigrations(...)`. Keep entity and table names stable.
+- MediaStore, Room, tag editing, backup/restore, image decoding and playlist operations stay off the main thread (`viewModelScope`, lifecycle scopes, `Dispatchers.IO`).
+- Avoid unowned background work from adapters, dialogs or menu helpers.
+- Keep UI state in ViewModels; fragments coordinate views, navigation and observers.
 
 ## Android UI Rules
 
-- This app uses XML layouts, Fragments, ViewBinding, Material Components, and Navigation/Safe Args. Match those patterns.
-- Reuse existing base fragments, adapters, dialogs, extensions, and helper utilities before adding new framework patterns.
+- Match existing patterns; reuse base fragments, adapters, dialogs, extensions and helpers.
 - Keep `app/src/main/res/navigation/*.xml` in sync with fragment argument changes.
-- Put user-visible strings in resources. Use `donottranslate.xml` only for non-translatable constants.
-- Respect the existing theme system: `appthemehelper`, Material attrs, `values/colors*.xml`, `values/styles*.xml`, dimensions, and night/resource qualifiers.
-- Avoid introducing Jetpack Compose for isolated screens unless the user explicitly asks for a larger UI migration.
+- User-visible strings go in resources; `donottranslate.xml` only for non-user-facing constants.
+- Theming: `appthemehelper` plus Material attrs. Catppuccin colors live in `appthemehelper/src/main/res/values/colors_catppuccin.xml` (Mocha dark/black, Latte light); use them and theme attrs instead of hard-coded colors. Respect `values/styles*.xml`, dimens and night qualifiers.
+- Do not introduce Jetpack Compose for isolated screens.
 
 ## Playback, Artwork, And Performance
 
-- Treat `MusicPlayerRemote`, `service/`, player fragments, widgets, Android Auto, notifications, and Cast as hot paths.
-- Do not block playback or service callbacks with disk, network, MediaStore, Room, or artwork work.
-- Use the existing Glide integration and `RetroGlideExtension` patterns for album art, artist art, palettes, widgets, and notifications.
-- Clear or replace long-lived Glide targets when updating widgets/notifications to avoid leaking stale targets.
-- Be cautious with large libraries: avoid repeated full-list sorting/filtering on the main thread and avoid decoding large artwork directly in render paths.
-- Do not add music downloading or streaming behavior; the app is a local music player.
+- `MusicPlayerRemote`, `service/`, player fragments, widgets, Android Auto and notifications are hot paths. Never block them with disk, MediaStore, Room or artwork work.
+- Use the existing Glide integration (`ReMetroGlideExtension`, `ReMetroGlideModule`) for album/artist art, palettes, widgets and notifications. Clear or replace long-lived Glide targets when updating widgets/notifications.
+- Large libraries: avoid repeated full-list sorting/filtering on the main thread and decoding large artwork in render paths.
 
 ## Dependencies And Generated Files
 
-- Keep dependency versions in `gradle/libs.versions.toml`.
-- Use KSP-backed processors already configured for Room and Glide.
-- Do not edit generated outputs, `.gradle/`, build folders, IDE metadata, or signing/local property files.
-- Do not commit secrets such as `retro.properties`, `public.properties`, keystores, or API keys.
+- Versions live in `gradle/libs.versions.toml`. KSP is used for Room and Glide.
+- Do not edit generated outputs, `.gradle/`, build folders, IDE metadata, or local/signing files.
+- Never commit secrets: `signing.properties`, keystores, API keys.
 
 ## Change Hygiene
 
-- Start with `git status --short` and preserve unrelated user changes.
-- Keep changes scoped; do not perform broad rewrites, dependency upgrades, or style-only churn unless requested.
-- Match surrounding Kotlin/Java style and resource organization. This repo has both Kotlin and Java; prefer the local file's existing language and style.
-- For significant features or refactors, follow `CONTRIBUTING.md`: confirm the direction before investing in a large implementation.
+- Start with `git status --short`; preserve unrelated changes.
+- Keep changes scoped; no broad rewrites, dependency upgrades or style-only churn unless requested.
+- Match the surrounding Kotlin/Java style and resource organization.
+- For significant features or refactors, follow `CONTRIBUTING.md` and confirm direction first.

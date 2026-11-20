@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main, offline ]
   pull_request:
-    branches: [ dev ]
+    branches: [ main, offline ]
 
 jobs:
   check:
@@ -35,4 +35,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: app/build/outputs/apk/release/app-release.apk
+          path: app/build/outputs/apk/release/*.apk

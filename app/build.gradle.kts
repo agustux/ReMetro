@@ -24,7 +24,7 @@ android {
         versionCode = 1070301
         versionName = "7.0.3-rm1"
     }
-    val signingProperties = getProperties("retro.properties")
+    val signingProperties = getProperties("signing.properties")
     val theSigningConfig = if (signingProperties != null) {
         signingConfigs.create("release") {
             storeFile = file(getProperty(signingProperties, "storeFile"))

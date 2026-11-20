@@ -41,3 +41,9 @@ app/normal/release/
 /app/release/
 
 .kotlin
+
+# Signing
+signing.properties
+retro.properties
+*.jks
+*.keystore
