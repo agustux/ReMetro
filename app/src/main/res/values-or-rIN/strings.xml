@@ -65,7 +65,6 @@
         <item quantity="one">ଆଲବମ୍</item>
         <item quantity="other">ଆଲବମ୍‌ଗୁଡ଼ିକ</item>
     </plurals>
-    <string name="app_share">ହେ, ଏହି ଚମତ୍କାର ମ୍ୟୁଜିକ୍ ପ୍ଲେୟାରକୁ ଦେଖନ୍ତୁ: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ସଫଲ୍</string>
     <string name="app_shortcut_top_tracks_short">ଶ୍ରେଷ୍ଠ ଟ୍ରାକ୍</string>
     <string name="app_widget_big_name">ପୂର୍ଣ୍ଣ ଛବି</string>
@@ -257,8 +256,6 @@
     <string name="personalize">ବ୍ୟକ୍ତିଗତ କରନ୍ତୁ</string>
     <string name="personalize_settings_summary">ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଚାଲୁଥିବା ଏବଂ UI ନିୟନ୍ତ୍ରଣଗୁଡ଼ିକୁ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ</string>
     <string name="pick_from_local_storage">ସ୍ଥାନୀୟ ଷ୍ଟୋରେଜରୁ ବାଛନ୍ତୁ</string>
-    <string name="pinterest_page">ପିଣ୍ଟେରେଷ୍ଟ</string>
-    <string name="pinterest_page_summary">ରେଟ୍ରୋ ମ୍ୟୁଜିକ୍ ଡିଜାଇନ୍ ପ୍ରେରଣା ପାଇଁ ପିଣ୍ଟେରେଷ୍ଟ ପେଜ୍ ଅନୁସରଣ କରନ୍ତୁ</string>
     <string name="plain">ସାଧା</string>
     <string name="playback_pitch">ପିଚ୍</string>
     <string name="playback_settings">ପ୍ଲେବ୍ୟାକ୍ ସେଟିଂସମୂହ</string>
@@ -367,8 +364,6 @@
     <string name="pro">ପ୍ରୋ</string>
     <string name="profile">ପ୍ରୋଫାଇଲ୍</string>
     <string name="queue">ପ୍ଲେ କ୍ୟୁ</string>
-    <string name="rate_app">ଆପ୍‌କୁ ରେଟ୍ କରନ୍ତୁ</string>
-    <string name="rate_on_google_play_summary">ଏହି ଆପ୍‌କୁ ଭଲ ପାଉଛନ୍ତି କି? ଗୁଗଲ୍ ପ୍ଲେ ଷ୍ଟୋର୍‌ରେ ଆମକୁ ଜଣାନ୍ତୁ ଆମେ ଏହାକୁ କିପରି ଆହୁରି ଭଲ କରିପାରିବୁ</string>
     <string name="recent_albums">ନିକଟତମ ଆଲବମ୍</string>
     <string name="recent_artists">ନିକଟତମ କଳାକାର</string>
     <string name="remove_action">ଅପସାରଣ କରନ୍ତୁ</string>
@@ -415,8 +410,6 @@
     <string name="selected">ଚୟନିତ</string>
     <string name="set">ସେଟ୍</string>
     <string name="set_artist_image">କଳାକାର ଛବି ସେଟ୍ କରନ୍ତୁ</string>
-    <string name="share_app">ଆପ୍ ସେୟାର କରନ୍ତୁ</string>
-    <string name="share_summary">ଆପଣଙ୍କ ସାଙ୍ଗ ଓ ପରିବାର ସହ ଆପ୍ ସେୟାର କରନ୍ତୁ</string>
     <string name="share_to_stories">ଷ୍ଟୋରୀରେ ସେୟାର କରନ୍ତୁ</string>
     <string name="show_album_artists">ଆଲବମ୍ କଳାକାର ଦେଖାନ୍ତୁ</string>
     <string name="shuffle">ସଫଲ୍</string>
@@ -450,8 +443,6 @@
     <string name="support_development">ବିକାଶକୁ ସମର୍ଥନ କରନ୍ତୁ</string>
     <string name="swipe_to_unlock">ଅନଲକ୍ କରିବାକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ</string>
     <string name="synced_lyrics">ସିଙ୍କ୍ ହୋଇଥିବା ଗୀତ</string>
-    <string name="telegram_group">ଟେଲିଗ୍ରାମ୍</string>
-    <string name="telegram_group_summary">ବଗ୍ ଆଲୋଚନା, ପରାମର୍ଶ ଦେବା, ପ୍ରଦର୍ଶନ କରିବା ଏବଂ ଆହୁରି ଅନେକ କିଛି ପାଇଁ ଟେଲିଗ୍ରାମ୍ ଗ୍ରୁପରେ ଯୋଗ ଦିଅନ୍ତୁ</string>
     <string name="the_audio_file">ଅଡିଓ ଫାଇଲ୍</string>
     <string name="this_month">ଏହି ମାସ</string>
     <string name="this_week">ଏହି ସପ୍ତାହ</string>
@@ -466,8 +457,6 @@
     <string name="track_list">ଟ୍ରାକ୍ ସଂଖ୍ୟା</string>
     <string name="translate">ଅନୁବାଦ କରନ୍ତୁ</string>
     <string name="translate_community">ଆପ୍‌କୁ ଆପଣଙ୍କ ଭାଷାରେ ଅନୁବାଦ କରିବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ</string>
-    <string name="twitter_page">ଟ୍ୱିଟର୍</string>
-    <string name="twitter_page_summary">ଆପଣଙ୍କ ଡିଜାଇନ୍ ରେଟ୍ରୋ ମ୍ୟୁଜିକ୍ ସହ ସେୟାର କରନ୍ତୁ</string>
     <string name="unlabeled">ବିନା ଲେବଲ୍‌ରେ</string>
     <string name="unplayable_file">ଏହି ଗୀତଟି ପ୍ଲେ କରିହେଲାନାହିଁ।</string>
     <string name="up_next">ଏହା ପରେ</string>
@@ -477,7 +466,6 @@
     <string name="user_name">ଉପଭୋକ୍ତା ନାମ</string>
     <string name="version">ସଂସ୍କରଣ</string>
     <string name="vertical_flip">ଭର୍ଟିକାଲ୍ ଫ୍ଲିପ୍</string>
-    <string name="view_on_telegram">ଟେଲିଗ୍ରାମ୍‌ରେ ଦେଖନ୍ତୁ</string>
     <string name="volume">ଭଲ୍ୟୁମ୍</string>
     <string name="web_search">ୱେବ୍ ସନ୍ଧାନ</string>
     <string name="website">ୱେବସାଇଟ୍</string>

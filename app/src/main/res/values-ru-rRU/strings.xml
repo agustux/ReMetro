@@ -69,7 +69,6 @@
         <item quantity="many">Альбомов</item>
         <item quantity="other">Альбомов</item>
     </plurals>
-    <string name="app_share">Привет, попробуй этот классный музыкальный плеер для Android: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Перемешать</string>
     <string name="app_shortcut_top_tracks_short">Лучшие треки</string>
     <string name="app_widget_big_name">Заполнение</string>
@@ -261,8 +260,6 @@
     <string name="personalize">Персонализация</string>
     <string name="personalize_settings_summary">Настройка экрана воспроизведения и интерфейса управления музыкой</string>
     <string name="pick_from_local_storage">Выбрать из хранилища</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Подпишитесь на страницу Retro Music в Pinterest</string>
     <string name="plain">Гладкое</string>
     <string name="playback_pitch">Высота</string>
     <string name="playback_settings">Параметры воспроизведения</string>
@@ -371,8 +368,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Профиль</string>
     <string name="queue">Очередь воспроизведения</string>
-    <string name="rate_app">Оценить приложение</string>
-    <string name="rate_on_google_play_summary">Понравилось приложение? Напишите нам в Google Play Store о том, как мы можем сделать его ещё лучше</string>
     <string name="recent_albums">Недавние альбомы</string>
     <string name="recent_artists">Недавние исполнители</string>
     <string name="remove_action">Удалить</string>
@@ -419,8 +414,6 @@
     <string name="selected">Выбрано</string>
     <string name="set">Установить</string>
     <string name="set_artist_image">Установить изображение исполнителя</string>
-    <string name="share_app">Поделиться приложением</string>
-    <string name="share_summary">Поделитесь приложением со своими друзьями и родственниками</string>
     <string name="share_to_stories">Поделиться в Историях</string>
     <string name="show_album_artists">Не показывать исполнителей альбомов</string>
     <string name="shuffle">Перемешать</string>
@@ -454,8 +447,6 @@
     <string name="support_development">Поддержать разработку</string>
     <string name="swipe_to_unlock">Проведите, чтобы разблокировать</string>
     <string name="synced_lyrics">Синхронизированный текст</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Присоединяйтесь в нашу группу в Telegram, чтобы обсуждать ошибки, предлагать улучшения, хвастаться и т.д.</string>
     <string name="the_audio_file">Аудиофайл</string>
     <string name="this_month">Этот месяц</string>
     <string name="this_week">Эта неделя</string>
@@ -470,8 +461,6 @@
     <string name="track_list">Номер трека</string>
     <string name="translate">Помочь с переводом</string>
     <string name="translate_community">Помогите нам перевести приложение на ваш язык</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Поделитесь своим дизайном Retro Music</string>
     <string name="unlabeled">Не показывать</string>
     <string name="unplayable_file">Невозможно проиграть этот трек.</string>
     <string name="up_next">Следующие треки</string>
@@ -481,7 +470,6 @@
     <string name="user_name">Имя Пользователя</string>
     <string name="version">Версия</string>
     <string name="vertical_flip">Вертикальный поворот</string>
-    <string name="view_on_telegram">Посмотреть в Telegram</string>
     <string name="volume">Громкость</string>
     <string name="web_search">Поиск в интернете</string>
     <string name="website">Наш сайт</string>

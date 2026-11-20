@@ -65,7 +65,6 @@
         <item quantity="one">Álbum</item>
         <item quantity="other">Álbumes</item>
     </plurals>
-    <string name="app_share">Mira este genial reproductor de música en: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Aleatorio</string>
     <string name="app_shortcut_top_tracks_short">Canciones más reproducidas</string>
     <string name="app_widget_big_name">Imagen completa</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Personalizar</string>
     <string name="personalize_settings_summary">Personalizar la ventana de reproducción actual y los controles de la interfaz</string>
     <string name="pick_from_local_storage">Elegir del almacenamiento local</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Síguenos en Pinterest para inspirarte en el diseño de Retro Music</string>
     <string name="plain">Plano</string>
     <string name="playback_pitch">Tono</string>
     <string name="playback_settings">Configuración de reproducción</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Perfil</string>
     <string name="queue">Reproduciendo Cola</string>
-    <string name="rate_app">Califica la aplicación</string>
-    <string name="rate_on_google_play_summary">¿Te encanta la aplicación? Haznos saber en Google Play Store cómo podemos hacerla aún mejor</string>
     <string name="recent_albums">Álbumes recientes</string>
     <string name="recent_artists">Artistas recientes</string>
     <string name="remove_action">Eliminar</string>
@@ -415,8 +410,6 @@
     <string name="selected">Seleccionado</string>
     <string name="set">Establecer</string>
     <string name="set_artist_image">Establecer imagen del artista</string>
-    <string name="share_app">Compartir aplicación</string>
-    <string name="share_summary">Comparte la aplicación con tus amigos y familia</string>
     <string name="share_to_stories">Compartir en Historias</string>
     <string name="show_album_artists">Mostrar Artistas del Álbum</string>
     <string name="shuffle">Aleatorio</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Apoya el desarrollo</string>
     <string name="swipe_to_unlock">Deslizar para desbloquear</string>
     <string name="synced_lyrics">Letras sincronizadas</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Únete al grupo de Telegram para discutir los fallos, hacer sugerencias, presumir y más</string>
     <string name="the_audio_file">El archivo de audio</string>
     <string name="this_month">Este mes</string>
     <string name="this_week">Esta semana</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Número de pista</string>
     <string name="translate">Traducir</string>
     <string name="translate_community">Ayúdanos a traducir la aplicación a tu idioma</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Comparte tu diseño con Retro Music</string>
     <string name="unlabeled">Sin etiqueta</string>
     <string name="unplayable_file">No se pudo reproducir esta canción.</string>
     <string name="up_next">A continuación</string>
@@ -477,7 +466,6 @@
     <string name="user_name">Nombre de Usuario</string>
     <string name="version">Versión</string>
     <string name="vertical_flip">Giro vertical</string>
-    <string name="view_on_telegram">Ver en Telegram</string>
     <string name="volume">Volumen</string>
     <string name="web_search">Buscar en la Web</string>
     <string name="website">Sitio Web</string>

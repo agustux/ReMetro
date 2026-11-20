@@ -65,8 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Album</item>
     </plurals>
-    <string name="app_share">Silav ev lêdera muzîkê ya xweşik li vir binêre:
-https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Tevlîhev bike</string>
     <string name="app_shortcut_top_tracks_short">Baştirîn stran</string>
     <string name="app_widget_big_name">Wêneya tijî</string>
@@ -258,8 +256,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="personalize">Kesanekirin</string>
     <string name="personalize_settings_summary">Kontrolên lêdanê û navrûya bikarhêneriyê xwe kesane bike</string>
     <string name="pick_from_local_storage">Ji bîrgeha herêmî hilbijêre</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Ji bo ramanên dîzayn ên Retro Music rûpela Pinterest bişopîne</string>
     <string name="plain">Sade</string>
     <string name="playback_pitch">Awaz</string>
     <string name="playback_settings">Sazkariyên lêdanê</string>
@@ -369,8 +365,6 @@ têne guhertin</string>
     <string name="pro">Pro</string>
     <string name="profile">Profîl</string>
     <string name="queue">Rêzkirin</string>
-    <string name="rate_app">Sepanê binirxîne</string>
-    <string name="rate_on_google_play_summary">Ji vê sepanê hez dikî? Di Google Play Store de binirxîne û ji me re bêje ka em çawa dikarin sepanê hîn çêtir bikin</string>
     <string name="recent_albums">Albumên dawî</string>
     <string name="recent_artists">Hunermendên dawî</string>
     <string name="remove_action">Rake</string>
@@ -417,8 +411,6 @@ têne guhertin</string>
     <string name="selected">Hilbijartî</string>
     <string name="set">Saz bike</string>
     <string name="set_artist_image">Wêneyê hunermend saz bike</string>
-    <string name="share_app">Sepanê parve bike</string>
-    <string name="share_summary">Sepanê bi heval û malbata xwe re parve bike</string>
     <string name="share_to_stories">Di çîrokan de parve bike</string>
     <string name="show_album_artists">Hunermendê albumê nîşan bide</string>
     <string name="shuffle">Tevlîhev bike</string>
@@ -452,8 +444,6 @@ têne guhertin</string>
     <string name="support_development">Piştgiriya pêşdebirinê bike</string>
     <string name="swipe_to_unlock">Kaş bike ji bo vekirinê</string>
     <string name="synced_lyrics">Peyvên hevdemkirî</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Beşdarî koma Telegram bibe da ku li ser çewtiyan gotûbêj bikî, pêşniyar bikî, û bêtir</string>
     <string name="the_audio_file">Pela dengî</string>
     <string name="this_month">Vê mehê</string>
     <string name="this_week">Vê hefteyê</string>
@@ -468,8 +458,6 @@ têne guhertin</string>
     <string name="track_list">Jimara herikê</string>
     <string name="translate">Wergerandin</string>
     <string name="translate_community">Alîkariya me bike ku em sepanê wergerînin zimanê te</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Dîzayna xwe bi Retro Music re parve bike</string>
     <string name="unlabeled">Nenîşankirî</string>
     <string name="unplayable_file">Nikare vê stranê\u2019 lêdê.</string>
     <string name="up_next">Pêş</string>
@@ -479,7 +467,6 @@ têne guhertin</string>
     <string name="user_name">Navê bikarhêner</string>
     <string name="version">Guherto</string>
     <string name="vertical_flip">Stûnî bizivirîne</string>
-    <string name="view_on_telegram">Li ser Telegramê nîşan bide</string>
     <string name="volume">Deng</string>
     <string name="web_search">Lêgerîna tevnê</string>
     <string name="website">Malpera tevnê</string>

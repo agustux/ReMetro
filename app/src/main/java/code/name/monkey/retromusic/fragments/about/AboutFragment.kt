@@ -17,7 +17,6 @@ package code.name.monkey.retromusic.fragments.about
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.View
-import androidx.core.app.ShareCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -53,15 +52,10 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
     private fun setUpView() {
         binding.aboutContent.cardRetroInfo.appGithub.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.faqLink.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.appRate.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.appTranslation.setOnClickListener(this)
-        binding.aboutContent.cardRetroInfo.appShare.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.donateLink.setOnClickListener(this)
         binding.aboutContent.cardRetroInfo.bugReportLink.setOnClickListener(this)
 
-        binding.aboutContent.cardSocial.telegramLink.setOnClickListener(this)
-        binding.aboutContent.cardSocial.twitterLink.setOnClickListener(this)
-        binding.aboutContent.cardSocial.pinterestLink.setOnClickListener(this)
         binding.aboutContent.cardSocial.websiteLink.setOnClickListener(this)
 
         binding.aboutContent.cardOther.changelog.setOnClickListener(this)
@@ -70,15 +64,10 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.pinterestLink -> openUrl(Constants.PINTEREST)
             R.id.faqLink -> openUrl(Constants.FAQ_LINK)
-            R.id.telegramLink -> openUrl(Constants.APP_TELEGRAM_LINK)
             R.id.appGithub -> openUrl(Constants.GITHUB_PROJECT)
             R.id.appTranslation -> openUrl(Constants.TRANSLATE)
-            R.id.appRate -> openUrl(Constants.RATE_ON_GOOGLE_PLAY)
-            R.id.appShare -> shareApp()
             R.id.donateLink -> NavigationUtil.goToSupportDevelopment(requireActivity())
-            R.id.twitterLink -> openUrl(Constants.APP_TWITTER_LINK)
             R.id.changelog -> NavigationUtil.gotoWhatNews(requireActivity())
             R.id.openSource -> NavigationUtil.goToOpenSource(requireActivity())
             R.id.bugReportLink -> NavigationUtil.bugReport(requireActivity())
@@ -95,19 +84,6 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
             e.printStackTrace()
             "0.0.0"
         }
-    }
-
-    private fun shareApp() {
-        ShareCompat.IntentBuilder(requireActivity()).setType("text/plain")
-            .setChooserTitle(R.string.share_app)
-            .setText(
-                String.format(
-                    java.util.Locale.getDefault(),
-                    getString(R.string.app_share),
-                    requireActivity().packageName
-                )
-            )
-            .startChooser()
     }
 
     private fun loadContributors() {

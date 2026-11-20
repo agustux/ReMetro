@@ -53,7 +53,6 @@
     <string name="album">專輯</string>
     <string name="album_artist">專輯歌手</string>
     <string name="albums">專輯</string>
-    <string name="app_share">哈囉！來看看這個很有型的播放器吧: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">隨機播放</string>
     <string name="app_shortcut_top_tracks_short">歌曲榜</string>
     <string name="app_widget_big_name">大型模式</string>
@@ -198,8 +197,6 @@
     <string name="personalize">個人化</string>
     <string name="personalize_settings_summary">個人化現在播放及用戶界面</string>
     <string name="pick_from_local_storage">由裝置儲存空間選擇</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">加入我們的Pinterest來知道更多Retro Music的設計靈感</string>
     <string name="plain">單色</string>
     <string name="playing_notification_description">播放通知欄包含了播放/暫停等動作。</string>
     <string name="playing_notification_name">播放通知欄</string>
@@ -268,8 +265,6 @@
     <string name="pref_title_toggle_volume">音量控制</string>
     <string name="profile">個人資料</string>
     <string name="queue">播放列表</string>
-    <string name="rate_app">為這個App評分</string>
-    <string name="rate_on_google_play_summary">喜歡這個App嗎?請讓我們知道如何提供更好的體驗</string>
     <string name="recent_albums">近期專輯</string>
     <string name="recent_artists">近期歌手</string>
     <string name="remove_action">移除</string>
@@ -310,7 +305,6 @@
     <string name="selected">已選</string>
     <string name="set">設定</string>
     <string name="set_artist_image">設定歌手相片</string>
-    <string name="share_app">分享程式</string>
     <string name="share_to_stories">分享到故事</string>
     <string name="shuffle">隨機播放</string>
     <string name="simple">簡單</string>
@@ -338,8 +332,6 @@
     <string name="swipe_to_unlock">滑動螢幕以解鎖</string>
     <string name="synced_lyrics">同步歌詞</string>
     <!-- Message displayed when tag editing fails -->
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">加入Telegram群組，討論程式錯誤、給予建議、炫耀一下，還有更多</string>
     <string name="the_audio_file">音樂檔案</string>
     <string name="this_month">這個月</string>
     <string name="this_week">這個星期</string>
@@ -352,8 +344,6 @@
     <string name="track_list">歌曲號碼</string>
     <string name="translate">翻譯</string>
     <string name="translate_community">協助我們將這個應用程式翻譯成為您的語言</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">分享您的Retro Music設計</string>
     <string name="unlabeled">未標記</string>
     <string name="unplayable_file">\u7121\u6cd5\u64ad\u653e\u9019\u9996\u6b4c\u66f2\u3002</string>
     <string name="up_next">下一首</string>

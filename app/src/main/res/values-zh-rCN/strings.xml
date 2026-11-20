@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">专辑</item>
     </plurals>
-    <string name="app_share">嘿，快来瞧瞧这个酷炫的音乐播放器：https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">随机播放</string>
     <string name="app_shortcut_top_tracks_short">热门曲目</string>
     <string name="app_widget_big_name">完整图像</string>
@@ -255,8 +254,6 @@
     <string name="personalize">个性化</string>
     <string name="personalize_settings_summary">自定义正在播放控件和UI控件</string>
     <string name="pick_from_local_storage">从本地存储选取</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">在 Pintrest 页面关注 Retro Music 的设计灵感</string>
     <string name="plain">简洁</string>
     <string name="playback_pitch">音高</string>
     <string name="playback_settings">播放设置</string>
@@ -366,8 +363,6 @@
     <string name="pro">高级版</string>
     <string name="profile">个人信息</string>
     <string name="queue">播放队列</string>
-    <string name="rate_app">评价应用</string>
-    <string name="rate_on_google_play_summary">喜欢这个应用？去 Google Play 商店告诉我们怎样才能让它更好</string>
     <string name="recent_albums">最近专辑</string>
     <string name="recent_artists">最近艺术家</string>
     <string name="remove_action">移除</string>
@@ -414,8 +409,6 @@
     <string name="selected">仅选中</string>
     <string name="set">设置</string>
     <string name="set_artist_image">设置艺术家图片</string>
-    <string name="share_app">分享应用</string>
-    <string name="share_summary">与您的朋友和家人分享此应用</string>
     <string name="share_to_stories">分享到故事</string>
     <string name="show_album_artists">显示专辑艺术家</string>
     <string name="shuffle">随机播放</string>
@@ -449,8 +442,6 @@
     <string name="support_development">支持开发者</string>
     <string name="swipe_to_unlock">滑动以解锁</string>
     <string name="synced_lyrics">歌词同步</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">加入 Telegram 群组，讨论错误，提出建议，水群聊天等等</string>
     <string name="the_audio_file">音频文件</string>
     <string name="this_month">本月</string>
     <string name="this_week">本周</string>
@@ -465,8 +456,6 @@
     <string name="track_list">音轨编号</string>
     <string name="translate">翻译</string>
     <string name="translate_community">帮助我们将应用翻译成您的语言</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">与 Retro Music 分享您的设计</string>
     <string name="unlabeled">无标签</string>
     <string name="unplayable_file">无法播放这首歌曲。</string>
     <string name="up_next">下一首</string>
@@ -476,7 +465,6 @@
     <string name="user_name">用户名</string>
     <string name="version">版本</string>
     <string name="vertical_flip">垂直翻转</string>
-    <string name="view_on_telegram">在 Telegram 上查看</string>
     <string name="volume">音量</string>
     <string name="web_search">网络搜索</string>
     <string name="website">网站</string>

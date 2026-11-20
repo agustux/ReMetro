@@ -14,17 +14,14 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.core.content.pm.PackageInfoCompat
-import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.FragmentActivity
 import code.name.monkey.appthemehelper.util.ATHUtil.isWindowBackgroundDark
 import code.name.monkey.appthemehelper.util.ColorUtil.isColorLight
 import code.name.monkey.appthemehelper.util.ColorUtil.lightenColor
 import code.name.monkey.appthemehelper.util.MaterialValueHelper.getPrimaryTextColor
 import code.name.monkey.retromusic.BuildConfig
-import code.name.monkey.retromusic.Constants
 import code.name.monkey.retromusic.databinding.FragmentWhatsNewBinding
 import code.name.monkey.retromusic.extensions.accentColor
-import code.name.monkey.retromusic.extensions.openUrl
 import code.name.monkey.retromusic.util.PreferenceUtil.lastVersion
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.nio.charset.StandardCharsets
@@ -104,19 +101,6 @@ class WhatsNewFragment : BottomSheetDialogFragment() {
             )
         }
         setChangelogRead(requireContext())
-        binding.tgFab.setOnClickListener {
-            openUrl(Constants.TELEGRAM_CHANGE_LOG)
-        }
-        binding.tgFab.accentColor()
-        binding.tgFab.shrink()
-        binding.container.setOnScrollChangeListener { _: NestedScrollView?, _: Int, scrollY: Int, _: Int, oldScrollY: Int ->
-            val dy = scrollY - oldScrollY
-            if (dy > 0) {
-                binding.tgFab.shrink()
-            } else if (dy < 0) {
-                binding.tgFab.extend()
-            }
-        }
     }
 
     override fun onDestroy() {

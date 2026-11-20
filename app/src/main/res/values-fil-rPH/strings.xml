@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Mga Album</item>
     </plurals>
-    <string name="app_share">Uy tingnan ang napakagandang music player na ito sa: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Balasahin</string>
     <string name="app_shortcut_top_tracks_short">Mga Nangungunang Kanta</string>
     <string name="app_widget_big_name">Buong Larawan</string>
@@ -257,8 +256,6 @@
     <string name="personalize">I-Personalize</string>
     <string name="personalize_settings_summary">I-customize ang iyong nagpe-play ngayon at ang UI kontrol</string>
     <string name="pick_from_local_storage">Kumuha mula sa local storage</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Sundin ang pahina ng Pinterest para sa inspirasyon sa disenyo ng Retro Music</string>
     <string name="plain">Payak</string>
     <string name="playback_pitch">Pitch</string>
     <string name="playback_settings">Playback Settings</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profile</string>
     <string name="queue">Playing Queue</string>
-    <string name="rate_app">Mag rate sa app</string>
-    <string name="rate_on_google_play_summary">Gustung-gusto ang app na ito? Ipaalam sa amin sa Google Play Store kung paano namin ito mapapahusay</string>
     <string name="recent_albums">Mga kamakailang album</string>
     <string name="recent_artists">Mga kamakailang artista</string>
     <string name="remove_action">Alisin</string>
@@ -415,8 +410,6 @@
     <string name="selected">Napili na</string>
     <string name="set">Itakda</string>
     <string name="set_artist_image">Itakda ang larawan ng artista</string>
-    <string name="share_app">Ibahagi ang app</string>
-    <string name="share_summary">Ibahagi ang app sa iyong mga kaibigan at pamilya</string>
     <string name="share_to_stories">Ibahagi sa Mga Story</string>
     <string name="show_album_artists">Ipakita ang mga Album Artist</string>
     <string name="shuffle">Balasahin</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Suportahan ang pag-unlad</string>
     <string name="swipe_to_unlock">I-swipe para ma-unlock</string>
     <string name="synced_lyrics">Naka-sync na lyrics</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Sumali sa Telegram group upang talakayin ang mga bug, magmungkahi, magpakitang gilas at higit pa</string>
     <string name="the_audio_file">Ang audio file</string>
     <string name="this_month">Sa buwang ito</string>
     <string name="this_week">Sa linggong ito</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Numero ng track</string>
     <string name="translate">Isalin</string>
     <string name="translate_community">Tulungan kaming isalin ang app sa iyong wika</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Ibahagi ang iyong disenyo sa Retro Music</string>
     <string name="unlabeled">Walang label</string>
     <string name="unplayable_file">Hindi ma-play ang kantang ito.</string>
     <string name="up_next">Susunod</string>
@@ -477,7 +466,6 @@
     <string name="user_name">User Name</string>
     <string name="version">Bersyon</string>
     <string name="vertical_flip">Pini-flip ng patayo</string>
-    <string name="view_on_telegram">Tingnan sa Telegram</string>
     <string name="volume">Volume</string>
     <string name="web_search">Maghanap sa web</string>
     <string name="website">Website</string>

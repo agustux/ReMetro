@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">Album</item>
     </plurals>
-    <string name="app_share">Hai, cobalah pemutar musik keren ini di: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Acak</string>
     <string name="app_shortcut_top_tracks_short">Lagu Teratas</string>
     <string name="app_widget_big_name">Gambar penuh</string>
@@ -255,8 +254,6 @@
     <string name="personalize">Personalisasi</string>
     <string name="personalize_settings_summary">Sesuaikan pemutar dan antarmuka Anda</string>
     <string name="pick_from_local_storage">Pilih dari penyimpanan lokal</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Ikuti halaman Pinterest untuk inspirasi desain Retro Music</string>
     <string name="plain">Polos</string>
     <string name="playback_pitch">Nada</string>
     <string name="playback_settings">Setelan Pemutaran</string>
@@ -365,8 +362,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profil</string>
     <string name="queue">Antrean Putar</string>
-    <string name="rate_app">Beri nilai aplikasi</string>
-    <string name="rate_on_google_play_summary">Suka aplikasi ini? Beritahu kami di Google Play Store agar kami bisa membuatnya lebih baik</string>
     <string name="recent_albums">Album terbaru</string>
     <string name="recent_artists">Artis terbaru</string>
     <string name="remove_action">Hapus</string>
@@ -413,8 +408,6 @@
     <string name="selected">Terpilih</string>
     <string name="set">Setel</string>
     <string name="set_artist_image">Setel gambar artis</string>
-    <string name="share_app">Bagikan aplikasi</string>
-    <string name="share_summary">Bagikan aplikasi dengan teman dan keluarga Anda</string>
     <string name="share_to_stories">Bagikan ke Cerita</string>
     <string name="show_album_artists">Tampilkan Artis Album</string>
     <string name="shuffle">Acak</string>
@@ -448,8 +441,6 @@
     <string name="support_development">Dukung pengembangan</string>
     <string name="swipe_to_unlock">Geser untuk membuka</string>
     <string name="synced_lyrics">Lirik yang tersinkron</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Gabung grup telegram untuk diskusikan bug, buat saran, pamer dan lainnya</string>
     <string name="the_audio_file">File audio</string>
     <string name="this_month">Bulan ini</string>
     <string name="this_week">Minggu ini</string>
@@ -464,8 +455,6 @@
     <string name="track_list">Nomor trek</string>
     <string name="translate">Terjemahan</string>
     <string name="translate_community">Bantu kami terjemahkan aplikasi ke dalam bahasa Anda</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Bagikan desain Anda dengan Musik Retro</string>
     <string name="unlabeled">Tidak berlabel</string>
     <string name="unplayable_file">Tidak dapat\u2019 memutar lagu ini.</string>
     <string name="up_next">Berikutnya</string>
@@ -475,7 +464,6 @@
     <string name="user_name">Nama Pengguna</string>
     <string name="version">Versi</string>
     <string name="vertical_flip">Vertikal</string>
-    <string name="view_on_telegram">Lihat di Telegram</string>
     <string name="volume">Volume</string>
     <string name="web_search">Pencarian web</string>
     <string name="website">Situs web</string>

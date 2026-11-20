@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">အယ်လ်ဘမ်များ</item>
     </plurals>
-    <string name="app_share">ဟေ့ အရမ်းမိုက်တဲ့ဒီ Music Player ကိုတစ်ချက်ကြည့်ကြည့်! https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ကျရာ</string>
     <string name="app_shortcut_top_tracks_short">ထိပ်ဆုံးသီချင်းများ</string>
     <string name="app_widget_big_name">ဓာတ်ပုံအပြည့်</string>
@@ -255,8 +254,6 @@
     <string name="personalize">မိမိစိတ်ကြိုက်</string>
     <string name="personalize_settings_summary">Now Playing နှင့် UI controls များကိုစိတ်ကြိုက်ပြင်ဆင်မည်</string>
     <string name="pick_from_local_storage">Local Storage မှ ရွေးမည်</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Retro Music ဒီဇိုင်းအကြံဉာဏ်ကောင်းများအတွက် Pinterest page ကို follow ပါ</string>
     <string name="plain">ရှင်းရှင်းလင်းလင်းပုံစံ</string>
     <string name="playback_pitch">Pitch</string>
     <string name="playback_settings">Playback Settings</string>
@@ -365,8 +362,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profile</string>
     <string name="queue">နားထောင်နေသည့်စာရင်း</string>
-    <string name="rate_app">ဤ app ကို star ပေးမည်</string>
-    <string name="rate_on_google_play_summary">App ကိုကြိုက်ပါသလား။ ယခုထက်ပိုကောင်းမွန်အောင်ဘယ်လိုလုပ်ရမလဲဆိုတာ ကျွန်တော်တို့ကို Google Play Store မှာပြောပြပေးပါ။</string>
     <string name="recent_albums">မကြာသေးခင်ကနားထောင်ထားသော Album များ</string>
     <string name="recent_artists">မကြာသေးခင်ကနားထောင်ထားသော အဆိုတော်များ</string>
     <string name="remove_action">ပယ်ဖျက်မည်</string>
@@ -413,8 +408,6 @@
     <string name="selected">ရွေးချယ်ထားသော</string>
     <string name="set">ထားမည်</string>
     <string name="set_artist_image">အဆိုတော်ပုံအဖြစ်ထားမည်</string>
-    <string name="share_app">App ကိုမျှဝေမည်</string>
-    <string name="share_summary">သင့်မိသားစုနှင့် သူငယ်ချင်းများကိုပြန်လည်မျှဝေလိုက်ပါ</string>
     <string name="share_to_stories">Stories သို့မျှဝေမည်</string>
     <string name="show_album_artists">Show Album Artists</string>
     <string name="shuffle">ကျရာ</string>
@@ -448,8 +441,6 @@
     <string name="support_development">Support development</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">ချိန်ကိုက်ထားသောသီချင်းစာသား</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Bugs များကို ဆွေးနွေးရန်၊ အကြံပြုချက်များပေးရန်၊ ကြွားရန်နှင့် စသည်များ...</string>
     <string name="the_audio_file">အသံဖိုင်</string>
     <string name="this_month">ယခုလ</string>
     <string name="this_week">ယခုအပတ်</string>
@@ -464,8 +455,6 @@
     <string name="track_list">အပုဒ်နံပါတ်</string>
     <string name="translate">ဘာသာပြန်ခြင်း</string>
     <string name="translate_community">App ကိုသင့်ဘာသာစကားသို့ ကူပြန်ပေးပါ</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">သင့် Retro Music ဒီဇိုင်းများကိုမျှဝေပါ</string>
     <string name="unlabeled">Label မထိုးပါ</string>
     <string name="unplayable_file">ဤသီချင်းကို မ play နိုင်ပါ</string>
     <string name="up_next">လာမည့်အပုဒ်</string>
@@ -475,7 +464,6 @@
     <string name="user_name">သုံးစွဲသူ</string>
     <string name="version">Version</string>
     <string name="vertical_flip">ဒေါင်လိုက်ဟိုဘက်ဒီဘက်လှန်ခြင်း</string>
-    <string name="view_on_telegram">View on Telegram</string>
     <string name="volume">အသံအတိုးအကျယ်</string>
     <string name="web_search">Web search</string>
     <string name="website">Website</string>

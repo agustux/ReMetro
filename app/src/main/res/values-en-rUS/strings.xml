@@ -72,7 +72,6 @@
     </plurals>
 
 
-    <string name="app_share">Hey check out this cool music player at: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Shuffle</string>
     <string name="app_shortcut_top_tracks_short">Top Tracks</string>
     <string name="app_widget_big_name">Big</string>
@@ -303,8 +302,6 @@
 
     <string name="pick_from_local_storage">Pick from local storage</string>
 
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
 
     <string name="plain">Plain</string>
 
@@ -385,8 +382,6 @@
 
     <string name="queue">Playing Queue</string>
 
-    <string name="rate_app">Rate the app</string>
-    <string name="rate_on_google_play_summary">Love this app? Let us know in the Google Play Store how we can make it even better</string>
 
     <string name="recent_albums">Recent albums</string>
     <string name="recent_artists">Recent artists</string>
@@ -444,7 +439,6 @@
     <string name="set">Set</string>
     <string name="set_artist_image">Set artist image</string>
 
-    <string name="share_app">Share app</string>
     <string name="share_to_stories">Share to Stories</string>
 
     <string name="shuffle">Shuffle</string>
@@ -486,8 +480,6 @@
     <string name="synced_lyrics">Synced lyrics</string>
 
     <!-- Message displayed when tag editing fails -->
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Join the Telegram group to discuss bugs, make suggestions, show off and more</string>
 
     <string name="the_audio_file">The audio file</string>
 
@@ -509,8 +501,6 @@
     <string name="translate">Translate</string>
     <string name="translate_community">Help us translate the app to your language</string>
 
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Share your design with Retro Music</string>
 
     <string name="unlabeled">Unlabeled</string>
 

@@ -69,7 +69,6 @@
         <item quantity="many">Alb</item>
         <item quantity="other">Alb</item>
     </plurals>
-    <string name="app_share">Ahoj, podívej se na tento cool hudební přehrávač na: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Přehrát náhodně</string>
     <string name="app_shortcut_top_tracks_short">Nejlepší Skladby</string>
     <string name="app_widget_big_name">Celý Obrázek</string>
@@ -261,8 +260,6 @@
     <string name="personalize">Přizpůsobit</string>
     <string name="personalize_settings_summary">Přizpůsobte si stránku přehrávání a UI ovládání</string>
     <string name="pick_from_local_storage">Vyberte z místního úložiště</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Pro design inspiraci sledujte Pinterest Retro Music </string>
     <string name="plain">Klasické</string>
     <string name="playback_pitch">Výška</string>
     <string name="playback_settings">Nastavení přehrávání</string>
@@ -371,8 +368,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profil</string>
     <string name="queue">Fronta</string>
-    <string name="rate_app">Ohodnoťte aplikaci</string>
-    <string name="rate_on_google_play_summary">Zanechte pozitivní hodnocení na Google Play pokud máte rádi Retro music.</string>
     <string name="recent_albums">Nedávná alba</string>
     <string name="recent_artists">Nedávní umělci</string>
     <string name="remove_action">Odstranit</string>
@@ -419,8 +414,6 @@
     <string name="selected">Selected</string>
     <string name="set">Set</string>
     <string name="set_artist_image">Set artist image</string>
-    <string name="share_app">Sdílet aplikaci</string>
-    <string name="share_summary">Sdílejte aplikaci s přáteli a rodinou</string>
     <string name="share_to_stories">Sdílet do příběhu</string>
     <string name="show_album_artists">Show Album Artists</string>
     <string name="shuffle">Náhodně</string>
@@ -454,8 +447,6 @@
     <string name="support_development">Podpora vývoje</string>
     <string name="swipe_to_unlock">Odemkněte posunutím prstu</string>
     <string name="synced_lyrics">Synchronizované texty</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Připojte se ke skupině na Telegramu, abyste mohli diskutovat o chybách, předkládat návrhy, předvádět se a více</string>
     <string name="the_audio_file">Audio soubor</string>
     <string name="this_month">Tento měsíc</string>
     <string name="this_week">Tento týden</string>
@@ -470,8 +461,6 @@
     <string name="track_list">Číslo skladby</string>
     <string name="translate">Překlad</string>
     <string name="translate_community">Pomožte nám přeložit tuto aplikaci do vašeho jazyka</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Sdílejte svůj design s Retro Music</string>
     <string name="unlabeled">Bez štítku</string>
     <string name="unplayable_file">Tuto p\u00edse\u0148 se nepoda\u0159ilo p\u0159ehr\u00e1t.</string>
     <string name="up_next">Další</string>
@@ -481,7 +470,6 @@
     <string name="user_name">Uživatelské Jméno</string>
     <string name="version">Verze</string>
     <string name="vertical_flip">Vertikální otočení</string>
-    <string name="view_on_telegram">View on Telegram</string>
     <string name="volume">Hlasitost</string>
     <string name="web_search">Webové vyhledávání</string>
     <string name="website">Website</string>

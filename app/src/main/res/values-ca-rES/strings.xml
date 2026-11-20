@@ -65,7 +65,6 @@
         <item quantity="one">Àlbum</item>
         <item quantity="other">Àlbums</item>
     </plurals>
-    <string name="app_share">Dona una ullada a aquest reproductor de música a: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Reprodueix aleatòriament</string>
     <string name="app_shortcut_top_tracks_short">Cançons més reproduïdes</string>
     <string name="app_widget_big_name">Imatge sencera</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Personalitzar</string>
     <string name="personalize_settings_summary">Personalitzeu els controls de la interfície d\'usuari i de la reproducció en curs</string>
     <string name="pick_from_local_storage">Tria des del dispositiu</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Seguiu la pàgina de Pinterest per a la inspiració en el disseny del Retro Music</string>
     <string name="plain">Simple</string>
     <string name="playback_pitch">To</string>
     <string name="playback_settings">Configuració de reproducció</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Perfil</string>
     <string name="queue">Cua de reproducció</string>
-    <string name="rate_app">Valora l\'aplicació</string>
-    <string name="rate_on_google_play_summary">T\'agrada aquesta aplicació? Feu-nos saber a Google Play Store com podem fer-ho encara millor</string>
     <string name="recent_albums">Àlbums recents</string>
     <string name="recent_artists">Artistes recents</string>
     <string name="remove_action">Esborrar</string>
@@ -415,8 +410,6 @@
     <string name="selected">Seleccionat</string>
     <string name="set">Estableix</string>
     <string name="set_artist_image">Estableix la imatge de l\'artista</string>
-    <string name="share_app">Comparteix l\'aplicació</string>
-    <string name="share_summary">Comparteix l\'aplicació amb els teus amics i familiars</string>
     <string name="share_to_stories">Comparteix les històries</string>
     <string name="show_album_artists">Mostra els artistes de l\'àlbum</string>
     <string name="shuffle">Reprodueix aleatòriament</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Doneu suport al desenvolupament</string>
     <string name="swipe_to_unlock">Llisqueu per desbloquejar</string>
     <string name="synced_lyrics">Lletra sincronitzada</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Uniu-vos al grup Telegram per a discutir els errors, fer suggeriments, presumir i més</string>
     <string name="the_audio_file">El fitxer d\'àudio</string>
     <string name="this_month">Aquest mes</string>
     <string name="this_week">Aquesta setmana</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Número de pista</string>
     <string name="translate">Tradueix</string>
     <string name="translate_community">Ajuda\'ns a traduir l\'aplicació al teu idioma</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Comparteix el teu disseny amb Retro Music</string>
     <string name="unlabeled">Sense etiqueta</string>
     <string name="unplayable_file">No s\'ha pogut reproduir aquesta cançó.</string>
     <string name="up_next">A continuació</string>
@@ -477,7 +466,6 @@
     <string name="user_name">Nom d\'usuari</string>
     <string name="version">Versió</string>
     <string name="vertical_flip">Inverteix verticalment</string>
-    <string name="view_on_telegram">Veure a Telegram</string>
     <string name="volume">Volum</string>
     <string name="web_search">Cerca al web</string>
     <string name="website">Lloc web</string>

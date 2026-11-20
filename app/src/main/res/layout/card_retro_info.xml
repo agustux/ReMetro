@@ -56,19 +56,6 @@
 
 
         <code.name.monkey.retromusic.views.ListItemView
-            android:id="@+id/appRate"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constrainedWidth="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/appTranslation"
-            app:listItemIcon="@drawable/ic_star"
-            app:listItemSummary="@string/rate_on_google_play_summary"
-            app:listItemTitle="@string/rate_app" />
-
-        <code.name.monkey.retromusic.views.ListItemView
             android:id="@+id/donateLink"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -76,7 +63,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/appRate"
+            app:layout_constraintTop_toBottomOf="@id/appTranslation"
             app:listItemIcon="@drawable/ic_gift"
             app:listItemSummary="@string/donate_summary"
             app:listItemTitle="@string/donate" />
@@ -97,19 +84,6 @@
 
 
         <code.name.monkey.retromusic.views.ListItemView
-            android:id="@+id/appShare"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constrainedWidth="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/bugReportLink"
-            app:listItemIcon="@drawable/ic_share"
-            app:listItemSummary="@string/share_summary"
-            app:listItemTitle="@string/action_share" />
-
-        <code.name.monkey.retromusic.views.ListItemView
             android:id="@+id/faqLink"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -117,7 +91,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/appShare"
+            app:layout_constraintTop_toBottomOf="@id/bugReportLink"
             app:listItemIcon="@drawable/ic_help"
             app:listItemSummary="@string/help_summary"
             app:listItemTitle="@string/faq" />

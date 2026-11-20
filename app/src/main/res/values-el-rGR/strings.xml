@@ -65,7 +65,6 @@
         <item quantity="one">Άλμπουμ</item>
         <item quantity="other">Άλμπουμς</item>
     </plurals>
-    <string name="app_share">Τσεκάρετε αυτόν τον φανταστικό music player στο: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Τυχαία αναπαραγωγή</string>
     <string name="app_shortcut_top_tracks_short">Κορυφαία κομμάτια</string>
     <string name="app_widget_big_name">Πλήρης εικόνα</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Προσωποποιήση</string>
     <string name="personalize_settings_summary">Προσαρμόστε τα στοιχεία ελέγχου του παίζετε τώρα και του περιβάλλοντως χρήστη</string>
     <string name="pick_from_local_storage">Επιλογή από Χώρο Αποθήκευσης</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Ακολουθήστε τη σελίδα Pinterest για έμπνευση σχεδιασμού του Retro Music</string>
     <string name="plain">Απλό</string>
     <string name="playback_pitch">Τόνος</string>
     <string name="playback_settings">Ρυθμίσεις αναπαραγωγής</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Προφίλ</string>
     <string name="queue">Ουρά αναπαραγωγής</string>
-    <string name="rate_app">Βαθμολόγησε την εφαρμογή</string>
-    <string name="rate_on_google_play_summary">Σας αρέσει η εφαρμογή; Γράψτε μας στο Google Play πώς να την κάνουμε ακόμα καλύτερη</string>
     <string name="recent_albums">Πρόσφατα άλμπουμ</string>
     <string name="recent_artists">Πρόσφατοι καλλιτέχνες</string>
     <string name="remove_action">Αφαίρεση</string>
@@ -415,8 +410,6 @@
     <string name="selected">Επιλεγμένα</string>
     <string name="set">Ορισμός</string>
     <string name="set_artist_image">Ορισμός εικόνας καλλιτέχνη</string>
-    <string name="share_app">Κοινοποιήστε την εφαρμογή</string>
-    <string name="share_summary">Μοιραστείτε την εφαρμογή με τους φίλους και την οικογένειά σας</string>
     <string name="share_to_stories">Κοινοποίηση στις Ιστορίες</string>
     <string name="show_album_artists">Εμφάνιση καλλιτεχνών άλμπουμ</string>
     <string name="shuffle">Τυχαία αναπαραγωγή</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Υποστήριξη ανάπτυξης της εφαρμογής</string>
     <string name="swipe_to_unlock">Σύρετε για ξεκλείδωμα</string>
     <string name="synced_lyrics">Συγχρονισμένοι στίχοι</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Γίνετε μέλος της ομάδας Telegram για να συζητήσετε σφάλματα, να κάνετε προτάσεις και άλλα</string>
     <string name="the_audio_file">Το αρχείο ήχου</string>
     <string name="this_month">Αυτό το μήνα</string>
     <string name="this_week">Αυτή την εβδομάδα</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Αριθμός κομματιού</string>
     <string name="translate">Μετάφραση</string>
     <string name="translate_community">Βοηθήστε μας να μεταφράσουμε την εφαρμογή στη γλώσσα σας</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Μοιραστείτε το σχέδιό σας με το Retro Music</string>
     <string name="unlabeled">Χωρίς ετικέτα</string>
     <string name="unplayable_file">Αδυναμία αναπαραγωγής αυτού του κομματιού.</string>
     <string name="up_next">Επόμενο</string>
@@ -477,7 +466,6 @@
     <string name="user_name">Όνομα Χρήστη</string>
     <string name="version">Έκδοση</string>
     <string name="vertical_flip">Κάθετη αναστροφή</string>
-    <string name="view_on_telegram">Προβολή στο Telegram</string>
     <string name="volume">Ένταση</string>
     <string name="web_search">Αναζήτηση στον ιστό</string>
     <string name="website">Ιστοσελίδα</string>

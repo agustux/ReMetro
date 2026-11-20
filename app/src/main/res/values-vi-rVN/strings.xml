@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">Album</item>
     </plurals>
-    <string name="app_share">Hãy dùng thử trình phát nhạc siêu chất này tại: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Ngẫu nhiên</string>
     <string name="app_shortcut_top_tracks_short">Bản nhạc hàng đầu</string>
     <string name="app_widget_big_name">Hình ảnh đầy đủ</string>
@@ -256,8 +255,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="personalize">Cá nhân hoá</string>
     <string name="personalize_settings_summary">Tùy chỉnh màn hình phát và giao diện người dùng</string>
     <string name="pick_from_local_storage">Chọn từ bộ nhớ trong</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Theo dõi trang Pinterest để lấy cảm hứng thiết kế Retro Music</string>
     <string name="plain">Giản dị</string>
     <string name="playback_pitch">Cao độ</string>
     <string name="playback_settings">Cài đặt phát lại</string>
@@ -366,8 +363,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="pro">Pro</string>
     <string name="profile">Hồ sơ</string>
     <string name="queue">Danh sách chờ phát</string>
-    <string name="rate_app">Đánh giá ứng dụng</string>
-    <string name="rate_on_google_play_summary">Bạn thích ứng dụng này chứ? Hãy cho chúng tôi biết cảm nhận của bạn trên Cửa hàng Google Play để chúng tôi có thể hoàn thiện sản phẩm tốt hơn nữa nhé</string>
     <string name="recent_albums">Album mới thêm</string>
     <string name="recent_artists">Nghệ sĩ mới thêm</string>
     <string name="remove_action">Loại bỏ</string>
@@ -414,8 +409,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="selected">Đã chọn</string>
     <string name="set">Cấu hình</string>
     <string name="set_artist_image">Đặt ảnh nghệ sĩ thủ công</string>
-    <string name="share_app">Chia sẽ ứng dụng</string>
-    <string name="share_summary">Chia sẻ ứng dụng với bạn bè và gia đình của bạn</string>
     <string name="share_to_stories">Chia sẻ đến Các story</string>
     <string name="show_album_artists">Hiển thị Album Nghệ sĩ</string>
     <string name="shuffle">Ngẫu nhiên</string>
@@ -449,8 +442,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="support_development">Hỗ trợ nhà phát triển</string>
     <string name="swipe_to_unlock">Trượt để mở khóa</string>
     <string name="synced_lyrics">Lời Đồng bộ</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Tham gia nhóm Telegram để thảo luận về lỗi, đưa ra đề xuất, và hơn thế nữa</string>
     <string name="the_audio_file">Tệp âm thanh</string>
     <string name="this_month">Mỗi tháng</string>
     <string name="this_week">Mỗi tuần</string>
@@ -465,8 +456,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="track_list">Số rãnh</string>
     <string name="translate">Dịch</string>
     <string name="translate_community">Hãy giúp chúng tôi dịch ứng dụng sang ngôn ngữ của bạn nhé</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Chia sẻ thiết kế của bạn với Retro Music</string>
     <string name="unlabeled">Chưa gắn nhãn</string>
     <string name="unplayable_file">Không thể phát bài hát này.</string>
     <string name="up_next">Tiếp theo</string>
@@ -476,7 +465,6 @@ tiếp tục xảy ra hãy \"Xóa dữ liệu ứng dụng\"</string>
     <string name="user_name">Người dùng</string>
     <string name="version">Phiên bản</string>
     <string name="vertical_flip">Lật dọc</string>
-    <string name="view_on_telegram">Xem trên Telegram</string>
     <string name="volume">Âm lượng</string>
     <string name="web_search">Tìm kiếm trên web</string>
     <string name="website">Website</string>

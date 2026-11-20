@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">อัลบัม</item>
     </plurals>
-    <string name="app_share">มาลองแอปพลิเคชันเล่นเพลงเจ๋งๆ ได้ที่นี่: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">สุ่ม</string>
     <string name="app_shortcut_top_tracks_short">เพลงยอดนิยม</string>
     <string name="app_widget_big_name">Full Image</string>
@@ -255,8 +254,6 @@
     <string name="personalize">ปรับแต่ง</string>
     <string name="personalize_settings_summary">ตั้งค่าหน้า Now playing และปุ่มต่างๆของคุณ</string>
     <string name="pick_from_local_storage">เลือกจากในเครื่อง</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">ติดตาม Pinterest ของ Retro Music สำหรับแรงบรรดาลใจในการออกแบบ</string>
     <string name="plain">Plain</string>
     <string name="playback_pitch">Pitch</string>
     <string name="playback_settings">Playback Settings</string>
@@ -365,8 +362,6 @@
     <string name="pro">โปร</string>
     <string name="profile">โปรไฟล์</string>
     <string name="queue">คิวเพลง</string>
-    <string name="rate_app">ให้คะแนนแอป</string>
-    <string name="rate_on_google_play_summary">ชอบแอปนี้ไหม? บอกพวกเราให้รู้ด้วยการรีวิวบน Google Play Store สิ</string>
     <string name="recent_albums">อัลบัมล่าสุด</string>
     <string name="recent_artists">ศิลปินล่าสุด</string>
     <string name="remove_action">ลบ</string>
@@ -413,8 +408,6 @@
     <string name="selected">ที่เลือก</string>
     <string name="set">กำหนดค่า</string>
     <string name="set_artist_image">กำหนดค่ารูปศิลปิน</string>
-    <string name="share_app">แชร์แอป</string>
-    <string name="share_summary">แชร์แอปให้กับเพื่อนและครอบครัวของคุณ</string>
     <string name="share_to_stories">แชร์ไปที่ Stories</string>
     <string name="show_album_artists">แสดงอัลบัมศิลปิน</string>
     <string name="shuffle">สุ่ม</string>
@@ -448,8 +441,6 @@
     <string name="support_development">สนับสนุนนักพัฒนา</string>
     <string name="swipe_to_unlock">ปัดเพื่อปลดล็อก</string>
     <string name="synced_lyrics">ซิ้งค์เนื้อเพลง</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">เข้าร่วมกลุ่ม Telegram เพื่อแจ้งบัค, เสนอแนะ หรืออื่นๆ</string>
     <string name="the_audio_file">ไฟล์เสียง</string>
     <string name="this_month">เดือนนี้</string>
     <string name="this_week">สัปดาห์นี้</string>
@@ -464,8 +455,6 @@
     <string name="track_list">หมายเลขแทร็ก</string>
     <string name="translate">แปลภาษา</string>
     <string name="translate_community">ช่วยพวกเราแปลภาษาเป็นภาษาของคุณ</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">แชร์การออกแบบของคุณด้วย Retro Music</string>
     <string name="unlabeled">ไม่แสดงตัวหนังสือ</string>
     <string name="unplayable_file">ไม่สามารถเล่นเพลงนี้ได้</string>
     <string name="up_next">เพลงต่อไป</string>
@@ -475,7 +464,6 @@
     <string name="user_name">ชื่อผู้ใช้งาน</string>
     <string name="version">เวอร์ชัน</string>
     <string name="vertical_flip">Vertical flip</string>
-    <string name="view_on_telegram">ดูบน Telegram</string>
     <string name="volume">เสียง</string>
     <string name="web_search">ค้นหาจากเว็บไซต์</string>
     <string name="website">เว็บไซต์</string>

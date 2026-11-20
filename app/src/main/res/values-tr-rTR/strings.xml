@@ -65,7 +65,6 @@
         <item quantity="one">Albüm</item>
         <item quantity="other">Albümler</item>
     </plurals>
-    <string name="app_share">Hey, şu havalı müzik çalara şuradan bir göz atmaya ne dersin: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Karıştır</string>
     <string name="app_shortcut_top_tracks_short">Sık oynatılan parçalar</string>
     <string name="app_widget_big_name">Tüm Resim</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Kişiselleştirme</string>
     <string name="personalize_settings_summary">Şimdi çalıyor ve kullanıcı arayüzü kontrollerinizi özelleştirin</string>
     <string name="pick_from_local_storage">Yerel depolama alanından seç</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Retro Müzik tasarım ilhamı almak için Pinterest sayfasını takip edin</string>
     <string name="plain">Sade</string>
     <string name="playback_pitch">Perde</string>
     <string name="playback_settings">Oynatma Ayarları</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profil</string>
     <string name="queue">Kuyruk</string>
-    <string name="rate_app">Uygulamayı değerlendirin</string>
-    <string name="rate_on_google_play_summary">Bu uygulamayı beğendiniz mi? Nasıl daha iyi yapabileceğimiz konusunda lütfen Google Play Store\'da bize bildirin</string>
     <string name="recent_albums">Son albümler</string>
     <string name="recent_artists">Son sanatçılar</string>
     <string name="remove_action">Kaldır</string>
@@ -415,8 +410,6 @@
     <string name="selected">Seçilmiş</string>
     <string name="set">Ayarla</string>
     <string name="set_artist_image">Sanatçı resmini ayarla</string>
-    <string name="share_app">Uygulamayı paylaş</string>
-    <string name="share_summary">Uygulamayı arkadaşlarınız ve ailenizle paylaşın</string>
     <string name="share_to_stories">Hikayende paylaş</string>
     <string name="show_album_artists">Albüm Sanatçılarını Göster</string>
     <string name="shuffle">Karıştır</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Destek geliştirme</string>
     <string name="swipe_to_unlock">Açmak için kaydırın</string>
     <string name="synced_lyrics">Senkronize edilmiş sözler</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Hataları tartışmak, önerilerde bulunmak ve daha fazlası için Telegram grubuna katılın</string>
     <string name="the_audio_file">Ses dosyası</string>
     <string name="this_month">Bu ay</string>
     <string name="this_week">Bu hafta</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Parça numarası</string>
     <string name="translate">Çevir</string>
     <string name="translate_community">Uygulamayı diline çevirmek için bize yardımcı ol.</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Tasarımınızı Retro Müzik\'le paylaşın</string>
     <string name="unlabeled">Etiketsiz</string>
     <string name="unplayable_file">Bu şarkı oynatılamadı\u2019.</string>
     <string name="up_next">Bir sonraki</string>
@@ -477,7 +466,6 @@
     <string name="user_name">Kullanıcı Adı</string>
     <string name="version">Sürüm</string>
     <string name="vertical_flip">Dikey çevir</string>
-    <string name="view_on_telegram">Telegram\'da görüntüle</string>
     <string name="volume">Ses</string>
     <string name="web_search">İnternette ara</string>
     <string name="website">Web Sitesi</string>

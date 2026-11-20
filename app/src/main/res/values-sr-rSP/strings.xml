@@ -67,7 +67,6 @@
         <item quantity="few">Албумa</item>
         <item quantity="other">Албумa</item>
     </plurals>
-    <string name="app_share">Isprobaj ovaj fantastican plejer na: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Reprodukuj nasumicno</string>
     <string name="app_shortcut_top_tracks_short">Najvise slusano</string>
     <string name="app_widget_big_name">Цела слика</string>
@@ -259,8 +258,6 @@
     <string name="personalize">Персонализуј</string>
     <string name="personalize_settings_summary">Customize your now playing and UI controls</string>
     <string name="pick_from_local_storage">Izaberi iz unutrasnjeg skladista</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
     <string name="plain">Jednostavan</string>
     <string name="playback_pitch">Pitch</string>
     <string name="playback_settings">Playback Settings</string>
@@ -369,8 +366,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profile</string>
     <string name="queue">Trenutno</string>
-    <string name="rate_app">Oceni aplikaciju</string>
-    <string name="rate_on_google_play_summary">Volis ovu aplikaciju? Obavesti nas u Google Play Prodavnici</string>
     <string name="recent_albums">Recent albums</string>
     <string name="recent_artists">Recent artists</string>
     <string name="remove_action">Izbrisi</string>
@@ -417,8 +412,6 @@
     <string name="selected">Selected</string>
     <string name="set">Set</string>
     <string name="set_artist_image">Postavi sliku izvodjaca</string>
-    <string name="share_app">Share app</string>
-    <string name="share_summary">Share the app with your friends and family</string>
     <string name="share_to_stories">Share to Stories</string>
     <string name="show_album_artists">Show Album Artists</string>
     <string name="shuffle">Nasumicno pusti</string>
@@ -452,8 +445,6 @@
     <string name="support_development">Podrzi programera</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Synced lyrics</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Join the Telegram group to discuss bugs, make suggestions, show off and more</string>
     <string name="the_audio_file">Audio fajl</string>
     <string name="this_month">Ovog meseca</string>
     <string name="this_week">Ove nedelje</string>
@@ -468,8 +459,6 @@
     <string name="track_list">Redni broj</string>
     <string name="translate">Prevod</string>
     <string name="translate_community">Help us translate the app to your language</string>
-    <string name="twitter_page">Твитер</string>
-    <string name="twitter_page_summary">Share your design with Retro Music</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Nije moguce pustiti pesmu.</string>
     <string name="up_next">Sledece</string>
@@ -479,7 +468,6 @@
     <string name="user_name">User Name</string>
     <string name="version">Verzija</string>
     <string name="vertical_flip">Vertical flip</string>
-    <string name="view_on_telegram">View on Telegram</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web pretraga</string>
     <string name="website">Website</string>

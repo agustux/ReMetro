@@ -61,7 +61,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Albums</item>
     </plurals>
-    <string name="app_share">Begiratu musika erreproduzitzaile hau: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Nahastu</string>
     <string name="app_shortcut_top_tracks_short">Pista onenak</string>
     <string name="app_widget_big_name">Handia</string>
@@ -205,8 +204,6 @@
     <string name="personalize">Pertsonalizatu</string>
     <string name="personalize_settings_summary">Pertsonalizatu zure orain erreproduzitzen eta UI kontrolak</string>
     <string name="pick_from_local_storage">Tokiko biltegitik hautatu</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
     <string name="plain">Arrunta</string>
     <string name="playing_notification_description">Erreproduzitzen jakinarazpenak erreproduzitu/pausatu etab. ekintzak eskaintzen ditu</string>
     <string name="playing_notification_name">Erreproduzitzen jakinarazpena</string>
@@ -279,8 +276,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profila</string>
     <string name="queue">Ilara</string>
-    <string name="rate_app">Baloratu aplikazioa</string>
-    <string name="rate_on_google_play_summary">Aplikazioa gustatzen zaizu? Esan iezaguzu Google Play Store-n nola hobetu dezakegun</string>
     <string name="recent_albums">Azken albumak</string>
     <string name="recent_artists">Azken artistak</string>
     <string name="remove_action">Kendu</string>
@@ -321,7 +316,6 @@
     <string name="selected">Hautatua</string>
     <string name="set">Set</string>
     <string name="set_artist_image">Artistaren irudia ezarri</string>
-    <string name="share_app">Partekatu aplikazioa</string>
     <string name="share_to_stories">Share to Stories</string>
     <string name="shuffle">Nahastu</string>
     <string name="simple">Soila</string>
@@ -349,8 +343,6 @@
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Letra sinkronizatuak</string>
     <!-- Message displayed when tag editing fails -->
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Batu Telegram-eko kanala akatsak, iradokizunak etab. kontatzeko</string>
     <string name="the_audio_file">Audio fitxategia</string>
     <string name="this_month">Hilabete hau</string>
     <string name="this_week">Aste hau</string>
@@ -364,8 +356,6 @@
     <string name="track_list">Pista zenbakia</string>
     <string name="translate">Itzuli</string>
     <string name="translate_community">Lagun iezaguzu aplikazioa zure hizkuntzara itzultzen</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Partekatu zure Retro Music-en diseinua</string>
     <string name="unlabeled">Etiketa gabe</string>
     <string name="unplayable_file">Ezin izan da abestia erreproduzitu</string>
     <string name="up_next">Jarraian</string>

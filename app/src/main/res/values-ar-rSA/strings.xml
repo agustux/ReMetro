@@ -75,7 +75,6 @@
         <item quantity="many">الألبومات</item>
         <item quantity="other">الألبومات</item>
     </plurals>
-    <string name="app_share">مرحبا القي نظرة على مشغل الموسيقى الرائع هذا في: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">عشوائي</string>
     <string name="app_shortcut_top_tracks_short">المسارات الاكثر شعبية</string>
     <string name="app_widget_big_name">صورة كاملة</string>
@@ -268,8 +267,6 @@
     <string name="personalize">تخصيص</string>
     <string name="personalize_settings_summary">تخصيص المشغل و الواجهة</string>
     <string name="pick_from_local_storage">اختر من وحدة التخزين الداخلي</string>
-    <string name="pinterest_page">بينتريست</string>
-    <string name="pinterest_page_summary">متابعة صفحة البينتريست لمشاهدة الهامات التصميم</string>
     <string name="plain">عادي</string>
     <string name="playback_pitch">درجة الصوت</string>
     <string name="playback_settings">إعدادات التشغيل</string>
@@ -378,8 +375,6 @@
     <string name="pro">الكامل</string>
     <string name="profile">الملف الشخصي</string>
     <string name="queue">تسلسل</string>
-    <string name="rate_app">تقييم التطبيق</string>
-    <string name="rate_on_google_play_summary">أحببت هذا التطبيق؟ أخبرنا في متجر Google Play كيف يمكننا تحسينه</string>
     <string name="recent_albums">الالبومات الحديثة</string>
     <string name="recent_artists">الفنانون الحديثون</string>
     <string name="remove_action">حذف</string>
@@ -426,8 +421,6 @@
     <string name="selected">محدد</string>
     <string name="set">تعيين</string>
     <string name="set_artist_image">اختيار صورة الفنان</string>
-    <string name="share_app">مشاركة التطبيق</string>
-    <string name="share_summary">شارك التطبيق مع أصدقائك وأسرتك</string>
     <string name="share_to_stories">شارك في القصص</string>
     <string name="show_album_artists">إظهار ألبوم الفنان</string>
     <string name="shuffle">خلط</string>
@@ -461,8 +454,6 @@
     <string name="support_development">دعم التطوير</string>
     <string name="swipe_to_unlock">اسخب للفتح</string>
     <string name="synced_lyrics">مزامنة الكلمات</string>
-    <string name="telegram_group">تيليجرام</string>
-    <string name="telegram_group_summary">انضم لمجموعة التيليجرام لمناقشة المشاكل, و طرح اقتراحات والمزيد</string>
     <string name="the_audio_file">الملف الصوتي</string>
     <string name="this_month">هذا الشهر</string>
     <string name="this_week">هذا الاسبوع</string>
@@ -477,8 +468,6 @@
     <string name="track_list">رقم المسار</string>
     <string name="translate">ترجمة</string>
     <string name="translate_community">ساعدها لترجمة التطبيق الى لغتك</string>
-    <string name="twitter_page">تويتر</string>
-    <string name="twitter_page_summary">شارك تصميمك مع ريترو ميوزك</string>
     <string name="unlabeled">غير معنون</string>
     <string name="unplayable_file">تعذّر تشغيل\u2019t هذه الأغنية.</string>
     <string name="up_next">التالي</string>
@@ -488,7 +477,6 @@
     <string name="user_name">إسم المستخدم</string>
     <string name="version">الإصدار</string>
     <string name="vertical_flip">تدوير رأسي</string>
-    <string name="view_on_telegram">عرض على تيليجرام</string>
     <string name="volume">الصوت</string>
     <string name="web_search">البحث عبر الانترنت</string>
     <string name="website">الموقع الإلكتروني</string>

@@ -53,7 +53,6 @@
     <string name="album">ఆల్బమ్</string>
     <string name="album_artist">ఆల్బమ్ ఆర్టిస్ట్</string>
     <string name="albums">ఆల్బమ్లు</string>
-    <string name="app_share">హే ఈ చల్లని మ్యూజిక్ ప్లేయర్‌ను ఇక్కడ చూడండి: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">షఫుల్</string>
     <string name="app_shortcut_top_tracks_short">అగ్ర ట్రాక్‌లు</string>
     <string name="app_widget_big_name">రెట్రో సంగీతం - పెద్దది</string>
@@ -198,8 +197,6 @@
     <string name="personalize">వ్యక్తిగతీకరించండి</string>
     <string name="personalize_settings_summary">మీరు ఇప్పుడు ఆడుతున్న మరియు UI నియంత్రణలను అనుకూలీకరించండి</string>
     <string name="pick_from_local_storage">స్థానిక నిల్వ నుండి ఎంచుకోండి</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">రెట్రో మ్యూజిక్ డిజైన్ ప్రేరణ కోసం Pinterest పేజీని అనుసరించండి</string>
     <string name="plain">సాదా</string>
     <string name="playing_notification_description">ప్లే నోటిఫికేషన్ ఆట / పాజ్ మొదలైన వాటి కోసం చర్యలను అందిస్తుంది.</string>
     <string name="playing_notification_name">నోటిఫికేషన్ ప్లే అవుతోంది</string>
@@ -271,8 +268,6 @@
     <string name="pro">ప్రో</string>
     <string name="profile">ప్రొఫైల్</string>
     <string name="queue">క్యూ</string>
-    <string name="rate_app">అనువర్తనాన్ని రేట్ చేయండి</string>
-    <string name="rate_on_google_play_summary">ఈ అనువర్తనాన్ని ఇష్టపడుతున్నారా?  దీన్ని మరింత మెరుగ్గా ఎలా చేయవచ్చో గూగుల్ ప్లే స్టోర్‌లో మాకు తెలియజేయండి</string>
     <string name="recent_albums">ఇటీవలి ఆల్బమ్‌లు</string>
     <string name="recent_artists">ఇటీవలి కళాకారులు</string>
     <string name="remove_action">తొలగించు</string>
@@ -313,7 +308,6 @@
     <string name="selected">ఎంచుకున్న</string>
     <string name="set">సెట్</string>
     <string name="set_artist_image">ఆర్టిస్ట్ చిత్రాన్ని సెట్ చేయండి</string>
-    <string name="share_app">అనువర్తనాన్ని భాగస్వామ్యం చేయండి</string>
     <string name="share_to_stories">కథలకు భాగస్వామ్యం చేయండి</string>
     <string name="shuffle">షఫుల్</string>
     <string name="simple">సాధారణ</string>
@@ -341,8 +335,6 @@
     <string name="swipe_to_unlock">అన్‌లాక్ చేయడానికి స్వైప్ చేయండి</string>
     <string name="synced_lyrics">సమకాలీకరించిన సాహిత్యం</string>
     <!-- Message displayed when tag editing fails -->
-    <string name="telegram_group">టెలిగ్రాం</string>
-    <string name="telegram_group_summary">దోషాలను చర్చించడానికి, సూచనలు చేయడానికి, ప్రదర్శించడానికి మరియు మరిన్ని చేయడానికి టెలిగ్రామ్ సమూహంలో చేరండి</string>
     <string name="the_audio_file">ఆడియో ఫైల్</string>
     <string name="this_month">ఈ నెల</string>
     <string name="this_week">ఈ వారం</string>
@@ -356,8 +348,6 @@
     <string name="track_list">ట్రాక్ సంఖ్య</string>
     <string name="translate">అనువదించు</string>
     <string name="translate_community">మీ భాషకు అనువర్తనాన్ని అనువదించడానికి మాకు సహాయపడండి</string>
-    <string name="twitter_page">ట్విట్టర్</string>
-    <string name="twitter_page_summary">మీ డిజైన్‌ను రెట్రో మ్యూజిక్‌తో పంచుకోండి</string>
     <string name="unlabeled">అన్ లేబుల్</string>
     <string name="unplayable_file">ఈ పాటను ప్లే చేయలేదు.</string>
     <string name="up_next">తదుపరిది</string>

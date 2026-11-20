@@ -65,7 +65,6 @@
         <item quantity="one">ಆಲ್ಬಮ್</item>
         <item quantity="other">ಆಲ್ಬಮ್ಗಳು</item>
     </plurals>
-    <string name="app_share">ಈ ಉತ್ತಮ ಮ್ಯೂಸಿಕ್ ಪ್ಲೇಯರ್ ಅನ್ನು ಇಲ್ಲಿ ನೋಡಿ: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">ಷಫಲ್</string>
     <string name="app_shortcut_top_tracks_short">ಉನ್ನತ ಹಾಡುಗಳು</string>
     <string name="app_widget_big_name">ಪೂರ್ಣ ಚಿತ್ರ</string>
@@ -258,8 +257,6 @@
     <string name="personalize">ವೈಯಕ್ತಿಕಗೊಳಿಸಿ</string>
     <string name="personalize_settings_summary">ನಿಮ್ಮ ನೌ ಪ್ಲೇಯಿಂಗ್ ಮತ್ತು UI ನಿಯಂತ್ರಣಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</string>
     <string name="pick_from_local_storage">ಲೋಕಲ್ ಸ್ಟೋರೇಜ್ ನಿಂದ ಆರಿಸಿ</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Retro Music ವಿನ್ಯಾಸ ಸ್ಫೂರ್ತಿಗಾಗಿ Pinterest ಪುಟವನ್ನು ಅನುಸರಿಸಿ</string>
     <string name="plain">ಸಾದಾ</string>
     <string name="playback_pitch">ಪಿಚ್</string>
     <string name="playback_settings">ಪ್ಲೇಬ್ಯಾಕ್ ಸಂಯೋಜನೆಗಳು</string>
@@ -368,8 +365,6 @@
     <string name="pro">ಪ್ರೊ</string>
     <string name="profile">ಪ್ರೊಫೈಲ್</string>
     <string name="queue">ಪ್ಲೇ ಮಾಡಲಾಗುತ್ತಿರುವ ಪಟ್ಟಿ</string>
-    <string name="rate_app">ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ರೇಟ್ ಮಾಡಿ</string>
-    <string name="rate_on_google_play_summary">ಈ ಅಪ್ಲಿಕೇಶನ್ ಇಷ್ಟಪಡುತ್ತೀರಾ? ನಾವು ಅದನ್ನು ಇನ್ನಷ್ಟು ಉತ್ತಮಗೊಳಿಸುವುದು ಹೇಗೆ ಎಂಬುದನ್ನು Google Play Store ನಲ್ಲಿ ನಮಗೆ ತಿಳಿಸಿ</string>
     <string name="recent_albums">ಇತ್ತೀಚಿನ ಆಲ್ಬಮ್‌ಗಳು</string>
     <string name="recent_artists">ಇತ್ತೀಚಿನ ಕಲಾವಿದರು</string>
     <string name="remove_action">ತೆಗೆದುಹಾಕಿ</string>
@@ -416,8 +411,6 @@
     <string name="selected">ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
     <string name="set">ಹೊಂದಿಸಿ</string>
     <string name="set_artist_image">ಕಲಾವಿದರ ಚಿತ್ರವನ್ನು ಹೊಂದಿಸಿ</string>
-    <string name="share_app">ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿರಿ</string>
-    <string name="share_summary">ನಿಮ್ಮ ಸ್ನೇಹಿತರು ಮತ್ತು ಕುಟುಂಬದೊಂದಿಗೆ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="share_to_stories">Stories ಗೆ ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="show_album_artists">ಆಲ್ಬಮ್ ಕಲಾವಿದರನ್ನು ತೋರಿಸಿ</string>
     <string name="shuffle">ಷಫಲ್</string>
@@ -451,8 +444,6 @@
     <string name="support_development">ಅಭಿವೃದ್ದಿಗೆ ಬೆಂಬಲಿಸಿ</string>
     <string name="swipe_to_unlock">ಅನ್‍ಲಾಕ್ ಮಾಡಲು ಸ್ವೈಪ್ ಮಾಡಿ</string>
     <string name="synced_lyrics">ಸಿಂಕ್ ಮಾಡಲಾಗಿರುವ ಸಾಹಿತ್ಯ</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">ದೋಷಗಳನ್ನು ಚರ್ಚಿಸಲು, ಸಲಹೆಗಳನ್ನು ನೀಡಲು, ಪ್ರದರ್ಶಿಸಲು ಮತ್ತು ಹೆಚ್ಚಿನದನ್ನು ಮಾಡಲು Telegram ಗುಂಪಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
     <string name="the_audio_file">ಧ್ವನಿ ಕಡತ</string>
     <string name="this_month">ಈ ತಿಂಗಳು</string>
     <string name="this_week">ಈ ವಾರ</string>
@@ -467,8 +458,6 @@
     <string name="track_list">ಸುರುಳಿ ಸಂಖ್ಯೆ</string>
     <string name="translate">ಅನುವಾದಿಸಿ</string>
     <string name="translate_community">ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನಿಮ್ಮ ಭಾಷೆಗೆ ಭಾಷಾಂತರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Retro Music ನೊಂದಿಗೆ ನಿಮ್ಮ ವಿನ್ಯಾಸವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="unlabeled">ಲೇಬಲ್ ಮಾಡಲಾಗಿಲ್ಲ</string>
     <string name="unplayable_file">ಈ ಹಾಡನ್ನು ಪ್ಲೇ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
     <string name="up_next">ಮುಂದಿನದು</string>
@@ -478,7 +467,6 @@
     <string name="user_name">ಬಳಕೆದಾರರ ಹೆಸರು</string>
     <string name="version">ಆವೃತ್ತಿ</string>
     <string name="vertical_flip">ಲಂಬ ಫ್ಲಿಪ್</string>
-    <string name="view_on_telegram">Telegram ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ</string>
     <string name="volume">ಪರಿಮಾಣ</string>
     <string name="web_search">ವೆಬ್ ಹುಡುಕಾಟ</string>
     <string name="website">ಜಾಲತಾಣ</string>

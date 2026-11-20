@@ -63,7 +63,6 @@
     <plurals name="albums">
         <item quantity="other">アルバム</item>
     </plurals>
-    <string name="app_share">クールな音楽プレイヤーをチェックしよう: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">シャッフル</string>
     <string name="app_shortcut_top_tracks_short">トップ曲</string>
     <string name="app_widget_big_name">元画像</string>
@@ -255,8 +254,6 @@
     <string name="personalize">個人設定</string>
     <string name="personalize_settings_summary">再生中のUI画面をカスタマイズ</string>
     <string name="pick_from_local_storage">ローカルストレージから選択</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">PintrestでRetro Musicのデザインのインスピレーションを感じましょう！</string>
     <string name="plain">プレーン</string>
     <string name="playback_pitch">音程</string>
     <string name="playback_settings">再生設定</string>
@@ -366,8 +363,6 @@
     <string name="pro">プロ版</string>
     <string name="profile">プロフィール</string>
     <string name="queue">キュー</string>
-    <string name="rate_app">アプリを評価する</string>
-    <string name="rate_on_google_play_summary">このアプリを気に入っていただけましたか？ぜひGoogle Playストアで、もっと良くするためのご意見を聞かせてください</string>
     <string name="recent_albums">最近のアルバム</string>
     <string name="recent_artists">最近のアーティスト</string>
     <string name="remove_action">削除</string>
@@ -414,8 +409,6 @@
     <string name="selected">選択された</string>
     <string name="set">決定</string>
     <string name="set_artist_image">アーティスト画像を設定</string>
-    <string name="share_app">アプリを共有する</string>
-    <string name="share_summary">アプリを友達や家族と共有する</string>
     <string name="share_to_stories">ストーリーに共有</string>
     <string name="show_album_artists">アルバムアーティストを表示</string>
     <string name="shuffle">シャッフル</string>
@@ -449,8 +442,6 @@
     <string name="support_development">開発を支援</string>
     <string name="swipe_to_unlock">スワイプしてアンロック</string>
     <string name="synced_lyrics">連動した歌詞</string>
-    <string name="telegram_group">テレグラム</string>
-    <string name="telegram_group_summary">Telegram のグループに参加して、バグについて話し合ったり、提案したりしましょう</string>
     <string name="the_audio_file">オーディオファイル</string>
     <string name="this_month">今月</string>
     <string name="this_week">今週</string>
@@ -465,8 +456,6 @@
     <string name="track_list">トラック番号</string>
     <string name="translate">翻訳</string>
     <string name="translate_community">翻訳を手伝ってください！</string>
-    <string name="twitter_page">ツイッター</string>
-    <string name="twitter_page_summary">あなたのデザインを皆に共有しましょう</string>
     <string name="unlabeled">ラベルを表示しない</string>
     <string name="unplayable_file">\u3053\u306e\u66f2\u3092\u518d\u751f\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f</string>
     <string name="up_next">次</string>
@@ -476,7 +465,6 @@
     <string name="user_name">ユーザー名</string>
     <string name="version">バージョン</string>
     <string name="vertical_flip">垂直方向に反転</string>
-    <string name="view_on_telegram">テレグラムで表示</string>
     <string name="volume">音量</string>
     <string name="web_search">ウェブで検索</string>
     <string name="website">ウェブサイト</string>

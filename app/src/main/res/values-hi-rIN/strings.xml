@@ -65,7 +65,6 @@
         <item quantity="one">एल्बम</item>
         <item quantity="other">एलबम</item>
     </plurals>
-    <string name="app_share">इस बढ़िया म्यूजिक प्लेयर को यहां देखें:https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">शफ़ल</string>
     <string name="app_shortcut_top_tracks_short">टॉप गीत</string>
     <string name="app_widget_big_name">पूरी तस्वीर</string>
@@ -257,8 +256,6 @@
     <string name="personalize">वैयक्तिकृत करें</string>
     <string name="personalize_settings_summary">अपने नाउ प्लेइंग स्क्रीन और यूआई नियंत्रणों को अनुकूलित करें</string>
     <string name="pick_from_local_storage">स्टोरेज से चुनें</string>
-    <string name="pinterest_page">पिंटरेस्ट</string>
-    <string name="pinterest_page_summary">रेट्रो म्यूजिक डिजाइन प्रेरणा के लिए पिंटरेस्ट पेज को फॉलो करें</string>
     <string name="plain">सादा</string>
     <string name="playback_pitch">पिच</string>
     <string name="playback_settings">प्लेबैक सेटिंग्स</string>
@@ -367,8 +364,6 @@
     <string name="pro">प्रो</string>
     <string name="profile">प्रोफ़ाइल</string>
     <string name="queue">गानों की क़तार</string>
-    <string name="rate_app">ऐप को रेटिंग दें</string>
-    <string name="rate_on_google_play_summary">क्या आपको यह ऐप पसंद है? इसको भेतर बनाने के लिए राए दे।</string>
     <string name="recent_albums">हाल के एल्बम</string>
     <string name="recent_artists">हाल के कलाकार</string>
     <string name="remove_action">हटाएँ</string>
@@ -415,8 +410,6 @@
     <string name="selected">चयनित</string>
     <string name="set">सेट</string>
     <string name="set_artist_image">कलाकार छवि सेट करें</string>
-    <string name="share_app">ऐप साझा करें</string>
-    <string name="share_summary">इस ऐप को अपने दोस्तों और परिवार के साथ साझा करें</string>
     <string name="share_to_stories">स्टोरीज पर साझा करें</string>
     <string name="show_album_artists">एल्बम कलाकार दिखाएँ</string>
     <string name="shuffle">शफ़ल</string>
@@ -450,8 +443,6 @@
     <string name="support_development">विकास में समर्थन करें</string>
     <string name="swipe_to_unlock">खोलने के लिए स्वाइप करें</string>
     <string name="synced_lyrics">सिंक किए गए बोल</string>
-    <string name="telegram_group">टेलीग्राम</string>
-    <string name="telegram_group_summary">बग पर चर्चा करने, सुझाव देने और बहुत कुछ करने के लिए टेलीग्राम ग्रुप में शामिल हों</string>
     <string name="the_audio_file">ऑडियो फ़ाइल</string>
     <string name="this_month">इस महीने</string>
     <string name="this_week">इस सप्ताह</string>
@@ -466,8 +457,6 @@
     <string name="track_list">ट्रैक संख्या</string>
     <string name="translate">अनुवाद करें</string>
     <string name="translate_community">ऐप को अपनी मूल भाषा में अनुवाद करने में मेरी सहायता करें</string>
-    <string name="twitter_page">ट्विटर</string>
-    <string name="twitter_page_summary">रेट्रो म्यूजिक के साथ अपना डिज़ाइन साझा करें</string>
     <string name="unlabeled">लेबल नहीं किया गया</string>
     <string name="unplayable_file">\u2019 गाना नहीं चलाया जा सका</string>
     <string name="up_next">आगे</string>
@@ -477,7 +466,6 @@
     <string name="user_name">उपयोगकर्ता नाम</string>
     <string name="version">संस्करण</string>
     <string name="vertical_flip">खड़ा (फ्लिप)</string>
-    <string name="view_on_telegram">टेलीग्राम पर देखें</string>
     <string name="volume">आयतन</string>
     <string name="web_search">वेब खोज</string>
     <string name="website">वेबसाइट</string>

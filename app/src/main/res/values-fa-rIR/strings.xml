@@ -65,7 +65,6 @@
         <item quantity="one">آلبوم</item>
         <item quantity="other">آلبوم ها</item>
     </plurals>
-    <string name="app_share">به اشتراک گذاری برنامه</string>
     <string name="app_shortcut_shuffle_all_short">حالت تصادفی</string>
     <string name="app_shortcut_top_tracks_short">بهترین اهنگ ها</string>
     <string name="app_widget_big_name">تصویر کامل</string>
@@ -257,8 +256,6 @@
     <string name="personalize">شخصی سازی</string>
     <string name="personalize_settings_summary">صفحه پخش اهنگ و رابط کاربری برنامه را شخصی سازی کنید</string>
     <string name="pick_from_local_storage">از فضای ذخیره‌سازی داخلی انتخاب کنید</string>
-    <string name="pinterest_page">پینترست</string>
-    <string name="pinterest_page_summary">صفحه پینترست را برای الهام گرفتن از طراحی Retro Music دنبال کنید</string>
     <string name="plain">ساده</string>
     <string name="playback_pitch">میزان صدا</string>
     <string name="playback_settings">تنظیمات پخش</string>
@@ -367,8 +364,6 @@
     <string name="pro">حرفه‌ای</string>
     <string name="profile">نمایه</string>
     <string name="queue">صف درحال پخش</string>
-    <string name="rate_app">به برنامه امتیاز دهید</string>
-    <string name="rate_on_google_play_summary">این برنامه را دوست دارید؟ در فروشگاه گوگل پلی به ما اطلاع دهید که چگونه می‌توانیم آن را بهتر کنیم</string>
     <string name="recent_albums">آلبوم های اخیر</string>
     <string name="recent_artists">هنرمندان اخیر</string>
     <string name="remove_action">حذف</string>
@@ -415,8 +410,6 @@
     <string name="selected">انتخاب شده</string>
     <string name="set">تنظیم</string>
     <string name="set_artist_image">تنظیم تصویر هنرمند</string>
-    <string name="share_app">اشتراک‌گذاری برنامه</string>
-    <string name="share_summary">برنامه را با دوستان و خانواده خود به اشتراک بگذارید</string>
     <string name="share_to_stories">اشتراک گذاری در استوری</string>
     <string name="show_album_artists">نمایش هنرمندان آلبوم</string>
     <string name="shuffle">حالت مخلوط</string>
@@ -450,8 +443,6 @@
     <string name="support_development">پشتیبانی از توسعه</string>
     <string name="swipe_to_unlock">برای باز کردن قفل، انگشت خود را بکشید</string>
     <string name="synced_lyrics">همگام سازی متن ترانه ها</string>
-    <string name="telegram_group">تلگرام</string>
-    <string name="telegram_group_summary">برای بحث در مورد اشکالات، ارائه پیشنهادات، نمایش و موارد دیگر به گروه تلگرام بپیوندید</string>
     <string name="the_audio_file">فایل صوتی</string>
     <string name="this_month">این ماه</string>
     <string name="this_week">این هفته</string>
@@ -466,8 +457,6 @@
     <string name="track_list">شماره  آهنگ</string>
     <string name="translate">ترجمه کردن</string>
     <string name="translate_community">به ما کمک کنید تا برنامه را به زبان شما ترجمه کنیم</string>
-    <string name="twitter_page">توییتر</string>
-    <string name="twitter_page_summary">طرح خود را با موسیقی Retro به اشتراک بگذارید</string>
     <string name="unlabeled">بدون برچسب</string>
     <string name="unplayable_file">این آهنگ پخش نمیشود.</string>
     <string name="up_next">تا بعدی</string>
@@ -477,7 +466,6 @@
     <string name="user_name">نام کاربری</string>
     <string name="version">نسخه</string>
     <string name="vertical_flip">چرخش عمودی</string>
-    <string name="view_on_telegram">مشاهده در تلگرام</string>
     <string name="volume">حجم صدا</string>
     <string name="web_search">جستجوی وب</string>
     <string name="website">وب سایت</string>

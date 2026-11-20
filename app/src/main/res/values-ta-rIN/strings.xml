@@ -65,7 +65,6 @@
         <item quantity="one">தொகுப்பு</item>
         <item quantity="other">தொகுப்புகள்</item>
     </plurals>
-    <string name="app_share">இந்தச் செயலியைக் காண: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">குழப்பு</string>
     <string name="app_shortcut_top_tracks_short">சிறந்த பாடல்கள்</string>
     <string name="app_widget_big_name">முழு படம்</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Personalize</string>
     <string name="personalize_settings_summary">Customize your now playing and UI controls</string>
     <string name="pick_from_local_storage">Pick from local storage</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
     <string name="plain">Plain</string>
     <string name="playback_pitch">Pitch</string>
     <string name="playback_settings">Playback Settings</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profile</string>
     <string name="queue">Playing Queue</string>
-    <string name="rate_app">Rate the app</string>
-    <string name="rate_on_google_play_summary">Love this app? Let us know in the Google Play Store how we can make it even better</string>
     <string name="recent_albums">Recent albums</string>
     <string name="recent_artists">Recent artists</string>
     <string name="remove_action">Remove</string>
@@ -415,8 +410,6 @@
     <string name="selected">Selected</string>
     <string name="set">Set</string>
     <string name="set_artist_image">Set artist image</string>
-    <string name="share_app">Share app</string>
-    <string name="share_summary">Share the app with your friends and family</string>
     <string name="share_to_stories">Share to Stories</string>
     <string name="show_album_artists">Show Album Artists</string>
     <string name="shuffle">குழப்பு</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Support development</string>
     <string name="swipe_to_unlock">Swipe to unlock</string>
     <string name="synced_lyrics">Synced lyrics</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Join the Telegram group to discuss bugs, make suggestions, show off and more</string>
     <string name="the_audio_file">The audio file</string>
     <string name="this_month">This month</string>
     <string name="this_week">This week</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Track number</string>
     <string name="translate">Translate</string>
     <string name="translate_community">Help us translate the app to your language</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Share your design with Retro Music</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Couldn\u2019t play this song.</string>
     <string name="up_next">Up next</string>
@@ -477,7 +466,6 @@
     <string name="user_name">User Name</string>
     <string name="version">Version</string>
     <string name="vertical_flip">Vertical flip</string>
-    <string name="view_on_telegram">View on Telegram</string>
     <string name="volume">Volume</string>
     <string name="web_search">Web search</string>
     <string name="website">Website</string>

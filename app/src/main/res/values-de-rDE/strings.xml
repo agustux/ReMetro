@@ -65,7 +65,6 @@
         <item quantity="one">Album</item>
         <item quantity="other">Alben</item>
     </plurals>
-    <string name="app_share">Hey, schau dir diesen coolen Music Player an: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">Zufällig</string>
     <string name="app_shortcut_top_tracks_short">Top-Titel</string>
     <string name="app_widget_big_name">Vollbild</string>
@@ -257,8 +256,6 @@
     <string name="personalize">Personalisieren</string>
     <string name="personalize_settings_summary">Wiedergabe-Bildschirm und Steuerelemente anpassen</string>
     <string name="pick_from_local_storage">Aus lokalem Speicher wählen</string>
-    <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Folge der Pinterest-Seite für Retro Music Design-Ideen</string>
     <string name="plain">Einfach</string>
     <string name="playback_pitch">Tonhöhe</string>
     <string name="playback_settings">Wiedergabe-Einstellungen</string>
@@ -367,8 +364,6 @@
     <string name="pro">Pro</string>
     <string name="profile">Profil</string>
     <string name="queue">Warteschlange</string>
-    <string name="rate_app">App bewerten</string>
-    <string name="rate_on_google_play_summary">Du magst die App? Lass uns im Google Play Store wissen, wie wir sie verbessern können</string>
     <string name="recent_albums">Kürzlich abgespielte Alben</string>
     <string name="recent_artists">Kürzlich abgespielte Interpreten</string>
     <string name="remove_action">Entfernen</string>
@@ -415,8 +410,6 @@
     <string name="selected">Ausgewählt</string>
     <string name="set">Festgelegt</string>
     <string name="set_artist_image">Lege ein Interpreten-Bild fest</string>
-    <string name="share_app">App teilen</string>
-    <string name="share_summary">Teile die App mit deinen Freunden und Verwandten</string>
     <string name="share_to_stories">In Stories teilen</string>
     <string name="show_album_artists">Album-Interpreten anzeigen</string>
     <string name="shuffle">Zufällige Wiedergabe</string>
@@ -450,8 +443,6 @@
     <string name="support_development">Unterstütze die Entwicklung</string>
     <string name="swipe_to_unlock">Zum Entsperren Wischen</string>
     <string name="synced_lyrics">Synchronisierter Liedtext</string>
-    <string name="telegram_group">Telegram</string>
-    <string name="telegram_group_summary">Tritt der Telegram-Gruppe bei, um über Fehler zu diskutieren, Vorschläge zu machen, zu protzen usw.</string>
     <string name="the_audio_file">Audio-Datei</string>
     <string name="this_month">Diesen Monat</string>
     <string name="this_week">Diese Woche</string>
@@ -466,8 +457,6 @@
     <string name="track_list">Titel-Nummer</string>
     <string name="translate">Übersetzen</string>
     <string name="translate_community">Hilf uns, die App in deine Sprache zu übersetzen</string>
-    <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Teile dein Design mit Retro Music</string>
     <string name="unlabeled">Unbenannt</string>
     <string name="unplayable_file">Titel konnte nicht abgespielt werden.</string>
     <string name="up_next">Als Nächstes</string>
@@ -477,7 +466,6 @@
     <string name="user_name">Benutzername</string>
     <string name="version">Version</string>
     <string name="vertical_flip">Vertikale Drehung</string>
-    <string name="view_on_telegram">Auf Telegram ansehen</string>
     <string name="volume">Lautstärke</string>
     <string name="web_search">Internetsuche</string>
     <string name="website">Webseite</string>
