@@ -22,12 +22,10 @@ import androidx.core.os.bundleOf
 import androidx.core.text.parseAsHtml
 import androidx.core.view.doOnLayout
 import androidx.core.view.doOnPreDraw
-import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import io.github.agustux.remetro.appthemehelper.common.ATHToolbarActivity
-import io.github.agustux.remetro.appthemehelper.util.ColorUtil
 import io.github.agustux.remetro.appthemehelper.util.ToolbarContentTintHelper
 import io.github.agustux.remetro.*
 import io.github.agustux.remetro.adapter.HomeAdapter
@@ -39,13 +37,8 @@ import io.github.agustux.remetro.extensions.dip
 import io.github.agustux.remetro.extensions.elevatedAccentColor
 import io.github.agustux.remetro.fragments.ReloadType
 import io.github.agustux.remetro.fragments.base.AbsMainActivityFragment
-import io.github.agustux.remetro.glide.ReMetroGlideExtension
-import io.github.agustux.remetro.glide.ReMetroGlideExtension.songCoverOptions
-import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.interfaces.IScrollHelper
-import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.PreferenceUtil
-import com.bumptech.glide.Glide
 import com.google.android.material.transition.MaterialFadeThrough
 import com.google.android.material.transition.MaterialSharedAxis
 
@@ -72,9 +65,6 @@ class HomeFragment :
         binding.recyclerView.apply {
             layoutManager = LinearLayoutManager(mainActivity)
             adapter = homeAdapter
-        }
-        libraryViewModel.getSuggestions().observe(viewLifecycleOwner) {
-            loadSuggestions(it)
         }
         libraryViewModel.getHome().observe(viewLifecycleOwner) {
             homeAdapter.swapData(it)
@@ -127,13 +117,6 @@ class HomeFragment :
                 bundleOf(EXTRA_PLAYLIST_TYPE to HISTORY_PLAYLIST)
             )
             setSharedAxisYTransitions()
-        }
-
-        // Reload suggestions
-        binding.suggestions.refreshButton.setOnClickListener {
-            libraryViewModel.forceReload(
-                ReloadType.Suggestions
-            )
         }
     }
 
@@ -190,50 +173,6 @@ class HomeFragment :
         exitTransition =
             MaterialSharedAxis(MaterialSharedAxis.Y, true).addTarget(CoordinatorLayout::class.java)
         reenterTransition = MaterialSharedAxis(MaterialSharedAxis.Y, false)
-    }
-
-    private fun loadSuggestions(songs: List<Song>) {
-        if (!PreferenceUtil.homeSuggestions || songs.isEmpty()) {
-            binding.suggestions.root.isVisible = false
-            return
-        }
-        val images = listOf(
-            binding.suggestions.image1,
-            binding.suggestions.image2,
-            binding.suggestions.image3,
-            binding.suggestions.image4,
-            binding.suggestions.image5,
-            binding.suggestions.image6,
-            binding.suggestions.image7,
-            binding.suggestions.image8
-        )
-        val color = accentColor()
-        binding.suggestions.message.apply {
-            setTextColor(color)
-            setOnClickListener {
-                it.isClickable = false
-                it.postDelayed({ it.isClickable = true }, 500)
-                MusicPlayerRemote.playNext(songs.subList(0, 8))
-                if (!MusicPlayerRemote.isPlaying) {
-                    MusicPlayerRemote.playNextSong()
-                }
-            }
-        }
-        binding.suggestions.card6.setCardBackgroundColor(ColorUtil.withAlpha(color, 0.12f))
-        images.forEachIndexed { index, imageView ->
-            imageView.setOnClickListener {
-                it.isClickable = false
-                it.postDelayed({ it.isClickable = true }, 500)
-                MusicPlayerRemote.playNext(songs[index])
-                if (!MusicPlayerRemote.isPlaying) {
-                    MusicPlayerRemote.playNextSong()
-                }
-            }
-            Glide.with(this)
-                .load(ReMetroGlideExtension.getSongModel(songs[index]))
-                .songCoverOptions(songs[index])
-                .into(imageView)
-        }
     }
 
     companion object {

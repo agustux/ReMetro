@@ -134,9 +134,6 @@ class AutoMusicProvider(
             AutoMediaIDHelper.MEDIA_ID_MUSICS_BY_HISTORY -> {
                 topPlayedRepository.recentlyPlayedTracks()
             }
-            AutoMediaIDHelper.MEDIA_ID_MUSICS_BY_SUGGESTIONS -> {
-                topPlayedRepository.notRecentlyPlayedTracks().take(8)
-            }
             else -> {
                 emptyList()
             }
@@ -234,22 +231,6 @@ class AutoMusicProvider(
                     MusicUtil.getPlaylistInfoString(
                         mContext,
                         topPlayedRepository.topTracks()
-                    )
-                )
-                .asBrowsable().build()
-        )
-        mediaItems.add(
-            AutoMediaItem.with(mContext)
-                .asBrowsable()
-                .path(AutoMediaIDHelper.MEDIA_ID_MUSICS_BY_SUGGESTIONS)
-                .icon(R.drawable.ic_face)
-                .title(resources.getString(R.string.suggestion_songs))
-                .subTitle(
-                    MusicUtil.getPlaylistInfoString(
-                        mContext,
-                        topPlayedRepository.notRecentlyPlayedTracks().takeIf {
-                            it.size > 9
-                        } ?: emptyList()
                     )
                 )
                 .asBrowsable().build()

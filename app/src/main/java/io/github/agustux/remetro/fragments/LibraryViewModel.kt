@@ -46,7 +46,6 @@ class LibraryViewModel(
 
     private val _paletteColor = MutableLiveData<Int>()
     private val home = MutableLiveData<List<Home>>()
-    private val suggestions = MutableLiveData<List<Song>>()
     private val albums = MutableLiveData<List<Album>>()
     private val songs = MutableLiveData<List<Song>>()
     private val artists = MutableLiveData<List<Artist>>()
@@ -72,7 +71,6 @@ class LibraryViewModel(
             // made every tab wait for the slowest load before it (genres can take many
             // seconds on large libraries, which held back playlists and home).
             launch { repository.homeSections().let { if (isActive) home.postValue(it) } }
-            launch { repository.suggestions().let { if (isActive) suggestions.postValue(it) } }
             launch { repository.fetchGenres().let { if (isActive) genres.postValue(it) } }
             launch {
                 repository.fetchPlaylistWithSongs().let { if (isActive) playlists.postValue(it) }
@@ -102,8 +100,6 @@ class LibraryViewModel(
     fun getGenre(): LiveData<List<Genre>> = genres
 
     fun getHome(): LiveData<List<Home>> = home
-
-    fun getSuggestions(): LiveData<List<Song>> = suggestions
 
     fun getFabMargin(): LiveData<Int> = fabMargin
 
@@ -135,10 +131,6 @@ class LibraryViewModel(
         home.postValue(repository.homeSections())
     }
 
-    private suspend fun fetchSuggestions() {
-        suggestions.postValue(repository.suggestions())
-    }
-
     fun search(query: String?, filter: Filter) =
         viewModelScope.launch(IO) {
             val requestId = searchRequestId.incrementAndGet()
@@ -157,7 +149,6 @@ class LibraryViewModel(
             HomeSections -> fetchHomeSections()
             Playlists -> fetchPlaylists()
             Genres -> fetchGenres()
-            Suggestions -> fetchSuggestions()
             PlayCount -> fetchPlayCountSongs()
         }
     }
@@ -421,6 +412,5 @@ enum class ReloadType {
     HomeSections,
     Playlists,
     Genres,
-    Suggestions,
     PlayCount
 }

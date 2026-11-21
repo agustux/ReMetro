@@ -441,7 +441,6 @@ class FoldersFragment : AbsMainActivityFragment(R.layout.fragment_folder),
 
     private fun checkIsEmpty() {
         if (_binding != null) {
-            binding.emptyEmoji.text = getEmojiByUnicode(0x1F631)
             binding.empty.isVisible = adapter?.itemCount == 0
         }
     }
@@ -450,10 +449,6 @@ class FoldersFragment : AbsMainActivityFragment(R.layout.fragment_folder),
         get() = if (_binding != null) {
             if (binding.breadCrumbs.size() > 0) binding.breadCrumbs.getCrumb(binding.breadCrumbs.activeIndex) else null
         } else null
-
-    private fun getEmojiByUnicode(unicode: Int): String {
-        return String(Character.toChars(unicode))
-    }
 
     private fun saveScrollPosition() {
         activeCrumb?.scrollPosition =

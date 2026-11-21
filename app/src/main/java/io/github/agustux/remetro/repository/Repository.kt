@@ -21,7 +21,6 @@ import io.github.agustux.remetro.*
 import io.github.agustux.remetro.db.*
 import io.github.agustux.remetro.fragments.search.Filter
 import io.github.agustux.remetro.model.*
-import io.github.agustux.remetro.model.smartplaylist.NotPlayedPlaylist
 import io.github.agustux.remetro.util.PreferenceUtil
 import io.github.agustux.remetro.util.logE
 
@@ -53,7 +52,6 @@ interface Repository {
     suspend fun topAlbumsHome(): Home
     suspend fun recentAlbumsHome(): Home
     suspend fun favoritePlaylistHome(): Home
-    suspend fun suggestions(): List<Song>
     suspend fun genresHome(): Home
     suspend fun playlists(): Home
     suspend fun homeSections(): List<Home>
@@ -276,12 +274,6 @@ class RealRepository(
 
     override fun favorites(): LiveData<List<SongEntity>> =
         roomRepository.favoritePlaylistLiveData(context.getString(R.string.favorites))
-
-    override suspend fun suggestions(): List<Song> {
-        return NotPlayedPlaylist().songs().shuffled().takeIf {
-            it.size > 9
-        } ?: emptyList()
-    }
 
     override suspend fun genresHome(): Home {
         val genres = genreRepository.genres().shuffled()

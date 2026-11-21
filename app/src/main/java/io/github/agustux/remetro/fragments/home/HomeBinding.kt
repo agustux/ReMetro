@@ -15,5 +15,4 @@ class HomeBinding(
     val actionShuffle = homeBinding.homeContent.absPlaylists.actionShuffle
     val history = homeBinding.homeContent.absPlaylists.history
     val recyclerView = homeBinding.homeContent.recyclerView
-    val suggestions = homeBinding.homeContent.suggestions
 }

@@ -1,8 +1,6 @@
 [versions]
 #buildscripts dependencies
 advrecyclerview = "1.0.0"
-jetradarmobile_androidSnowfall_version = "1.2.1"
-tankery_circularSeekBar_version = "1.4.2"
 afollestad_dialog_version = "3.3.0"
 coreSplashscreen = "1.0.1"
 customactivityoncrash = "2.4.0"
@@ -19,7 +17,6 @@ kotlinxCoroutinesAndroid = "1.10.2"
 fast_scroll_libraryVersion = "1.2.0"
 lifecycle_version = "2.9.1"
 afollestad_materialCab_version = "2.0.1"
-materialIntro = "2.0.0"
 navigation_version = "2.9.0"
 mdc_version = "1.12.0"
 glide_version = "4.15.1"
@@ -77,15 +74,12 @@ kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 advrecyclerview = { module = "com.h6ah4i.android.widget.advrecyclerview:advrecyclerview", version.ref = "advrecyclerview" }
 fadingedgelayout = { module = "com.github.bosphere.android-fadingedgelayout:fadingedgelayout", version.ref = "fadingedgelayout" }
 keyboardvisibilityevent = { module = "net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent", version.ref = "yslibrary_keyboardvisibilityevent_version" }
-jetradarmobile-android-snowfall = { module = "com.github.jetradarmobile:android-snowfall", version.ref = "jetradarmobile_androidSnowfall_version" }
 chrisbanes-insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "chrisbanes_insetter_version" }
 jaudiotagger = { module = "com.github.Adonai:jaudiotagger", version.ref = "jaudiotagger" }
 slidableactivity = { module = "com.r0adkll:slidableactivity", version.ref = "slidableactivity" }
-material-intro = { module = "com.heinrichreimersoftware:material-intro", version.ref = "materialIntro" }
 dhaval2404-imagepicker = { module = "com.github.dhaval2404:imagepicker", version.ref = "dhaval2404_imagepicker_version" }
 fastscroll-library = { module = "me.zhanghai.android.fastscroll:library", version.ref = "fast_scroll_libraryVersion" }
 customactivityoncrash = { module = "cat.ereza:customactivityoncrash", version.ref = "customactivityoncrash" }
-tankery-circularSeekBar = { module = "me.tankery.lib:circularSeekBar", version.ref = "tankery_circularSeekBar_version" }
 
 
 #androidx
