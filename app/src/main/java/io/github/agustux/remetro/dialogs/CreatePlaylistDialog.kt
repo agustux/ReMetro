@@ -16,19 +16,19 @@ package io.github.agustux.remetro.dialogs
 
 import android.app.Dialog
 import android.os.Bundle
-import android.text.TextUtils
 import androidx.core.os.bundleOf
+import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.DialogFragment
 import io.github.agustux.remetro.EXTRA_SONG
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.databinding.DialogPlaylistBinding
+import io.github.agustux.remetro.extensions.accentColor
 import io.github.agustux.remetro.extensions.colorButtons
 import io.github.agustux.remetro.extensions.extra
 import io.github.agustux.remetro.extensions.materialDialog
+import io.github.agustux.remetro.extensions.requireNameOnPositive
 import io.github.agustux.remetro.fragments.LibraryViewModel
 import io.github.agustux.remetro.model.Song
-import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.textfield.TextInputLayout
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 
 class CreatePlaylistDialog : DialogFragment() {
@@ -54,24 +54,23 @@ class CreatePlaylistDialog : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         _binding = DialogPlaylistBinding.inflate(layoutInflater)
 
-        val songs: List<Song> = extra<List<Song>>(EXTRA_SONG).value ?: emptyList()
-        val playlistView: TextInputEditText = binding.actionNewPlaylist
-        val playlistContainer: TextInputLayout = binding.actionNewPlaylistContainer
+        binding.actionNewPlaylistContainer.accentColor()
+        binding.actionNewPlaylist.doAfterTextChanged { binding.actionNewPlaylistContainer.error = null }
         return materialDialog(R.string.new_playlist_title)
             .setView(binding.root)
-            .setPositiveButton(
-                R.string.create_action
-            ) { _, _ ->
-                val playlistName = playlistView.text.toString()
-                if (!TextUtils.isEmpty(playlistName)) {
-                    libraryViewModel.addToPlaylist(requireContext(), playlistName, songs)
-                } else {
-                    playlistContainer.error = "Playlist name can't be empty"
-                }
-            }
+            // Click handled in onStart so an empty name keeps the dialog open
+            .setPositiveButton(R.string.create_action, null)
             .setNegativeButton(R.string.action_cancel, null)
             .create()
             .colorButtons()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        requireNameOnPositive(binding.actionNewPlaylistContainer) { playlistName ->
+            val songs: List<Song> = extra<List<Song>>(EXTRA_SONG).value ?: emptyList()
+            libraryViewModel.addToPlaylist(requireContext(), playlistName, songs)
+        }
     }
 
     override fun onDestroyView() {

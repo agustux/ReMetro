@@ -43,13 +43,6 @@
         android:layout="@layout/preference_category_title"
         android:title="@string/colors">
 
-        <io.github.agustux.remetro.appthemehelper.common.prefs.supportv7.ATESwitchPreference
-            android:defaultValue="false"
-            android:key="wallpaper_accent"
-            android:layout="@layout/list_item_view_switch"
-            android:summary="@string/pref_summary_wallpaper_accent"
-            android:title="@string/pref_title_wallpaper_accent" />
-
         <io.github.agustux.remetro.appthemehelper.common.prefs.supportv7.ATEColorPreference
             android:dependency="material_you"
             android:key="accent_color"
@@ -58,14 +51,6 @@
             android:summary="@string/accent_color_desc"
             android:title="@string/accent_color"
             app:icon="@drawable/ic_colorize" />
-
-        <io.github.agustux.remetro.appthemehelper.common.prefs.supportv7.ATESwitchPreference
-            android:defaultValue="false"
-            android:dependency="material_you"
-            android:key="desaturated_color"
-            android:layout="@layout/list_item_view_switch"
-            android:summary="@string/pref_summary_desaturated_color"
-            android:title="@string/pref_title_desaturated_color" />
 
         <io.github.agustux.remetro.appthemehelper.common.prefs.supportv7.ATESwitchPreference
             android:defaultValue="false"

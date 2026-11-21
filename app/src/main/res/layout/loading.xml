@@ -21,8 +21,8 @@
     android:padding="14dp"
     app:layout_gravity="center">
 
-    <ProgressBar
-        style="@style/Widget.MaterialComponents.CircularProgressIndicator"
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

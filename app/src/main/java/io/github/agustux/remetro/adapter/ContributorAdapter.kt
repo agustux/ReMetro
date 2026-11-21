@@ -86,6 +86,7 @@ class ContributorAdapter(
         internal fun bindData(contributor: Contributor) {
             title.text = contributor.name
             text.text = contributor.summary
+            text.isSelected = true // starts the marquee for long summaries
             Glide.with(image.context)
                 .load("file:///android_asset/images/${contributor.image}".toUri())
                 .error(R.drawable.ic_account)

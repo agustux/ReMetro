@@ -64,7 +64,7 @@ class BlacklistFolderChooserDialog : DialogFragment() {
             ) {
                 return materialDialog().show {
                     title(res = R.string.md_error_label)
-                    message(res = R.string.made_with_love)
+                    message(res = R.string.md_storage_perm_error)
                     positiveButton(res = android.R.string.ok)
                 }
             }
@@ -90,7 +90,7 @@ class BlacklistFolderChooserDialog : DialogFragment() {
         parentContents = listFiles()
 
         editText = EditText(requireContext()).apply {
-            hint = "Enter full path here"
+            hint = getString(R.string.enter_full_path)
             val padding = 40
             setPadding(padding, padding, padding, padding)
         }

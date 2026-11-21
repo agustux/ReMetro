@@ -15,23 +15,21 @@
 package io.github.agustux.remetro.extensions
 
 import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
-import io.github.agustux.remetro.BuildConfig
 import io.github.agustux.remetro.R
 import com.afollestad.materialdialogs.MaterialDialog
+import com.google.android.material.textfield.TextInputLayout
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 fun Fragment.materialDialog(title: Int): MaterialAlertDialogBuilder {
-    return if (BuildConfig.DEBUG) {
-        MaterialAlertDialogBuilder(
-            requireContext(),
-            R.style.MaterialAlertDialogTheme
-        )
-    } else {
-        MaterialAlertDialogBuilder(
-            requireContext()
-        )
-    }.setTitle(title)
+    return MaterialAlertDialogBuilder(requireContext(), R.style.MaterialAlertDialogTheme)
+        .setTitle(title)
+}
+
+fun Fragment.materialDialog(title: CharSequence): MaterialAlertDialogBuilder {
+    return MaterialAlertDialogBuilder(requireContext(), R.style.MaterialAlertDialogTheme)
+        .setTitle(title)
 }
 
 fun AlertDialog.colorButtons(): AlertDialog {
@@ -41,6 +39,22 @@ fun AlertDialog.colorButtons(): AlertDialog {
         getButton(AlertDialog.BUTTON_NEUTRAL).accentTextColor()
     }
     return this
+}
+
+/**
+ * Call from onStart: the positive button keeps the dialog open and flags [container] while
+ * its text is empty, otherwise passes the text to [onName] and dismisses.
+ */
+fun DialogFragment.requireNameOnPositive(container: TextInputLayout, onName: (String) -> Unit) {
+    (dialog as? AlertDialog)?.getButton(AlertDialog.BUTTON_POSITIVE)?.setOnClickListener {
+        val name = container.editText?.text?.toString().orEmpty()
+        if (name.isEmpty()) {
+            container.error = getString(R.string.playlist_name_cannot_be_empty)
+        } else {
+            onName(name)
+            dismiss()
+        }
+    }
 }
 
 fun Fragment.materialDialog(): MaterialDialog {

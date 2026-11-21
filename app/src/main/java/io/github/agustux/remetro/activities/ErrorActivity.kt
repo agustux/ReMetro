@@ -6,6 +6,7 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import cat.ereza.customactivityoncrash.CustomActivityOnCrash
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.extensions.colorButtons
 import io.github.agustux.remetro.util.FileUtils.createFile
 import io.github.agustux.remetro.util.Share.shareFile
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -66,7 +67,7 @@ class ErrorActivity : AppCompatActivity() {
                     )
                     shareFile(this, bugReport, "text/*")
                 }
-                .show()
+                .create().colorButtons().show()
         }
         val errorActivityDrawableId = config.errorDrawable
         val errorImageView =

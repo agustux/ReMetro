@@ -22,6 +22,7 @@ import android.provider.Settings
 import androidx.core.net.toUri
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.extensions.colorButtons
 import io.github.agustux.remetro.extensions.showToast
 import io.github.agustux.remetro.model.Song
 import io.github.agustux.remetro.util.MusicUtil.getSongFileUri
@@ -69,6 +70,6 @@ object RingtoneManager {
                 context.startActivity(intent)
             }
             .setNegativeButton(android.R.string.cancel, null)
-            .create().show()
+            .create().colorButtons().show()
     }
 }

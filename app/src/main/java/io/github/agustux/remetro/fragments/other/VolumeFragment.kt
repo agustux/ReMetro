@@ -14,7 +14,6 @@
  */
 package io.github.agustux.remetro.fragments.other
 
-import android.graphics.Color
 import android.graphics.PorterDuff
 import android.media.AudioManager
 import android.os.Bundle
@@ -106,13 +105,6 @@ class VolumeFragment : Fragment(), Slider.OnChangeListener, OnAudioVolumeChanged
                 AudioManager.STREAM_MUSIC, AudioManager.ADJUST_RAISE, 0
             )
         }
-    }
-
-    fun tintWhiteColor() {
-        val color = Color.WHITE
-        binding.volumeDown.setColorFilter(color, PorterDuff.Mode.SRC_IN)
-        binding.volumeUp.setColorFilter(color, PorterDuff.Mode.SRC_IN)
-        binding.volumeSeekBar.applyColor(color)
     }
 
     fun setTintable(color: Int) {

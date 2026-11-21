@@ -143,7 +143,7 @@ object MusicUtil : KoinComponent {
     }
 
     fun getLyrics(song: Song): String? {
-        var lyrics: String? = "No lyrics found"
+        var lyrics: String? = null
         val file = File(song.data)
         try {
             lyrics = AudioFileIO.read(file).tagOrCreateDefault.getFirst(FieldKey.LYRICS)

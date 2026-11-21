@@ -24,6 +24,7 @@ import androidx.lifecycle.lifecycleScope
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.EXTRA_PLAYLIST
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.databinding.LoadingBinding
 import io.github.agustux.remetro.db.PlaylistWithSongs
 import io.github.agustux.remetro.extensions.*
 import io.github.agustux.remetro.helper.M3UWriter
@@ -96,8 +97,10 @@ class SavePlaylistDialog : DialogFragment() {
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        val loading = LoadingBinding.inflate(layoutInflater)
+        loading.progress.accentColor()
         return materialDialog(R.string.save_playlist_title)
-            .setView(R.layout.loading)
+            .setView(loading.root)
             .create().colorButtons()
     }
 }

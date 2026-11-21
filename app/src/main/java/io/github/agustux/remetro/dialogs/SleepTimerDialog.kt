@@ -34,6 +34,7 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.DialogFragment
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.extensions.colorButtons
 import io.github.agustux.remetro.databinding.DialogSleepTimerBinding
 import io.github.agustux.remetro.extensions.addAccentColor
 import io.github.agustux.remetro.extensions.materialDialog
@@ -154,7 +155,7 @@ class SleepTimerDialog : DialogFragment() {
                 }
             }
             setView(binding.root)
-            dialog = create()
+            dialog = create().colorButtons()
 
         }
         return dialog

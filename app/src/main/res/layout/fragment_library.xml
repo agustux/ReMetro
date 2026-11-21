@@ -23,7 +23,6 @@
                 android:layout_height="wrap_content"
                 android:background="?attr/colorSurface"
                 app:navigationIcon="@drawable/ic_search"
-                app:popupTheme="?attr/toolbarPopupTheme"
                 app:title="@null"
                 tools:ignore="UnusedAttribute">
 
