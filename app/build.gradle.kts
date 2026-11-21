@@ -21,8 +21,8 @@ android {
         }
 
         applicationId = "io.github.agustux.remetro"
-        versionCode = 1080000
-        versionName = "8.0.0"
+        versionCode = 1080001
+        versionName = "8.0.1"
     }
     val signingProperties = getProperties("signing.properties")
     val theSigningConfig = if (signingProperties != null) {
