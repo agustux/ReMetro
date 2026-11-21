@@ -13,7 +13,7 @@ android {
     namespace = "io.github.agustux.remetro"
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 23
         targetSdk = 36
 
         vectorDrawables {
@@ -136,17 +136,14 @@ dependencies {
     implementation(libs.fadingedgelayout)
 
     implementation(libs.keyboardvisibilityevent)
-    implementation(libs.jetradarmobile.android.snowfall)
 
     implementation(libs.chrisbanes.insetter)
 
 
     implementation(libs.jaudiotagger)
     implementation(libs.slidableactivity)
-    implementation(libs.material.intro)
     implementation(libs.fastscroll.library)
     implementation(libs.customactivityoncrash)
-    implementation(libs.tankery.circularSeekBar)
 
     implementation(libs.androidx.exoplayer)
 }

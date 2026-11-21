@@ -1,25 +1,25 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 android {
-    compileSdk 36
-    namespace "io.github.agustux.remetro.appthemehelper"
+    compileSdk = 36
+    namespace = "io.github.agustux.remetro.appthemehelper"
 
     defaultConfig {
-        minSdk 24
-        targetSdk 36
+        minSdk = 23
+        targetSdk = 36
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled = true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     lint {
-        abortOnError true
+        abortOnError = true
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_21
-        targetCompatibility JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     kotlinOptions {
         jvmTarget = "21"
