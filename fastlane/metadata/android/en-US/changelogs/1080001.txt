@@ -1,0 +1,6 @@
+ReMetro 8.0.1
+
+• Minimum Android is now 6.0 (API 23)
+• Removed home widgets, extra now-playing screens, home suggestions, Instagram share and SAF guide
+• Accent color now themes the whole app (Catppuccin accents)
+• Dialog and layout polish
