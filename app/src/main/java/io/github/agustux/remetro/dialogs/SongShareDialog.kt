@@ -22,7 +22,6 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import io.github.agustux.remetro.EXTRA_SONG
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.activities.ShareInstagramStory
 import io.github.agustux.remetro.extensions.colorButtons
 import io.github.agustux.remetro.extensions.materialDialog
 import io.github.agustux.remetro.model.Song
@@ -41,8 +40,7 @@ class SongShareDialog : DialogFragment() {
             .setItems(
                 arrayOf(
                     getString(R.string.the_audio_file),
-                    "\u201C" + listening + "\u201D",
-                    getString(R.string.social_stories)
+                    "\u201C" + listening + "\u201D"
                 )
             ) { _, which ->
                 withAction(which, song, listening)
@@ -75,19 +73,6 @@ class SongShareDialog : DialogFragment() {
                         null
                     )
                 )
-            }
-            2 -> {
-                if (song != null) {
-                    startActivity(
-                        Intent(
-                            requireContext(),
-                            ShareInstagramStory::class.java
-                        ).putExtra(
-                            ShareInstagramStory.EXTRA_SONG,
-                            song
-                        )
-                    )
-                }
             }
         }
     }

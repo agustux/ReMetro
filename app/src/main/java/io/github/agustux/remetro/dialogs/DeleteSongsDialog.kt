@@ -18,6 +18,7 @@ import android.app.Activity
 import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import android.provider.MediaStore
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
@@ -27,9 +28,9 @@ import androidx.fragment.app.DialogFragment
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.EXTRA_SONG
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.activities.saf.SAFGuideActivity
 import io.github.agustux.remetro.extensions.extraNotNull
 import io.github.agustux.remetro.extensions.materialDialog
+import io.github.agustux.remetro.extensions.showToast
 import io.github.agustux.remetro.fragments.LibraryViewModel
 import io.github.agustux.remetro.fragments.ReloadType
 import io.github.agustux.remetro.helper.MusicPlayerRemote
@@ -43,19 +44,6 @@ import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 class DeleteSongsDialog : DialogFragment() {
     lateinit var libraryViewModel: LibraryViewModel
-
-    // Activity Result Launchers for the new API
-    private val safGuideResultLauncher = registerForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            // Launch tree picker directly
-            val intent = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE).apply {
-                putExtra("android.content.extra.SHOW_ADVANCED", true)
-            }
-            safPickerResultLauncher.launch(intent)
-        }
-    }
 
     private val safPickerResultLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
@@ -144,8 +132,10 @@ class DeleteSongsDialog : DialogFragment() {
                         if (SAFUtil.isSDCardAccessGranted(requireActivity())) {
                             deleteSongs(songs)
                         } else {
-                            safGuideResultLauncher.launch(
-                                Intent(requireActivity(), SAFGuideActivity::class.java)
+                            showToast(R.string.saf_select_sd_card_root, Toast.LENGTH_LONG)
+                            safPickerResultLauncher.launch(
+                                Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
+                                    .putExtra("android.content.extra.SHOW_ADVANCED", true)
                             )
                         }
                     }
