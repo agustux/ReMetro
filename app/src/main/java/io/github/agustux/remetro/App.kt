@@ -22,13 +22,10 @@ import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.activities.ErrorActivity
 import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.appshortcuts.DynamicShortcutManager
-import io.github.agustux.remetro.helper.WallpaperAccentManager
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
 class App : Application() {
-
-    private val wallpaperAccentManager = WallpaperAccentManager(this)
 
     override fun onCreate() {
         super.onCreate()
@@ -45,7 +42,6 @@ class App : Application() {
                 .coloredNavigationBar(true)
                 .commit()
         }
-        wallpaperAccentManager.init()
 
         if (VersionUtils.hasNougatMR())
             DynamicShortcutManager(this).initDynamicShortcuts()
@@ -57,11 +53,6 @@ class App : Application() {
         // Set Default values for now playing preferences
         // This will reduce startup time for now playing settings fragment as Preference listener of AbsSlidingMusicPanelActivity won't be called
         PreferenceManager.setDefaultValues(this, R.xml.pref_now_playing_screen, false)
-    }
-
-    override fun onTerminate() {
-        super.onTerminate()
-        wallpaperAccentManager.release()
     }
 
     companion object {

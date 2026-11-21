@@ -37,6 +37,7 @@ import io.github.agustux.remetro.appthemehelper.ThemeStore
 import io.github.agustux.remetro.appthemehelper.util.ATHUtil
 import io.github.agustux.remetro.appthemehelper.util.ColorUtil
 import io.github.agustux.remetro.appthemehelper.util.MaterialValueHelper
+import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.R
 import io.github.agustux.remetro.util.PreferenceUtil.materialYou
 import com.google.android.material.button.MaterialButton
@@ -234,6 +235,8 @@ fun TextInputLayout.accentColor() {
     val colorState = ColorStateList.valueOf(accentColor)
     boxStrokeColor = accentColor
     defaultHintTextColor = colorState
+    hintTextColor = colorState
+    if (VersionUtils.hasQ()) cursorColor = colorState
     isHintAnimationEnabled = true
 }
 

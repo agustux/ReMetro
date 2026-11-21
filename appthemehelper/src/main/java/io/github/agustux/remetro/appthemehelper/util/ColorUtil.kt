@@ -10,15 +10,6 @@ import kotlin.math.min
 import kotlin.math.roundToInt
 
 object ColorUtil {
-    fun desaturateColor(color: Int, ratio: Float): Int {
-        val hsv = FloatArray(3)
-        Color.colorToHSV(color, hsv)
-
-        hsv[1] = hsv[1] / 1 * ratio + 0.2f * (1.0f - ratio)
-
-        return Color.HSVToColor(hsv)
-    }
-
     fun stripAlpha(@ColorInt color: Int): Int {
         return -0x1000000 or color
     }
@@ -70,26 +61,6 @@ object ColorUtil {
         hsl[2] -= value
         hsl[2] = hsl[2].coerceIn(0f, 1f)
         return ColorUtils.HSLToColor(hsl)
-    }
-
-    @ColorInt
-    fun getReadableColorLight(@ColorInt color: Int, @ColorInt bgColor: Int): Int {
-        var foregroundColor = color
-        while (ColorUtils.calculateContrast(foregroundColor, bgColor) <= 3.0
-        ) {
-            foregroundColor = darkenColor(foregroundColor, 0.1F)
-        }
-        return foregroundColor
-    }
-
-    @ColorInt
-    fun getReadableColorDark(@ColorInt color: Int, @ColorInt bgColor: Int): Int {
-        var foregroundColor = color
-        while (ColorUtils.calculateContrast(foregroundColor, bgColor) <= 3.0
-        ) {
-            foregroundColor = lightenColor(foregroundColor, 0.1F)
-        }
-        return foregroundColor
     }
 
     fun isColorLight(@ColorInt color: Int): Boolean {

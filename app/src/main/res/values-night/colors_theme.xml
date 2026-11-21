@@ -12,4 +12,11 @@
     <color name="theme_mantle">@color/ctp_mocha_mantle</color>
     <color name="theme_crust">@color/ctp_mocha_crust</color>
     <color name="theme_red">@color/ctp_mocha_red</color>
+    <color name="theme_blue">@color/ctp_mocha_blue</color>
+    <color name="theme_mauve">@color/ctp_mocha_mauve</color>
+    <color name="theme_teal">@color/ctp_mocha_teal</color>
+    <color name="theme_peach">@color/ctp_mocha_peach</color>
+    <color name="theme_lavender">@color/ctp_mocha_lavender</color>
+    <color name="theme_sky">@color/ctp_mocha_sky</color>
+    <color name="theme_green">@color/ctp_mocha_green</color>
 </resources>

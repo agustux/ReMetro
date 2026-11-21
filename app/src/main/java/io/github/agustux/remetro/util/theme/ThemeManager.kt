@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatDelegate
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.extensions.generalThemeValue
 import io.github.agustux.remetro.util.PreferenceUtil
 import io.github.agustux.remetro.util.theme.ThemeMode.*
@@ -22,8 +23,10 @@ fun Context.getThemeResValue(): Int =
         }
     }
 
-fun Context.getNightMode(): Int = when (generalThemeValue) {
+/** Keeps `-night` resources in sync with the chosen theme instead of the system's. */
+fun getNightMode(): Int = when (PreferenceUtil.getGeneralThemeValue(false)) {
     LIGHT -> AppCompatDelegate.MODE_NIGHT_NO
-    DARK -> AppCompatDelegate.MODE_NIGHT_YES
-    else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+    DARK, BLACK -> AppCompatDelegate.MODE_NIGHT_YES
+    AUTO -> if (VersionUtils.hasQ()) AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+    else AppCompatDelegate.MODE_NIGHT_AUTO_BATTERY
 }

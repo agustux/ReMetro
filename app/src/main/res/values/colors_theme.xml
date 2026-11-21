@@ -12,4 +12,11 @@
     <color name="theme_mantle">@color/ctp_latte_mantle</color>
     <color name="theme_crust">@color/ctp_latte_crust</color>
     <color name="theme_red">@color/ctp_latte_red</color>
+    <color name="theme_blue">@color/ctp_latte_blue</color>
+    <color name="theme_mauve">@color/ctp_latte_mauve</color>
+    <color name="theme_teal">@color/ctp_latte_teal</color>
+    <color name="theme_peach">@color/ctp_latte_peach</color>
+    <color name="theme_lavender">@color/ctp_latte_lavender</color>
+    <color name="theme_sky">@color/ctp_latte_sky</color>
+    <color name="theme_green">@color/ctp_latte_green</color>
 </resources>

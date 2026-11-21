@@ -4,7 +4,6 @@
     <attr name="roundSelector" format="reference" />
     <attr name="rectSelector" format="reference" />
     <attr name="defaultFooterColor" format="color" />
-    <attr name="toolbarPopupTheme" format="reference" />
     <attr name="lineHeightHint" format="dimension" />
 
     <declare-styleable name="NetworkImageView">

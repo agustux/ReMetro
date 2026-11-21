@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One overlay per Catppuccin accent, applied at runtime by AccentTheme. -->
+<resources>
+    <style name="ThemeOverlay.ReMetro.Accent" parent="">
+        <item name="colorOnPrimary">@color/ctp_mocha_base</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Rosewater" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_rosewater</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Flamingo" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_flamingo</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Pink" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_pink</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Mauve" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_mauve</item>
+        <item name="colorOnPrimary">@color/ctp_latte_base</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Red" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_red</item>
+        <item name="colorOnPrimary">@color/ctp_latte_base</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Maroon" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_maroon</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Peach" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_peach</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Yellow" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_yellow</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Green" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_green</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Teal" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_teal</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Sky" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_sky</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Sapphire" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_sapphire</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Blue" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_blue</item>
+        <item name="colorOnPrimary">@color/ctp_latte_base</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Latte.Lavender" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_latte_lavender</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Rosewater" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_rosewater</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Flamingo" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_flamingo</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Pink" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_pink</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Mauve" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_mauve</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Red" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_red</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Maroon" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_maroon</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Peach" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_peach</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Yellow" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_yellow</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Green" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_green</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Teal" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_teal</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Sky" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_sky</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Sapphire" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_sapphire</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Blue" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_blue</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Frappe.Lavender" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_frappe_lavender</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Rosewater" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_rosewater</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Flamingo" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_flamingo</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Pink" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_pink</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Mauve" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_mauve</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Red" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_red</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Maroon" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_maroon</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Peach" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_peach</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Yellow" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_yellow</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Green" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_green</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Teal" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_teal</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Sky" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_sky</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Sapphire" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_sapphire</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Blue" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_blue</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Macchiato.Lavender" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_macchiato_lavender</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Rosewater" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_rosewater</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Flamingo" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_flamingo</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Pink" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_pink</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Mauve" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_mauve</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Red" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_red</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Maroon" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_maroon</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Peach" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_peach</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Yellow" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_yellow</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Green" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_green</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Teal" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_teal</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Sky" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_sky</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Sapphire" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_sapphire</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Blue" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_blue</item>
+    </style>
+    <style name="ThemeOverlay.ReMetro.Accent.Mocha.Lavender" parent="ThemeOverlay.ReMetro.Accent">
+        <item name="colorPrimary">@color/ctp_mocha_lavender</item>
+    </style>
+</resources>

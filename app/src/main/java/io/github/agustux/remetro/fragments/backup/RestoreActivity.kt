@@ -17,6 +17,7 @@ import io.github.agustux.remetro.extensions.addAccentColor
 import io.github.agustux.remetro.helper.BackupContent
 import io.github.agustux.remetro.helper.BackupContent.*
 import io.github.agustux.remetro.util.PreferenceUtil
+import io.github.agustux.remetro.util.theme.AccentTheme
 import io.github.agustux.remetro.util.theme.getNightMode
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.color.DynamicColorsOptions
@@ -37,6 +38,7 @@ class RestoreActivity : AppCompatActivity() {
         setWidth()
         val backupUri = intent?.data
         binding.backupName.setText(getFileName(backupUri))
+        binding.backupNameContainer.accentColor()
         binding.cancelButton.accentOutlineColor()
         binding.cancelButton.setOnClickListener {
             finish()
@@ -71,6 +73,8 @@ class RestoreActivity : AppCompatActivity() {
                     .setThemeOverlay(com.google.android.material.R.style.ThemeOverlay_Material3_DynamicColors_DayNight)
                     .build()
             )
+        } else {
+            theme.applyStyle(AccentTheme.overlayFor(this), true)
         }
     }
 

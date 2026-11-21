@@ -22,11 +22,8 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.ContextCompat
 import androidx.core.content.withStyledAttributes
 import io.github.agustux.remetro.appthemehelper.ThemeStore
-import io.github.agustux.remetro.appthemehelper.util.ATHUtil
 import io.github.agustux.remetro.appthemehelper.util.ColorUtil
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.util.PreferenceUtil
-import io.github.agustux.remetro.util.ReMetroColorUtil
 import com.google.android.material.color.MaterialColors
 
 
@@ -47,19 +44,9 @@ class ColorIconsImageView @JvmOverloads constructor(
 
     fun setIconBackgroundColor(color: Int) {
         background = ContextCompat.getDrawable(context, R.drawable.color_circle_gradient)
-        if (ATHUtil.isWindowBackgroundDark(context) && PreferenceUtil.isDesaturatedColor) {
-            val desaturatedColor = ReMetroColorUtil.desaturateColor(color, 0.4f)
-            backgroundTintList = ColorStateList.valueOf(desaturatedColor)
-            imageTintList =
-                ColorStateList.valueOf(ATHUtil.resolveColor(context, com.google.android.material.R.attr.colorSurface))
-        } else {
-            val finalColor = MaterialColors.harmonize(
-                color,
-                ThemeStore.accentColor(context)
-            )
-            backgroundTintList = ColorStateList.valueOf(ColorUtil.adjustAlpha(finalColor, 0.22f))
-            imageTintList = ColorStateList.valueOf(ColorUtil.withAlpha(finalColor, 0.75f))
-        }
+        val finalColor = MaterialColors.harmonize(color, ThemeStore.accentColor(context))
+        backgroundTintList = ColorStateList.valueOf(ColorUtil.adjustAlpha(finalColor, 0.22f))
+        imageTintList = ColorStateList.valueOf(ColorUtil.withAlpha(finalColor, 0.75f))
         requestLayout()
         invalidate()
     }

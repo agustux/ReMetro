@@ -8,7 +8,6 @@ import androidx.annotation.IntRange
 import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
-import io.github.agustux.remetro.appthemehelper.util.ATHUtil.isWindowBackgroundDark
 import io.github.agustux.remetro.appthemehelper.util.ATHUtil.resolveColor
 import io.github.agustux.remetro.appthemehelper.util.ColorUtil
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils
@@ -57,29 +56,6 @@ private constructor(private val mContext: Context) : ThemeStorePrefKeys, ThemeSt
 
     override fun accentColor(@ColorInt color: Int): ThemeStore {
         mEditor.putInt(ThemeStorePrefKeys.KEY_ACCENT_COLOR, color)
-        return this
-    }
-
-    override fun wallpaperColor(context: Context, color: Int): ThemeStore {
-        if (ColorUtil.isColorLight(color)) {
-            mEditor.putInt(ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_DARK, color)
-            mEditor.putInt(
-                ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_LIGHT,
-                ColorUtil.getReadableColorLight(
-                    color,
-                    Color.WHITE
-                )
-            )
-        } else {
-            mEditor.putInt(ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_LIGHT, color)
-            mEditor.putInt(
-                ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_DARK,
-                ColorUtil.getReadableColorDark(
-                    color,
-                    Color.parseColor("#1E1E2E")
-                )
-            )
-        }
         return this
     }
 
@@ -234,26 +210,8 @@ private constructor(private val mContext: Context) : ThemeStorePrefKeys, ThemeSt
             if (isMD3Enabled(context) && VersionUtils.hasS()) {
                 return ContextCompat.getColor(context, R.color.m3_accent_color)
             }
-            val desaturatedColor = prefs(context).getBoolean("desaturated_color", false)
-            val color = if (isWallpaperAccentEnabled(context)) {
-                wallpaperColor(context, isWindowBackgroundDark(context))
-            } else {
-                prefs(context).getInt(
-                    ThemeStorePrefKeys.KEY_ACCENT_COLOR,
-                    resolveColor(context, androidx.appcompat.R.attr.colorAccent, Color.parseColor("#74C7EC"))
-                )
-            }
-            return if (isWindowBackgroundDark(context) && desaturatedColor) ColorUtil.desaturateColor(
-                color,
-                0.4f
-            ) else color
-        }
-
-        @CheckResult
-        @ColorInt
-        fun wallpaperColor(context: Context, isDarkMode: Boolean): Int {
             return prefs(context).getInt(
-                if (isDarkMode) ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_DARK else ThemeStorePrefKeys.KEY_WALLPAPER_COLOR_LIGHT,
+                ThemeStorePrefKeys.KEY_ACCENT_COLOR,
                 resolveColor(context, androidx.appcompat.R.attr.colorAccent, Color.parseColor("#74C7EC"))
             )
         }
@@ -346,11 +304,6 @@ private constructor(private val mContext: Context) : ThemeStorePrefKeys, ThemeSt
         fun isMD3Enabled(context: Context): Boolean {
             return PreferenceManager.getDefaultSharedPreferences(context)
                 .getBoolean(ThemeStorePrefKeys.KEY_MATERIAL_YOU, false)
-        }
-
-        private fun isWallpaperAccentEnabled(context: Context): Boolean {
-            return PreferenceManager.getDefaultSharedPreferences(context)
-                .getBoolean("wallpaper_accent", false)
         }
     }
 }

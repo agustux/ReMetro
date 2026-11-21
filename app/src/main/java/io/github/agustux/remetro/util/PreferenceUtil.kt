@@ -37,7 +37,6 @@ import io.github.agustux.remetro.CIRCLE_PLAY_BUTTON
 import io.github.agustux.remetro.COLORED_APP_SHORTCUTS
 import io.github.agustux.remetro.CROSS_FADE_DURATION
 import io.github.agustux.remetro.CUSTOM_FONT
-import io.github.agustux.remetro.DESATURATED_COLOR
 import io.github.agustux.remetro.ENABLE_SEARCH_PLAYLIST
 import io.github.agustux.remetro.EXPAND_NOW_PLAYING_PANEL
 import io.github.agustux.remetro.EXTRA_SONG_INFO
@@ -80,7 +79,6 @@ import io.github.agustux.remetro.SCROLL_TO_PLAYING_SONG
 import io.github.agustux.remetro.SHOW_LYRICS
 import io.github.agustux.remetro.SHOW_WHEN_LOCKED
 import io.github.agustux.remetro.SLEEP_TIMER_FINISH_SONG
-import io.github.agustux.remetro.SNOWFALL
 import io.github.agustux.remetro.SONG_GRID_SIZE
 import io.github.agustux.remetro.SONG_GRID_SIZE_LAND
 import io.github.agustux.remetro.SONG_GRID_STYLE
@@ -92,9 +90,7 @@ import io.github.agustux.remetro.TAB_TEXT_MODE
 import io.github.agustux.remetro.TOGGLE_ADD_CONTROLS
 import io.github.agustux.remetro.TOGGLE_FULL_SCREEN
 import io.github.agustux.remetro.TOGGLE_HEADSET
-import io.github.agustux.remetro.TOGGLE_SUGGESTIONS
 import io.github.agustux.remetro.TOGGLE_VOLUME
-import io.github.agustux.remetro.WALLPAPER_ACCENT
 import io.github.agustux.remetro.WHITELIST_MUSIC
 import io.github.agustux.remetro.extensions.getIntRes
 import io.github.agustux.remetro.extensions.getStringOrDefault
@@ -370,14 +366,6 @@ object PreferenceUtil {
             putBoolean(COLORED_APP_SHORTCUTS, value)
         }
 
-    var isDesaturatedColor
-        get() = sharedPreferences.getBoolean(
-            DESATURATED_COLOR, false
-        )
-        set(value) = sharedPreferences.edit {
-            putBoolean(DESATURATED_COLOR, value)
-        }
-
     val isAdaptiveColor
         get() = sharedPreferences.getBoolean(
             ADAPTIVE_COLOR_APP, false
@@ -469,14 +457,6 @@ object PreferenceUtil {
         set(value) = sharedPreferences.edit {
             putInt(NEXT_SLEEP_TIMER_ELAPSED_REALTIME, value)
         }
-
-    fun themeResFromPrefValue(themePrefValue: String): Int {
-        return when (themePrefValue) {
-            "light" -> R.style.Theme_ReMetro_Light
-            "dark" -> R.style.Theme_ReMetro
-            else -> R.style.Theme_ReMetro
-        }
-    }
 
     val homeArtistGridStyle: Int
         get() {
@@ -620,7 +600,7 @@ object PreferenceUtil {
                     return nowPlayingScreen
                 }
             }
-            return NowPlayingScreen.Adaptive
+            return NowPlayingScreen.Normal
         }
         set(value) = sharedPreferences.edit {
             putInt(NOW_PLAYING_SCREEN_ID, value.id)
@@ -705,12 +685,6 @@ object PreferenceUtil {
             return (System.currentTimeMillis() - interval) / 1000
         }
 
-    val homeSuggestions: Boolean
-        get() = sharedPreferences.getBoolean(
-            TOGGLE_SUGGESTIONS,
-            true
-        )
-
     val pauseHistory: Boolean
         get() = sharedPreferences.getBoolean(
             PAUSE_HISTORY,
@@ -750,13 +724,10 @@ object PreferenceUtil {
     val isCrossfadeEnabled get() = crossFadeDuration > 0
 
     val materialYou
-        get() = sharedPreferences.getBoolean(MATERIAL_YOU, false)
+        get() = VersionUtils.hasS() && sharedPreferences.getBoolean(MATERIAL_YOU, false)
 
     val isCustomFont
         get() = sharedPreferences.getBoolean(CUSTOM_FONT, false)
-
-    val isSnowFalling
-        get() = sharedPreferences.getBoolean(SNOWFALL, false)
 
     val lyricsType: CoverLyricsType
         get() = if (sharedPreferences.getString(LYRICS_TYPE, "0") == "0") {
@@ -781,12 +752,6 @@ object PreferenceUtil {
         } else {
             TopAppBarLayout.AppBarMode.SIMPLE
         }
-
-    val wallpaperAccent
-        get() = sharedPreferences.getBoolean(
-            WALLPAPER_ACCENT,
-            VersionUtils.hasOreoMR1() && !VersionUtils.hasS()
-        )
 
     val lyricsScreenOn
         get() = sharedPreferences.getBoolean(SCREEN_ON_LYRICS, false)

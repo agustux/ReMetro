@@ -16,7 +16,6 @@ package io.github.agustux.remetro.fragments.settings
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.core.content.edit
 import androidx.preference.Preference
 import androidx.preference.TwoStatePreference
 import io.github.agustux.remetro.appthemehelper.ACCENT_COLORS
@@ -29,7 +28,6 @@ import io.github.agustux.remetro.appthemehelper.util.VersionUtils
 import io.github.agustux.remetro.*
 import io.github.agustux.remetro.appshortcuts.DynamicShortcutManager
 import io.github.agustux.remetro.extensions.materialDialog
-import io.github.agustux.remetro.fragments.NowPlayingScreen.*
 import io.github.agustux.remetro.util.PreferenceUtil
 import com.afollestad.materialdialogs.color.colorChooser
 import com.google.android.material.color.DynamicColors
@@ -79,20 +77,8 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
         blackTheme?.setOnPreferenceChangeListener { _, _ ->
             ThemeStore.markChanged(requireContext())
             if (VersionUtils.hasNougatMR()) {
-                requireActivity().setTheme(PreferenceUtil.themeResFromPrefValue("black"))
                 DynamicShortcutManager(requireContext()).updateDynamicShortcuts()
             }
-            restartActivity()
-            true
-        }
-
-        val desaturatedColor: ATESwitchPreference? = findPreference(DESATURATED_COLOR)
-        desaturatedColor?.setOnPreferenceChangeListener { _, value ->
-            val desaturated = value as Boolean
-            ThemeStore.prefs(requireContext()).edit {
-                putBoolean("desaturated_color", desaturated)
-            }
-            PreferenceUtil.isDesaturatedColor = desaturated
             restartActivity()
             true
         }
@@ -117,11 +103,6 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
             restartActivity()
             true
         }
-        val wallpaperAccent: ATESwitchPreference? = findPreference(WALLPAPER_ACCENT)
-        wallpaperAccent?.setOnPreferenceChangeListener { _, _ ->
-            restartActivity()
-            true
-        }
         val customFont: ATESwitchPreference? = findPreference(CUSTOM_FONT)
         customFont?.setOnPreferenceChangeListener { _, _ ->
             restartActivity()
@@ -130,12 +111,10 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
 
         val adaptiveColor: ATESwitchPreference? = findPreference(ADAPTIVE_COLOR_APP)
         adaptiveColor?.isEnabled =
-            PreferenceUtil.nowPlayingScreen in listOf(Normal, Material, Flat)
+            PreferenceUtil.nowPlayingScreen.supportsAdaptiveColor
     }
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.pref_general)
-        val wallpaperAccent: ATESwitchPreference? = findPreference(WALLPAPER_ACCENT)
-        wallpaperAccent?.isVisible = VersionUtils.hasOreoMR1() && !VersionUtils.hasS()
     }
 }

@@ -32,6 +32,7 @@ import io.github.agustux.remetro.extensions.setLightNavigationBarAuto
 import io.github.agustux.remetro.extensions.setLightStatusBarAuto
 import io.github.agustux.remetro.extensions.surfaceColor
 import io.github.agustux.remetro.util.PreferenceUtil
+import io.github.agustux.remetro.util.theme.AccentTheme
 import io.github.agustux.remetro.util.theme.getNightMode
 import io.github.agustux.remetro.util.theme.getThemeResValue
 
@@ -55,12 +56,15 @@ abstract class AbsThemeActivity : ATHToolbarActivity(), Runnable {
 
     private fun updateTheme() {
         setTheme(getThemeResValue())
-        if (PreferenceUtil.materialYou) {
-            setDefaultNightMode(getNightMode())
-        }
+        setDefaultNightMode(getNightMode())
 
         if (PreferenceUtil.isCustomFont) {
             setTheme(R.style.FontThemeOverlay)
+        }
+
+        // Material You supplies its own primary; otherwise make colorPrimary follow the accent
+        if (!PreferenceUtil.materialYou) {
+            theme.applyStyle(AccentTheme.overlayFor(this), true)
         }
     }
 

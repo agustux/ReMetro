@@ -5,10 +5,7 @@
     <color name="app_shortcut_default_foreground">@color/ctp_mocha_sapphire</color>
     <color name="app_shortcut_default_background">@color/ctp_mocha_base</color>
 
-    <color name="darkColorPrimary">@color/ctp_mocha_base</color>
     <color name="darkColorSurface">@color/ctp_mocha_base</color>
-
-    <color name="lighterColorSurface">@color/ctp_latte_surface0</color>
 
     <color name="blackColorSurface">#000000</color>
 
@@ -16,8 +13,5 @@
     <color name="semi_transparent">#20000000</color>
     <!-- card colors -->
     <color name="card_background">@color/ctp_latte_base</color>
-    <color name="card_shadow_1">@color/ctp_latte_surface1</color>
-    <color name="card_shadow_2">@color/ctp_latte_surface0</color>
 
-    <color name="widget_md3_button_bg_color">@color/lighterColorSurface</color>
 </resources>

@@ -37,15 +37,6 @@ import io.github.agustux.remetro.appthemehelper.util.ColorUtil;
 import io.github.agustux.remetro.appthemehelper.util.VersionUtils;
 
 public class ReMetroColorUtil {
-  public static int desaturateColor(int color, float ratio) {
-    float[] hsv = new float[3];
-    Color.colorToHSV(color, hsv);
-
-    hsv[1] = (hsv[1] * ratio) + (0.2f * (1.0f - ratio));
-
-    return Color.HSVToColor(hsv);
-  }
-
   @Nullable
   public static Palette generatePalette(@Nullable Bitmap bitmap) {
     return bitmap == null ? null : Palette.from(bitmap).clearFilters().generate();

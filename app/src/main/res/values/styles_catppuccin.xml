@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Catppuccin palettes. Accent (colorPrimary etc.) is applied at runtime by ThemeStore/ATH. -->
+    <!-- Catppuccin palettes. Accent roles are set below and overridden at runtime by AccentTheme. -->
     <style name="Theme.Catppuccin.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Accent roles: colorPrimary defaults to the default accent and is replaced per accent
+             by ThemeOverlay.ReMetro.Accent.* (styles_accent.xml); other roles follow it. -->
+        <item name="colorPrimary">@color/ctp_mocha_sapphire</item>
+        <item name="colorOnPrimary">@color/ctp_mocha_base</item>
+        <item name="colorPrimaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnPrimaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorPrimaryInverse">?attr/colorPrimary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorOnSecondary">?attr/colorOnPrimary</item>
+        <item name="colorTertiary">?attr/colorPrimary</item>
+        <item name="colorOnTertiary">?attr/colorOnPrimary</item>
+        <item name="colorTertiaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnTertiaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <!-- afollestad MaterialDialog: match MaterialAlertDialog (M3) colors -->
+        <item name="md_background_color">?attr/colorSurfaceContainerHigh</item>
+        <item name="md_color_title">?attr/colorOnSurface</item>
+        <item name="md_color_content">?attr/colorOnSurfaceVariant</item>
+        <item name="md_color_button_text">?attr/colorPrimary</item>
+        <item name="md_color_widget">?attr/colorPrimary</item>
+        <item name="md_color_hint">?android:attr/textColorHint</item>
+        <item name="md_divider_color">?attr/colorOutlineVariant</item>
         <item name="android:colorBackground">@color/ctp_mocha_base</item>
         <item name="colorSurface">@color/ctp_mocha_base</item>
         <item name="colorOnSurface">@color/ctp_mocha_text</item>
@@ -38,6 +60,28 @@
     </style>
 
     <style name="Theme.Catppuccin.Light" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Accent roles: colorPrimary defaults to the default accent and is replaced per accent
+             by ThemeOverlay.ReMetro.Accent.* (styles_accent.xml); other roles follow it. -->
+        <item name="colorPrimary">@color/ctp_mocha_sapphire</item>
+        <item name="colorOnPrimary">@color/ctp_mocha_base</item>
+        <item name="colorPrimaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnPrimaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorPrimaryInverse">?attr/colorPrimary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorOnSecondary">?attr/colorOnPrimary</item>
+        <item name="colorTertiary">?attr/colorPrimary</item>
+        <item name="colorOnTertiary">?attr/colorOnPrimary</item>
+        <item name="colorTertiaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnTertiaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <!-- afollestad MaterialDialog: match MaterialAlertDialog (M3) colors -->
+        <item name="md_background_color">?attr/colorSurfaceContainerHigh</item>
+        <item name="md_color_title">?attr/colorOnSurface</item>
+        <item name="md_color_content">?attr/colorOnSurfaceVariant</item>
+        <item name="md_color_button_text">?attr/colorPrimary</item>
+        <item name="md_color_widget">?attr/colorPrimary</item>
+        <item name="md_color_hint">?android:attr/textColorHint</item>
+        <item name="md_divider_color">?attr/colorOutlineVariant</item>
         <item name="android:colorBackground">@color/ctp_latte_base</item>
         <item name="colorSurface">@color/ctp_latte_base</item>
         <item name="colorOnSurface">@color/ctp_latte_text</item>
@@ -67,6 +111,28 @@
 
     <!-- Latte by default, Mocha with the night qualifier (via theme_* colors) -->
     <style name="Theme.Catppuccin.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Accent roles: colorPrimary defaults to the default accent and is replaced per accent
+             by ThemeOverlay.ReMetro.Accent.* (styles_accent.xml); other roles follow it. -->
+        <item name="colorPrimary">@color/ctp_mocha_sapphire</item>
+        <item name="colorOnPrimary">@color/ctp_mocha_base</item>
+        <item name="colorPrimaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnPrimaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorPrimaryInverse">?attr/colorPrimary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorOnSecondary">?attr/colorOnPrimary</item>
+        <item name="colorTertiary">?attr/colorPrimary</item>
+        <item name="colorOnTertiary">?attr/colorOnPrimary</item>
+        <item name="colorTertiaryContainer">?attr/colorPrimary</item>
+        <item name="colorOnTertiaryContainer">?attr/colorOnPrimary</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <!-- afollestad MaterialDialog: match MaterialAlertDialog (M3) colors -->
+        <item name="md_background_color">?attr/colorSurfaceContainerHigh</item>
+        <item name="md_color_title">?attr/colorOnSurface</item>
+        <item name="md_color_content">?attr/colorOnSurfaceVariant</item>
+        <item name="md_color_button_text">?attr/colorPrimary</item>
+        <item name="md_color_widget">?attr/colorPrimary</item>
+        <item name="md_color_hint">?android:attr/textColorHint</item>
+        <item name="md_divider_color">?attr/colorOutlineVariant</item>
         <item name="android:colorBackground">@color/theme_base</item>
         <item name="colorSurface">@color/theme_base</item>
         <item name="colorOnSurface">@color/theme_text</item>

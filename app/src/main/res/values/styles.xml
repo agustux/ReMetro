@@ -36,7 +36,6 @@
     </style>
 
     <style name="Toolbar" parent="Widget.Material3.Toolbar">
-        <item name="popupTheme">?toolbarPopupTheme</item>
         <item name="android:transitionName" tools:ignore="NewApi">toolbar</item>
         <item name="layout_collapseMode">pin</item>
         <item name="contentInsetStartWithNavigation">0dp</item>
@@ -65,10 +64,6 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="BottomSheetItemTextAppearance" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
-        <item name="android:textSize">13sp</item>
-    </style>
-
     <style name="Fab" parent="FabParent" />
 
     <style name="TextViewNormal" parent="">
@@ -90,8 +85,6 @@
     <style name="TextViewCaption" parent="TextAppearance.MaterialComponents.Caption" />
 
     <style name="TextViewHeadline6" parent="TextAppearance.MaterialComponents.Headline6" />
-
-    <style name="TextViewHeadline3" parent="TextAppearance.MaterialComponents.Headline3" />
 
     <style name="TextViewHeadline2" parent="TextAppearance.MaterialComponents.Headline2" />
 
@@ -137,12 +130,6 @@
     </style>
 
     <style name="MaterialAlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog" />
-
-    <style name="AppTextAppearance.MaterialAlertDialog.Button" parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:padding">0dp</item>
-    </style>
 
     <style name="AppTextAppearance.MaterialAlertDialog.Body" parent="MaterialAlertDialog.Material3.Body.Text">
         <item name="android:textAppearance">@style/TextViewBody1</item>
@@ -213,17 +200,26 @@
     </style>
 
     <style name="CarTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimaryDark">@color/ctp_latte_lavender</item>
-        <item name="colorAccent">@color/ctp_latte_mauve</item>
-        <item name="colorPrimary">@color/ctp_latte_mauve</item>
+        <item name="colorPrimaryDark">@color/ctp_latte_sapphire</item>
+        <item name="colorAccent">@color/ctp_mocha_sapphire</item>
+        <item name="colorPrimary">@color/ctp_mocha_sapphire</item>
     </style>
 
-    <style name="Theme.ReMetro.Dialog" parent="Theme.Material3.DayNight.Dialog">
+    <!-- Catppuccin colors with the window attributes of Theme.Material3.DayNight.Dialog -->
+    <style name="Theme.ReMetro.Dialog" parent="Theme.Catppuccin.DayNight">
         <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@drawable/rounded_drawable</item>
         <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="background">@color/transparent</item>
     </style>
 
@@ -233,9 +229,16 @@
     </style>
 
     <style name="CircleFABOverlay">
-        <item name="floatingActionButtonStyle">
-            @style/Widget.MaterialComponents.FloatingActionButton
-        </item>
+        <item name="floatingActionButtonStyle">@style/Widget.ReMetro.FloatingActionButton.Circle</item>
+    </style>
+
+    <style name="Widget.ReMetro.FloatingActionButton.Circle" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.ReMetro.Circle</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.ReMetro.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
     </style>
 
     <style name="RoundedFABOverlay">
