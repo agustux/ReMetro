@@ -16,16 +16,12 @@ package io.github.agustux.remetro.fragments.player.normal
 
 import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
-import android.content.SharedPreferences
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.Toolbar
-import androidx.core.view.isVisible
-import androidx.preference.PreferenceManager
 import io.github.agustux.remetro.appthemehelper.util.ToolbarContentTintHelper
 import io.github.agustux.remetro.R
-import io.github.agustux.remetro.SNOWFALL
 import io.github.agustux.remetro.databinding.FragmentPlayerBinding
 import io.github.agustux.remetro.extensions.*
 import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
@@ -37,8 +33,7 @@ import io.github.agustux.remetro.util.ViewUtil
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
 import io.github.agustux.remetro.views.DrawableGradient
 
-class PlayerFragment : AbsPlayerFragment(R.layout.fragment_player),
-    SharedPreferences.OnSharedPreferenceChangeListener {
+class PlayerFragment : AbsPlayerFragment(R.layout.fragment_player) {
 
     private var lastColor: Int = 0
     override val paletteColor: Int
@@ -118,17 +113,11 @@ class PlayerFragment : AbsPlayerFragment(R.layout.fragment_player),
         _binding = FragmentPlayerBinding.bind(view)
         setUpSubFragments()
         setUpPlayerToolbar()
-        startOrStopSnow(PreferenceUtil.isSnowFalling)
-
-        PreferenceManager.getDefaultSharedPreferences(requireContext())
-            .registerOnSharedPreferenceChangeListener(this)
         playerToolbar().drawAboveSystemBars()
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        PreferenceManager.getDefaultSharedPreferences(requireContext())
-            .unregisterOnSharedPreferenceChangeListener(this)
         _binding = null
     }
 
@@ -150,23 +139,6 @@ class PlayerFragment : AbsPlayerFragment(R.layout.fragment_player),
             colorControlNormal(),
             requireActivity()
         )
-    }
-
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
-        if (key == SNOWFALL) {
-            startOrStopSnow(PreferenceUtil.isSnowFalling)
-        }
-    }
-
-    private fun startOrStopSnow(isSnowFalling: Boolean) {
-        if (_binding == null) return
-        if (isSnowFalling && !surfaceColor().isColorLight) {
-            binding.snowfallView.isVisible = true
-            binding.snowfallView.restartFalling()
-        } else {
-            binding.snowfallView.isVisible = false
-            binding.snowfallView.stopFalling()
-        }
     }
 
     override fun onServiceConnected() {

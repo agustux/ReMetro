@@ -12,7 +12,6 @@ import io.github.agustux.remetro.R
 import io.github.agustux.remetro.SHOW_LYRICS
 import io.github.agustux.remetro.databinding.FragmentCoverLyricsBinding
 import io.github.agustux.remetro.extensions.dipToPix
-import io.github.agustux.remetro.fragments.NowPlayingScreen
 import io.github.agustux.remetro.fragments.base.AbsMusicServiceFragment
 import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
 import io.github.agustux.remetro.fragments.base.goToLyrics
@@ -47,11 +46,6 @@ class CoverLyricsFragment : AbsMusicServiceFragment(R.layout.fragment_cover_lyri
         progressViewUpdateHelper = MusicProgressViewUpdateHelper(this, 500, 1000)
         if (PreferenceUtil.showLyrics) {
             progressViewUpdateHelper?.start()
-        }
-        // Remove background on Fit theme
-        val nps = PreferenceUtil.nowPlayingScreen
-        if (nps == NowPlayingScreen.Fit || nps == NowPlayingScreen.Full) {
-            binding.root.background = null
         }
         binding.playerLyricsLine2.setOnClickListener {
             goToLyrics(requireActivity())

@@ -78,24 +78,15 @@ import io.github.agustux.remetro.fragments.NowPlayingScreen
 import io.github.agustux.remetro.fragments.NowPlayingScreen.*
 import io.github.agustux.remetro.fragments.base.AbsPlayerFragment
 import io.github.agustux.remetro.fragments.other.MiniPlayerFragment
-import io.github.agustux.remetro.fragments.player.adaptive.AdaptiveFragment
 import io.github.agustux.remetro.fragments.player.blur.BlurPlayerFragment
-import io.github.agustux.remetro.fragments.player.card.CardFragment
-import io.github.agustux.remetro.fragments.player.cardblur.CardBlurFragment
-import io.github.agustux.remetro.fragments.player.circle.CirclePlayerFragment
 import io.github.agustux.remetro.fragments.player.classic.ClassicPlayerFragment
 import io.github.agustux.remetro.fragments.player.color.ColorFragment
-import io.github.agustux.remetro.fragments.player.fit.FitFragment
-import io.github.agustux.remetro.fragments.player.flat.FlatPlayerFragment
-import io.github.agustux.remetro.fragments.player.full.FullPlayerFragment
-import io.github.agustux.remetro.fragments.player.gradient.GradientPlayerFragment
 import io.github.agustux.remetro.fragments.player.material.MaterialFragment
 import io.github.agustux.remetro.fragments.player.md3.MD3PlayerFragment
 import io.github.agustux.remetro.fragments.player.normal.PlayerFragment
 import io.github.agustux.remetro.fragments.player.peek.PeekPlayerFragment
 import io.github.agustux.remetro.fragments.player.plain.PlainPlayerFragment
 import io.github.agustux.remetro.fragments.player.simple.SimplePlayerFragment
-import io.github.agustux.remetro.fragments.player.tiny.TinyPlayerFragment
 import io.github.agustux.remetro.fragments.queue.PlayingQueueFragment
 import io.github.agustux.remetro.helper.MusicPlayerRemote
 import io.github.agustux.remetro.model.CategoryInfo
@@ -295,7 +286,7 @@ abstract class AbsSlidingMusicPanelActivity : AbsMusicServiceActivity(),
             }
 
             ADAPTIVE_COLOR_APP -> {
-                if (PreferenceUtil.nowPlayingScreen in listOf(Normal, Material, Flat)) {
+                if (PreferenceUtil.nowPlayingScreen.supportsAdaptiveColor) {
                     chooseFragmentForTheme()
                     onServiceConnected()
                 }
@@ -429,27 +420,20 @@ abstract class AbsSlidingMusicPanelActivity : AbsMusicServiceActivity(),
             navigationBarColor = surfaceColor()
             setTaskDescColor(paletteColor)
             val isColorLight = paletteColor.isColorLight
-            if (PreferenceUtil.isAdaptiveColor && (nowPlayingScreen == Normal || nowPlayingScreen == Flat || nowPlayingScreen == Material)) {
+            if (PreferenceUtil.isAdaptiveColor && nowPlayingScreen?.supportsAdaptiveColor == true) {
                 setLightNavigationBar(true)
                 setLightStatusBar(isColorLight)
-            } else if (nowPlayingScreen == Card || nowPlayingScreen == Blur || nowPlayingScreen == BlurCard) {
+            } else if (nowPlayingScreen == Blur) {
                 animateNavigationBarColor(android.graphics.Color.BLACK)
                 navigationBarColor = android.graphics.Color.BLACK
                 setLightStatusBar(false)
                 setLightNavigationBar(true)
-            } else if (nowPlayingScreen == Color || nowPlayingScreen == Tiny || nowPlayingScreen == Gradient) {
+            } else if (nowPlayingScreen == Color) {
                 animateNavigationBarColor(paletteColor)
                 navigationBarColor = paletteColor
                 setLightNavigationBar(isColorLight)
                 setLightStatusBar(isColorLight)
-            } else if (nowPlayingScreen == Full) {
-                animateNavigationBarColor(paletteColor)
-                navigationBarColor = paletteColor
-                setLightNavigationBar(isColorLight)
-                setLightStatusBar(false)
             } else if (nowPlayingScreen == Classic) {
-                setLightStatusBar(false)
-            } else if (nowPlayingScreen == Fit) {
                 setLightStatusBar(false)
             }
         }
@@ -578,21 +562,12 @@ abstract class AbsSlidingMusicPanelActivity : AbsMusicServiceActivity(),
 
         val fragment: AbsPlayerFragment = when (nowPlayingScreen) {
             Blur -> BlurPlayerFragment()
-            Adaptive -> AdaptiveFragment()
             Normal -> PlayerFragment()
-            Card -> CardFragment()
-            BlurCard -> CardBlurFragment()
-            Fit -> FitFragment()
-            Flat -> FlatPlayerFragment()
-            Full -> FullPlayerFragment()
             Plain -> PlainPlayerFragment()
             Simple -> SimplePlayerFragment()
             Material -> MaterialFragment()
             Color -> ColorFragment()
-            Gradient -> GradientPlayerFragment()
-            Tiny -> TinyPlayerFragment()
             Peek -> PeekPlayerFragment()
-            Circle -> CirclePlayerFragment()
             Classic -> ClassicPlayerFragment()
             MD3 -> MD3PlayerFragment()
             else -> PlayerFragment()

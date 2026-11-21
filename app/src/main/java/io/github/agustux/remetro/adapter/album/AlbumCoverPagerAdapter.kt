@@ -25,6 +25,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
 import io.github.agustux.remetro.R
+import io.github.agustux.remetro.extensions.colorButtons
+import io.github.agustux.remetro.extensions.materialDialog
 import io.github.agustux.remetro.activities.MainActivity
 import io.github.agustux.remetro.fragments.AlbumCoverStyle
 import io.github.agustux.remetro.fragments.NowPlayingScreen.*
@@ -40,7 +42,6 @@ import io.github.agustux.remetro.util.PreferenceUtil
 import io.github.agustux.remetro.util.color.MediaNotificationProcessor
 import com.bumptech.glide.Glide
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -130,24 +131,19 @@ class AlbumCoverPagerAdapter(
             lifecycleScope.launch(Dispatchers.IO) {
                 val data: String? = MusicUtil.getLyrics(song)
                 withContext(Dispatchers.Main) {
-                    MaterialAlertDialogBuilder(
-                        requireContext(),
-                        com.google.android.material.R.style.ThemeOverlay_MaterialComponents_Dialog_Alert
-                    ).apply {
-                        setTitle(song.title)
-                        setMessage(if (data.isNullOrEmpty()) "No lyrics found" else data)
-                        setNegativeButton(R.string.synced_lyrics) { _, _ ->
+                    materialDialog(song.title)
+                        .setMessage(if (data.isNullOrEmpty()) getString(R.string.no_lyrics_found) else data)
+                        .setNegativeButton(R.string.synced_lyrics) { _, _ ->
                             goToLyrics(requireActivity())
                         }
-                        show()
-                    }
+                        .create().colorButtons().show()
                 }
             }
         }
 
         private fun getLayoutWithPlayerTheme(): Int {
             return when (PreferenceUtil.nowPlayingScreen) {
-                Card, Fit, Tiny, Classic, Gradient, Full -> R.layout.fragment_album_full_cover
+                Classic -> R.layout.fragment_album_full_cover
                 Peek -> R.layout.fragment_peek_album_cover
                 else -> {
                     if (PreferenceUtil.isCarouselEffect) {
